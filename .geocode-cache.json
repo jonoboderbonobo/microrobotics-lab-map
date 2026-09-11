@@ -83,6 +83,10 @@
     "lat": 51.09804,
     "lon": 13.77114
   },
+  "Maria-Reiche-Stra\u00dfe 2, Dresden, DE": {
+    "lat": 51.1256,
+    "lon": 13.78449
+  },
   "Northwestern University, Evanston, IL, US": {
     "lat": 42.05572,
     "lon": -87.67529
@@ -110,6 +114,10 @@
   "Stanford University, Stanford, CA, US": {
     "lat": 37.43131,
     "lon": -122.16937
+  },
+  "Technische Universit\u00e4t Chemnitz, Chemnitz, DE": {
+    "lat": 50.8142,
+    "lon": 12.92936
   },
   "Technische Universit\u00e4t Dresden, Dresden, DE": {
     "lat": 51.02987,

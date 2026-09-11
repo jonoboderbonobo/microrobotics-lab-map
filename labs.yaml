@@ -789,6 +789,36 @@
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
     Same ''LL&M'' department name as unirostock-llm but a different site/coordinates
     in the export -- kept as a separate entry.'
+- id: fraunhofer-ipms
+  name: Fraunhofer IPMS
+  pi: null
+  institution: Fraunhofer Institute for Photonic Microsystems
+  city: Dresden
+  country: DE
+  lat: 51.1256
+  lon: 13.78449
+  osm: null
+  url: https://www.ipms.fraunhofer.de/en.html
+  people_url: null
+  category: cleanroom-service
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  description: Applied research institute for photonic and electronic microsystems,
+    nanoelectronics, microdisplays, and wireless data communication. Operates a 1500
+    m2, ISO 14644-1 class 4 MOEMS/MEMS cleanroom supporting technology development
+    up to pilot production on 200 mm wafers, plus wafer processing, characterization/test,
+    and packaging/interconnection services. One of only two German research institutions
+    -- alongside Fraunhofer IZM-ASSID -- with 300 mm wafer capability.
+  notes: Found via web search, not migrated. Real, in-region cleanroom access (Dresden,
+    same Silicon Saxony ecosystem as fraunhofer-enas and silicon-saxony, already on
+    this map) for MEMS/microsystems prototyping -- a plausible route for the reference
+    design's mechanical parts, not just the CMOS die.
 - id: gatech-bakir
   name: Integrated 3D Systems Group
   pi: Muhannad Bakir
@@ -2269,6 +2299,33 @@
     and drop this one.
 
     '
+- id: tuc-horstmann
+  name: Electronic Devices of Micro and Nano Technique
+  pi: John Thomas Horstmann
+  institution: TU Chemnitz
+  city: Chemnitz
+  country: DE
+  lat: 50.8142
+  lon: 12.92936
+  osm: null
+  url: https://www.tu-chemnitz.de/etit/leb/index.php.en
+  people_url: null
+  category: electronic-engineering
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: Professorship at TU Chemnitz's Faculty of Electrical Engineering and
+    Information Technology, working on microelectronic circuit design, microsystem
+    electronics, and the function principles of electronic devices.
+  notes: Found via web search, not migrated. Same university as the project itself
+    and as tuc-schmidt (already on this map) -- a different professorship specifically
+    doing circuit design, literally on-campus. About as close and actionable a contact
+    as this whole search process could find; worth an actual conversation, not just
+    a watch entry.
 - id: tuc-schmidt
   name: Oliver G. Schmidt's Lab
   pi: Oliver G. Schmidt

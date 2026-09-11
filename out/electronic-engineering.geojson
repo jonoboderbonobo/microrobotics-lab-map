@@ -485,6 +485,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Electronic Devices of Micro and Nano Technique",
+        "description": "**John Thomas Horstmann** — TU Chemnitz, Chemnitz (DE)<br><br>Professorship at TU Chemnitz's Faculty of Electrical Engineering and Information Technology, working on microelectronic circuit design, microsystem electronics, and the function principles of electronic devices.<br><br>[[https://www.tu-chemnitz.de/etit/leb/index.php.en|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "tuc-horstmann",
+        "pi": "John Thomas Horstmann",
+        "institution": "TU Chemnitz",
+        "country": "DE",
+        "category": "electronic-engineering",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.92936,
+          50.8142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "WiBotic",
         "description": "**Ben Waters** — WiBotic Inc., Seattle, WA (US)<br><br>Spun out of the University of Washington in 2015, WiBotic builds adaptive resonant inductive wireless charging systems that let autonomous robots, drones, and marine vehicles recharge without manual plug-in. Founded by Ben Waters (UW EE PhD) and Professor Joshua Smith; the underlying wireless power technology was originally developed to power an LVAD (left ventricular assist device) heart pump without transcutaneous cables.<br><br>[[https://www.wibotic.com/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
         "id": "wibotic",
