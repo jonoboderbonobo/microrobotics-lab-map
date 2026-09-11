@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Hauert Lab — Swarm Engineering",
+        "description": "**Sabine Hauert** — University of Bristol, Bristol (GB)<br><br>Professor of Swarm Engineering working across Engineering Mathematics, the Bristol Robotics Laboratory, and Life Sciences on 'swarms for people' across scales -- from nanoparticle swarms for cancer treatment (her earlier work at MIT) to larger robot swarms for environmental monitoring and logistics. Previously deployed flying robot swarms at EPFL. Also executive trustee of the AIhub.org and Robohub.org communities.<br><br>[[https://hauertlab.com/|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
+        "id": "bristol-hauert",
+        "pi": "Sabine Hauert",
+        "institution": "University of Bristol",
+        "country": "GB",
+        "category": "information-technology",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkCyan",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6031,
+          51.4585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Electronic Vision(s) — Neuromorphic Computing Architectures",
         "description": "**Johannes Schemmel** — Heidelberg University, Heidelberg (DE)<br><br>Designs BrainScaleS, a mixed-signal analog/digital neuromorphic computing platform emulating spiking neural networks in continuous time (~1000x faster than biological real-time, far lower energy than conventional digital compute). BrainScaleS-2 integrates 512 adaptive integrate-and-fire neurons and 131k plastic synapses per chip; BrainScaleS-1 demonstrated wafer-scale neuromorphic integration. Part of the EU EBRAINS research infrastructure. PI Johannes Schemmel holds Heidelberg's Chair of Neuromorphic Computing Architectures and has led the group's ASIC lab since 2008.<br><br>[[https://www.kip.uni-heidelberg.de/vision/|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
         "id": "heidelberg-schemmel",

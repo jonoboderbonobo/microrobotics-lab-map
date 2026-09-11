@@ -179,6 +179,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Rogers Research Group",
+        "description": "**John A. Rogers** — Northwestern University, Evanston, IL (US)<br><br>Pioneers bioresorbable and flexible electronics -- implants that deliver wireless electrical stimulation to damaged nerves during healing, then dissolve and disappear without a trace ('bioresorbable electronic medicine'). Also develops soft, stretchable microfluidic systems that bond to skin without irritation. PI John A. Rogers directs Northwestern's Querrey-Simpson Institute for Bioelectronics.<br><br>[[https://rogersgroup.northwestern.edu/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "northwestern-rogers",
+        "pi": "John A. Rogers",
+        "institution": "Northwestern University",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.67529,
+          42.05572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MSMA Group — MicroSensors and MicroActuators",
         "description": "**Mark G. Allen** — University of Pennsylvania, Philadelphia, PA (US)<br><br>Microsensors and microactuators. Collaborates with McEuen and Miskin.<br><br>[[https://mems.seas.upenn.edu/|Group website]]<br>[[https://mems.seas.upenn.edu/members/|People]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
         "id": "penn-msma",

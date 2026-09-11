@@ -154,6 +154,38 @@
     company and as a source for what clinical/regulatory path a robotic-therapeutics
     company actually walks. lat/lon from their LA corporate office address (3767 Overland
     Ave), since geocoding the company name alone found nothing.'
+- id: bristol-hauert
+  name: Hauert Lab — Swarm Engineering
+  pi: Sabine Hauert
+  institution: University of Bristol
+  city: Bristol
+  country: GB
+  lat: 51.4585
+  lon: -2.6031
+  osm: null
+  url: https://hauertlab.com/
+  people_url: null
+  category: information-technology
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: Professor of Swarm Engineering working across Engineering Mathematics,
+    the Bristol Robotics Laboratory, and Life Sciences on 'swarms for people' across
+    scales -- from nanoparticle swarms for cancer treatment (her earlier work at MIT)
+    to larger robot swarms for environmental monitoring and logistics. Previously
+    deployed flying robot swarms at EPFL. Also executive trustee of the AIhub.org
+    and Robohub.org communities.
+  notes: 'Found via web search, not migrated. About as precise a match as this search
+    process has found: swarm engineering explicitly spanning nanoscale medical applications
+    and larger robots is exactly the System-Level-Behavior workstream plus the biomedical-application
+    angle in one person. lat/lon is University of Bristol''s central engineering campus
+    area as an approximate point -- Nominatim gave disagreeing results for the university
+    name alone.'
 - id: chipfoundry
   name: ChipFoundry.io
   pi: null
@@ -1432,6 +1464,36 @@
     product -- worth understanding purely as a regulatory-pathway precedent for how
     a nanoscale device reaches real patients in Europe, which is directly relevant
     to the project's own company-building goal.
+- id: northwestern-rogers
+  name: Rogers Research Group
+  pi: John A. Rogers
+  institution: Northwestern University
+  city: Evanston, IL
+  country: US
+  lat: 42.05572
+  lon: -87.67529
+  osm: null
+  url: https://rogersgroup.northwestern.edu/
+  people_url: null
+  category: electronic-engineering
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Pioneers bioresorbable and flexible electronics -- implants that deliver
+    wireless electrical stimulation to damaged nerves during healing, then dissolve
+    and disappear without a trace ('bioresorbable electronic medicine'). Also develops
+    soft, stretchable microfluidic systems that bond to skin without irritation. PI
+    John A. Rogers directs Northwestern's Querrey-Simpson Institute for Bioelectronics.
+  notes: Found via web search, not migrated. One of the most prominent groups in implantable
+    electronics worldwide -- bioresorbable materials are a genuinely distinct materials
+    strategy from the project's own (permanent CMOS), but directly relevant if any
+    future application wants the device to dissolve rather than be retrieved. Strong
+    fit for both near-term electronics-fabrication and the long-term organ-monitoring
+    horizon.
 - id: penn-msma
   name: MSMA Group — MicroSensors and MicroActuators
   pi: Mark G. Allen
@@ -1461,6 +1523,36 @@
     genuine sub-mm autonomy.
 
     '
+- id: physik-instrumente
+  name: Physik Instrumente (PI)
+  pi: null
+  institution: Physik Instrumente (PI) GmbH & Co. KG
+  city: Karlsruhe
+  country: DE
+  lat: 48.94309
+  lon: 8.48921
+  osm: null
+  url: https://www.physikinstrumente.com/en/products/linear-actuators/nanopositioning-piezo-actuators
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 3
+  status: watch
+  description: German manufacturer of piezoelectric nanopositioning actuators and
+    stages, including patented PICMA ceramic-coated stacked piezo actuators rated
+    for 100 billion cycles, sub-nanometer resolution, and forces up to 10,000 N. Serves
+    semiconductor fabrication and atomic-force-microscopy markets among others.
+  notes: Found via web search, not migrated. An established commercial reference for
+    piezo actuator performance and reliability, but their products are precision macro-scale
+    stages, not monolithically microfabricated on-chip actuators -- a scale/integration
+    mismatch with the reference design, not a direct component source. Useful as a
+    benchmark and possibly a component for HoneyBot-scale work, not the CMOS microrobot
+    itself. Also German -- worth checking for a closer domestic contact.
 - id: princeton-nagpal
   name: Self-Organizing Systems Research Group
   pi: Radhika Nagpal

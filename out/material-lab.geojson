@@ -196,6 +196,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Physik Instrumente (PI)",
+        "description": "**Physik Instrumente (PI)** — Physik Instrumente (PI) GmbH & Co. KG, Karlsruhe (DE)<br><br>German manufacturer of piezoelectric nanopositioning actuators and stages, including patented PICMA ceramic-coated stacked piezo actuators rated for 100 billion cycles, sub-nanometer resolution, and forces up to 10,000 N. Serves semiconductor fabrication and atomic-force-microscopy markets among others.<br><br>[[https://www.physikinstrumente.com/en/products/linear-actuators/nanopositioning-piezo-actuators|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "physik-instrumente",
+        "pi": "",
+        "institution": "Physik Instrumente (PI) GmbH & Co. KG",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48921,
+          48.94309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "OxideMEMS Lab",
         "description": "**Sunil Bhave** — Purdue University, West Lafayette, IN (US)<br><br>Investigates coupled opto-mechanical, spin-acoustic, and atom-MEMS systems, applied to inertial sensors, frequency standards, and microwave components -- including piezo-optomechanical transduction for LIDAR and IR sensing. Works with advanced fabrication of piezoelectric materials including PMN-PT and lithium niobate.<br><br>[[https://engineering.purdue.edu/oxidemems/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "purdue-oxidemems",
