@@ -280,6 +280,32 @@
     but this is infrastructure news, not just a watch entry. lat/lon is downtown San
     Jose as an approximate Bay Area stand-in -- no specific office address found,
     verify.'
+- id: cityu-dong
+  name: NanoRobotic Systems Lab
+  pi: Lixin Dong
+  institution: City University of Hong Kong
+  city: Hong Kong
+  country: HK
+  lat: 22.33682
+  lon: 114.17264
+  osm: null
+  url: https://www.cityu.edu.hk/bme/lixidong/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Nanorobotics research, including ionic shape-morphing microrobotic
+    end-effectors for environmentally adaptive targeting, releasing, and sampling.
+    Now Professor of Biomedical Engineering at City University of Hong Kong, having
+    previously built the NanoRobotic Systems Lab at Michigan State University.
+  notes: Found via alumni-snowballing from ethz-msrl. The alumni page still listed
+    his old MSU affiliation -- verified and corrected to his current CityU position.
 - id: cmu-bme
   name: Biomedical Engineering, Carnegie Mellon University
   pi: null
@@ -523,6 +549,34 @@
     that's otherwise scarce and expensive to hire for. Worth a real look as a potential
     collaborator or comparable-process reference, not just a watch entry, if the power
     budgets line up. lat/lon resolved from 'CSEM, Neuchâtel' as a known point of interest.
+- id: cuhk-zhang
+  name: Zhang Research Lab
+  pi: Li Zhang
+  institution: Chinese University of Hong Kong
+  city: Hong Kong
+  country: HK
+  lat: 22.41372
+  lon: 114.2099
+  osm: null
+  url: https://microbot.mae.cuhk.edu.hk/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: Works on microrobotics, medical robotics, biorobotics, and soft materials
+    -- including navigation and localization of microrobotic swarms in blood vessels,
+    and a biohybrid microbot built from Spirulina algae with in-vivo tracking and
+    programmable biodegradability. Author/co-author of 400+ publications including
+    Science Robotics, Nature Materials, and Nature Biomedical Engineering; earlier
+    artificial-bacterial-flagella work was indexed in the Guinness Book of World Records
+    2012 as the 'Most Advanced Mini Robot for Medical Use.'
+  notes: Found via alumni-snowballing from ethz-msrl. One of the most prominent, prolific
+    microrobotics groups found this whole session -- high-confidence relevance 5.
 - id: dgist-demrc
   name: DGIST-ETH Microrobotics Research Center
   pi: null
@@ -648,6 +702,32 @@
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify. Two raw entries differ only by a typo (BioRobotic
     vs BioRobotics); merged.'
+- id: eth-schurle
+  name: Responsive Biomedical Systems Lab
+  pi: Simone Schürle
+  institution: ETH Zurich
+  city: Zürich
+  country: CH
+  lat: 47.377731
+  lon: 8.546639
+  osm: null
+  url: https://www.iris.ethz.ch/the-institute/responsive_biomedical_systems_lab.html
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: Develops diagnostic and therapeutic systems at the nano- and microscale
+    to address challenges in cancer and musculoskeletal conditions. Simone Schürle
+    is Assistant Professor at ETH Zurich's Department of Health Sciences and Technology,
+    part of the Institute of Robotics and Intelligent Systems (IRIS).
+  notes: Found via alumni-snowballing from ethz-msrl. The alumni page listed her old
+    MIT affiliation -- she has since returned to ETH as independent faculty, in the
+    same institute as her original advisor (Bradley Nelson).
 - id: ethz-msrl
   name: Multi-Scale Robotics Lab (MSRL)
   pi: Bradley J. Nelson
@@ -2606,6 +2686,32 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: sustech-hu
+  name: Microrobotics Manipulation Lab
+  pi: Chengzhi Hu
+  institution: Southern University of Science and Technology (SUSTech)
+  city: Shenzhen
+  country: CN
+  lat: 22.6036
+  lon: 113.99685
+  osm: null
+  url: https://www.sustech.edu.cn/en/faculties/huchengzhi.html
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Associate Professor working on magnetically/light-driven microrobots,
+    BioMEMS for single-cell analysis, and magnetically-driven medical robots -- integrating
+    microfluidic devices, micro-robotics, and MEMS tools for targeted therapy and
+    drug delivery.
+  notes: Found via alumni-snowballing from ethz-msrl. Third mainland-China-adjacent
+    entry after westlake-wang and the Fudan pair, though Shenzhen/SUSTech is a distinct
+    institution and city.
 - id: synchron
   name: Synchron
   pi: null
@@ -3616,6 +3722,32 @@
     and because precision nanomedicine is one of its named pillars. Worth drilling
     into specific groups there later rather than treating the whole institute as one
     contact.
+- id: utah-abbott
+  name: Telerobotics Lab
+  pi: Jake J. Abbott
+  institution: University of Utah
+  city: Salt Lake City, UT
+  country: US
+  lat: 40.76281
+  lon: -111.83687
+  osm: null
+  url: https://www.telerobotics.utah.edu/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Develops robotic systems that manipulate remote environments, with
+    a primary focus on medical telerobotics -- wireless, magnetically-controlled microrobots
+    that navigate inside the human body -- plus telerobotic retinal surgery with the
+    Moran Eye Center. PI Jake Abbott directs the lab, joined Utah in 2008, NSF CAREER
+    awardee.
+  notes: Found via alumni-snowballing from ethz-msrl. Externally magnetically actuated,
+    same conflation flag as other magnetic-microrobot entries.
 - id: utoronto-crl
   name: Continuum Robotics Lab
   pi: Jessica Burgner-Kahrs

@@ -51,6 +51,10 @@
     "lat": 34.13701,
     "lon": -118.12529
   },
+  "Chinese University of Hong Kong, Hong Kong, HK": {
+    "lat": 22.41372,
+    "lon": 114.2099
+  },
   "Cornell University, Ithaca, NY, US": {
     "lat": 42.45292,
     "lon": -76.48006
@@ -159,6 +163,10 @@
     "lat": 29.71679,
     "lon": -95.40478
   },
+  "SUSTech, Shenzhen, CN": {
+    "lat": 22.6036,
+    "lon": 113.99685
+  },
   "Shanghai Jiao Tong University, Shanghai, CN": {
     "lat": 31.20089,
     "lon": 121.42839
@@ -214,6 +222,10 @@
   "University of Pennsylvania, Philadelphia, PA, US": {
     "lat": 39.95221,
     "lon": -75.19557
+  },
+  "University of Utah, Salt Lake City, UT, US": {
+    "lat": 40.76281,
+    "lon": -111.83687
   },
   "University of Washington, Seattle, WA, US": {
     "lat": 47.65543,

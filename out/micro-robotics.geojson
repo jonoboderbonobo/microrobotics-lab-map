@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "NanoRobotic Systems Lab",
+        "description": "**Lixin Dong** — City University of Hong Kong, Hong Kong (HK)<br><br>Nanorobotics research, including ionic shape-morphing microrobotic end-effectors for environmentally adaptive targeting, releasing, and sampling. Now Professor of Biomedical Engineering at City University of Hong Kong, having previously built the NanoRobotic Systems Lab at Michigan State University.<br><br>[[https://www.cityu.edu.hk/bme/lixidong/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "cityu-dong",
+        "pi": "Lixin Dong",
+        "institution": "City University of Hong Kong",
+        "country": "HK",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17264,
+          22.33682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "COCHE",
         "description": "**COCHE** — Hong Kong Centre for Cerebro-cardiovascular Health Engineering, Hong Kong (HK)<br><br>Hong Kong Centre for Cerebro-cardiovascular Health Engineering<br><br>\\Be global hub for interdisciplinary cerebro-cardiovascular health engineering research collaboration<br><br>Converging global experts in engineering, science, medicine, and law for impactful research in human health<br><br><br>MISSION FOR HEALTH ;  PASSION FOR INNOVATION<br><br>Cardiovascular disease (CVD) is the world’s leading cause of morbidity and mortality as well as the health industry’s most costly disease for treatment. Yet, despite recent advances in its treatment, more effective and accessible ways to tackle CVDs remain to be discovered. Hong Kong Centre for Cerebro-cardiovascular Health Engineering (COCHE) is taking on the challenge to develop new ways to treat CVD with innovative technologies allowing early prediction and intervention, so people can stay a step ahead of the disease. These technologies can also reduce the human cost, as well as alleviate both the financial and social burden, on the healthcare system.<br><br>​<br><br>In collaboration with the University of Oxford and the Karolinska Institutet, Hong Kong Center for Cerebro-cardiovascular Health Engineering (COCHE) was established under City University of Hong Kong in 2020. The COCHE, supported financially by Innovation and Technology Commission (ITC), was admitted to Inno-Health cluster of InnoHK Programme which is a major R&D initiative of the Hong Kong Special Administrative Region Government. We are developing flexible sensing, biomedical and molecular imaging, nano-biosensing, and AI in health with the focus on innovative wearables that collect key vital signs, including but not limited to continuous blood pressure and electrocardiogram signals on an unobtrusive and real-time basis. The collected data is transmitted for further analysis and integration with other biomarkers, paving the way for the early detection and diagnosis of possible acute cerebro-cardiovascular diseases.<br><br><br>1 \tUncovering rare inherent resistant single cells through an automatic microfluidic cell shower device to investigate intratumor heterogeneity \tProf CHEN Chia-Hung*<br>2 \tHopping Aerial Robots: Reaching New Heights across Size Scales through Thrust-based and Parallel Elastic Actuation \tProf CHIRARATTANANON Pakpong*<br>3 \tFixed-time cooperative control of multi-agent systems under denial-of-service attacks and its application \tProf FENG Gang*<br>4 \tInterplay between Microbial Metal Regulation and Chemotaxis at the Host-Pathogen Interface Studied by Single-molecule Super-resolution Fluorescence Microscopy \tProf FU Bing<br>5 \tLabel-free and high-throughput flow cytometry for single-cell surface protein biosensing using multi-stage constriction microchannels \tProf LAM Raymond Hiu-Wai<br>6 \tDistributed Event-Triggered Cooperative Control of Nonlinear Multiple Dynamic Systems and Its Applications \tProf LIU Lu*<br>7 \tSingle-cell Encoded Photoporation for High-throughput Combinatorial siRNA Screening \tProf SHI Peng<br>8 \tInvestigation of neuromodulation effect of cerebellum-targeted low intensity transcranial pulsed ultrasound stimulation \tProf TIN Chung<br>9 \tCharacterization and mechanism study of an articular cartilage repair material for space medicine: influence by microgravity and cosmic radiation \tProf WANG Dongan<br>10 \tPorous metallic microneedle array-based test trip for gingival crevicular fluid collection and analysis<br><br>[[https://www.hkcoche.org/about|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "coche-hk",
@@ -127,6 +156,35 @@
         "coordinates": [
           -76.48006,
           42.45292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhang Research Lab",
+        "description": "**Li Zhang** — Chinese University of Hong Kong, Hong Kong (HK)<br><br>Works on microrobotics, medical robotics, biorobotics, and soft materials -- including navigation and localization of microrobotic swarms in blood vessels, and a biohybrid microbot built from Spirulina algae with in-vivo tracking and programmable biodegradability. Author/co-author of 400+ publications including Science Robotics, Nature Materials, and Nature Biomedical Engineering; earlier artificial-bacterial-flagella work was indexed in the Guinness Book of World Records 2012 as the 'Most Advanced Mini Robot for Medical Use.'<br><br>[[https://microbot.mae.cuhk.edu.hk/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "cuhk-zhang",
+        "pi": "Li Zhang",
+        "institution": "Chinese University of Hong Kong",
+        "country": "HK",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2099,
+          22.41372
         ]
       }
     },
@@ -292,6 +350,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Responsive Biomedical Systems Lab",
+        "description": "**Simone Schürle** — ETH Zurich, Zürich (CH)<br><br>Develops diagnostic and therapeutic systems at the nano- and microscale to address challenges in cancer and musculoskeletal conditions. Simone Schürle is Assistant Professor at ETH Zurich's Department of Health Sciences and Technology, part of the Institute of Robotics and Intelligent Systems (IRIS).<br><br>[[https://www.iris.ethz.ch/the-institute/responsive_biomedical_systems_lab.html|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "eth-schurle",
+        "pi": "Simone Schürle",
+        "institution": "ETH Zurich",
+        "country": "CH",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.546639,
+          47.377731
+        ]
       }
     },
     {
@@ -1291,6 +1378,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Microrobotics Manipulation Lab",
+        "description": "**Chengzhi Hu** — Southern University of Science and Technology (SUSTech), Shenzhen (CN)<br><br>Associate Professor working on magnetically/light-driven microrobots, BioMEMS for single-cell analysis, and magnetically-driven medical robots -- integrating microfluidic devices, micro-robotics, and MEMS tools for targeted therapy and drug delivery.<br><br>[[https://www.sustech.edu.cn/en/faculties/huchengzhi.html|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "sustech-hu",
+        "pi": "Chengzhi Hu",
+        "institution": "Southern University of Science and Technology (SUSTech)",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.99685,
+          22.6036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Oliver G. Schmidt's Lab",
         "description": "**Oliver G. Schmidt** — TU Chemnitz, Chemnitz (DE)<br><br>Research areas: microrobotics and micromotors; biomedical applications; flexible and shapeable electronics; energy storage at the micro/nanoscale; magnetoelectronics; micro- and nanoelectronics; microfluidics; plasmonics.<br><br>[[https://www.tu-chemnitz.de/etit/nano/OliverGSchmidt.php|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "tuc-schmidt",
@@ -2096,6 +2212,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Telerobotics Lab",
+        "description": "**Jake J. Abbott** — University of Utah, Salt Lake City, UT (US)<br><br>Develops robotic systems that manipulate remote environments, with a primary focus on medical telerobotics -- wireless, magnetically-controlled microrobots that navigate inside the human body -- plus telerobotic retinal surgery with the Moran Eye Center. PI Jake Abbott directs the lab, joined Utah in 2008, NSF CAREER awardee.<br><br>[[https://www.telerobotics.utah.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "utah-abbott",
+        "pi": "Jake J. Abbott",
+        "institution": "University of Utah",
+        "country": "US",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.83687,
+          40.76281
+        ]
       }
     },
     {
