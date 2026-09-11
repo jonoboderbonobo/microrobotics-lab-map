@@ -330,6 +330,34 @@
     previously built the NanoRobotic Systems Lab at Michigan State University.
   notes: Found via alumni-snowballing from ethz-msrl. The alumni page still listed
     his old MSU affiliation -- verified and corrected to his current CityU position.
+- id: cityu-song
+  name: Song Lab
+  pi: Xin Song
+  institution: City University of Hong Kong
+  city: Hong Kong
+  country: HK
+  lat: 22.33682
+  lon: 114.17264
+  osm: null
+  url: https://yusonglab.com/index.html
+  people_url: null
+  category: biomedical-lab
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Assistant Professor in Biomedical Engineering (since 2025) developing
+    advanced intelligent materials and systems for therapeutic, purification, and
+    diagnostic applications in blood environments -- blood purification devices, micro/nano
+    robotic systems, and blood-contacting biomaterials. Previously Research Assistant
+    Professor at CUHK under Li Zhang; PhD from Imperial College London (Molly Stevens).
+  notes: Found via alumni-snowballing from cuhk-zhang. Third CUHK-lineage Hong Kong
+    entry alongside cuhk-chan and cityu-dong. Categorized biomedical-lab rather than
+    micro-robotics since the current focus is blood-contacting materials/devices broadly,
+    with micro/nano robotics as one component.
 - id: cmu-bme
   name: Biomedical Engineering, Carnegie Mellon University
   pi: null
@@ -1524,6 +1552,33 @@
     of Technology entry -- earlier in this session a general HIT search couldn't find
     one clean citable PI, this closes that gap. No dedicated lab site found; linked
     to ResearchGate profile.
+- id: hitsz-jin
+  name: Sauvage Laboratory for Smart Materials
+  pi: Dongdong Jin
+  institution: Harbin Institute of Technology, Shenzhen
+  city: Shenzhen
+  country: CN
+  lat: 22.5895
+  lon: 113.96571
+  osm: null
+  url: https://scholar.google.com/citations?user=dseZq_gAAAAJ
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: 'Associate Professor in the School of Integrated Circuits, working
+    on reconfigurable soft-matter robotics at small scale: microrobotics, smart hydrogels,
+    3D printing, and medical robots, including magnetically-driven microrobots for
+    cell manipulation and targeted medical interventions. PhD from CUHK (2020), joined
+    HIT Shenzhen 2022.'
+  notes: Found via alumni-snowballing from cuhk-zhang. Second HIT Shenzhen entry alongside
+    hitsz-dong -- a real cluster there, and notably in the School of Integrated Circuits
+    specifically, not just mechanical engineering.
 - id: hmc-gerbode
   name: Gerbode Lab
   pi: Sharon Gerbode
@@ -2519,6 +2574,33 @@
     and bioengineering in complex microenvironments. PhD from ETH MSRL.
   notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found
     -- linked to ResearchGate lab page instead.
+- id: polyu-yang
+  name: Lidong Yang Group
+  pi: Lidong Yang
+  institution: The Hong Kong Polytechnic University
+  city: Hong Kong
+  country: HK
+  lat: 22.30449
+  lon: 114.17969
+  osm: null
+  url: https://lidongyang22.github.io/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: Assistant Professor in the Department of Industrial and Systems Engineering,
+    working on micro-/nanorobot design and fabrication, microrobotic system development
+    and control, and biomedical applications. 50+ publications including Nature Machine
+    Intelligence, Science Robotics, and IEEE Transactions on Robotics. PhD from CUHK
+    (2020), B.Eng from Harbin Institute of Technology (2014).
+  notes: Found via alumni-snowballing from cuhk-zhang. Strong publication record in
+    top venues -- high-confidence relevance 5. Second PolyU-adjacent entry on the
+    map.
 - id: princeton-nagpal
   name: Self-Organizing Systems Research Group
   pi: Radhika Nagpal

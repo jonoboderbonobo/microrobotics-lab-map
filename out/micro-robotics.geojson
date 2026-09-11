@@ -820,6 +820,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Sauvage Laboratory for Smart Materials",
+        "description": "**Dongdong Jin** — Harbin Institute of Technology, Shenzhen, Shenzhen (CN)<br><br>Associate Professor in the School of Integrated Circuits, working on reconfigurable soft-matter robotics at small scale: microrobotics, smart hydrogels, 3D printing, and medical robots, including magnetically-driven microrobots for cell manipulation and targeted medical interventions. PhD from CUHK (2020), joined HIT Shenzhen 2022.<br><br>[[https://scholar.google.com/citations?user=dseZq_gAAAAJ|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "hitsz-jin",
+        "pi": "Dongdong Jin",
+        "institution": "Harbin Institute of Technology, Shenzhen",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96571,
+          22.5895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Ran Niu Group",
         "description": "**Ran Niu** — Huazhong University of Science and Technology, Wuhan (CN)<br><br>Professor of Polymer Physics and Chemistry researching self-assembly, micro-swimmers, colloidal phase transitions, rheology, and nanoparticle-polymer composites -- including autonomous assembly and self-propulsion of active and inactive components.<br><br>[[http://english.chem.hust.edu.cn/info/3862/1227.htm|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "hust-niu",
@@ -1291,6 +1320,35 @@
         "coordinates": [
           116.305,
           39.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lidong Yang Group",
+        "description": "**Lidong Yang** — The Hong Kong Polytechnic University, Hong Kong (HK)<br><br>Assistant Professor in the Department of Industrial and Systems Engineering, working on micro-/nanorobot design and fabrication, microrobotic system development and control, and biomedical applications. 50+ publications including Nature Machine Intelligence, Science Robotics, and IEEE Transactions on Robotics. PhD from CUHK (2020), B.Eng from Harbin Institute of Technology (2014).<br><br>[[https://lidongyang22.github.io/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "polyu-yang",
+        "pi": "Lidong Yang",
+        "institution": "The Hong Kong Polytechnic University",
+        "country": "HK",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17969,
+          22.30449
         ]
       }
     },

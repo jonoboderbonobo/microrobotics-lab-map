@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Song Lab",
+        "description": "**Xin Song** — City University of Hong Kong, Hong Kong (HK)<br><br>Assistant Professor in Biomedical Engineering (since 2025) developing advanced intelligent materials and systems for therapeutic, purification, and diagnostic applications in blood environments -- blood purification devices, micro/nano robotic systems, and blood-contacting biomaterials. Previously Research Assistant Professor at CUHK under Li Zhang; PhD from Imperial College London (Molly Stevens).<br><br>[[https://yusonglab.com/index.html|Group website]]<br><br>Category: Biomedical Lab · Smallest demonstrated: unknown",
+        "id": "cityu-song",
+        "pi": "Xin Song",
+        "institution": "City University of Hong Kong",
+        "country": "HK",
+        "category": "biomedical-lab",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17264,
+          22.33682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Biomedical Engineering, Carnegie Mellon University",
         "description": "**Biomedical Engineering, Carnegie Mellon University** — Carnegie Mellon University, Pittsburgh, PA (US)<br><br>Research Overview<br><br>Research in Biomedical Engineering at Carnegie Mellon University spans the full range from basic science and theoretical work through medical technologies and devices along the entire clinical translational spectrum.  All of our research is built upon interdisciplinary synergistic interactions, driven by Carnegie Mellon's strong collaborative culture and supported by our Research Partners.  <br><br>Read below for more information on our eight core research strength areas of <br>Biomaterials & Nanotechnology, <br>Biomechanics, <br>Biomedical Imaging, <br>Cardiopulmonary Engineering, <br>Cell & Tissue Engineering, <br>Computational Biomedical Engineering, <br>Medical Devices & Robotics, and <br>Neural Engineering.<br><br>[[https://www.cmu.edu/bme/Research/index.html|Group website]]<br><br>Category: Biomedical Lab · Smallest demonstrated: unknown",
         "id": "cmu-bme",
