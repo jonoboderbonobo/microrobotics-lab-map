@@ -753,6 +753,35 @@
     concrete problem-statement source: physical (not just chemical) methods of getting
     something small into a precise location in the body, several of which (ultrasound,
     EM fields) overlap with workstreams already being pursued for other reasons.'
+- id: gatech-wang
+  name: Z.L. Wang Group — Triboelectric Nanogenerators
+  pi: Zhong Lin Wang
+  institution: Georgia Institute of Technology
+  city: Atlanta, GA
+  country: US
+  lat: 33.77609
+  lon: -84.39881
+  osm: null
+  url: https://www.mse.gatech.edu/people/zhong-lin-wang
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Invented the triboelectric nanogenerator (TENG) in 2012 -- a device
+    that converts mechanical energy into electrical energy via contact electrification
+    and electrostatic induction between two different materials rubbing or touching.
+    Wang is also Chief Scientist and Director of the Beijing Institute of Nanoenergy
+    and Nanosystems, Chinese Academy of Sciences.
+  notes: Found via web search, not migrated. A third distinct micro-scale energy harvesting
+    mechanism alongside the project's own PV-now/ultrasound-later roadmap -- mechanical/vibrational
+    harvesting via triboelectricity, potentially relevant if a crawling robot's own
+    stick-slip motion or ambient vibration could be scavenged.
 - id: generation-lab
   name: Generation Lab
   pi: Irina Conboy
@@ -1493,6 +1522,35 @@
     product -- worth understanding purely as a regulatory-pathway precedent for how
     a nanoscale device reaches real patients in Europe, which is directly relevant
     to the project's own company-building goal.
+- id: nanoscribe
+  name: Nanoscribe
+  pi: null
+  institution: Nanoscribe GmbH
+  city: Eggenstein-Leopoldshafen
+  country: DE
+  lat: 49.09131
+  lon: 8.42813
+  osm: null
+  url: https://www.nanoscribe.com/
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 4
+  status: watch
+  description: German manufacturer (KIT spinoff, ZEISS-backed) of two-photon polymerization
+    (2PP) 3D microprinters, producing arbitrary sub-micron-precision 3D structures
+    in resin. Their proprietary 2GL (Two-Photon Grayscale Lithography) technology
+    speeds up printing of smooth high-precision structures.
+  notes: Found via web search, not migrated. This is the actual 3D printer isir-rpibio
+    (already on this map) used, via FEMTO-ST, to fabricate their optical-tweezers-driven
+    microrobots -- real, already-in-use fabrication infrastructure for sub-mm mechanical
+    structures, not just a watch entry. German company, worth a direct look for prototyping
+    mechanical parts of the reference design outside the CMOS process itself.
 - id: northwestern-rogers
   name: Rogers Research Group
   pi: John A. Rogers
@@ -2196,6 +2254,36 @@
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify. Old map''s layer title misspells the PI''s name
     as ''Backenecker''; the linked description spells it ''Bakenecker'', used here.'
+- id: tudelft-mavlab
+  name: MAVLab — Micro Air Vehicle Laboratory
+  pi: Guido de Croon
+  institution: Delft University of Technology
+  city: Delft
+  country: NL
+  lat: 51.99883
+  lon: 4.37396
+  osm: null
+  url: https://mavlab.tudelft.nl/
+  people_url: null
+  category: milli-robotics
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: true
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Develops bio-inspired, computationally efficient algorithms for autonomous
+    lightweight flying robots, with an emphasis on onboard computer vision. Built
+    DelFly Nimble, a fully autonomous, free-flying, agile flapping-wing robot (four
+    flapping wings, ~17 beats/second) that helped explain how fruit flies execute
+    aggressive escape maneuvers, and DelFly Explorer (20g, fully autonomous flight),
+    plus swarms of 30g nano-copters that collaboratively localize gas leaks.
+  notes: Found via web search, not migrated. Flight rather than stick-slip crawling,
+    and gram-scale rather than sub-mm, but a real precedent for fully autonomous onboard
+    control (not just onboard actuation/energy/comms) at small scale, plus a genuine
+    swarm-coordination demonstration -- touches both the Locomotion and System-Level-Behavior
+    workstreams from an unusual angle.
 - id: tum-mrbl
   name: Microrobotic Bioengineering Lab (MRBL)
   pi: null

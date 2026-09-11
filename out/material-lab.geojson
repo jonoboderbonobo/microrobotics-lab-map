@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Z.L. Wang Group — Triboelectric Nanogenerators",
+        "description": "**Zhong Lin Wang** — Georgia Institute of Technology, Atlanta, GA (US)<br><br>Invented the triboelectric nanogenerator (TENG) in 2012 -- a device that converts mechanical energy into electrical energy via contact electrification and electrostatic induction between two different materials rubbing or touching. Wang is also Chief Scientist and Director of the Beijing Institute of Nanoenergy and Nanosystems, Chinese Academy of Sciences.<br><br>[[https://www.mse.gatech.edu/people/zhong-lin-wang|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "gatech-wang",
+        "pi": "Zhong Lin Wang",
+        "institution": "Georgia Institute of Technology",
+        "country": "US",
+        "category": "material-lab",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39881,
+          33.77609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Walther Group",
         "description": "**Andreas Walther** — Johannes Gutenberg University Mainz, Mainz (DE)<br><br>Asset 2<br>Asset 2<br><br>2/3<br>Our Research Mission and Vision<br>​<br><br>Life as Inspiration for Adaptive, Autonomous and Interactive Systems and Materials. What are the essential principles of life? How can we transduce these principles to synthetic systems and materials to innovate for next generation of macromolecular materials systems with unprecedented active and interactive properties? On a molecular level, living systems are characterized by being organized in chemically fueled out-of-equilibrium states that are regulated by signaling networks. This results in a stunning richness of active properties such as self-regulation, adaptation, communication, morphogenesis, self-replication and evolution. <br><br>​<br><br>Complex (Macro)molecular Systems that Organize in Space and Time: Inspired by these challenges, we dedicate our efforts on fueled and feedback-controlled non-equilibrium self-assembling molecular systems that are regulated by signal-processing chemical reaction networks (CRNs). We research such systems on a fundamental system chemistry level and connect such CRNs to artifical cells, self-regulating structures and soft materials research. At the core of our investigations is the design and the synthesis of precision-engineered synthetic polymers, DNA and colloids, as well as their hierarchically self-assembled systems.<br><br><br>Complexity as a Driver for Materials Innovation: Our philosophy is to go beyond a quantitative understanding of structure formation processes, and we aim for an analysis and exploitation of the resulting life-like systems on a functional materials level to bridge the gap between fundamental research and first-time applications. ​For life-like materials systems we focus on self-regulation, adaptation, training, learning, morphogenesis, as well as communication and co-evolution with biological systems as in the context of self-erasing hydrogels, mechanosensing materials, mechanical metamaterials, soft robotics and interactive biomaterials.<br>​<br><br>[[https://www.walther-group.com/research-mission|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "mainz-walther",
@@ -191,6 +220,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nanoscribe",
+        "description": "**Nanoscribe** — Nanoscribe GmbH, Eggenstein-Leopoldshafen (DE)<br><br>German manufacturer (KIT spinoff, ZEISS-backed) of two-photon polymerization (2PP) 3D microprinters, producing arbitrary sub-micron-precision 3D structures in resin. Their proprietary 2GL (Two-Photon Grayscale Lithography) technology speeds up printing of smooth high-precision structures.<br><br>[[https://www.nanoscribe.com/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "nanoscribe",
+        "pi": "",
+        "institution": "Nanoscribe GmbH",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.42813,
+          49.09131
+        ]
       }
     },
     {

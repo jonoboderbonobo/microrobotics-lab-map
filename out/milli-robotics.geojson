@@ -120,6 +120,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "MAVLab — Micro Air Vehicle Laboratory",
+        "description": "**Guido de Croon** — Delft University of Technology, Delft (NL)<br><br>Develops bio-inspired, computationally efficient algorithms for autonomous lightweight flying robots, with an emphasis on onboard computer vision. Built DelFly Nimble, a fully autonomous, free-flying, agile flapping-wing robot (four flapping wings, ~17 beats/second) that helped explain how fruit flies execute aggressive escape maneuvers, and DelFly Explorer (20g, fully autonomous flight), plus swarms of 30g nano-copters that collaboratively localize gas leaks.<br><br>[[https://mavlab.tudelft.nl/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "tudelft-mavlab",
+        "pi": "Guido de Croon",
+        "institution": "Delft University of Technology",
+        "country": "NL",
+        "category": "milli-robotics",
+        "application": "fundamental",
+        "onboard_power": "yes",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.37396,
+          51.99883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Liwei Lin Lab",
         "description": "**Liwei Lin** — University of California, Berkeley, Berkeley (US)<br><br>Notable Paper:<br><br>Insect-scale fast moving and ultrarobust soft robot<br>10.1126/scirobotics.aax1594<br><br><br>Research Interests<br>MEMS (Microelectromechanical Systems); NEMS (Nanoelectromechanical Systems); Nanotechnology; design and manufacturing of microsensors and microactuators; development of micromachining processes by silicon surface/bulk micromachining; micro moulding process; mechanical issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid mechanics and dynamics.<br><br>[[https://vcresearch.berkeley.edu/faculty/liwei-lin|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "ucb-lin",

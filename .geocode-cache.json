@@ -31,6 +31,10 @@
     "lat": 42.45292,
     "lon": -76.48006
   },
+  "Delft University of Technology, Delft, NL": {
+    "lat": 51.99883,
+    "lon": 4.37396
+  },
   "Fraunhofer IMTE, L\u00fcbeck, DE": {
     "lat": 53.83602,
     "lon": 10.7005
@@ -42,6 +46,10 @@
   "Heidelberg University, Heidelberg, DE": {
     "lat": 49.4186,
     "lon": 8.66924
+  },
+  "Hermann-von-Helmholtz-Platz 6, Eggenstein-Leopoldshafen, DE": {
+    "lat": 49.09131,
+    "lon": 8.42813
   },
   "H\u00f4tel-Dieu, Paris, FR": {
     "lat": 48.85468,
