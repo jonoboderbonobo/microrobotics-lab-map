@@ -249,6 +249,35 @@
         ],
         "type": "Polygon"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arbabian Lab",
+        "description": "**Amin Arbabian** — Stanford University, Stanford, CA (US)<br><br>Designs ultrasonically-powered implantable medical devices, targeting the problem of delivering 100s of µW to a few mW to millimeter and sub-millimeter implants located more than 10 cm deep in the body. Applications include pressure sensing, electrical stimulation, drug delivery, imaging, and optogenetics; a recent fully packaged device measures 30.5 mm³.<br><br>[[https://arbabianlab.stanford.edu/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "stanford-arbabian",
+        "pi": "Amin Arbabian",
+        "institution": "Stanford University",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.16937,
+          37.43131
+        ]
+      }
     }
   ]
 }

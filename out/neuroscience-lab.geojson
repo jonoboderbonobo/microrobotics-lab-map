@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Maharbiz Lab — Neural Dust",
+        "description": "**Michel Maharbiz** — University of California, Berkeley, Berkeley, CA (US)<br><br>Co-inventor (with Jose Carmena, Elad Alon, Jan Rabaey) of 'neural dust' -- an ultrasonic power and communication platform for vanishingly small, batteryless, tetherless implants that record and transmit neural activity. Group works broadly on extreme miniaturization of synthetic interfaces to cells and organisms; also known for the earlier radio-controlled cyborg beetle work.<br><br>[[https://people.eecs.berkeley.edu/~maharbiz/index.html|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "id": "berkeley-maharbiz",
+        "pi": "Michel Maharbiz",
+        "institution": "University of California, Berkeley",
+        "country": "US",
+        "category": "neuroscience-lab",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOrange",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26568,
+          37.87078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Metin Sitti — KUTTAM",
         "description": "**Metin Sitti** — Koç University, Istanbul (TR)<br><br>[[https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "ku-sitti",

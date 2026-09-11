@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Conboy Lab",
+        "description": "**Irina Conboy** — University of California, Berkeley, Berkeley, CA (US)<br><br>Studies age-imposed and pathological changes in circulatory signaling and their effect on tissue maintenance and repair -- the lab that showed adult stem cell repair capacity is governed by age-changing molecular signals from surrounding tissue (heterochronic parabiosis work). More recently has moved toward synthetic biology and digital biosensors for longitudinal, real-time diagnosis of age-related change and treatment response.<br><br>[[https://vcresearch.berkeley.edu/faculty/irina-conboy|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "berkeley-conboy",
+        "pi": "Irina Conboy",
+        "institution": "University of California, Berkeley",
+        "country": "US",
+        "category": "medicine-lab",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26568,
+          37.87078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Paul McEuen Group",
         "description": "**Paul McEuen** — Cornell University, Ithaca, NY (US)<br><br>Room 109<br>https://physics.cornell.edu/paul-mceuen<br><br><br><br>The science and technology of nanostructures, particularly carbon-based systems such as nanotubes and graphene; novel fabrication techniques at the nanometer scale; micro- and nanoscale machines and active matter; assembly and measurement of chemical and biological nanostructures<br>Research Focus<br><br>Our research focuses on the fabrication and study of nanostructures.  We use these structures to span the gap between the macroscopic and molecular worlds, exploring electronics, optics, mechanics, chemistry and biology at the nanoscale. Current research ranges from the use of carbon nanotubes for optoelectronics and mechanics to the use of graphene and other 2D materials for atomic-scale origami, active materials, and micro and nanomachines.<br><br>[[https://physics.cornell.edu/paul-mceuen|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
         "id": "cornell-mceuen",

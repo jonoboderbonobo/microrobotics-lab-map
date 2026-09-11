@@ -27,9 +27,21 @@
     "lat": 29.71679,
     "lon": -95.40478
   },
+  "Stanford University, Stanford, CA, US": {
+    "lat": 37.43131,
+    "lon": -122.16937
+  },
   "Technische Universit\u00e4t Dresden, Dresden, DE": {
     "lat": 51.02987,
     "lon": 13.73032
+  },
+  "University of California, Berkeley, Berkeley, CA, US": {
+    "lat": 37.87078,
+    "lon": -122.26568
+  },
+  "University of California, Berkeley, Berkeley, US": {
+    "lat": 37.87078,
+    "lon": -122.26568
   },
   "University of California, San Diego, San Diego, CA, US": {
     "lat": 32.87924,
