@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Advanced Micro and Nanosystems Laboratory",
+        "description": "**Eniko T. Enikov** — University of Arizona, Tucson, AZ (US)<br><br>Professor of Aerospace and Mechanical Engineering working on system identification, design and fabrication of MEMS, miniature mechatronic systems, sensors, and actuators -- including micro-robotic drug delivery.<br><br>[[https://ame.engineering.arizona.edu/faculty-staff/faculty/eniko-t-enikov|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "arizona-enikov",
+        "pi": "Eniko T. Enikov",
+        "institution": "University of Arizona",
+        "country": "US",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.95174,
+          32.2357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "NanoRobotic Systems Lab",
         "description": "**Lixin Dong** — City University of Hong Kong, Hong Kong (HK)<br><br>Nanorobotics research, including ionic shape-morphing microrobotic end-effectors for environmentally adaptive targeting, releasing, and sampling. Now Professor of Biomedical Engineering at City University of Hong Kong, having previously built the NanoRobotic Systems Lab at Michigan State University.<br><br>[[https://www.cityu.edu.hk/bme/lixidong/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "cityu-dong",
@@ -953,6 +982,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Marr Research Group",
+        "description": "**David W. M. Marr** — Colorado School of Mines, Golden, CO (US)<br><br>Studies controlled assembly of colloidal particles using external time-varying electromagnetic, electric, and magnetic fields, building toward micron-scale colloidal-based devices and microbots for biomedical treatment. David Marr is the Gaylord and Phyllis Weaver Distinguished Chair of Chemical and Biological Engineering; work funded by NIH, NSF, and NASA.<br><br>[[https://moabc.org/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "mines-marr",
+        "pi": "David W. M. Marr",
+        "institution": "Colorado School of Mines",
+        "country": "US",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.22464,
+          39.73863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "M3Robotics Lab",
         "description": "**Andrew J. Petruska** — Colorado School of Mines, Golden, CO (US)<br><br>Studies control of complex dynamic systems, with emphasis on magnetic manipulation for medical applications and autonomous systems for mining. Andrew Petruska directs the lab and the Robotics Interdisciplinary Graduate Program at Colorado School of Mines, joined 2016.<br><br>[[https://m3robotics.mines.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "mines-petruska",
@@ -1117,6 +1175,35 @@
         "coordinates": [
           153.0251,
           -27.4698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laboratory for Micromachine Intelligence (μ-MIL)",
+        "description": "**Tian-Yun Huang** — Peking University, Beijing (CN)<br><br>Assistant Professor of Micromachine Intelligence (μ-AI) in the Department of Advanced Manufacturing and Robotics. Works on micromachine intelligence, micro-/nanorobotics, and advanced additive manufacturing -- an integrated platform for design, fabrication, characterization, and actuation of intelligent micromachines for precision medicine and bioengineering in complex microenvironments. PhD from ETH MSRL.<br><br>[[https://www.researchgate.net/lab/Laboratory-for-Micromachine-Intelligence-m-MIL-Tian-Yun-Huang|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "pku-huang",
+        "pi": "Tian-Yun Huang",
+        "institution": "Peking University",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.305,
+          39.99
         ]
       }
     },
@@ -2475,6 +2562,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Advanced Micro and Nanosystems Laboratory (AMNL)",
+        "description": "**Yu Sun** — University of Toronto, Toronto, ON (CA)<br><br>Develops technologies and instruments for manipulating and characterizing cells, molecules, and nanomaterials. Cross-appointed across Mechanical & Industrial Engineering, the Institute of Biomaterials and Biomedical Engineering, Electrical & Computer Engineering, and Computer Science.<br><br>[[https://amnl.mie.utoronto.ca/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "utoronto-sun",
+        "pi": "Yu Sun",
+        "institution": "University of Toronto",
+        "country": "CA",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39682,
+          43.66347
+        ]
       }
     },
     {

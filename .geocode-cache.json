@@ -207,6 +207,10 @@
     "lat": -22.82266,
     "lon": -47.0628
   },
+  "University of Arizona, Tucson, AZ, US": {
+    "lat": 32.2357,
+    "lon": -110.95174
+  },
   "University of California, Berkeley, Berkeley, CA, US": {
     "lat": 37.87078,
     "lon": -122.26568
@@ -238,6 +242,10 @@
   "University of Pennsylvania, Philadelphia, PA, US": {
     "lat": 39.95221,
     "lon": -75.19557
+  },
+  "University of Toronto, Toronto, ON, CA": {
+    "lat": 43.66347,
+    "lon": -79.39682
   },
   "University of Utah, Salt Lake City, UT, US": {
     "lat": 40.76281,

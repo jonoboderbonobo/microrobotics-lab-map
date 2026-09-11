@@ -29,6 +29,30 @@
     -- directly relevant to the project's own sub-threshold reference/MICMOS work,
     not just conceptually adjacent. Worth understanding their process node and IP
     licensing model, not just watching.
+- id: arizona-enikov
+  name: Advanced Micro and Nanosystems Laboratory
+  pi: Eniko T. Enikov
+  institution: University of Arizona
+  city: Tucson, AZ
+  country: US
+  lat: 32.2357
+  lon: -110.95174
+  osm: null
+  url: https://ame.engineering.arizona.edu/faculty-staff/faculty/eniko-t-enikov
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Professor of Aerospace and Mechanical Engineering working on system
+    identification, design and fabrication of MEMS, miniature mechatronic systems,
+    sensors, and actuators -- including micro-robotic drug delivery.
+  notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found;
+    linked to faculty profile instead.
 - id: berkeley-conboy
   name: Conboy Lab
   pi: Irina Conboy
@@ -2040,6 +2064,33 @@
     rather than for technology.
 
     '
+- id: mines-marr
+  name: Marr Research Group
+  pi: David W. M. Marr
+  institution: Colorado School of Mines
+  city: Golden, CO
+  country: US
+  lat: 39.73863
+  lon: -105.22464
+  osm: null
+  url: https://moabc.org/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Studies controlled assembly of colloidal particles using external time-varying
+    electromagnetic, electric, and magnetic fields, building toward micron-scale colloidal-based
+    devices and microbots for biomedical treatment. David Marr is the Gaylord and
+    Phyllis Weaver Distinguished Chair of Chemical and Biological Engineering; work
+    funded by NIH, NSF, and NASA.
+  notes: Found via alumni-snowballing from ethz-msrl. Second Colorado School of Mines
+    entry this session alongside mines-petruska -- two independent microrobotics-adjacent
+    groups at the same institution, worth noting as a cluster.
 - id: mines-petruska
   name: M3Robotics Lab
   pi: Andrew J. Petruska
@@ -2366,6 +2417,32 @@
     mismatch with the reference design, not a direct component source. Useful as a
     benchmark and possibly a component for HoneyBot-scale work, not the CMOS microrobot
     itself. Also German -- worth checking for a closer domestic contact.
+- id: pku-huang
+  name: Laboratory for Micromachine Intelligence (μ-MIL)
+  pi: Tian-Yun Huang
+  institution: Peking University
+  city: Beijing
+  country: CN
+  lat: 39.99
+  lon: 116.305
+  osm: null
+  url: https://www.researchgate.net/lab/Laboratory-for-Micromachine-Intelligence-m-MIL-Tian-Yun-Huang
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Assistant Professor of Micromachine Intelligence (μ-AI) in the Department
+    of Advanced Manufacturing and Robotics. Works on micromachine intelligence, micro-/nanorobotics,
+    and advanced additive manufacturing -- an integrated platform for design, fabrication,
+    characterization, and actuation of intelligent micromachines for precision medicine
+    and bioengineering in complex microenvironments. PhD from ETH MSRL.
+  notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found
+    -- linked to ResearchGate lab page instead.
 - id: princeton-nagpal
   name: Self-Organizing Systems Research Group
   pi: Radhika Nagpal
@@ -3952,6 +4029,34 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: utoronto-sun
+  name: Advanced Micro and Nanosystems Laboratory (AMNL)
+  pi: Yu Sun
+  institution: University of Toronto
+  city: Toronto, ON
+  country: CA
+  lat: 43.66347
+  lon: -79.39682
+  osm: null
+  url: https://amnl.mie.utoronto.ca/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Develops technologies and instruments for manipulating and characterizing
+    cells, molecules, and nanomaterials. Cross-appointed across Mechanical & Industrial
+    Engineering, the Institute of Biomaterials and Biomedical Engineering, Electrical
+    & Computer Engineering, and Computer Science.
+  notes: Found via alumni-snowballing from ethz-msrl. Fourth University of Toronto
+    entry alongside utoronto-crl, utoronto-diller, and unitoronto-liu -- a genuinely
+    distinct PI/lab, not a duplicate; worth noting Toronto as a real cluster on this
+    map.
 - id: uw-netlab
   name: Networks & Mobile Systems Lab (MilliMobile)
   pi: Vikram Iyer
