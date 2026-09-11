@@ -19,12 +19,28 @@
     "lat": 48.85468,
     "lon": 2.34886
   },
+  "Institut des Syst\u00e8mes Intelligents et de Robotique, Paris, FR": {
+    "lat": 48.84569,
+    "lon": 2.35673
+  },
+  "Rice University, Houston, TX, US": {
+    "lat": 29.71679,
+    "lon": -95.40478
+  },
   "Technische Universit\u00e4t Dresden, Dresden, DE": {
     "lat": 51.02987,
     "lon": 13.73032
   },
+  "University of California, San Diego, San Diego, CA, US": {
+    "lat": 32.87924,
+    "lon": -117.23112
+  },
   "University of Washington, Seattle, WA, US": {
     "lat": 47.65543,
     "lon": -122.30017
+  },
+  "imec, Leuven, BE": {
+    "lat": 50.86539,
+    "lon": 4.67956
   }
 }

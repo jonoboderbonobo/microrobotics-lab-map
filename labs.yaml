@@ -408,6 +408,39 @@
     Worth pinning down min_dim_um for their smallest genuinely untethered device.
 
     '
+- id: europractice
+  name: EUROPRACTICE
+  pi: null
+  institution: EUROPRACTICE (imec-coordinated consortium)
+  city: Leuven
+  country: BE
+  lat: 50.86539
+  lon: 4.67956
+  osm: null
+  url: https://europractice-ic.com/
+  people_url: null
+  category: cleanroom-service
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 5
+  status: watch
+  description: European Commission-launched consortium (since 1995) of five research
+    organizations, led by imec, providing academia and industry with affordable Multi-Project-Wafer
+    (MPW) prototyping across a wide range of processes -- digital, RF, mixed-signal,
+    high-voltage ASICs, MEMS, photonics, microfluidics, flexible electronics, compound
+    semiconductors -- plus ~65,000 concurrent EDA tool licenses distributed to European
+    universities annually and training programs.
+  notes: 'Found via web search, not migrated. Directly matches the project''s own
+    stated cost strategy (Plan B: startup/academic discounts from commercial vendors
+    via a shared-run consortium) -- this is infrastructure that would actually get
+    used, not just a watch entry. Also provides access to IHP SG13G2, already on this
+    map as ihp-cleanroom -- EUROPRACTICE is a second route to the same process. lat/lon
+    set to imec''s Leuven HQ (lead consortium partner), not a single EUROPRACTICE
+    address.'
 - id: femto-st-mn2s
   name: FEMTO-ST — MN2S
   pi: null
@@ -833,6 +866,37 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: isir-rpibio
+  name: RPI-Bio — Robotics and Micro-Bio-Robotics
+  pi: Stéphane Régnier
+  institution: ISIR, Sorbonne Université
+  city: Paris
+  country: FR
+  lat: 48.84569
+  lon: 2.35673
+  osm: null
+  url: https://www.isir.upmc.fr/teams/rpi-bio/?lang=en
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: 'Develops microrobotic systems for biological applications: magnetic
+    micro-swimmers, optical-tweezers-driven micromanipulators, automated atomic force
+    microscopy, and haptic teleoperation for robotic micro-assembly. Work spans nanoscale
+    characterization, single-cell manipulation, and force-feedback control. Fabricates
+    some devices in collaboration with the FEMTO-ST Institute (already on this map
+    as femto-st-mn2s).'
+  notes: Found via web search, not migrated. Externally actuated (optical tweezers,
+    magnetic fields) rather than onboard-powered, so this is a material/technique
+    match rather than a whole-system micro-robotics match by the strict definition
+    -- filed here anyway since the group itself frames its output as microrobots and
+    single-cell manipulation is the reference design's own first application.
 - id: ku-sitti
   name: Metin Sitti — KUTTAM
   pi: Metin Sitti
@@ -1058,6 +1122,36 @@
     genuine sub-mm autonomy.
 
     '
+- id: rice-robinson
+  name: Robinson Lab — Nano-neurotechnology
+  pi: Jacob T. Robinson
+  institution: Rice University
+  city: Houston, TX
+  country: US
+  lat: 29.71679
+  lon: -95.40478
+  osm: null
+  url: https://www.robinsonlab.com/
+  people_url: null
+  category: neuroscience-lab
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Uses semiconductor nanofabrication and genetic engineering to build
+    electronic, photonic, and magnetic interfaces to the brain. Co-authored a magnetoelectric
+    backscatter communication system for bioelectronic implants achieving <0.3 pJ/bit
+    and <1e-6 bit error rate at 55 mm range with 10 mm misalignment tolerance, demonstrated
+    transmitting cardiac signals from a beating heart in a porcine model. PI Jacob
+    T. Robinson is also co-founder/CEO of Motif Neurotech (brain-computer interface
+    for mental health disorders).
+  notes: Found via web search, not migrated. Direct fit for the Communication workstream
+    (µBot<->mothership link) -- the pJ/bit-class power budget for passive backscatter
+    is exactly the order of magnitude a sub-mm onboard radio would need. Motif Neurotech
+    (the spinout company) may be worth its own entry later; not added separately yet.
 - id: robeaute
   name: Robeauté
   pi: null
@@ -1644,6 +1738,33 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: ucsd-tolley
+  name: Bioinspired Robotics and Design Lab
+  pi: Michael T. Tolley
+  institution: University of California, San Diego
+  city: San Diego, CA
+  country: US
+  lat: 32.87924
+  lon: -117.23112
+  osm: null
+  url: https://bioinspired.eng.ucsd.edu/
+  people_url: null
+  category: milli-robotics
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: true
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Develops soft and origami-inspired robots, including print-and-fold
+    electromechanical machines fabricated as a flat sheet with embedded electronics
+    that self-fold into a functional, autonomously-operating machine.
+  notes: Found via web search, not migrated. Typical demos are cm-scale, not sub-mm,
+    so filed under milli-robotics rather than micro-robotics -- but the flat-fabrication-then-self-fold
+    methodology is a real conceptual parallel to the Wafer-Level Processes workstream
+    (release and self-assembly from a flat-fabricated sheet), just at a much larger
+    scale. Worth watching for technique transfer, not component reuse.
 - id: uks-elaine
   name: ELAINE — Elektrisch Aktive Implantate
   pi: null

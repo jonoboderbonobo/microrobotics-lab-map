@@ -663,6 +663,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RPI-Bio — Robotics and Micro-Bio-Robotics",
+        "description": "**Stéphane Régnier** — ISIR, Sorbonne Université, Paris (FR)<br><br>Develops microrobotic systems for biological applications: magnetic micro-swimmers, optical-tweezers-driven micromanipulators, automated atomic force microscopy, and haptic teleoperation for robotic micro-assembly. Work spans nanoscale characterization, single-cell manipulation, and force-feedback control. Fabricates some devices in collaboration with the FEMTO-ST Institute (already on this map as femto-st-mn2s).<br><br>[[https://www.isir.upmc.fr/teams/rpi-bio/?lang=en|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "isir-rpibio",
+        "pi": "Stéphane Régnier",
+        "institution": "ISIR, Sorbonne Université",
+        "country": "FR",
+        "category": "micro-robotics",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.35673,
+          48.84569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Soft and Micro Robotics Laboratory",
         "description": "**Kevin Chen** — Massachusetts Institute of Technology, Cambridge, MA (US)<br><br>Welcome to the Soft and Micro Robotics Laboratory<br><br>We aim to develop micro-scale robotic systems that can demonstrate insect-like locomotive capabilities in aerial, aquatic, and terrestrial environments. To design highly agile, multifunctional, and robust micro-scale robots, we work on (1) develop high bandwidth and robust soft actuators and active materials for locomotion and manipulation, (2) investigate and apply physical phenomena (surface tension, fluid-structure interaction, friction, electrostatics) at the millimeter scale in designing multifunctional robots, and (3) develop design and fabrication tools suitable for rapid prototyping of hybrid soft-rigid robots. We envision our work will find applications such as inspection, surgical robots, and environmental monitoring.<br><br>Advising Statement<br><br>At the Soft-and-Micro-Robotics Lab, we are committed to foster creativity, collaboration, and academic excellence among our students and post-doctoral researchers. We highly encourage collaborations among group members and with external teams to develop novel microscale robotic systems and applications. There is no hierarchical structure and each group member will directly discuss his/her/their research ideas and progress with the PI. We will create an independent project/task for each incoming student. As a student develops expertise in the field, we expect the student will identify novel and exciting directions and create and lead his/her/their own projects. In addition to having a weekly group meeting that discusses research ideas and literature studies, we will also set up a weekly or biweekly meeting with each group member.<br><br>[[https://smrl.mit.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "mit-smrl",

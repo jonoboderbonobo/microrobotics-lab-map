@@ -142,6 +142,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Bioinspired Robotics and Design Lab",
+        "description": "**Michael T. Tolley** — University of California, San Diego, San Diego, CA (US)<br><br>Develops soft and origami-inspired robots, including print-and-fold electromechanical machines fabricated as a flat sheet with embedded electronics that self-fold into a functional, autonomously-operating machine.<br><br>[[https://bioinspired.eng.ucsd.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "ucsd-tolley",
+        "pi": "Michael T. Tolley",
+        "institution": "University of California, San Diego",
+        "country": "US",
+        "category": "milli-robotics",
+        "application": "fundamental",
+        "onboard_power": "yes",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.23112,
+          32.87924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Networks & Mobile Systems Lab (MilliMobile)",
         "description": "**Vikram Iyer** — University of Washington, Seattle, WA (US)<br><br>MilliMobile is an autonomous, battery-free wireless microrobot with a 10x10 mm chassis weighing under 1.1 g, powered entirely by harvested solar and RF energy. It uses onboard photodiodes to seek light and keep moving indefinitely, can carry payloads up to 3x its own weight, and transmits sensor data wirelessly over 200 m. Built on 'intermittent computing' techniques that let it operate incrementally as harvested energy becomes available.<br><br>[[https://netlab.cs.washington.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "uw-netlab",

@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "EUROPRACTICE",
+        "description": "**EUROPRACTICE** — EUROPRACTICE (imec-coordinated consortium), Leuven (BE)<br><br>European Commission-launched consortium (since 1995) of five research organizations, led by imec, providing academia and industry with affordable Multi-Project-Wafer (MPW) prototyping across a wide range of processes -- digital, RF, mixed-signal, high-voltage ASICs, MEMS, photonics, microfluidics, flexible electronics, compound semiconductors -- plus ~65,000 concurrent EDA tool licenses distributed to European universities annually and training programs.<br><br>[[https://europractice-ic.com/|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
+        "id": "europractice",
+        "pi": "",
+        "institution": "EUROPRACTICE (imec-coordinated consortium)",
+        "country": "BE",
+        "category": "cleanroom-service",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "SlateGray",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.67956,
+          50.86539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "IHP Research & Prototyping Service",
         "description": "**René Scholz** — IHP – Leibniz-Institut für innovative Mikroelektronik, Frankfurt (Oder) (DE)<br><br>Research & Prototyping Service<br>The Research & Prototyping Service group coordinates service and industry relevant development activities within Technology Department.<br><br>Please check our website for details or contact us directly to discuss your special request.<br><br>Multi Project Wafer Runs with 0.13 and 0.25 μm SiGe BiCMOS technologies and Silicon Photonics technologies are regularly organized. Here new technologies can be used in research and benchmarking projects. Stable technologies are offered for development projects towards functional prototypes.<br><br>Our stable and qualified technologies are also available as foundry service for low volume production via IHP Solutions.<br><br>To support customer developments, we offer wafer-level measurements from device level to functional testing of complex analog and digital circuits.<br><br>IHP has a wide range of failure mode analysis and analytical diagnostics equipment that can be offered to support customer projects.<br><br>If you are missing special features or need dedicated wafer preparations based on Si technology, we offer a technology development service that goes beyond our standard offerings. This includes developments of single process steps up to modules and adaptations of existing technologies.<br><br>To apply our technologies and developments to high-volume production, IHP offers technology transfer to commercial foundries.<br><br>[[https://www.ihp-microelectronics.com/services/research-and-prototyping-service|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
         "id": "ihp-cleanroom",
