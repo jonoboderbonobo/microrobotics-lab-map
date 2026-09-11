@@ -721,6 +721,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Gracias Laboratory",
+        "description": "**David Gracias** — Johns Hopkins University, Baltimore, MD (US)<br><br>Pioneers self-folding micro- and nanoscale 3D metamaterials and devices: thermoresponsive and DNA-programmable soft robots, untethered microgrippers and microinjectors, curved/folded/integrated biosensors, and microphysiological systems. 36 issued patents on self-assembly and self-folding polyhedra. PI David Gracias is a Professor of Chemical and Biomolecular Engineering with secondary appointments in Medicine and Arts & Sciences.<br><br>[[https://graciaslab.johnshopkins.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "jhu-gracias",
+        "pi": "David Gracias",
+        "institution": "Johns Hopkins University",
+        "country": "US",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62185,
+          39.3302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Soft and Micro Robotics Laboratory",
         "description": "**Kevin Chen** — Massachusetts Institute of Technology, Cambridge, MA (US)<br><br>Welcome to the Soft and Micro Robotics Laboratory<br><br>We aim to develop micro-scale robotic systems that can demonstrate insect-like locomotive capabilities in aerial, aquatic, and terrestrial environments. To design highly agile, multifunctional, and robust micro-scale robots, we work on (1) develop high bandwidth and robust soft actuators and active materials for locomotion and manipulation, (2) investigate and apply physical phenomena (surface tension, fluid-structure interaction, friction, electrostatics) at the millimeter scale in designing multifunctional robots, and (3) develop design and fabrication tools suitable for rapid prototyping of hybrid soft-rigid robots. We envision our work will find applications such as inspection, surgical robots, and environmental monitoring.<br><br>Advising Statement<br><br>At the Soft-and-Micro-Robotics Lab, we are committed to foster creativity, collaboration, and academic excellence among our students and post-doctoral researchers. We highly encourage collaborations among group members and with external teams to develop novel microscale robotic systems and applications. There is no hierarchical structure and each group member will directly discuss his/her/their research ideas and progress with the PI. We will create an independent project/task for each incoming student. As a student develops expertise in the field, we expect the student will identify novel and exciting directions and create and lead his/her/their own projects. In addition to having a weekly group meeting that discusses research ideas and literature studies, we will also set up a weekly or biweekly meeting with each group member.<br><br>[[https://smrl.mit.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "mit-smrl",
@@ -2098,6 +2127,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medical Microrobotics Lab",
+        "description": "**Veronika Magdanz** — University of Waterloo, Waterloo, ON (CA)<br><br>Develops biohybrid and bioinspired microrobots for localized medical interventions, including sperm-based microrobots (IRONSperm: deactivated bovine sperm coated with magnetic nanoparticles, serving as a flexible drug-carrying template steered by external magnetic fields), sperm-nanoparticle interaction studies, and flexible microrobots for removing obstructions. PhD from TU Dresden (2016) on sperm-driven microrobots, Assistant Professor at Waterloo since 2022.<br><br>[[https://magdanzlab.com/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "waterloo-magdanz",
+        "pi": "Veronika Magdanz",
+        "institution": "University of Waterloo",
+        "country": "CA",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54524,
+          43.4702
+        ]
       }
     },
     {

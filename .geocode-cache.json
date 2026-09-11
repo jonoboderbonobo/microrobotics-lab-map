@@ -75,6 +75,10 @@
     "lat": 33.77609,
     "lon": -84.39881
   },
+  "HZDR, Dresden, DE": {
+    "lat": 51.0577,
+    "lon": 13.95321
+  },
   "Hebrew University of Jerusalem, Jerusalem, IL": {
     "lat": 31.79186,
     "lon": 35.24472
@@ -94,6 +98,10 @@
   "Institut des Syst\u00e8mes Intelligents et de Robotique, Paris, FR": {
     "lat": 48.84569,
     "lon": 2.35673
+  },
+  "Johns Hopkins University, Baltimore, MD, US": {
+    "lat": 39.3302,
+    "lon": -76.62185
   },
   "Kyung Hee University, Yongin, KR": {
     "lat": 37.2424,
@@ -174,6 +182,10 @@
   "University of Washington, Seattle, WA, US": {
     "lat": 47.65543,
     "lon": -122.30017
+  },
+  "University of Waterloo, Waterloo, ON, CA": {
+    "lat": 43.4702,
+    "lon": -80.54524
   },
   "Westlake University Yungu Campus, Hangzhou, CN": {
     "lat": 30.33598,

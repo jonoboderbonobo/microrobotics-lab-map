@@ -1288,6 +1288,35 @@
   notes: Found via alumni-snowballing from cornell-cohen. A dedicated insect-flight
     biomimicry lab -- a sharper, more specific version of what tudelft-mavlab and
     berkeley-full each cover part of. Second Israeli entry after technion-haick.
+- id: hzdr-makarov
+  name: Intelligent Materials and Systems
+  pi: Denys Makarov
+  institution: Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
+  city: Dresden
+  country: DE
+  lat: 51.0577
+  lon: 13.95321
+  osm: null
+  url: https://www.hzdr.de/db/Cms?pOid=45754&pNid=610
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 3
+  status: watch
+  description: Pioneered curvilinear magnetism and shapeable magnetoelectronics on
+    flexible, bendable, and stretchable surfaces -- flexible and printable magnetic
+    field sensors (Hall effect and magnetoresistive) on ultra-thin substrates with
+    high mechanical adaptability. Won an ERC Starting Grant (SMaRT) and ERC Proof-of-Concept
+    Grant (MagnetoFLEX).
+  notes: Found via alumni-snowballing from tuc-schmidt. Flexible magnetic sensors
+    are a plausible fit for onboard localization/field-sensing on a small robot, though
+    the group's own applications target wearables/industrial sensing, not microrobots
+    directly -- same Dresden ecosystem as tud-bcube, fraunhofer-ipms, cea-leti's peers.
 - id: ibec-sanchez
   name: Smart Nano-Bio-Devices
   pi: Samuel Sánchez
@@ -1531,6 +1560,36 @@
     match rather than a whole-system micro-robotics match by the strict definition
     -- filed here anyway since the group itself frames its output as microrobots and
     single-cell manipulation is the reference design's own first application.
+- id: jhu-gracias
+  name: Gracias Laboratory
+  pi: David Gracias
+  institution: Johns Hopkins University
+  city: Baltimore, MD
+  country: US
+  lat: 39.3302
+  lon: -76.62185
+  osm: null
+  url: https://graciaslab.johnshopkins.edu/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: 'Pioneers self-folding micro- and nanoscale 3D metamaterials and devices:
+    thermoresponsive and DNA-programmable soft robots, untethered microgrippers and
+    microinjectors, curved/folded/integrated biosensors, and microphysiological systems.
+    36 issued patents on self-assembly and self-folding polyhedra. PI David Gracias
+    is a Professor of Chemical and Biomolecular Engineering with secondary appointments
+    in Medicine and Arts & Sciences.'
+  notes: Found via alumni-snowballing from tuc-schmidt. Self-folding microstructures
+    is directly adjacent to cornell-cohen/upenn-miskin's own approach (flat-fabricate
+    then fold), but an independent, highly-patented group -- untethered microgrippers
+    in particular are a real whole-device match, not just a materials/technique overlap.
 - id: khu-lee
   name: Younghoon Lee Group
   pi: Younghoon Lee
@@ -3364,6 +3423,35 @@
     fully onboard energy harvesting, autonomous operation, and an intermittent-computing
     approach directly relevant to a sub-nW power budget. Category is milli-robotics
     (10mm chassis, well above the 1mm micro-robotics cutoff), not micro-robotics.'
+- id: waterloo-magdanz
+  name: Medical Microrobotics Lab
+  pi: Veronika Magdanz
+  institution: University of Waterloo
+  city: Waterloo, ON
+  country: CA
+  lat: 43.4702
+  lon: -80.54524
+  osm: null
+  url: https://magdanzlab.com/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: 'Develops biohybrid and bioinspired microrobots for localized medical
+    interventions, including sperm-based microrobots (IRONSperm: deactivated bovine
+    sperm coated with magnetic nanoparticles, serving as a flexible drug-carrying
+    template steered by external magnetic fields), sperm-nanoparticle interaction
+    studies, and flexible microrobots for removing obstructions. PhD from TU Dresden
+    (2016) on sperm-driven microrobots, Assistant Professor at Waterloo since 2022.'
+  notes: Found via alumni-snowballing from tuc-schmidt (Dresden-area PhD, matches
+    the same regional micro/nanomotor community as ibec-sanchez and Oliver Schmidt's
+    own group). Externally magnetically actuated, same conflation flag as other magnetic-microrobot
+    entries -- onboard_power=false.
 - id: westlake-wang
   name: Intelligent Microrobotics Laboratory (IML)
   pi: Wei Wang
