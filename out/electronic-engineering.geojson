@@ -150,6 +150,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Fraunhofer ENAS",
+        "description": "**Fraunhofer ENAS** — Fraunhofer Institute for Electronic Nano Systems, Chemnitz (DE)<br><br>Develops smart integrated systems using micro and nano technologies: individual components, manufacturing technologies, system concepts, and system integration, from initial idea through design, technology development, prototyping, and technology transfer. Its Nano Device Technologies department works on multidimensional, highly sensitive magnetic field sensors based on GMR and TMR effects. Located on the Smart Systems Campus, directly adjacent to Chemnitz University of Technology, and cooperates with the university's Center for Microtechnologies (ZfM).<br><br>[[https://www.enas.fraunhofer.de/en.html|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "fraunhofer-enas",
+        "pi": "",
+        "institution": "Fraunhofer Institute for Electronic Nano Systems",
+        "country": "DE",
+        "category": "electronic-engineering",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.92442,
+          50.81581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Integrated 3D Systems Group",
         "description": "**Muhannad Bakir** — Georgia Institute of Technology, Atlanta, GA (US)<br><br>Researches 2.5D and 3D chip packaging integration architectures, co-designing thermal management, power delivery, and interconnect technologies to combine diverse chip types (digital, analog, photonic) into a single system. Applications named include healthcare systems alongside machine learning and autonomous vehicles. Part of Georgia Tech's broader 3D Systems Packaging Research Center.<br><br>[[https://bakirlab.gatech.edu/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
         "id": "gatech-bakir",
@@ -393,6 +422,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silicon Saxony",
+        "description": "**Silicon Saxony** — Silicon Saxony e.V., Dresden (DE)<br><br>Europe's largest microelectronics/ICT cluster association, self-funded since 2000, connecting 700+ manufacturers, suppliers, service providers, universities, research institutes, and startups across the Dresden-Chemnitz-Freiberg triangle. Thematic focus includes AI, robotics, automation, IoT, sensor technology, energy efficiency, and neuromorphic/edge computing.<br><br>[[https://silicon-saxony.de/en/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "silicon-saxony",
+        "pi": "",
+        "institution": "Silicon Saxony e.V.",
+        "country": "DE",
+        "category": "electronic-engineering",
+        "application": "industrial",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.77114,
+          51.09804
+        ]
       }
     },
     {

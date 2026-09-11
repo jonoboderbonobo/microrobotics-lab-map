@@ -47,6 +47,10 @@
     "lat": 51.99883,
     "lon": 4.37396
   },
+  "Fraunhofer ENAS, Chemnitz, DE": {
+    "lat": 50.81581,
+    "lon": 12.92442
+  },
   "Fraunhofer IMTE, L\u00fcbeck, DE": {
     "lat": 53.83602,
     "lon": 10.7005
@@ -74,6 +78,10 @@
   "Institut des Syst\u00e8mes Intelligents et de Robotique, Paris, FR": {
     "lat": 48.84569,
     "lon": 2.35673
+  },
+  "Manfred-von-Ardenne-Ring 20, Dresden, DE": {
+    "lat": 51.09804,
+    "lon": 13.77114
   },
   "Northwestern University, Evanston, IL, US": {
     "lat": 42.05572,

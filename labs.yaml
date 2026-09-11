@@ -683,6 +683,37 @@
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
+- id: fraunhofer-enas
+  name: Fraunhofer ENAS
+  pi: null
+  institution: Fraunhofer Institute for Electronic Nano Systems
+  city: Chemnitz
+  country: DE
+  lat: 50.81581
+  lon: 12.92442
+  osm: null
+  url: https://www.enas.fraunhofer.de/en.html
+  people_url: null
+  category: electronic-engineering
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 5
+  status: watch
+  description: 'Develops smart integrated systems using micro and nano technologies:
+    individual components, manufacturing technologies, system concepts, and system
+    integration, from initial idea through design, technology development, prototyping,
+    and technology transfer. Its Nano Device Technologies department works on multidimensional,
+    highly sensitive magnetic field sensors based on GMR and TMR effects. Located
+    on the Smart Systems Campus, directly adjacent to Chemnitz University of Technology,
+    and cooperates with the university''s Center for Microtechnologies (ZfM).'
+  notes: Found via web search, not migrated. Physically next door -- this is a real,
+    walkable networking target, not a distant reference. Directly relevant to system-integration
+    and sensor fabrication needs, and an obvious first stop for local collaboration
+    before reaching further afield.
 - id: fraunhofer-imte-cellmed
   name: Fraunhofer IMTE — Cell-based Medical Engineering
   pi: null
@@ -1958,6 +1989,36 @@
     organ-monitoring horizon needs, even though glucose sensing has no robotics component
     at all. A competitor, Glucotrack, is reportedly developing a 3-year fully implanted
     CGM -- worth a look if this space matters more later.
+- id: silicon-saxony
+  name: Silicon Saxony
+  pi: null
+  institution: Silicon Saxony e.V.
+  city: Dresden
+  country: DE
+  lat: 51.09804
+  lon: 13.77114
+  osm: null
+  url: https://silicon-saxony.de/en/
+  people_url: null
+  category: electronic-engineering
+  application:
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 5
+  status: watch
+  description: Europe's largest microelectronics/ICT cluster association, self-funded
+    since 2000, connecting 700+ manufacturers, suppliers, service providers, universities,
+    research institutes, and startups across the Dresden-Chemnitz-Freiberg triangle.
+    Thematic focus includes AI, robotics, automation, IoT, sensor technology, energy
+    efficiency, and neuromorphic/edge computing.
+  notes: 'Found via web search, not migrated. Not a lab or company -- an industry
+    network association -- so it''s a genuine categorization stretch under this taxonomy
+    (filed as electronic-engineering for lack of a better fit). Added anyway because
+    it maps almost exactly onto the project''s own Networking workstream (''substitute
+    money with connections'') and is local: membership or event attendance is a concrete,
+    low-cost way to meet the regional chip/microsystems ecosystem this project needs.'
 - id: srl-twente
   name: Surgical Robotics Lab (SRL)
   pi: Sarthak Misra
