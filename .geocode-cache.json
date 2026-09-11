@@ -3,6 +3,10 @@
     "lat": 34.01942,
     "lon": -118.40763
   },
+  "60 Rue de Wattignies, Paris, FR": {
+    "lat": 48.83526,
+    "lon": 2.39816
+  },
   "6500 River Place Blvd, Austin, US": {
     "lat": 30.39202,
     "lon": -97.84834
@@ -18,6 +22,10 @@
   "Fraunhofer IMTE, L\u00fcbeck, DE": {
     "lat": 53.83602,
     "lon": 10.7005
+  },
+  "Heidelberg University, Heidelberg, DE": {
+    "lat": 49.4186,
+    "lon": 8.66924
   },
   "H\u00f4tel-Dieu, Paris, FR": {
     "lat": 48.85468,

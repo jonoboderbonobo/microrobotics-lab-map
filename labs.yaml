@@ -820,6 +820,39 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: heidelberg-schemmel
+  name: Electronic Vision(s) — Neuromorphic Computing Architectures
+  pi: Johannes Schemmel
+  institution: Heidelberg University
+  city: Heidelberg
+  country: DE
+  lat: 49.4186
+  lon: 8.66924
+  osm: null
+  url: https://www.kip.uni-heidelberg.de/vision/
+  people_url: null
+  category: information-technology
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Designs BrainScaleS, a mixed-signal analog/digital neuromorphic computing
+    platform emulating spiking neural networks in continuous time (~1000x faster than
+    biological real-time, far lower energy than conventional digital compute). BrainScaleS-2
+    integrates 512 adaptive integrate-and-fire neurons and 131k plastic synapses per
+    chip; BrainScaleS-1 demonstrated wafer-scale neuromorphic integration. Part of
+    the EU EBRAINS research infrastructure. PI Johannes Schemmel holds Heidelberg's
+    Chair of Neuromorphic Computing Architectures and has led the group's ASIC lab
+    since 2008.
+  notes: Found via web search, not migrated. German, mixed-signal analog chip design
+    group -- close to home and close to the project's own specialty. Neuromorphic/spiking
+    hardware is explicitly named in the project's System-Level-Behavior workstream
+    description, and the wafer-scale integration work is a real methodological parallel
+    to the Wafer-Level Processes workstream too. First entry in the information-technology
+    category, which was empty before this.
 - id: helsinki-santos
   name: Santos Group — Nanomedicines and Biomedical Engineering
   pi: Hélder A. Santos
@@ -1278,6 +1311,35 @@
     defaulted to false -- verify. Per the old map''s own description: ''Metin Sitti
     gone, no replacement yet'' -- pi left null rather than crediting Sitti. Verify
     current leadership. See also ku-sitti for his current affiliation.'
+- id: nanobiotix
+  name: Nanobiotix
+  pi: null
+  institution: Nanobiotix
+  city: Paris
+  country: FR
+  lat: 48.83526
+  lon: 2.39816
+  osm: null
+  url: https://nanobiotix.com/
+  people_url: null
+  category: nano-medicine
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 3
+  status: watch
+  description: 'Publicly traded (Euronext: NANO, Nasdaq: NBTX) nanomedicine company
+    developing NBTXR3, a nanoparticle radioenhancer -- CE-marked since 2019 for locally
+    advanced soft tissue sarcoma across 27 European countries under the brand Hensify,
+    with an ongoing Phase 3 head and neck cancer program. Incorporated 2003, headquartered
+    in Paris.'
+  notes: Found via web search, not migrated. Not a microrobotics match at all, but
+    one of the few nanoscale-therapeutic companies with an actual approved, marketed
+    product -- worth understanding purely as a regulatory-pathway precedent for how
+    a nanoscale device reaches real patients in Europe, which is directly relevant
+    to the project's own company-building goal.
 - id: penn-msma
   name: MSMA Group — MicroSensors and MicroActuators
   pi: Mark G. Allen
