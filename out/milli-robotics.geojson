@@ -62,6 +62,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Dupont Lab",
+        "description": "**Pierre E. Dupont** — Boston Children's Hospital / Harvard Medical School, Boston, MA (US)<br><br>Develops technologies for image-guided minimally invasive surgery: catheter-like continuum robots that navigate the branching curves of blood vessels and other biological structures, tool-tissue interaction modeling, multi-probe/multi-modal imaging for surgical guidance, and teleoperated or autonomous instrument motion. PI Pierre Dupont is Chief of Pediatric Cardiac Bioengineering at Boston Children's Hospital and Professor of Surgery at Harvard Medical School; the group demonstrated a first-of-its-kind autonomous robotic catheter navigating from the jugular vein into the right atrium.<br><br>[[https://robotics.tch.harvard.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "dupont-lab",
+        "pi": "Pierre E. Dupont",
+        "institution": "Boston Children's Hospital / Harvard Medical School",
+        "country": "US",
+        "category": "milli-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "hospital",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10568,
+          42.33717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Korea Institute of Medical Micro-robotics (KIMIRo)",
         "description": "**Jong Oh Park** — KIMIRo, Gwangju (KR)<br><br>A dedicated South Korean research institute (established 2019, president Jong Oh Park) focused on medical microrobots, including magnetically-actuated multifunctional robots with real-time MRI visualization for applications such as liver cancer chemoembolization therapy.<br><br>[[https://www.kimiro.re.kr/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "kimiro",

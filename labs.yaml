@@ -531,6 +531,38 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: dupont-lab
+  name: Dupont Lab
+  pi: Pierre E. Dupont
+  institution: Boston Children's Hospital / Harvard Medical School
+  city: Boston, MA
+  country: US
+  lat: 42.33717
+  lon: -71.10568
+  osm: null
+  url: https://robotics.tch.harvard.edu/
+  people_url: null
+  category: milli-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: hospital
+  relevance: 4
+  status: watch
+  description: 'Develops technologies for image-guided minimally invasive surgery:
+    catheter-like continuum robots that navigate the branching curves of blood vessels
+    and other biological structures, tool-tissue interaction modeling, multi-probe/multi-modal
+    imaging for surgical guidance, and teleoperated or autonomous instrument motion.
+    PI Pierre Dupont is Chief of Pediatric Cardiac Bioengineering at Boston Children''s
+    Hospital and Professor of Surgery at Harvard Medical School; the group demonstrated
+    a first-of-its-kind autonomous robotic catheter navigating from the jugular vein
+    into the right atrium.'
+  notes: Found via web search, not migrated. Embedded directly in a hospital's cardiac
+    surgery department, not just adjacent to one -- real clinical-integration precedent,
+    and continuum-robot autonomous navigation is a genuine technique overlap even
+    though the scale (catheter, not sub-mm) and actuation (tendon-driven, not onboard)
+    are both far from the reference design.
 - id: epfl-microbs
   name: EPFL — Microbiorobotic Systems Laboratory (MICROBS)
   pi: null
@@ -1234,6 +1266,35 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: iota-bio
+  name: iota Biosciences
+  pi: null
+  institution: iota Biosciences, Inc.
+  city: Alameda, CA
+  country: US
+  lat: 37.78021
+  lon: -122.26504
+  osm: null
+  url: https://iota.bio/
+  people_url: null
+  category: neuroscience-lab
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 4
+  status: watch
+  description: 'Commercializing neural dust: millimeter-sized bioelectronic implants
+    wirelessly powered and read out via ultrasound, able to record and stimulate nerve
+    activity and communicate with other devices via ultrasound backscatter. Founded
+    2017 by Jose Carmena and Michel Maharbiz out of their UC Berkeley research; acquired
+    by Astellas Pharma in 2020. As of 2024, has an FDA investigational device exemption
+    for an early feasibility study in underactive bladder treatment.'
+  notes: Found via web search, not migrated. Direct commercial continuation of berkeley-maharbiz
+    (already on this map) -- real pharma-backed validation with active FDA trials,
+    worth understanding as the actual regulatory/commercial path this kind of technology
+    has already walked.
 - id: isir-rpibio
   name: RPI-Bio — Robotics and Micro-Bio-Robotics
   pi: Stéphane Régnier

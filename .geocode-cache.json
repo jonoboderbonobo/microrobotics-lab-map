@@ -1,7 +1,15 @@
 {
+  "1020 Atlantic Avenue, Alameda, US": {
+    "lat": 37.78021,
+    "lon": -122.26504
+  },
   "20451 Seneca Meadows Parkway, Germantown, US": {
     "lat": 39.19279,
     "lon": -77.25654
+  },
+  "300 Longwood Ave, Boston, US": {
+    "lat": 42.33717,
+    "lon": -71.10568
   },
   "3767 Overland Ave, Los Angeles, US": {
     "lat": 34.01942,

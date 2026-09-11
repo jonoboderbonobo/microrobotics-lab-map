@@ -33,6 +33,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "iota Biosciences",
+        "description": "**iota Biosciences** — iota Biosciences, Inc., Alameda, CA (US)<br><br>Commercializing neural dust: millimeter-sized bioelectronic implants wirelessly powered and read out via ultrasound, able to record and stimulate nerve activity and communicate with other devices via ultrasound backscatter. Founded 2017 by Jose Carmena and Michel Maharbiz out of their UC Berkeley research; acquired by Astellas Pharma in 2020. As of 2024, has an FDA investigational device exemption for an early feasibility study in underactive bladder treatment.<br><br>[[https://iota.bio/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "id": "iota-bio",
+        "pi": "",
+        "institution": "iota Biosciences, Inc.",
+        "country": "US",
+        "category": "neuroscience-lab",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOrange",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26504,
+          37.78021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Metin Sitti — KUTTAM",
         "description": "**Metin Sitti** — Koç University, Istanbul (TR)<br><br>[[https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "ku-sitti",
