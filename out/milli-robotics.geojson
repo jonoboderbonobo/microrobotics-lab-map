@@ -91,6 +91,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Micro-Flight Laboratory",
+        "description": "**Tsevi Beatus** — Hebrew University of Jerusalem, Jerusalem (IL)<br><br>Studies the mechanisms of insect flight control and implements them in biomimetic flying robots. PI Tsevi Beatus did his postdoc in Cornell's Physics department on insect flight control, and his PhD (Weizmann Institute) on collective non-equilibrium dynamics of microfluidic droplets.<br><br>[[https://www.beatus-lab.org/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "huji-beatus",
+        "pi": "Tsevi Beatus",
+        "institution": "Hebrew University of Jerusalem",
+        "country": "IL",
+        "category": "milli-robotics",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.24472,
+          31.79186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Korea Institute of Medical Micro-robotics (KIMIRo)",
         "description": "**Jong Oh Park** — KIMIRo, Gwangju (KR)<br><br>A dedicated South Korean research institute (established 2019, president Jong Oh Park) focused on medical microrobots, including magnetically-actuated multifunctional robots with real-time MRI visualization for applications such as liver cancer chemoembolization therapy.<br><br>[[https://www.kimiro.re.kr/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "kimiro",

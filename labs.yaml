@@ -1262,6 +1262,60 @@
     position unknown'') after Nominatim returned multiple disagreeing University of
     Helsinki campuses -- verify against the Faculty of Pharmacy / Santos group''s
     actual building.'
+- id: huji-beatus
+  name: Micro-Flight Laboratory
+  pi: Tsevi Beatus
+  institution: Hebrew University of Jerusalem
+  city: Jerusalem
+  country: IL
+  lat: 31.79186
+  lon: 35.24472
+  osm: null
+  url: https://www.beatus-lab.org/
+  people_url: null
+  category: milli-robotics
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Studies the mechanisms of insect flight control and implements them
+    in biomimetic flying robots. PI Tsevi Beatus did his postdoc in Cornell's Physics
+    department on insect flight control, and his PhD (Weizmann Institute) on collective
+    non-equilibrium dynamics of microfluidic droplets.
+  notes: Found via alumni-snowballing from cornell-cohen. A dedicated insect-flight
+    biomimicry lab -- a sharper, more specific version of what tudelft-mavlab and
+    berkeley-full each cover part of. Second Israeli entry after technion-haick.
+- id: ibec-sanchez
+  name: Smart Nano-Bio-Devices
+  pi: Samuel Sánchez
+  institution: Institute for Bioengineering of Catalonia (IBEC)
+  city: Barcelona
+  country: ES
+  lat: 41.38204
+  lon: 2.11789
+  osm: null
+  url: https://ibecbarcelona.eu/member/936/Samuel+S%C3%A1nchez+Ord%C3%B3%C3%B1ez/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 5
+  status: watch
+  description: ICREA Professor and group leader at IBEC, leading the Smart Nano-Bio-Devices
+    group with a focus on self-powered nanorobots, nanomedicine, and biohybrid robotics
+    -- chemically-powered micro- and nanomotors, including fully biocompatible self-propelling
+    particles powered by enzymes consuming biological fuels like glucose. ~200 publications,
+    h-index 83, 8 patents.
+  notes: Found via alumni-snowballing from tuc-schmidt (Oliver Schmidt's group alumni
+    page lists 'Prof. Dr. Samuel Sanchez'). One of the most prolific and cited researchers
+    in the whole self-powered micro/nanomotor space -- high-confidence relevance 5.
 - id: ihp-cleanroom
   name: IHP Research & Prototyping Service
   pi: René Scholz
@@ -1477,6 +1531,33 @@
     match rather than a whole-system micro-robotics match by the strict definition
     -- filed here anyway since the group itself frames its output as microrobots and
     single-cell manipulation is the reference design's own first application.
+- id: khu-lee
+  name: Younghoon Lee Group
+  pi: Younghoon Lee
+  institution: Kyung Hee University
+  city: Yongin
+  country: KR
+  lat: 37.2424
+  lon: 127.08133
+  osm: null
+  url: https://khu.elsevierpure.com/en/persons/younghoon-lee
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Assistant Professor of Mechanical Engineering researching iontronics,
+    tribotronics, soft robotics, and hydrogels. Previously a postdoc at MIT's Soft
+    and Micro Robotics Laboratory before joining Kyung Hee University.
+  notes: Found via alumni-snowballing from mit-smrl. No dedicated lab website found,
+    linked to his university Pure profile instead -- verify a better link exists before
+    treating this as a primary contact page. Tribotronics ties to the same triboelectric
+    energy-harvesting family as gatech-wang, already on the map. Third South Korean
+    entry after ku-sitti and kimiro.
 - id: kimiro
   name: Korea Institute of Medical Micro-robotics (KIMIRo)
   pi: Jong Oh Park
@@ -2821,6 +2902,35 @@
     defaulted to false -- verify. Filed under Micro-Robotics Lab and Medicine Lab;
     content is implant devices (bone/cartilage regen, deep brain stimulation), so
     recategorized to medicine-lab.'
+- id: umich-ceron
+  name: Synergetic Adaptive Machinas Lab
+  pi: Steven Ceron
+  institution: University of Michigan
+  city: Ann Arbor, MI
+  country: US
+  lat: 42.29421
+  lon: -83.71004
+  osm: null
+  url: https://samlab.robotics.umich.edu/
+  people_url: https://robotics.umich.edu/people/faculty/steven-ceron/
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: 'Studies how robot collectives -- from micron-scale to macro-scale
+    -- achieve sophisticated emergent behavior through simple local rules, minimal
+    communication, and environmentally-mediated interaction: design, fabrication,
+    and control of micron-scale robot swarms for biomedical applications, and self-reconfigurable
+    modular robot swarms. PhD Cornell (mechanical engineering), postdoc MIT, joined
+    Michigan Robotics as Assistant Professor January 2025.'
+  notes: 'Found via alumni-snowballing from mit-smrl (Kevin Chen''s lab). A near-exact
+    double match: micron-scale + swarm behavior in one person, brand new faculty (Jan
+    2025) and actively recruiting -- genuinely worth reaching out to, not just watching.'
 - id: unirostock-agis
   name: AGIS — Altern des Individuums und der Gesellschaft
   pi: null
@@ -3073,6 +3183,33 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: upenn-pikul
+  name: Pikul Research Group
+  pi: James Pikul
+  institution: University of Pennsylvania
+  city: Philadelphia, PA
+  country: US
+  lat: 39.95221
+  lon: -75.19557
+  osm: null
+  url: https://pikul-lab.seas.upenn.edu/
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: 'Develops new materials systems to increase robot mobility and autonomy:
+    shape-transforming soft robotic surfaces, synthetic vascular systems for robots,
+    air-breathing power sources, and room-temperature self-healing metallic parts,
+    drawing on electrochemistry, soft matter physics, and manufacturing.'
+  notes: Found via alumni-snowballing from cornell-cohen. Same institution as upenn-miskin.
+    Materials/power-systems focus rather than microrobotics specifically -- air-breathing
+    power sources in particular are a real Energy-workstream parallel, though at a
+    larger (robot-scale, not sub-mm) scale than the reference design.
 - id: uq-aibn
   name: Australian Institute for Bioengineering and Nanotechnology
   pi: null
@@ -3227,6 +3364,34 @@
     fully onboard energy harvesting, autonomous operation, and an intermittent-computing
     approach directly relevant to a sub-nW power budget. Category is milli-robotics
     (10mm chassis, well above the 1mm micro-robotics cutoff), not micro-robotics.'
+- id: westlake-wang
+  name: Intelligent Microrobotics Laboratory (IML)
+  pi: Wei Wang
+  institution: Westlake University
+  city: Hangzhou
+  country: CN
+  lat: 30.33598
+  lon: 120.03197
+  osm: null
+  url: https://wangwei.lab.westlake.edu.cn/
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: 'Designs and fabricates CMOS-circuit-compatible intelligent microrobotics:
+    CMOS circuit design for microrobotics, structure design for micro machines, and
+    nanofabrication for building them. Research interests include micro-robotics,
+    origami, MEMS, and cilia-based actuation.'
+  notes: Found via alumni-snowballing from cornell-cohen. Extremely close match to
+    the project's own core approach -- CMOS-circuit-compatible microrobotics is close
+    to a direct description of the project's own reference design strategy, just pursued
+    independently in China. Worth a real look, not just a watch entry.
 - id: wibotic
   name: WiBotic
   pi: Ben Waters

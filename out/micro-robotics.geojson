@@ -559,6 +559,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Smart Nano-Bio-Devices",
+        "description": "**Samuel Sánchez** — Institute for Bioengineering of Catalonia (IBEC), Barcelona (ES)<br><br>ICREA Professor and group leader at IBEC, leading the Smart Nano-Bio-Devices group with a focus on self-powered nanorobots, nanomedicine, and biohybrid robotics -- chemically-powered micro- and nanomotors, including fully biocompatible self-propelling particles powered by enzymes consuming biological fuels like glucose. ~200 publications, h-index 83, 8 patents.<br><br>[[https://ibecbarcelona.eu/member/936/Samuel+S%C3%A1nchez+Ord%C3%B3%C3%B1ez/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "ibec-sanchez",
+        "pi": "Samuel Sánchez",
+        "institution": "Institute for Bioengineering of Catalonia (IBEC)",
+        "country": "ES",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.11789,
+          41.38204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Multi-Scale Embodied Intelligence Lab",
         "description": "**Dandan Zhang** — Imperial College London, London (GB)<br><br>Dandan Zhang<br>The Multi-Scale Embodied Intelligence Lab focuses on developing embodied intelligence across multiple scales, ranging from micro/nanobots to large-scale robotic systems, primarily targeting healthcare applications.<br><br>Research Themes<br><br>​<br><br>    Multimodal Perception (Sensing)<br><br>    Interactive Learning (Decision-Making)<br><br>    Dexterous Manipulation（Execution)<br><br><br><br>Research Objectives<br><br> <br><br>We aim to embed embodied intelligence in large-scale robots, including medical robotics for surgeries to assistive robotics for homecare applications. We also explore micro-robotic innovations at the cellular scale, including developing microsurgical tools for precise micro-manipulation. Beyond individual scales, we also explore how these multi-scale robotic systems can integrate and interface with each other, ensuring seamless operations across dimensions.<br><br><br>The ultimate goal is to develop the next-generation robots empowered by artificial intelligence with super-human capabilities. We envision that intelligent robots will reshape our world by providing tangible benefits in our daily life, contributing to the healthcare system or assisting humans in hazardous environments. <br><br><br>Research Vision<br><br>​<br><br>Embodied intelligence is a crucial concept for the autonomy and adaptivity of systems operating in a physical world that is evidently uncertain and complex. Although advancements in Artificial Intelligence (AI) have given rise to general-purpose intelligent agents, the intricate and unpredictable nature of the real world demands robots that do more than just ‘think’ based on computational intelligence. Robots must be able to precisely 'perceive' and dynamically ‘act’ to adapt to different scenarios through direct interactions with their environments. To this end, our work focuses on creating and manipulating intelligent robots that can function efficiently in varied environments.<br><br><br>Targets<br><br>    Enable seamlessly human-robot shared control<br><br>    Enhance the level of autonomy for multi-scale robotics systems<br><br>Applications<br><br>    Medical Robotics<br><br>    Homecare Robotics<br><br>    Assistive Robotics<br><br><br>My major research interests lie at the intersection of robotics and machine learning. I envision that intelligent robots will reshape our world by providing tangible benefits in our daily life, contributing to the healthcare system, or assisting humans in hazardous environments. In addition, I also work on micro-robotics, teleoperation, and human-robot shared control.  <br><br>​<br><br>Medical robots and instruments are expected to be smaller, and smarter for wider clinical uptake. Intelligent robotic platforms and accurate micromanipulation techniques are worth developing since they can empower operators with superhuman capabilities as well as reduce their physical workload during repetitive and tedious micro-surgical tasks. Despite continuous technical evolution in this research area, many challenges remain. For micromanipulation platforms that can conduct surgery in the microscale, it’s challenging to enable precise perception of the micro-tools and dexterous manipulation in 3D space. Therefore, new control strategies and vision techniques are worth exploring. To develop smarter robotic platforms, machine learning techniques can be incorporated into the control scheme. Therefore, it’s worthwhile to combine control commands generated by human operators and machine learning-based autonomous control to enable efficient human-robot shared control for surgical operations. This leads to the development of intelligent surgical robots to assist human operators in robotic surgery.<br><br>[[https://www.intelligentrobotics-acrossscales.com/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "imperial-zhang",
@@ -1469,6 +1498,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Synergetic Adaptive Machinas Lab",
+        "description": "**Steven Ceron** — University of Michigan, Ann Arbor, MI (US)<br><br>Studies how robot collectives -- from micron-scale to macro-scale -- achieve sophisticated emergent behavior through simple local rules, minimal communication, and environmentally-mediated interaction: design, fabrication, and control of micron-scale robot swarms for biomedical applications, and self-reconfigurable modular robot swarms. PhD Cornell (mechanical engineering), postdoc MIT, joined Michigan Robotics as Assistant Professor January 2025.<br><br>[[https://samlab.robotics.umich.edu/|Group website]]<br>[[https://robotics.umich.edu/people/faculty/steven-ceron/|People]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "umich-ceron",
+        "pi": "Steven Ceron",
+        "institution": "University of Michigan",
+        "country": "US",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.71004,
+          42.29421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "LL&M — Life, Light and Matter",
         "description": "**LL&M — Life, Light and Matter** — University of Rostock, Rostock (DE)<br><br>Vision des Departments LL&M<br><br>... ist es, durch die Verbindung von Light on Matter, Matter at the Nanoscale und Cells in Contact, das Small Scale Sensing zu fördern. Wir entwickeln innovative Methoden, um diese Bereiche zu erforschen und leisten so einen bedeutenden Beitrag zur Bewältigung globaler Herausforderungen.<br><br><br><br>Hintergründe<br><br>Im Jahr 2007 gründete die Universität Rostock das Department \"Science and Technology of Life, Light and Matter\" (LL&M), um eine Verbindung zwischen den Natur-, Ingenieur- und Lebenswissenschaften herzustellen. Diese Initiative sollte die Zusammenarbeit verschiedener Fachbereiche und Fakultäten fördern und innovative Forschung im Bereich Lebenswissenschaften vorantreiben.<br><br>LL&M ist Teil der Interdisziplinären Fakultät (INF), zu der neben LL&M drei weitere Departments gehören: Maritime Systeme, Altern des Individuums und der Gesellschaft (seit 2007) sowie Wissen-Kultur-Transformation (seit 2010). Diese Struktur ermöglicht es, komplexe wissenschaftliche Herausforderungen aus verschiedenen Blickwinkeln zu betrachten und zu lösen.<br><br>Das Department hat eine positive Resonanz von Persönlichkeiten der Universität Rostock erhalten, was seine Bedeutung in der akademischen Gemeinschaft unterstreicht. Derzeit engagieren sich 49 Mitglieder aus verschiedenen Fakultäten der Universität Rostock sowie aus Forschungseinrichtungen wie den Leibniz-Instituten für Atmosphärenphysik und Katalyse, dem Institut für Ostseeforschung und der Schweißtechnischen Lehr- und Versuchsanstalt MV in LL&M.<br><br>Zusätzlich unterhält LL&M eininterdisziplinäres Graduiertennetzwerk, das darauf abzielt, den wissenschaftlichen Nachwuchs zu fördern. In diesem Netzwerk sind derzeit zahlreiche Kollegiatinnen und Kollegiaten aktiv, die von der Vielfalt des Departments profitieren und eine interdisziplinäre Weiterbildung erhalten. Einmal im Jahr kommen diese Jungwissenschaftlerinnen und Jungwissenschaftler zusammen, um ihre Forschungsprojekte vorzustellen, Erfahrungen auszutauschen und sich über die traditionellen Fächergrenzen hinweg zu vernetzen.<br>Zielsetzung<br><br>Das Department Leben, Licht und Materie (LLM) vernetzt Forschungsschwerpunkte in den Natur-, Ingenieur- und Lebenswissenschaften und kooperiert eng mit den Fakultäten. Im Department LLM werden interdisziplinäre Fragestellungen aus den Nanowissenschaften, den Materialwissenschaften, der biomedizinischen Implantattechnologie, der Biophysik und der Photonik bearbeitet. Mit den Themenbereichen Light on Matter, Matter at the Nanoscale sowie Cells in Contact verfolgen wir die Leitlinie, fundamentale Prozesse auf atomarer und molekularer Ebene zu analysieren, zu verstehen und zu steuern. Diese Bereiche ermöglichen die Entwicklung innovativer Sensoren, wobei Nanomaterialien und Quanteneffekte das Potenzial für zukünftige Miniaturisierung bieten.<br><br>Grundlage für diese Forschung in LLM ist der eigene Forschungsbau, der Kompetenzzentren(Kalorimetrie, Oberflächen/Grenzflächen, Kernspinresonanzspektroskopie, Massenspektrometrie, Mikroskopie/Spektroskopie), weitere Großgeräte sowie das Elektronenmikroskopie Zentrum (ELMI-MV) beherbergt. Damit unterstützt das Department die internationalen Forschungsverbünde wie zum Beispiel die SFBs Elaine und LiMatI.<br><br>Langfristig wird eine internationale Spitzenposition in der Nano-Sensorik angestrebt. Dazu werden neue Techniken zur Mikro- und Nanostrukturierung von Oberflächen und Volumina entwickelt. Grundvoraussetzung hierfür ist die Kenntnis der verwendeten Materie auf der Nanoebene, wofür Licht-, Elektronen- und Quantentechniken eingesetzt werden.<br><br>[[https://www.inf.uni-rostock.de/llm/ueber-uns/department/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "unirostock-llm",
@@ -2040,6 +2098,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Intelligent Microrobotics Laboratory (IML)",
+        "description": "**Wei Wang** — Westlake University, Hangzhou (CN)<br><br>Designs and fabricates CMOS-circuit-compatible intelligent microrobotics: CMOS circuit design for microrobotics, structure design for micro machines, and nanofabrication for building them. Research interests include micro-robotics, origami, MEMS, and cilia-based actuation.<br><br>[[https://wangwei.lab.westlake.edu.cn/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "westlake-wang",
+        "pi": "Wei Wang",
+        "institution": "Westlake University",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.03197,
+          30.33598
+        ]
       }
     },
     {

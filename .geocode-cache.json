@@ -75,6 +75,10 @@
     "lat": 33.77609,
     "lon": -84.39881
   },
+  "Hebrew University of Jerusalem, Jerusalem, IL": {
+    "lat": 31.79186,
+    "lon": 35.24472
+  },
   "Heidelberg University, Heidelberg, DE": {
     "lat": 49.4186,
     "lon": 8.66924
@@ -91,6 +95,10 @@
     "lat": 48.84569,
     "lon": 2.35673
   },
+  "Kyung Hee University, Yongin, KR": {
+    "lat": 37.2424,
+    "lon": 127.08133
+  },
   "Manfred-von-Ardenne-Ring 20, Dresden, DE": {
     "lat": 51.09804,
     "lon": 13.77114
@@ -102,6 +110,10 @@
   "Northwestern University, Evanston, IL, US": {
     "lat": 42.05572,
     "lon": -87.67529
+  },
+  "Parc Cient\u00edfic de Barcelona, Barcelona, ES": {
+    "lat": 41.38204,
+    "lon": 2.11789
   },
   "Physik Instrumente (PI) GmbH & Co. KG, Karlsruhe, DE": {
     "lat": 48.94309,
@@ -151,9 +163,21 @@
     "lat": 32.87924,
     "lon": -117.23112
   },
+  "University of Michigan, Ann Arbor, MI, US": {
+    "lat": 42.29421,
+    "lon": -83.71004
+  },
+  "University of Pennsylvania, Philadelphia, PA, US": {
+    "lat": 39.95221,
+    "lon": -75.19557
+  },
   "University of Washington, Seattle, WA, US": {
     "lat": 47.65543,
     "lon": -122.30017
+  },
+  "Westlake University Yungu Campus, Hangzhou, CN": {
+    "lat": 30.33598,
+    "lon": 120.03197
   },
   "imec, Leuven, BE": {
     "lat": 50.86539,

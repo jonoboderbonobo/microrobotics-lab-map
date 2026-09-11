@@ -33,6 +33,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Younghoon Lee Group",
+        "description": "**Younghoon Lee** — Kyung Hee University, Yongin (KR)<br><br>Assistant Professor of Mechanical Engineering researching iontronics, tribotronics, soft robotics, and hydrogels. Previously a postdoc at MIT's Soft and Micro Robotics Laboratory before joining Kyung Hee University.<br><br>[[https://khu.elsevierpure.com/en/persons/younghoon-lee|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "khu-lee",
+        "pi": "Younghoon Lee",
+        "institution": "Kyung Hee University",
+        "country": "KR",
+        "category": "material-lab",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08133,
+          37.2424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Walther Group",
         "description": "**Andreas Walther** — Johannes Gutenberg University Mainz, Mainz (DE)<br><br>Asset 2<br>Asset 2<br><br>2/3<br>Our Research Mission and Vision<br>​<br><br>Life as Inspiration for Adaptive, Autonomous and Interactive Systems and Materials. What are the essential principles of life? How can we transduce these principles to synthetic systems and materials to innovate for next generation of macromolecular materials systems with unprecedented active and interactive properties? On a molecular level, living systems are characterized by being organized in chemically fueled out-of-equilibrium states that are regulated by signaling networks. This results in a stunning richness of active properties such as self-regulation, adaptation, communication, morphogenesis, self-replication and evolution. <br><br>​<br><br>Complex (Macro)molecular Systems that Organize in Space and Time: Inspired by these challenges, we dedicate our efforts on fueled and feedback-controlled non-equilibrium self-assembling molecular systems that are regulated by signal-processing chemical reaction networks (CRNs). We research such systems on a fundamental system chemistry level and connect such CRNs to artifical cells, self-regulating structures and soft materials research. At the core of our investigations is the design and the synthesis of precision-engineered synthetic polymers, DNA and colloids, as well as their hierarchically self-assembled systems.<br><br><br>Complexity as a Driver for Materials Innovation: Our philosophy is to go beyond a quantitative understanding of structure formation processes, and we aim for an analysis and exploitation of the resulting life-like systems on a functional materials level to bridge the gap between fundamental research and first-time applications. ​For life-like materials systems we focus on self-regulation, adaptation, training, learning, morphogenesis, as well as communication and co-evolution with biological systems as in the context of self-erasing hydrogels, mechanosensing materials, mechanical metamaterials, soft robotics and interactive biomaterials.<br>​<br><br>[[https://www.walther-group.com/research-mission|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "mainz-walther",
@@ -516,6 +545,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pikul Research Group",
+        "description": "**James Pikul** — University of Pennsylvania, Philadelphia, PA (US)<br><br>Develops new materials systems to increase robot mobility and autonomy: shape-transforming soft robotic surfaces, synthetic vascular systems for robots, air-breathing power sources, and room-temperature self-healing metallic parts, drawing on electrochemistry, soft matter physics, and manufacturing.<br><br>[[https://pikul-lab.seas.upenn.edu/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "upenn-pikul",
+        "pi": "James Pikul",
+        "institution": "University of Pennsylvania",
+        "country": "US",
+        "category": "material-lab",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19557,
+          39.95221
+        ]
       }
     }
   ]
