@@ -87,6 +87,35 @@
           39.19279
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laboratory for Nanomaterial-Based Devices (LNBD)",
+        "description": "**Hossam Haick** — Technion – Israel Institute of Technology, Haifa (IL)<br><br>Develops artificial olfactory systems based on nanosensor arrays -- the NA-NOSE (Nano Artificial NOSE) -- that detect volatile organic compound biomarkers in breath at single-parts-per-billion sensitivity. An AI-paired nanoarray version can distinguish 17+ diseases from breath samples, including several cancers, kidney disease, Parkinson's, and Alzheimer's, at up to 86% accuracy. Commercialized via spinout NaNose Medical.<br><br>[[https://lnbd.technion.ac.il/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "id": "technion-haick",
+        "pi": "Hossam Haick",
+        "institution": "Technion – Israel Institute of Technology",
+        "country": "IL",
+        "category": "nano-medicine",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "MediumSeaGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.02254,
+          32.77681
+        ]
+      }
     }
   ]
 }

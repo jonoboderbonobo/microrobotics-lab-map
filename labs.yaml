@@ -2299,6 +2299,36 @@
     and drop this one.
 
     '
+- id: technion-haick
+  name: Laboratory for Nanomaterial-Based Devices (LNBD)
+  pi: Hossam Haick
+  institution: Technion – Israel Institute of Technology
+  city: Haifa
+  country: IL
+  lat: 32.77681
+  lon: 35.02254
+  osm: null
+  url: https://lnbd.technion.ac.il/
+  people_url: null
+  category: nano-medicine
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Develops artificial olfactory systems based on nanosensor arrays --
+    the NA-NOSE (Nano Artificial NOSE) -- that detect volatile organic compound biomarkers
+    in breath at single-parts-per-billion sensitivity. An AI-paired nanoarray version
+    can distinguish 17+ diseases from breath samples, including several cancers, kidney
+    disease, Parkinson's, and Alzheimer's, at up to 86% accuracy. Commercialized via
+    spinout NaNose Medical.
+  notes: Found via web search, not migrated. No microrobotics link, but a real, working
+    example of non-invasive, continuous-monitoring-adjacent diagnostic sensing detecting
+    multiple conditions at once -- directly on the long-term organ-monitoring horizon.
+    Adds Israel to the map's geography, notable since Bionaut Labs (already tracked)
+    also has R&D there.
 - id: tuc-horstmann
   name: Electronic Devices of Micro and Nano Technique
   pi: John Thomas Horstmann
