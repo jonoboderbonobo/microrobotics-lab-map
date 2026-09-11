@@ -116,6 +116,35 @@
           40.33868
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xiang Cheng Group",
+        "description": "**Xiang Cheng** — University of Minnesota, Minneapolis, MN (US)<br><br>Studies fluid dynamics, biophysics, and soft matter physics: swimming microorganisms in complex environments, collective dynamics of dense bacterial suspensions, rheology of colloidal suspensions, and emergent collective phenomena of granular robotic systems -- including directed transport of swimming bacteria through funnel-shaped obstacles as a model for rectifying living active matter.<br><br>[[https://cse.umn.edu/cems/xiang-cheng|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
+        "id": "umn-cheng",
+        "pi": "Xiang Cheng",
+        "institution": "University of Minnesota",
+        "country": "US",
+        "category": "information-technology",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkCyan",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.17945,
+          44.98634
+        ]
+      }
     }
   ]
 }

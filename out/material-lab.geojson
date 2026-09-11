@@ -62,6 +62,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Soft Matter Lab",
+        "description": "**Rajesh Ganapathy** — JNCASR (Jawaharlal Nehru Centre for Advanced Scientific Research), Bengaluru (IN)<br><br>Professor at JNCASR's International Centre for Materials Science and School of Advanced Materials, working on soft matter physics. Recipient of the Shanti Swarup Bhatnagar Prize for Science and Technology, India's top science award.<br><br>[[https://www.jncasr.ac.in/faculty/rajeshg|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "jncasr-ganapathy",
+        "pi": "Rajesh Ganapathy",
+        "institution": "JNCASR (Jawaharlal Nehru Centre for Advanced Scientific Research)",
+        "country": "IN",
+        "category": "material-lab",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.61068,
+          13.06831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Younghoon Lee Group",
         "description": "**Younghoon Lee** — Kyung Hee University, Yongin (KR)<br><br>Assistant Professor of Mechanical Engineering researching iontronics, tribotronics, soft robotics, and hydrogels. Previously a postdoc at MIT's Soft and Micro Robotics Laboratory before joining Kyung Hee University.<br><br>[[https://khu.elsevierpure.com/en/persons/younghoon-lee|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "khu-lee",

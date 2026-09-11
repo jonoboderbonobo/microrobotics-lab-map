@@ -1590,6 +1590,32 @@
     is directly adjacent to cornell-cohen/upenn-miskin's own approach (flat-fabricate
     then fold), but an independent, highly-patented group -- untethered microgrippers
     in particular are a real whole-device match, not just a materials/technique overlap.
+- id: jncasr-ganapathy
+  name: Soft Matter Lab
+  pi: Rajesh Ganapathy
+  institution: JNCASR (Jawaharlal Nehru Centre for Advanced Scientific Research)
+  city: Bengaluru
+  country: IN
+  lat: 13.06831
+  lon: 77.61068
+  osm: null
+  url: https://www.jncasr.ac.in/faculty/rajeshg
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 3
+  status: watch
+  description: Professor at JNCASR's International Centre for Materials Science and
+    School of Advanced Materials, working on soft matter physics. Recipient of the
+    Shanti Swarup Bhatnagar Prize for Science and Technology, India's top science
+    award.
+  notes: Found via alumni-snowballing from cornell-cohen. First Indian entry on the
+    map. Soft matter physics is a broad field-level match, not a specific component/technology
+    match -- relevance kept moderate accordingly.
 - id: khu-lee
   name: Younghoon Lee Group
   pi: Younghoon Lee
@@ -2990,6 +3016,34 @@
   notes: 'Found via alumni-snowballing from mit-smrl (Kevin Chen''s lab). A near-exact
     double match: micron-scale + swarm behavior in one person, brand new faculty (Jan
     2025) and actively recruiting -- genuinely worth reaching out to, not just watching.'
+- id: umn-cheng
+  name: Xiang Cheng Group
+  pi: Xiang Cheng
+  institution: University of Minnesota
+  city: Minneapolis, MN
+  country: US
+  lat: 44.98634
+  lon: -93.17945
+  osm: null
+  url: https://cse.umn.edu/cems/xiang-cheng
+  people_url: null
+  category: information-technology
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: 'Studies fluid dynamics, biophysics, and soft matter physics: swimming
+    microorganisms in complex environments, collective dynamics of dense bacterial
+    suspensions, rheology of colloidal suspensions, and emergent collective phenomena
+    of granular robotic systems -- including directed transport of swimming bacteria
+    through funnel-shaped obstacles as a model for rectifying living active matter.'
+  notes: Found via alumni-snowballing from cornell-cohen. The granular-robotic-swarm
+    and active-matter-rectification work is a real, if unusual-angle, parallel to
+    the System-Level-Behavior workstream -- using physics of collective motion rather
+    than programmed algorithms to get emergent swarm behavior.
 - id: unirostock-agis
   name: AGIS — Altern des Individuums und der Gesellschaft
   pi: null
