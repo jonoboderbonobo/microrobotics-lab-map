@@ -1369,6 +1369,35 @@
     genuine sub-mm autonomy.
 
     '
+- id: purdue-oxidemems
+  name: OxideMEMS Lab
+  pi: Sunil Bhave
+  institution: Purdue University
+  city: West Lafayette, IN
+  country: US
+  lat: 40.43003
+  lon: -86.92642
+  osm: null
+  url: https://engineering.purdue.edu/oxidemems/
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Investigates coupled opto-mechanical, spin-acoustic, and atom-MEMS
+    systems, applied to inertial sensors, frequency standards, and microwave components
+    -- including piezo-optomechanical transduction for LIDAR and IR sensing. Works
+    with advanced fabrication of piezoelectric materials including PMN-PT and lithium
+    niobate.
+  notes: Found via web search, not migrated. PMN-PT is the exact single-crystal piezoelectric
+    material named in the project's own reference design -- strong material/fabrication
+    match for the Actuation workstream, even though this lab's own applications (LIDAR,
+    frequency standards) aren't microrobotics.
 - id: rice-robinson
   name: Robinson Lab — Nano-neurotechnology
   pi: Jacob T. Robinson
@@ -2447,6 +2476,39 @@
     fully onboard energy harvesting, autonomous operation, and an intermittent-computing
     approach directly relevant to a sub-nW power budget. Category is milli-robotics
     (10mm chassis, well above the 1mm micro-robotics cutoff), not micro-robotics.'
+- id: wibotic
+  name: WiBotic
+  pi: Ben Waters
+  institution: WiBotic Inc.
+  city: Seattle, WA
+  country: US
+  lat: 47.69944
+  lon: -122.32382
+  osm: null
+  url: https://www.wibotic.com/
+  people_url: null
+  category: electronic-engineering
+  application:
+  - industrial
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 4
+  status: watch
+  description: Spun out of the University of Washington in 2015, WiBotic builds adaptive
+    resonant inductive wireless charging systems that let autonomous robots, drones,
+    and marine vehicles recharge without manual plug-in. Founded by Ben Waters (UW
+    EE PhD) and Professor Joshua Smith; the underlying wireless power technology was
+    originally developed to power an LVAD (left ventricular assist device) heart pump
+    without transcutaneous cables.
+  notes: 'Found via web search, not migrated. Direct fit for the Mothership workstream
+    (a local station powering a fleet/swarm). Also worth noting: co-founder Joshua
+    Smith is a senior UW EE/Allen School professor and the historical root of the
+    same lab lineage as uw-netlab (Vikram Iyer, already on this map) -- check whether
+    there''s a live collaboration angle here, not just two separate UW entries. The
+    LVAD origin story is also a direct precedent for wireless-powering something implanted
+    in a body, not just a robot on a table.'
 - id: zju-fpms
   name: Fluid-Power and Mechatronic Systems
   pi: Sun Yu

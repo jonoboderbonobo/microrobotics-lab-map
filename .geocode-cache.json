@@ -11,6 +11,10 @@
     "lat": 30.39202,
     "lon": -97.84834
   },
+  "9706 4th Ave NE, Seattle, US": {
+    "lat": 47.69944,
+    "lon": -122.32382
+  },
   "CSEM, Neuch\u00e2tel, CH": {
     "lat": 46.99769,
     "lon": 6.94747
@@ -34,6 +38,10 @@
   "Institut des Syst\u00e8mes Intelligents et de Robotique, Paris, FR": {
     "lat": 48.84569,
     "lon": 2.35673
+  },
+  "Purdue University, West Lafayette, IN, US": {
+    "lat": 40.43003,
+    "lon": -86.92642
   },
   "Rice University, Houston, TX, US": {
     "lat": 29.71679,

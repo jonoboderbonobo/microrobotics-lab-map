@@ -196,6 +196,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "OxideMEMS Lab",
+        "description": "**Sunil Bhave** — Purdue University, West Lafayette, IN (US)<br><br>Investigates coupled opto-mechanical, spin-acoustic, and atom-MEMS systems, applied to inertial sensors, frequency standards, and microwave components -- including piezo-optomechanical transduction for LIDAR and IR sensing. Works with advanced fabrication of piezoelectric materials including PMN-PT and lithium niobate.<br><br>[[https://engineering.purdue.edu/oxidemems/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "purdue-oxidemems",
+        "pi": "Sunil Bhave",
+        "institution": "Purdue University",
+        "country": "US",
+        "category": "material-lab",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.92642,
+          40.43003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Materials & Computational Chemistry",
         "description": "**Juliane Simmchen** — University of Strathclyde, Glasgow (GB)<br><br>Dr Juliane Simmchen at Hamlyn Symposium 2024<br><br>colloidal synthesis and characterization<br>active matter<br>photocatalytic particles<br><br><br><br><br>The materials and computational research group covers a diverse range of interests with an emphasis on applied, multidisciplinary projects. The group has a strong track record of working with industry in areas such as:<br><br>    energy<br>    lighting<br>    displays<br>    polymer science<br>    bionanotechnology<br>    biophysical chemistry<br>    sensors<br>    the food industry<br><br>The activities of the section encompass inorganic and organic synthetic chemistry for the development of functional materials and devices. The work is complemented by substantial characterisation facilities and pioneering research into structure-property relationships. Research within this section also focuses on the structure and properties of molecules, metal-containing compounds, materials and biological systems.<br><br>[[https://www.strath.ac.uk/research/subjects/chemistry/materialscomputationalchemistry/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "strath-materials",

@@ -336,6 +336,35 @@
           37.43131
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WiBotic",
+        "description": "**Ben Waters** — WiBotic Inc., Seattle, WA (US)<br><br>Spun out of the University of Washington in 2015, WiBotic builds adaptive resonant inductive wireless charging systems that let autonomous robots, drones, and marine vehicles recharge without manual plug-in. Founded by Ben Waters (UW EE PhD) and Professor Joshua Smith; the underlying wireless power technology was originally developed to power an LVAD (left ventricular assist device) heart pump without transcutaneous cables.<br><br>[[https://www.wibotic.com/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "wibotic",
+        "pi": "Ben Waters",
+        "institution": "WiBotic Inc.",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "industrial,medical",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32382,
+          47.69944
+        ]
+      }
     }
   ]
 }
