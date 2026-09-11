@@ -13,12 +13,13 @@ from pathlib import Path
 import yaml
 
 import geocode
-from taxonomy import CATEGORIES, ICON_SHAPE
+from taxonomy import CATEGORIES, ICON_SHAPE, POLYGON_OPTIONS
 from validate import validate
 
 ROOT = Path(__file__).parent
 LABS_PATH = ROOT / "labs.yaml"
 OUT_DIR = ROOT / "out"
+POLYGONS_DIR = ROOT / "polygons"
 
 
 def load_labs() -> list:
@@ -67,9 +68,9 @@ def build_description(lab: dict, category_label: str) -> str:
     return "\n".join(lines).replace("\n", "<br>")
 
 
-def build_feature(lab: dict) -> dict:
+def build_properties(lab: dict) -> dict:
     category_label, color, _ = CATEGORIES[lab["category"]]
-    properties = {
+    return {
         "name": lab["name"],
         "description": build_description(lab, category_label),
         "id": lab["id"],
@@ -85,18 +86,46 @@ def build_feature(lab: dict) -> dict:
         "status": lab["status"],
         "relevance": str(lab["relevance"]),
         "min_dim_um": str(lab["min_dim_um"]) if lab["min_dim_um"] is not None else "unknown",
-        "_umap_options": {"color": color, "iconClass": ICON_SHAPE},
-    }
-    return {
+    }, color
+
+
+def load_polygon(lab_id: str) -> dict | None:
+    path = POLYGONS_DIR / f"{lab_id}.geojson"
+    if not path.exists():
+        return None
+    with path.open() as f:
+        geometry = json.load(f)
+    if geometry.get("type") not in ("Polygon", "MultiPolygon"):
+        raise ValueError(f"{lab_id}: polygons/{lab_id}.geojson must be a Polygon or MultiPolygon")
+    return geometry
+
+
+def build_features(lab: dict) -> list[dict]:
+    properties, color = build_properties(lab)
+    point = {
         "type": "Feature",
-        "properties": properties,
+        "properties": {**properties, "_umap_options": {"color": color, "iconClass": ICON_SHAPE}},
         "geometry": {"type": "Point", "coordinates": [lab["lon"], lab["lat"]]},
     }
+    features = [point]
+
+    geometry = load_polygon(lab["id"])
+    if geometry is not None:
+        polygon = {
+            "type": "Feature",
+            "properties": {**properties, "_umap_options": {"color": color, **POLYGON_OPTIONS}},
+            "geometry": geometry,
+        }
+        features.append(polygon)
+
+    return features
 
 
 def write_geojson(category: str, labs_for_category: list) -> None:
     _, _, filename = CATEGORIES[category]
-    features = [build_feature(lab) for lab in sorted(labs_for_category, key=lambda lab: lab["id"])]
+    features = []
+    for lab in sorted(labs_for_category, key=lambda lab: lab["id"]):
+        features.extend(build_features(lab))
     collection = {"type": "FeatureCollection", "features": features}
     with (OUT_DIR / filename).open("w") as f:
         json.dump(collection, f, indent=2, ensure_ascii=False)

@@ -29,6 +29,109 @@
           39.952881
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MSMA Group — MicroSensors and MicroActuators",
+        "description": "**Mark G. Allen** — University of Pennsylvania, Philadelphia, PA (US)<br><br>Microsensors and microactuators. Collaborates with McEuen and Miskin.<br><br>[[https://mems.seas.upenn.edu/|Group website]]<br>[[https://mems.seas.upenn.edu/members/|People]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "penn-msma",
+        "pi": "Mark G. Allen",
+        "institution": "University of Pennsylvania",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -75.188992,
+              39.952663
+            ],
+            [
+              -75.188957,
+              39.952535
+            ],
+            [
+              -75.188549,
+              39.952486
+            ],
+            [
+              -75.188439,
+              39.953021
+            ],
+            [
+              -75.188681,
+              39.953056
+            ],
+            [
+              -75.188684,
+              39.953012
+            ],
+            [
+              -75.188976,
+              39.953054
+            ],
+            [
+              -75.188963,
+              39.953088
+            ],
+            [
+              -75.189276,
+              39.953121
+            ],
+            [
+              -75.189333,
+              39.952871
+            ],
+            [
+              -75.189402,
+              39.952862
+            ],
+            [
+              -75.18941,
+              39.952821
+            ],
+            [
+              -75.189223,
+              39.952825
+            ],
+            [
+              -75.18903,
+              39.952786
+            ],
+            [
+              -75.188984,
+              39.952801
+            ],
+            [
+              -75.188726,
+              39.952751
+            ],
+            [
+              -75.18874,
+              39.952636
+            ],
+            [
+              -75.188992,
+              39.952663
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
     }
   ]
 }

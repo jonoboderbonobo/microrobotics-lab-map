@@ -69,6 +69,13 @@ hospital
     Hospitals and clinicians willing to deploy experimental microrobotics.
     Critical for clinical trials and publicity. Customers, or customers of
     customers. Their problems should be the problems being solved.
+
+cleanroom-service
+    Fabs and foundries that sell cleanroom/fabrication capacity as a service
+    (e.g. MPW runs) rather than running their own research program. Distinct
+    from material-lab: a material-lab's output is its own research; a
+    cleanroom service's output is fabrication capacity for someone else's
+    design. High value for actually getting a design made.
 """
 
 CATEGORIES = {
@@ -82,6 +89,7 @@ CATEGORIES = {
     "nano-medicine":         ("Nano-Medicine",                  "MediumSeaGreen", "nano-medicine.geojson"),
     "medicine-lab":          ("Medicine Lab",                   "DarkOliveGreen", "medicine-lab.geojson"),
     "hospital":              ("Hospital",                       "Crimson",        "hospital.geojson"),
+    "cleanroom-service":     ("Clean Room Service",             "SlateGray",      "cleanroom-service.geojson"),
 }
 
 # Marker shape. Uniform across categories -- color carries the category, shape
@@ -99,3 +107,23 @@ POLYGON_OPTIONS = {
 APPLICATIONS = {"medical", "environmental", "industrial", "fundamental"}
 INSTITUTION_TYPES = {"university", "institute", "hospital", "company"}
 STATUSES = {"watch", "contacted", "collaborating"}
+
+"""
+Example:
+
+https://github.com/jonoboderbonobo/microrobotics-lab-map
+
+
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/micro-robotics.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/milli-robotics.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/electronic-engineering.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/material-lab.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/neuroscience-lab.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/information-technology.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/biomedical-lab.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/nano-medicine.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/medicine-lab.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/hospital.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/cleanroom-service.geojson
+"""
+

@@ -32,10 +32,18 @@ If you don't know the coordinates, set `lat: null` and `lon: null` — the build
 geocodes from `institution, city, country` and writes the result back into
 `labs.yaml`.
 
-`osm` is a campus-outline hook (`way/<id>` or `relation/<id>` from
-openstreetmap.org) — currently validated for format only. `build.py` doesn't
-fetch or render the polygon yet; every entry has it `null` today. Ask for that
-feature once you actually want to use it.
+For a campus outline, save its geometry as `polygons/<id>.geojson` — a bare
+GeoJSON `Polygon`/`MultiPolygon` geometry object, no properties, no `Feature`
+wrapper (see any existing file in `polygons/` for the shape). `build.py`
+picks it up by filename automatically and emits it as a second feature
+alongside the point marker, styled via `taxonomy.py`'s `POLYGON_OPTIONS` plus
+the category color. No `labs.yaml` field needed for this.
+
+`osm` (`way/<id>` / `relation/<id>` from openstreetmap.org) is a *different*,
+not-yet-built mechanism reserved for live-fetching a polygon from OSM by id at
+build time — currently validated for format only, always `null`. The
+`polygons/` files are hand-sourced instead (from the original hand-drawn
+map's already-verified shapes, in the initial migration).
 
 ```
 python build.py
@@ -128,6 +136,27 @@ newline.
 
 ## import_umap.py
 
-Not used — this map is being built fresh by hand rather than migrated from an
-existing uMap export, so this script was never written. If that changes, say
-so and it can be added back into the plan.
+Used once to migrate the old hand-drawn map (38 new labs added, plus campus
+polygons for those and the 6 already-hand-curated entries into `polygons/`),
+then deleted per its own design intent — it's one-time migration code, not
+part of the ongoing pipeline. Recoverable from git history if ever needed
+again.
+
+Every migrated entry has `application`, `institution_type`, `relevance`, and
+`status` set to the literal string `"TODO"` — deliberately not a member of
+its field's enum in `taxonomy.py`, so `validate.py` refuses to build until
+each one is replaced with a real value by hand (same mechanism as any other
+schema violation, just intentionally triggered). `onboard_power` defaults to
+`false` and won't block the build, but is flagged in `notes` as unverified.
+`out/` will only reflect the 6 pre-migration entries until the 38 new ones
+are filled in — that's expected, not a bug.
+
+The old map also had ten single-person placeholder-pin layers (one map layer
+per named researcher, e.g. "Metin Sitti - Stuttgart/Istanbul") plus an empty
+"Individuals" layer. All ten were dropped: every one of those pins was a bare
+marker with no name or description at all, and every person they represented
+already had a full entry in one of the category layers. Nothing here
+recreates that one-layer-per-person pattern — an individual researcher is
+just a normal `labs.yaml` entry with `pi` set, findable via uMap's built-in
+search box across whatever category they're filed under, which is what "one
+layer for all individuals, filtered by name" comes down to in this design.
