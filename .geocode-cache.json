@@ -35,9 +35,17 @@
     "lat": 47.69944,
     "lon": -122.32382
   },
+  "AIBN, Brisbane, AU": {
+    "lat": -27.50063,
+    "lon": 153.01253
+  },
   "CSEM, Neuch\u00e2tel, CH": {
     "lat": 46.99769,
     "lon": 6.94747
+  },
+  "California Institute of Technology, Pasadena, US": {
+    "lat": 34.13701,
+    "lon": -118.12529
   },
   "Cornell University, Ithaca, NY, US": {
     "lat": 42.45292,

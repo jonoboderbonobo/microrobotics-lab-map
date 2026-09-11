@@ -116,6 +116,35 @@
           32.77681
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Australian Institute for Bioengineering and Nanotechnology",
+        "description": "**Australian Institute for Bioengineering and Nanotechnology** — University of Queensland, Brisbane (AU)<br><br>Integrated multidisciplinary research institute (500+ researchers/staff) spanning bioengineering and nanotechnology across five research pillars: stem cell ageing and regenerative engineering, precision nanomedicine, advanced materials, agriculture nanotechnology, and advanced biomanufacturing. Hosts BASE, Australia's largest mRNA vaccine/therapy manufacturing facility.<br><br>[[https://aibn.uq.edu.au/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "id": "uq-aibn",
+        "pi": "",
+        "institution": "University of Queensland",
+        "country": "AU",
+        "category": "nano-medicine",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "MediumSeaGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01253,
+          -27.50063
+        ]
+      }
     }
   ]
 }

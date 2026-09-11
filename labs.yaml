@@ -186,6 +186,37 @@
     angle in one person. lat/lon is University of Bristol''s central engineering campus
     area as an approximate point -- Nominatim gave disagreeing results for the university
     name alone.'
+- id: caltech-winfree
+  name: Winfree Lab — Molecular Robotics
+  pi: Erik Winfree
+  institution: California Institute of Technology
+  city: Pasadena, CA
+  country: US
+  lat: 34.13701
+  lon: -118.12529
+  osm: null
+  url: https://www.dna.caltech.edu/
+  people_url: null
+  category: information-technology
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 2
+  status: watch
+  description: Pioneers DNA nanotechnology and molecular programming -- computation
+    and robotics built from DNA itself rather than silicon. State-of-the-art DNA robots
+    can walk a few steps along a 2D track, make branching decisions, and pick up cargo;
+    the group is working toward molecular robots with swarm-intelligence-inspired
+    collective behavior. Co-shared the 2006 Feynman Prize in Nanotechnology (with
+    Paul Rothemund) for demonstrating DNA computing.
+  notes: 'Found via web search, not migrated. A completely different computational
+    and fabrication substrate from the project''s own CMOS approach -- included as
+    a genuine alternative-paradigm reference for the Computing workstream, not because
+    it''s a near-term technology match. Interesting mainly as a long-term conceptual
+    comparison: what does ''computation on board a molecule-scale robot'' even look
+    like.'
 - id: chipfoundry
   name: ChipFoundry.io
   pi: null
@@ -3012,6 +3043,36 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: uq-aibn
+  name: Australian Institute for Bioengineering and Nanotechnology
+  pi: null
+  institution: University of Queensland
+  city: Brisbane
+  country: AU
+  lat: -27.50063
+  lon: 153.01253
+  osm: null
+  url: https://aibn.uq.edu.au/
+  people_url: null
+  category: nano-medicine
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 2
+  status: watch
+  description: 'Integrated multidisciplinary research institute (500+ researchers/staff)
+    spanning bioengineering and nanotechnology across five research pillars: stem
+    cell ageing and regenerative engineering, precision nanomedicine, advanced materials,
+    agriculture nanotechnology, and advanced biomanufacturing. Hosts BASE, Australia''s
+    largest mRNA vaccine/therapy manufacturing facility.'
+  notes: Found via web search, not migrated. Institute-level rather than a specific
+    PI/technology match -- added for geographic diversity (first Australian entry)
+    and because precision nanomedicine is one of its named pillars. Worth drilling
+    into specific groups there later rather than treating the whole institute as one
+    contact.
 - id: utoronto-crl
   name: Continuum Robotics Lab
   pi: Jessica Burgner-Kahrs

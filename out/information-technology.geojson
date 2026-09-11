@@ -33,6 +33,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Winfree Lab — Molecular Robotics",
+        "description": "**Erik Winfree** — California Institute of Technology, Pasadena, CA (US)<br><br>Pioneers DNA nanotechnology and molecular programming -- computation and robotics built from DNA itself rather than silicon. State-of-the-art DNA robots can walk a few steps along a 2D track, make branching decisions, and pick up cargo; the group is working toward molecular robots with swarm-intelligence-inspired collective behavior. Co-shared the 2006 Feynman Prize in Nanotechnology (with Paul Rothemund) for demonstrating DNA computing.<br><br>[[https://www.dna.caltech.edu/|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
+        "id": "caltech-winfree",
+        "pi": "Erik Winfree",
+        "institution": "California Institute of Technology",
+        "country": "US",
+        "category": "information-technology",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkCyan",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.12529,
+          34.13701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Electronic Vision(s) — Neuromorphic Computing Architectures",
         "description": "**Johannes Schemmel** — Heidelberg University, Heidelberg (DE)<br><br>Designs BrainScaleS, a mixed-signal analog/digital neuromorphic computing platform emulating spiking neural networks in continuous time (~1000x faster than biological real-time, far lower energy than conventional digital compute). BrainScaleS-2 integrates 512 adaptive integrate-and-fire neurons and 131k plastic synapses per chip; BrainScaleS-1 demonstrated wafer-scale neuromorphic integration. Part of the EU EBRAINS research infrastructure. PI Johannes Schemmel holds Heidelberg's Chair of Neuromorphic Computing Architectures and has led the group's ASIC lab since 2008.<br><br>[[https://www.kip.uni-heidelberg.de/vision/|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
         "id": "heidelberg-schemmel",
