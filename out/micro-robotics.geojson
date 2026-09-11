@@ -220,6 +220,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Chaoyu Yang Group",
+        "description": "**Chaoyu Yang** — Chinese University of Hong Kong, Hong Kong (HK)<br><br>Department of Mechanical and Automation Engineering researcher, co-author of 'Dynamic coupling enables impulsive ejection in a hydrogel catapult' (Nature Communications), a dynamic-coupling ejection strategy giving miniature robots high-speed, cross-scale, non-contact locomotion.<br><br>[[https://scholar.google.com/citations?hl=en&q=Chaoyu+Yang+hydrogel+catapult+microrobot|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "cuhk-yang-c",
+        "pi": "Chaoyu Yang",
+        "institution": "Chinese University of Hong Kong",
+        "country": "HK",
+        "category": "micro-robotics",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2099,
+          22.41372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Zhang Research Lab",
         "description": "**Li Zhang** — Chinese University of Hong Kong, Hong Kong (HK)<br><br>Works on microrobotics, medical robotics, biorobotics, and soft materials -- including navigation and localization of microrobotic swarms in blood vessels, and a biohybrid microbot built from Spirulina algae with in-vivo tracking and programmable biodegradability. Author/co-author of 400+ publications including Science Robotics, Nature Materials, and Nature Biomedical Engineering; earlier artificial-bacterial-flagella work was indexed in the Guinness Book of World Records 2012 as the 'Most Advanced Mini Robot for Medical Use.'<br><br>[[https://microbot.mae.cuhk.edu.hk/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "cuhk-zhang",
@@ -1297,6 +1326,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Mengmeng Sun Group",
+        "description": "**Mengmeng Sun** — National University of Singapore, Singapore (SG)<br><br>Department of Biomedical Engineering researcher working on micro/nanorobots for targeted therapy and diagnostics, including a review of gastrointestinal capsule robots (materials, actuation, diagnostics, therapeutics) and versatile modular magnetic solid-droplet systems.<br><br>[[https://scholar.google.com/citations?hl=en&q=Mengmeng+Sun+microrobot+NUS|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "nus-sun",
+        "pi": "Mengmeng Sun",
+        "institution": "National University of Singapore",
+        "country": "SG",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.77662,
+          1.29598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Laboratory for Micromachine Intelligence (μ-MIL)",
         "description": "**Tian-Yun Huang** — Peking University, Beijing (CN)<br><br>Assistant Professor of Micromachine Intelligence (μ-AI) in the Department of Advanced Manufacturing and Robotics. Works on micromachine intelligence, micro-/nanorobotics, and advanced additive manufacturing -- an integrated platform for design, fabrication, characterization, and actuation of intelligent micromachines for precision medicine and bioengineering in complex microenvironments. PhD from ETH MSRL.<br><br>[[https://www.researchgate.net/lab/Laboratory-for-Micromachine-Intelligence-m-MIL-Tian-Yun-Huang|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "pku-huang",
@@ -1471,6 +1529,64 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qianqian Wang Group",
+        "description": "**Qianqian Wang** — Southeast University Sipailou Campus, Nanjing (CN)<br><br>School of Mechanical Engineering researcher working on micro/nanorobot swarms and magnetically actuated microrobots for medical applications -- on-demand pattern transformation of microrobotic swarms for targeted navigation, and nanothorn-equipped ionogel microrobots for periodontitis therapy.<br><br>[[https://scholar.google.com/citations?hl=en&q=Qianqian+Wang+microrobot+Southeast+University|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "seu-wang",
+        "pi": "Qianqian Wang",
+        "institution": "Southeast University Sipailou Campus",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78828,
+          32.05765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jialin Jiang Group",
+        "description": "**Jialin Jiang** — 沈阳自动化研究所, Shenyang (CN)<br><br>Works on microswarm path planning and navigation, including RRT*-based hybrid path planning for automatic navigation of microswarms -- vortex-like microswarms formed from millions of nanoscale Fe3O4 particles as the robot agents.<br><br>[[https://scholar.google.com/citations?hl=zh-CN&q=Jialin+Jiang+microswarm|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "sia-jiang",
+        "pi": "Jialin Jiang",
+        "institution": "沈阳自动化研究所",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.48685,
+          41.76045
+        ]
       }
     },
     {
@@ -1778,6 +1894,35 @@
         "coordinates": [
           113.99685,
           22.6036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ben Wang Group",
+        "description": "**Ben Wang** — Shenzhen University Lihu Campus, Shenzhen (CN)<br><br>Joined Shenzhen University (College of Chemistry and Environmental Engineering) in December 2019, working on magnetic-driven microrobots and microswimmers for targeted delivery and therapy in the digestive system, including photocatalytic helical swimmers and rotating soft-tail millimeter-scale swimmers.<br><br>[[https://scholar.google.com/citations?hl=en&q=Ben+Wang+microrobot+Shenzhen+University|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "szu-wang",
+        "pi": "Ben Wang",
+        "institution": "Shenzhen University Lihu Campus",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98796,
+          22.60099
         ]
       }
     },
@@ -2589,6 +2734,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xin Chen Group",
+        "description": "**Xin Chen** — University of Science and Technology of China (USTC), Hefei (CN)<br><br>Department of Precision Machinery and Precision Instrumentation researcher combining femtosecond-laser fabrication with magnetic actuation of microrobots -- magnetically-encoded 3D mesostructures with shape morphing, magnetic tubular micromotors for targeted single-cell therapeutics, and 4D laser writing of submerged structural colors.<br><br>[[https://scholar.google.com/citations?hl=en&q=Xin+Chen+microrobot+USTC+femtosecond|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "ustc-xin",
+        "pi": "Xin Chen",
+        "institution": "University of Science and Technology of China (USTC)",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2731,
+          31.8414
+        ]
       }
     },
     {

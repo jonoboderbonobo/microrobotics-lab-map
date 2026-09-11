@@ -111,6 +111,10 @@
     "lat": 31.79186,
     "lon": 35.24472
   },
+  "Hefei University of Technology, Hefei, CN": {
+    "lat": 31.84672,
+    "lon": 117.29057
+  },
   "Heidelberg University, Heidelberg, DE": {
     "lat": 49.4186,
     "lon": 8.66924
@@ -155,6 +159,10 @@
     "lat": 51.1256,
     "lon": 13.78449
   },
+  "National University of Singapore, Singapore, SG": {
+    "lat": 1.29598,
+    "lon": 103.77662
+  },
   "Northwestern University, Evanston, IL, US": {
     "lat": 42.05572,
     "lon": -87.67529
@@ -198,6 +206,14 @@
   "Shanghai Jiao Tong University, Shanghai, CN": {
     "lat": 31.20089,
     "lon": 121.42839
+  },
+  "Shenzhen University Lihu Campus, Shenzhen, CN": {
+    "lat": 22.60099,
+    "lon": 113.98796
+  },
+  "Southeast University Sipailou Campus, Nanjing, CN": {
+    "lat": 32.05765,
+    "lon": 118.78828
   },
   "Stanford University, Stanford, CA, US": {
     "lat": 37.43131,
@@ -286,5 +302,9 @@
   "imec, Leuven, BE": {
     "lat": 50.86539,
     "lon": 4.67956
+  },
+  "\u6c88\u9633\u81ea\u52a8\u5316\u7814\u7a76\u6240, Shenyang, CN": {
+    "lat": 41.76045,
+    "lon": 123.48685
   }
 }

@@ -62,6 +62,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Zhaoxin Lao Group",
+        "description": "**Zhaoxin Lao** — Hefei University of Technology, Hefei (CN)<br><br>Works on femtosecond laser direct-writing fabrication of micro/nanostructures, including Dammann gratings, SERS substrates, and bioinspired flexible tactile sensors with hierarchical microhair arrays.<br><br>[[https://scholar.google.com/citations?hl=en&q=Zhaoxin+Lao+femtosecond+laser|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "hfut-lao",
+        "pi": "Zhaoxin Lao",
+        "institution": "Hefei University of Technology",
+        "country": "CN",
+        "category": "material-lab",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.29057,
+          31.84672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Gerbode Lab",
         "description": "**Sharon Gerbode** — Harvey Mudd College, Claremont, CA (US)<br><br>Studies two fronts in experimental soft matter physics: colloidal self-assembly into thermodynamic phases, and adaptive biomaterials -- soft, microstructured biological tissues that actuate complex motions. Sharon Gerbode is the Iris and Howard Critchell Associate Professor of Physics.<br><br>[[https://www.hmc.edu/physics/faculty-staff/gerbode/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "hmc-gerbode",

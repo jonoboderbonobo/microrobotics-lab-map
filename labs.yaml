@@ -626,6 +626,32 @@
   notes: Found via alumni-snowballing from cuhk-zhang. Second CUHK entry alongside
     cuhk-zhang itself, a distinct research assistant professor with his own lab and
     dedicated site.
+- id: cuhk-yang-c
+  name: Chaoyu Yang Group
+  pi: Chaoyu Yang
+  institution: Chinese University of Hong Kong
+  city: Hong Kong
+  country: HK
+  lat: 22.41372
+  lon: 114.2099
+  osm: null
+  url: https://scholar.google.com/citations?hl=en&q=Chaoyu+Yang+hydrogel+catapult+microrobot
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Department of Mechanical and Automation Engineering researcher, co-author
+    of 'Dynamic coupling enables impulsive ejection in a hydrogel catapult' (Nature
+    Communications), a dynamic-coupling ejection strategy giving miniature robots
+    high-speed, cross-scale, non-contact locomotion.
+  notes: Found via alumni-snowballing from cuhk-zhang. Co-authored with Neng Xia and
+    Chengfeng Pan, both already on this map (zju-xia, zju-pan) -- confirms this is
+    a real, connected extended network, not an isolated hit.
 - id: cuhk-zhang
   name: Zhang Research Lab
   pi: Li Zhang
@@ -1524,6 +1550,32 @@
     position unknown'') after Nominatim returned multiple disagreeing University of
     Helsinki campuses -- verify against the Faculty of Pharmacy / Santos group''s
     actual building.'
+- id: hfut-lao
+  name: Zhaoxin Lao Group
+  pi: Zhaoxin Lao
+  institution: Hefei University of Technology
+  city: Hefei
+  country: CN
+  lat: 31.84672
+  lon: 117.29057
+  osm: null
+  url: https://scholar.google.com/citations?hl=en&q=Zhaoxin+Lao+femtosecond+laser
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Works on femtosecond laser direct-writing fabrication of micro/nanostructures,
+    including Dammann gratings, SERS substrates, and bioinspired flexible tactile
+    sensors with hierarchical microhair arrays.
+  notes: Found via alumni-snowballing from cuhk-zhang. Fabrication-technique-level
+    match (laser micromachining relevant to Wafer-Level Processes) rather than a device/robotics
+    group itself.
 - id: hitsz-dong
   name: Yue Dong Group
   pi: Yue Dong
@@ -2489,6 +2541,31 @@
     future application wants the device to dissolve rather than be retrieved. Strong
     fit for both near-term electronics-fabrication and the long-term organ-monitoring
     horizon.
+- id: nus-sun
+  name: Mengmeng Sun Group
+  pi: Mengmeng Sun
+  institution: National University of Singapore
+  city: Singapore
+  country: SG
+  lat: 1.29598
+  lon: 103.77662
+  osm: null
+  url: https://scholar.google.com/citations?hl=en&q=Mengmeng+Sun+microrobot+NUS
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Department of Biomedical Engineering researcher working on micro/nanorobots
+    for targeted therapy and diagnostics, including a review of gastrointestinal capsule
+    robots (materials, actuation, diagnostics, therapeutics) and versatile modular
+    magnetic solid-droplet systems.
+  notes: Found via alumni-snowballing from cuhk-zhang. First Singapore entry on the
+    map.
 - id: penn-msma
   name: MSMA Group — MicroSensors and MicroActuators
   pi: Mark G. Allen
@@ -2857,6 +2934,60 @@
     organ-monitoring horizon needs, even though glucose sensing has no robotics component
     at all. A competitor, Glucotrack, is reportedly developing a 3-year fully implanted
     CGM -- worth a look if this space matters more later.
+- id: seu-wang
+  name: Qianqian Wang Group
+  pi: Qianqian Wang
+  institution: Southeast University Sipailou Campus
+  city: Nanjing
+  country: CN
+  lat: 32.05765
+  lon: 118.78828
+  osm: null
+  url: https://scholar.google.com/citations?hl=en&q=Qianqian+Wang+microrobot+Southeast+University
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: School of Mechanical Engineering researcher working on micro/nanorobot
+    swarms and magnetically actuated microrobots for medical applications -- on-demand
+    pattern transformation of microrobotic swarms for targeted navigation, and nanothorn-equipped
+    ionogel microrobots for periodontitis therapy.
+  notes: Found via alumni-snowballing from cuhk-zhang. First Southeast University
+    entry. Institution string set to the Sipailou campus for geocoding disambiguation
+    (Southeast University is multi-campus).
+- id: sia-jiang
+  name: Jialin Jiang Group
+  pi: Jialin Jiang
+  institution: 沈阳自动化研究所
+  city: Shenyang
+  country: CN
+  lat: 41.76045
+  lon: 123.48685
+  osm: null
+  url: https://scholar.google.com/citations?hl=zh-CN&q=Jialin+Jiang+microswarm
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  description: Works on microswarm path planning and navigation, including RRT*-based
+    hybrid path planning for automatic navigation of microswarms -- vortex-like microswarms
+    formed from millions of nanoscale Fe3O4 particles as the robot agents.
+  notes: Found via alumni-snowballing from cuhk-zhang. First Shenyang Institute of
+    Automation entry -- verified via a Google Scholar URL fetch (WebFetch) rather
+    than WebSearch, after this session's WebSearch budget ran out. Institution taken
+    from the source alumni page, not independently re-confirmed in this specific search.
+    Institution string set to Chinese-language form for geocoding (English form returned
+    zero results).
 - id: siat-cai
   name: Mingxue Cai Group
   pi: Mingxue Cai
@@ -3168,6 +3299,31 @@
     is a real precedent for getting a small device to a precise internal location
     without open surgery -- closer to a near-term technique match than most of the
     other long-term watch entries.'
+- id: szu-wang
+  name: Ben Wang Group
+  pi: Ben Wang
+  institution: Shenzhen University Lihu Campus
+  city: Shenzhen
+  country: CN
+  lat: 22.60099
+  lon: 113.98796
+  osm: null
+  url: https://scholar.google.com/citations?hl=en&q=Ben+Wang+microrobot+Shenzhen+University
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Joined Shenzhen University (College of Chemistry and Environmental
+    Engineering) in December 2019, working on magnetic-driven microrobots and microswimmers
+    for targeted delivery and therapy in the digestive system, including photocatalytic
+    helical swimmers and rotating soft-tail millimeter-scale swimmers.
+  notes: Found via alumni-snowballing from cuhk-zhang. Institution string set to Lihu
+    campus for geocoding disambiguation (Shenzhen University is multi-campus).
 - id: tcd-florea
   name: Florea Lab
   pi: Larisa Florea
@@ -4173,6 +4329,36 @@
   notes: Found via alumni-snowballing from cuhk-zhang. Responsive/field-actuated smart
     materials rather than whole-device microrobotics -- an actuator-materials match,
     similar level to purdue-oxidemems.
+- id: ustc-xin
+  name: Xin Chen Group
+  pi: Xin Chen
+  institution: University of Science and Technology of China (USTC)
+  city: Hefei
+  country: CN
+  lat: 31.8414
+  lon: 117.2731
+  osm: null
+  url: https://scholar.google.com/citations?hl=en&q=Xin+Chen+microrobot+USTC+femtosecond
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Department of Precision Machinery and Precision Instrumentation researcher
+    combining femtosecond-laser fabrication with magnetic actuation of microrobots
+    -- magnetically-encoded 3D mesostructures with shape morphing, magnetic tubular
+    micromotors for targeted single-cell therapeutics, and 4D laser writing of submerged
+    structural colors.
+  notes: Found via alumni-snowballing from cuhk-zhang. Second USTC entry alongside
+    ustc-feng -- both combine advanced fabrication with field-actuated microdevices,
+    worth noting as a real cluster. Coordinates reused directly from ustc-feng (same
+    institution, main USTC campus) since a fresh geocode of the identical institution
+    string returned zero results this round.
 - id: utah-abbott
   name: Telerobotics Lab
   pi: Jake J. Abbott
