@@ -1315,6 +1315,32 @@
     position unknown'') after Nominatim returned multiple disagreeing University of
     Helsinki campuses -- verify against the Faculty of Pharmacy / Santos group''s
     actual building.'
+- id: hmc-gerbode
+  name: Gerbode Lab
+  pi: Sharon Gerbode
+  institution: Harvey Mudd College
+  city: Claremont, CA
+  country: US
+  lat: 34.10614
+  lon: -117.70873
+  osm: null
+  url: https://www.hmc.edu/physics/faculty-staff/gerbode/
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: 'Studies two fronts in experimental soft matter physics: colloidal
+    self-assembly into thermodynamic phases, and adaptive biomaterials -- soft, microstructured
+    biological tissues that actuate complex motions. Sharon Gerbode is the Iris and
+    Howard Critchell Associate Professor of Physics.'
+  notes: Found via alumni-snowballing from cornell-cohen. The adaptive-biomaterials/tissue-actuation
+    side is a genuine biomimicry parallel to the Actuation workstream, distinct from
+    the colloidal self-assembly side which is more purely fundamental.
 - id: huji-beatus
   name: Micro-Flight Laboratory
   pi: Tsevi Beatus
@@ -1341,6 +1367,31 @@
   notes: Found via alumni-snowballing from cornell-cohen. A dedicated insect-flight
     biomimicry lab -- a sharper, more specific version of what tudelft-mavlab and
     berkeley-full each cover part of. Second Israeli entry after technion-haick.
+- id: hust-niu
+  name: Ran Niu Group
+  pi: Ran Niu
+  institution: Huazhong University of Science and Technology
+  city: Wuhan
+  country: CN
+  lat: 30.5137
+  lon: 114.4126
+  osm: null
+  url: http://english.chem.hust.edu.cn/info/3862/1227.htm
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Professor of Polymer Physics and Chemistry researching self-assembly,
+    micro-swimmers, colloidal phase transitions, rheology, and nanoparticle-polymer
+    composites -- including autonomous assembly and self-propulsion of active and
+    inactive components.
+  notes: Found via alumni-snowballing from cornell-cohen. 'Micro-swimmer' as an explicit
+    named research interest -- direct fit.
 - id: hzdr-makarov
   name: Intelligent Materials and Systems
   pi: Denys Makarov
@@ -2382,6 +2433,32 @@
     it maps almost exactly onto the project''s own Networking workstream (''substitute
     money with connections'') and is local: membership or event attendance is a concrete,
     low-cost way to meet the regional chip/microsystems ecosystem this project needs.'
+- id: sjtu-liu
+  name: Institute of Medical Robotics — Qingkun Liu
+  pi: Qingkun Liu
+  institution: Shanghai Jiao Tong University
+  city: Shanghai
+  country: CN
+  lat: 31.20089
+  lon: 121.42839
+  osm: null
+  url: https://imr.sjtu.edu.cn/en/Po_staff.html
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Research interests span microrobotics, metamaterials, nanomaterials,
+    soft matter, and photonics. Holds a supervisory role at SJTU's Institute of Medical
+    Robotics, a multi-disciplinary platform established in 2017.
+  notes: Found via alumni-snowballing from cornell-cohen. No dedicated personal lab
+    page found -- linked to the Institute of Medical Robotics staff page instead,
+    verify a better direct link exists.
 - id: srl-twente
   name: Surgical Robotics Lab (SRL)
   pi: Sarthak Misra
@@ -3035,6 +3112,33 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: ucmerced-liu
+  name: Liu Lab
+  pi: Bin Liu
+  institution: University of California, Merced
+  city: Merced, CA
+  country: US
+  lat: 37.36518
+  lon: -120.42253
+  osm: null
+  url: https://naturalsciences.ucmerced.edu/people/bin-liu-0
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Associate Professor of Physics studying biofluid dynamics, transport
+    of microorganisms in complex environments, mechanics of biological media, and
+    mechanical metamaterials, with a hands-on microfluidics focus (students build
+    their own microfluidic pumps and channels via 3D printing).
+  notes: Found via alumni-snowballing from cornell-cohen. Transport of microorganisms
+    through complex environments is a real conceptual parallel to how a microrobot
+    would need to navigate tissue/fluid, though the lab's own focus is fundamental
+    biofluid physics, not device-building.
 - id: ucsd-tolley
   name: Bioinspired Robotics and Design Lab
   pi: Michael T. Tolley

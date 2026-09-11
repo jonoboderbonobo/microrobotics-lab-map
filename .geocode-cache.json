@@ -83,6 +83,10 @@
     "lat": 51.0577,
     "lon": 13.95321
   },
+  "Harvey Mudd College, Claremont, CA, US": {
+    "lat": 34.10614,
+    "lon": -117.70873
+  },
   "Hebrew University of Jerusalem, Jerusalem, IL": {
     "lat": 31.79186,
     "lon": 35.24472
@@ -155,6 +159,10 @@
     "lat": 29.71679,
     "lon": -95.40478
   },
+  "Shanghai Jiao Tong University, Shanghai, CN": {
+    "lat": 31.20089,
+    "lon": 121.42839
+  },
   "Stanford University, Stanford, CA, US": {
     "lat": 37.43131,
     "lon": -122.16937
@@ -182,6 +190,10 @@
   "University of California, Berkeley, Berkeley, US": {
     "lat": 37.87078,
     "lon": -122.26568
+  },
+  "University of California, Merced, Merced, CA, US": {
+    "lat": 37.36518,
+    "lon": -120.42253
   },
   "University of California, San Diego, San Diego, CA, US": {
     "lat": 32.87924,

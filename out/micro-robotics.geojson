@@ -617,6 +617,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Ran Niu Group",
+        "description": "**Ran Niu** — Huazhong University of Science and Technology, Wuhan (CN)<br><br>Professor of Polymer Physics and Chemistry researching self-assembly, micro-swimmers, colloidal phase transitions, rheology, and nanoparticle-polymer composites -- including autonomous assembly and self-propulsion of active and inactive components.<br><br>[[http://english.chem.hust.edu.cn/info/3862/1227.htm|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "hust-niu",
+        "pi": "Ran Niu",
+        "institution": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4126,
+          30.5137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Smart Nano-Bio-Devices",
         "description": "**Samuel Sánchez** — Institute for Bioengineering of Catalonia (IBEC), Barcelona (ES)<br><br>ICREA Professor and group leader at IBEC, leading the Smart Nano-Bio-Devices group with a focus on self-powered nanorobots, nanomedicine, and biohybrid robotics -- chemically-powered micro- and nanomotors, including fully biocompatible self-propelling particles powered by enzymes consuming biological fuels like glucose. ~200 publications, h-index 83, 8 patents.<br><br>[[https://ibecbarcelona.eu/member/936/Samuel+S%C3%A1nchez+Ord%C3%B3%C3%B1ez/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "ibec-sanchez",
@@ -1036,6 +1065,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Institute of Medical Robotics — Qingkun Liu",
+        "description": "**Qingkun Liu** — Shanghai Jiao Tong University, Shanghai (CN)<br><br>Research interests span microrobotics, metamaterials, nanomaterials, soft matter, and photonics. Holds a supervisory role at SJTU's Institute of Medical Robotics, a multi-disciplinary platform established in 2017.<br><br>[[https://imr.sjtu.edu.cn/en/Po_staff.html|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "sjtu-liu",
+        "pi": "Qingkun Liu",
+        "institution": "Shanghai Jiao Tong University",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42839,
+          31.20089
+        ]
       }
     },
     {

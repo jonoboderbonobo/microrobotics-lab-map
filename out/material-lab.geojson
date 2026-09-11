@@ -33,6 +33,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Gerbode Lab",
+        "description": "**Sharon Gerbode** — Harvey Mudd College, Claremont, CA (US)<br><br>Studies two fronts in experimental soft matter physics: colloidal self-assembly into thermodynamic phases, and adaptive biomaterials -- soft, microstructured biological tissues that actuate complex motions. Sharon Gerbode is the Iris and Howard Critchell Associate Professor of Physics.<br><br>[[https://www.hmc.edu/physics/faculty-staff/gerbode/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "hmc-gerbode",
+        "pi": "Sharon Gerbode",
+        "institution": "Harvey Mudd College",
+        "country": "US",
+        "category": "material-lab",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.70873,
+          34.10614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Intelligent Materials and Systems",
         "description": "**Denys Makarov** — Helmholtz-Zentrum Dresden-Rossendorf (HZDR), Dresden (DE)<br><br>Pioneered curvilinear magnetism and shapeable magnetoelectronics on flexible, bendable, and stretchable surfaces -- flexible and printable magnetic field sensors (Hall effect and magnetoresistive) on ultra-thin substrates with high mechanical adaptability. Won an ERC Starting Grant (SMaRT) and ERC Proof-of-Concept Grant (MagnetoFLEX).<br><br>[[https://www.hzdr.de/db/Cms?pOid=45754&pNid=610|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "hzdr-makarov",
@@ -603,6 +632,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liu Lab",
+        "description": "**Bin Liu** — University of California, Merced, Merced, CA (US)<br><br>Associate Professor of Physics studying biofluid dynamics, transport of microorganisms in complex environments, mechanics of biological media, and mechanical metamaterials, with a hands-on microfluidics focus (students build their own microfluidic pumps and channels via 3D printing).<br><br>[[https://naturalsciences.ucmerced.edu/people/bin-liu-0|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "ucmerced-liu",
+        "pi": "Bin Liu",
+        "institution": "University of California, Merced",
+        "country": "US",
+        "category": "material-lab",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.42253,
+          37.36518
+        ]
       }
     },
     {
