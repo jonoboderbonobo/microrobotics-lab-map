@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "FemtoTools",
+        "description": "**FemtoTools** — FemtoTools AG (part of Oxford Instruments since 2024), Buchs (Zürich) (CH)<br><br>Swiss company (ETH Zurich MSRL spin-off) making ultra-high-precision instruments for mechanical testing and robotic handling at the micro- and nanoscale: microforce sensing probes and force-sensing microgrippers, fabricated via a custom MEMS process, serving semiconductor, microsystem, materials science, and micromedicine markets. Acquired by Oxford Instruments in 2024.<br><br>[[https://www.femtotools.com/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "femtotools",
+        "pi": "",
+        "institution": "FemtoTools AG (part of Oxford Instruments since 2024)",
+        "country": "CH",
+        "category": "material-lab",
+        "application": "industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.43716,
+          47.45264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Z.L. Wang Group — Triboelectric Nanogenerators",
         "description": "**Zhong Lin Wang** — Georgia Institute of Technology, Atlanta, GA (US)<br><br>Invented the triboelectric nanogenerator (TENG) in 2012 -- a device that converts mechanical energy into electrical energy via contact electrification and electrostatic induction between two different materials rubbing or touching. Wang is also Chief Scientist and Director of the Beijing Institute of Nanoenergy and Nanosystems, Chinese Academy of Sciences.<br><br>[[https://www.mse.gatech.edu/people/zhong-lin-wang|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "gatech-wang",

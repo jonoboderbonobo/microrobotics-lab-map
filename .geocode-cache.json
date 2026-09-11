@@ -55,6 +55,10 @@
     "lat": 22.41372,
     "lon": 114.2099
   },
+  "Colorado School of Mines, Golden, CO, US": {
+    "lat": 39.73863,
+    "lon": -105.22464
+  },
   "Cornell University, Ithaca, NY, US": {
     "lat": 42.45292,
     "lon": -76.48006
@@ -74,6 +78,10 @@
   "Fudan University, Shanghai, CN": {
     "lat": 31.30117,
     "lon": 121.49747
+  },
+  "Furtbachstrasse 4, Buchs, CH": {
+    "lat": 47.45264,
+    "lon": 8.43716
   },
   "Georgia Institute of Technology, Atlanta, GA, US": {
     "lat": 33.77609,
@@ -118,6 +126,10 @@
   "Johns Hopkins University, Baltimore, MD, US": {
     "lat": 39.3302,
     "lon": -76.62185
+  },
+  "King's College London, London, GB": {
+    "lat": 51.50309,
+    "lon": -0.09
   },
   "Kyung Hee University, Yongin, KR": {
     "lat": 37.2424,
@@ -174,6 +186,10 @@
   "Stanford University, Stanford, CA, US": {
     "lat": 37.43131,
     "lon": -122.16937
+  },
+  "S\u00e4gereistrasse 21, Glattbrugg, CH": {
+    "lat": 47.43159,
+    "lon": 8.55931
   },
   "Technion Israel Institute of Technology, Haifa, IL": {
     "lat": 32.77681,

@@ -824,6 +824,35 @@
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
+- id: femtotools
+  name: FemtoTools
+  pi: null
+  institution: FemtoTools AG (part of Oxford Instruments since 2024)
+  city: Buchs (Zürich)
+  country: CH
+  lat: 47.45264
+  lon: 8.43716
+  osm: null
+  url: https://www.femtotools.com/
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 4
+  status: watch
+  description: 'Swiss company (ETH Zurich MSRL spin-off) making ultra-high-precision
+    instruments for mechanical testing and robotic handling at the micro- and nanoscale:
+    microforce sensing probes and force-sensing microgrippers, fabricated via a custom
+    MEMS process, serving semiconductor, microsystem, materials science, and micromedicine
+    markets. Acquired by Oxford Instruments in 2024.'
+  notes: Found via alumni-snowballing from ethz-msrl (Famin Qiu, listed alumnus).
+    A real, acquirable component supplier for micromanipulation/microgripping -- not
+    just a watch entry, worth checking their catalog directly for anything the reference
+    design's assembly/handling needs could use.
 - id: fraunhofer-enas
   name: Fraunhofer ENAS
   pi: null
@@ -1825,6 +1854,32 @@
   notes: Found via alumni-snowballing from cornell-cohen. First Indian entry on the
     map. Soft matter physics is a broad field-level match, not a specific component/technology
     match -- relevance kept moderate accordingly.
+- id: kcl-bergeles
+  name: Robotics and Vision in Medicine (RViM) Lab
+  pi: Christos Bergeles
+  institution: King's College London
+  city: London
+  country: GB
+  lat: 51.50309
+  lon: -0.09
+  osm: null
+  url: https://www.bergeles.net/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Develops micro-surgical robots to deliver regenerative therapies deep
+    inside the human body, at the School of Biomedical Engineering & Imaging Sciences.
+    PI Christos Bergeles was a postdoctoral fellow at Boston Children's Hospital/Harvard
+    Medical School and the Hamlyn Centre for Robotic Surgery, Imperial College, before
+    King's.
+  notes: Found via alumni-snowballing from ethz-msrl. Alumni page listed his outdated
+    Harvard affiliation -- corrected to current KCL position.
 - id: khu-lee
   name: Younghoon Lee Group
   pi: Younghoon Lee
@@ -1985,6 +2040,33 @@
     rather than for technology.
 
     '
+- id: mines-petruska
+  name: M3Robotics Lab
+  pi: Andrew J. Petruska
+  institution: Colorado School of Mines
+  city: Golden, CO
+  country: US
+  lat: 39.73863
+  lon: -105.22464
+  osm: null
+  url: https://m3robotics.mines.edu/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Studies control of complex dynamic systems, with emphasis on magnetic
+    manipulation for medical applications and autonomous systems for mining. Andrew
+    Petruska directs the lab and the Robotics Interdisciplinary Graduate Program at
+    Colorado School of Mines, joined 2016.
+  notes: Found via alumni-snowballing from ethz-msrl. Magnetic manipulation applied
+    to both medical and (unusually) mining robotics -- a genuinely different application
+    domain for the same underlying actuation approach.
 - id: mit-smrl
   name: Soft and Micro Robotics Laboratory
   pi: Kevin Chen
@@ -2109,6 +2191,35 @@
     product -- worth understanding purely as a regulatory-pathway precedent for how
     a nanoscale device reaches real patients in Europe, which is directly relevant
     to the project's own company-building goal.
+- id: nanoflex-robotics
+  name: Nanoflex Robotics
+  pi: Bradley J. Nelson
+  institution: Nanoflex Robotics AG
+  city: Glattbrugg
+  country: CH
+  lat: 47.43159
+  lon: 8.55931
+  osm: null
+  url: https://nanoflexrobotics.com/
+  people_url: null
+  category: milli-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 5
+  status: watch
+  description: ETH Zurich spin-out (2021) developing a magnetically-controlled soft
+    robotic catheter system for endovascular navigation -- a mobile electromagnetic
+    control system that can be wheeled into a standard operating room, no special
+    shielding required. Founded by Bradley Nelson (ethz-msrl's own PI, already on
+    this map) with Christophe Chautems and Matt Curran. Raised $12M+ as of Feb 2023,
+    targeting FDA submission for neuro-interventional stroke treatment.
+  notes: Found via alumni-snowballing from ethz-msrl (Simone Gervasoni, listed alumna,
+    works here). Direct commercial spin-out of an already-tracked lab's own PI --
+    a real, funded, near-clinical company built on exactly the magnetic-microrobotics
+    work ethz-msrl is known for.
 - id: nanoscribe
   name: Nanoscribe
   pi: null

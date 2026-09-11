@@ -149,6 +149,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Nanoflex Robotics",
+        "description": "**Bradley J. Nelson** — Nanoflex Robotics AG, Glattbrugg (CH)<br><br>ETH Zurich spin-out (2021) developing a magnetically-controlled soft robotic catheter system for endovascular navigation -- a mobile electromagnetic control system that can be wheeled into a standard operating room, no special shielding required. Founded by Bradley Nelson (ethz-msrl's own PI, already on this map) with Christophe Chautems and Matt Curran. Raised $12M+ as of Feb 2023, targeting FDA submission for neuro-interventional stroke treatment.<br><br>[[https://nanoflexrobotics.com/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "nanoflex-robotics",
+        "pi": "Bradley J. Nelson",
+        "institution": "Nanoflex Robotics AG",
+        "country": "CH",
+        "category": "milli-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55931,
+          47.43159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Robeauté",
         "description": "**Robeauté** — Robeauté, Paris (FR)<br><br>Robeauté is developing rice-grain-sized therapeutic microrobots for neurosurgery, designed to move along curved routes through brain tissue's extracellular matrix to reach multiple targets, deliver molecules, implant electrodes, or collect live tissue samples. Founded 2017 by Joana Cartocci and Bertrand Duplat, based in Paris, raised ~EUR27M as of January 2025.<br><br>[[https://robeaute.com/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "robeaute",

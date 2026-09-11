@@ -924,6 +924,64 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Robotics and Vision in Medicine (RViM) Lab",
+        "description": "**Christos Bergeles** — King's College London, London (GB)<br><br>Develops micro-surgical robots to deliver regenerative therapies deep inside the human body, at the School of Biomedical Engineering & Imaging Sciences. PI Christos Bergeles was a postdoctoral fellow at Boston Children's Hospital/Harvard Medical School and the Hamlyn Centre for Robotic Surgery, Imperial College, before King's.<br><br>[[https://www.bergeles.net/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "kcl-bergeles",
+        "pi": "Christos Bergeles",
+        "institution": "King's College London",
+        "country": "GB",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09,
+          51.50309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "M3Robotics Lab",
+        "description": "**Andrew J. Petruska** — Colorado School of Mines, Golden, CO (US)<br><br>Studies control of complex dynamic systems, with emphasis on magnetic manipulation for medical applications and autonomous systems for mining. Andrew Petruska directs the lab and the Robotics Interdisciplinary Graduate Program at Colorado School of Mines, joined 2016.<br><br>[[https://m3robotics.mines.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "mines-petruska",
+        "pi": "Andrew J. Petruska",
+        "institution": "Colorado School of Mines",
+        "country": "US",
+        "category": "micro-robotics",
+        "application": "medical,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.22464,
+          39.73863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Soft and Micro Robotics Laboratory",
         "description": "**Kevin Chen** — Massachusetts Institute of Technology, Cambridge, MA (US)<br><br>Welcome to the Soft and Micro Robotics Laboratory<br><br>We aim to develop micro-scale robotic systems that can demonstrate insect-like locomotive capabilities in aerial, aquatic, and terrestrial environments. To design highly agile, multifunctional, and robust micro-scale robots, we work on (1) develop high bandwidth and robust soft actuators and active materials for locomotion and manipulation, (2) investigate and apply physical phenomena (surface tension, fluid-structure interaction, friction, electrostatics) at the millimeter scale in designing multifunctional robots, and (3) develop design and fabrication tools suitable for rapid prototyping of hybrid soft-rigid robots. We envision our work will find applications such as inspection, surgical robots, and environmental monitoring.<br><br>Advising Statement<br><br>At the Soft-and-Micro-Robotics Lab, we are committed to foster creativity, collaboration, and academic excellence among our students and post-doctoral researchers. We highly encourage collaborations among group members and with external teams to develop novel microscale robotic systems and applications. There is no hierarchical structure and each group member will directly discuss his/her/their research ideas and progress with the PI. We will create an independent project/task for each incoming student. As a student develops expertise in the field, we expect the student will identify novel and exciting directions and create and lead his/her/their own projects. In addition to having a weekly group meeting that discusses research ideas and literature studies, we will also set up a weekly or biweekly meeting with each group member.<br><br>[[https://smrl.mit.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "mit-smrl",
