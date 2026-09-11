@@ -573,6 +573,31 @@
     that's otherwise scarce and expensive to hire for. Worth a real look as a potential
     collaborator or comparable-process reference, not just a watch entry, if the power
     budgets line up. lat/lon resolved from 'CSEM, Neuchâtel' as a known point of interest.
+- id: cuhk-chan
+  name: KF-Chan Lab
+  pi: Kai Fung Chan
+  institution: Chow Yuk Ho Technology Centre for Innovative Medicine, CUHK
+  city: Hong Kong
+  country: HK
+  lat: 22.41372
+  lon: 114.2099
+  osm: null
+  url: https://kfchanlab.com/
+  people_url: https://kfchanlab.com/people/
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Research Assistant Professor working on medical miniature devices,
+    robotic surgical tools, micro-/nanorobotics, and flexible electronic implants
+    for translational medicine.
+  notes: Found via alumni-snowballing from cuhk-zhang. Second CUHK entry alongside
+    cuhk-zhang itself, a distinct research assistant professor with his own lab and
+    dedicated site.
 - id: cuhk-zhang
   name: Zhang Research Lab
   pi: Li Zhang
@@ -1448,6 +1473,34 @@
     position unknown'') after Nominatim returned multiple disagreeing University of
     Helsinki campuses -- verify against the Faculty of Pharmacy / Santos group''s
     actual building.'
+- id: hitsz-dong
+  name: Yue Dong Group
+  pi: Yue Dong
+  institution: Harbin Institute of Technology, Shenzhen
+  city: Shenzhen
+  country: CN
+  lat: 22.5895
+  lon: 113.96571
+  osm: null
+  url: https://www.researchgate.net/profile/Yue-Dong-60
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Professor at the Guangdong Provincial Key Laboratory of Intelligent
+    Morphing Mechanisms and Adaptive Robotics, School of Mechanical Engineering and
+    Automation, working on micro/nanorobots including gear-like MOF microrobots for
+    single-cell mechanotransduction studies.
+  notes: Found via alumni-snowballing from cuhk-zhang. First named Harbin Institute
+    of Technology entry -- earlier in this session a general HIT search couldn't find
+    one clean citable PI, this closes that gap. No dedicated lab site found; linked
+    to ResearchGate profile.
 - id: hmc-gerbode
   name: Gerbode Lab
   pi: Sharon Gerbode
@@ -2563,6 +2616,34 @@
     / funding / go-to-market comparable, not a technology match, hence relevance 3
     not higher. lat/lon from their first office at AP-HP Hôtel-Dieu, Paris -- they've
     since also taken space at Cochin Hospital, so treat this as approximate.
+- id: santanna-iacovacci
+  name: Medical Microrobotics Lab — Iacovacci
+  pi: Veronica Iacovacci
+  institution: Scuola Superiore Sant'Anna
+  city: Pisa
+  country: IT
+  lat: 43.72061
+  lon: 10.40264
+  osm: null
+  url: https://www.santannapisa.it/en/veronica-iacovacci
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: Assistant Professor at The BioRobotics Institute developing fully implantable
+    medical microrobots that navigate inside the human body and release drugs in a
+    controlled manner. Coordinates the ERC Starting Grant project I-BOT (first-generation
+    implantable navigable microrobots) and was awarded a Marie Skłodowska-Curie Fellowship
+    for Mambo (magnetic microrobots for localized therapy). Winner of the Big-on-Small
+    Award for small-scale robotics research.
+  notes: Found via alumni-snowballing from cuhk-zhang. Second Sant'Anna Pisa entry
+    alongside santanna-palagi -- a real cluster of implantable-microrobot expertise
+    there. ERC-funded, high-confidence relevance 5.
 - id: santanna-palagi
   name: Microscale Robotics Laboratory
   pi: Stefano Palagi
@@ -4253,3 +4334,54 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: zju-pan
+  name: Chengfeng Pan Group
+  pi: Chengfeng Pan
+  institution: Zhejiang University
+  city: Hangzhou
+  country: CN
+  lat: 30.26934
+  lon: 120.12508
+  osm: null
+  url: https://www.researchgate.net/profile/Chengfeng-Pan
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Assistant Professor of Mechanical Engineering working on soft electronics,
+    hybrid manufacturing, soft robotics, and biomedical applications -- including
+    a modularized magnetic microrobot with lock-and-detachable modules for targeted
+    cell delivery in the bile duct.
+  notes: Found via alumni-snowballing from cuhk-zhang. Third distinct Zhejiang University
+    entry alongside zju-fpms/zju-cheng/zju-xia.
+- id: zju-xia
+  name: Xia Neng Group
+  pi: Neng Xia
+  institution: Zhejiang University
+  city: Hangzhou
+  country: CN
+  lat: 30.26934
+  lon: 120.12508
+  osm: null
+  url: https://www.researchgate.net/profile/Neng-Xia
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Affiliated with the State Key Laboratory of Fluid Power and Mechatronic
+    Systems, College of Mechanical Engineering, working on untethered miniature soft
+    robots -- materials, fabrication, and applications.
+  notes: Found via alumni-snowballing from cuhk-zhang. Same university as zju-fpms
+    and zju-cheng, though a distinct group -- Zhejiang is emerging as a real cluster
+    on this map.

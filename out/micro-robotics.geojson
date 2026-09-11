@@ -191,6 +191,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "KF-Chan Lab",
+        "description": "**Kai Fung Chan** — Chow Yuk Ho Technology Centre for Innovative Medicine, CUHK, Hong Kong (HK)<br><br>Research Assistant Professor working on medical miniature devices, robotic surgical tools, micro-/nanorobotics, and flexible electronic implants for translational medicine.<br><br>[[https://kfchanlab.com/|Group website]]<br>[[https://kfchanlab.com/people/|People]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "cuhk-chan",
+        "pi": "Kai Fung Chan",
+        "institution": "Chow Yuk Ho Technology Centre for Innovative Medicine, CUHK",
+        "country": "HK",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2099,
+          22.41372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Zhang Research Lab",
         "description": "**Li Zhang** — Chinese University of Hong Kong, Hong Kong (HK)<br><br>Works on microrobotics, medical robotics, biorobotics, and soft materials -- including navigation and localization of microrobotic swarms in blood vessels, and a biohybrid microbot built from Spirulina algae with in-vivo tracking and programmable biodegradability. Author/co-author of 400+ publications including Science Robotics, Nature Materials, and Nature Biomedical Engineering; earlier artificial-bacterial-flagella work was indexed in the Guinness Book of World Records 2012 as the 'Most Advanced Mini Robot for Medical Use.'<br><br>[[https://microbot.mae.cuhk.edu.hk/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "cuhk-zhang",
@@ -733,6 +762,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Yue Dong Group",
+        "description": "**Yue Dong** — Harbin Institute of Technology, Shenzhen, Shenzhen (CN)<br><br>Professor at the Guangdong Provincial Key Laboratory of Intelligent Morphing Mechanisms and Adaptive Robotics, School of Mechanical Engineering and Automation, working on micro/nanorobots including gear-like MOF microrobots for single-cell mechanotransduction studies.<br><br>[[https://www.researchgate.net/profile/Yue-Dong-60|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "hitsz-dong",
+        "pi": "Yue Dong",
+        "institution": "Harbin Institute of Technology, Shenzhen",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96571,
+          22.5895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Ran Niu Group",
         "description": "**Ran Niu** — Huazhong University of Science and Technology, Wuhan (CN)<br><br>Professor of Polymer Physics and Chemistry researching self-assembly, micro-swimmers, colloidal phase transitions, rheology, and nanoparticle-polymer composites -- including autonomous assembly and self-propulsion of active and inactive components.<br><br>[[http://english.chem.hust.edu.cn/info/3862/1227.htm|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "hust-niu",
@@ -1204,6 +1262,35 @@
         "coordinates": [
           116.305,
           39.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medical Microrobotics Lab — Iacovacci",
+        "description": "**Veronica Iacovacci** — Scuola Superiore Sant'Anna, Pisa (IT)<br><br>Assistant Professor at The BioRobotics Institute developing fully implantable medical microrobots that navigate inside the human body and release drugs in a controlled manner. Coordinates the ERC Starting Grant project I-BOT (first-generation implantable navigable microrobots) and was awarded a Marie Skłodowska-Curie Fellowship for Mambo (magnetic microrobots for localized therapy). Winner of the Big-on-Small Award for small-scale robotics research.<br><br>[[https://www.santannapisa.it/en/veronica-iacovacci|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "santanna-iacovacci",
+        "pi": "Veronica Iacovacci",
+        "institution": "Scuola Superiore Sant'Anna",
+        "country": "IT",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.40264,
+          43.72061
         ]
       }
     },
@@ -2729,6 +2816,64 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chengfeng Pan Group",
+        "description": "**Chengfeng Pan** — Zhejiang University, Hangzhou (CN)<br><br>Assistant Professor of Mechanical Engineering working on soft electronics, hybrid manufacturing, soft robotics, and biomedical applications -- including a modularized magnetic microrobot with lock-and-detachable modules for targeted cell delivery in the bile duct.<br><br>[[https://www.researchgate.net/profile/Chengfeng-Pan|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "zju-pan",
+        "pi": "Chengfeng Pan",
+        "institution": "Zhejiang University",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12508,
+          30.26934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xia Neng Group",
+        "description": "**Neng Xia** — Zhejiang University, Hangzhou (CN)<br><br>Affiliated with the State Key Laboratory of Fluid Power and Mechatronic Systems, College of Mechanical Engineering, working on untethered miniature soft robots -- materials, fabrication, and applications.<br><br>[[https://www.researchgate.net/profile/Neng-Xia|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "zju-xia",
+        "pi": "Neng Xia",
+        "institution": "Zhejiang University",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12508,
+          30.26934
+        ]
       }
     }
   ]
