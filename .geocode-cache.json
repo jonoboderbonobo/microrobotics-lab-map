@@ -27,6 +27,10 @@
     "lat": 30.39202,
     "lon": -97.84834
   },
+  "7645 Woodland Drive, Indianapolis, US": {
+    "lat": 39.892,
+    "lon": -86.26388
+  },
   "9706 4th Ave NE, Seattle, US": {
     "lat": 47.69944,
     "lon": -122.32382
@@ -48,6 +52,10 @@
     "lon": 10.7005
   },
   "Georgia Institute of Technology, Atlanta, GA, US": {
+    "lat": 33.77609,
+    "lon": -84.39881
+  },
+  "Georgia Institute of Technology, Atlanta, US": {
     "lat": 33.77609,
     "lon": -84.39881
   },

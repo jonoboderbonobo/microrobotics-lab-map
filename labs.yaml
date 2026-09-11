@@ -758,6 +758,35 @@
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
     Same ''LL&M'' department name as unirostock-llm but a different site/coordinates
     in the export -- kept as a separate entry.'
+- id: gatech-bakir
+  name: Integrated 3D Systems Group
+  pi: Muhannad Bakir
+  institution: Georgia Institute of Technology
+  city: Atlanta, GA
+  country: US
+  lat: 33.77609
+  lon: -84.39881
+  osm: null
+  url: https://bakirlab.gatech.edu/
+  people_url: null
+  category: electronic-engineering
+  application:
+  - fundamental
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Researches 2.5D and 3D chip packaging integration architectures, co-designing
+    thermal management, power delivery, and interconnect technologies to combine diverse
+    chip types (digital, analog, photonic) into a single system. Applications named
+    include healthcare systems alongside machine learning and autonomous vehicles.
+    Part of Georgia Tech's broader 3D Systems Packaging Research Center.
+  notes: Found via web search, not migrated. Direct fit for the Wafer-Level Processes
+    workstream -- 2.5D/3D heterogeneous integration is exactly the kind of packaging
+    technique a multi-chiplet µBot (actuator die + sensor die + comms die) would need
+    if it can't all fit on one monolithic die.
 - id: gatech-prausnitz
   name: Laboratory for Drug Delivery
   pi: Mark R. Prausnitz
@@ -1869,6 +1898,37 @@
     of the same lab with near-identical description text but a point ~230km away (near
     Padova, not Pisa) -- looks like a stray pin placement in the old map. Merged into
     one entry using the Pontedera/Pisa coordinates.'
+- id: scs-coatings
+  name: Specialty Coating Systems (SCS)
+  pi: null
+  institution: Specialty Coating Systems
+  city: Indianapolis, IN
+  country: US
+  lat: 39.892
+  lon: -86.26388
+  osm: null
+  url: https://scscoatings.com/
+  people_url: null
+  category: material-lab
+  application:
+  - medical
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 4
+  status: watch
+  description: 55+ year old company (founded as part of a longer conformal-coating
+    lineage) providing Parylene, liquid, plasma-polymerized, atomic-layer-deposition,
+    and multilayer conformal coating services. Parylene C in particular has a decades-long
+    track record as a biocompatible, pinhole-free hermetic encapsulation for implants
+    -- pacemakers, stents, cochlear implants, neural interfaces -- meeting USP Class
+    VI and ISO 10993 standards.
+  notes: 'Found via web search, not migrated. A real, practical gap this fills: nothing
+    else on the map addresses how a chip survives being inside a body at all. Worth
+    an actual quote/conversation for prototype encapsulation, not just a watch entry
+    -- this is an established commercial service with a proven biocompatibility track
+    record, not a research direction.'
 - id: senseonics
   name: Senseonics — Eversense
   pi: null
