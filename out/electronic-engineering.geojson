@@ -179,6 +179,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Ilika — Stereax Solid-State Batteries",
+        "description": "**Ilika — Stereax Solid-State Batteries** — Ilika plc, Romsey (GB)<br><br>UK company making Stereax, mm-scale solid-state rechargeable batteries for active medical implants and miniature IoT sensors -- no liquid or polymer components, thousands of recharge cycles, nA-level leakage. The Stereax M50 is a 20 mm3 rectangular-form-factor cell with 50% higher energy density than other commercial solid-state batteries.<br><br>[[https://www.ilika.com/micro-solid-state-batteries|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "ilika",
+        "pi": "",
+        "institution": "Ilika plc",
+        "country": "GB",
+        "category": "electronic-engineering",
+        "application": "medical,industrial",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.46353,
+          50.98189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Rogers Research Group",
         "description": "**John A. Rogers** — Northwestern University, Evanston, IL (US)<br><br>Pioneers bioresorbable and flexible electronics -- implants that deliver wireless electrical stimulation to damaged nerves during healing, then dissolve and disappear without a trace ('bioresorbable electronic medicine'). Also develops soft, stretchable microfluidic systems that bond to skin without irritation. PI John A. Rogers directs Northwestern's Querrey-Simpson Institute for Bioelectronics.<br><br>[[https://rogersgroup.northwestern.edu/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
         "id": "northwestern-rogers",

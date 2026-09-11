@@ -1,4 +1,8 @@
 {
+  "20451 Seneca Meadows Parkway, Germantown, US": {
+    "lat": 39.19279,
+    "lon": -77.25654
+  },
   "3767 Overland Ave, Los Angeles, US": {
     "lat": 34.01942,
     "lon": -118.40763
@@ -54,6 +58,10 @@
   "Physik Instrumente (PI) GmbH & Co. KG, Karlsruhe, DE": {
     "lat": 48.94309,
     "lon": 8.48921
+  },
+  "Premier Way, Romsey, GB": {
+    "lat": 50.98189,
+    "lon": -1.46353
   },
   "Princeton University, Princeton, NJ, US": {
     "lat": 40.33868,

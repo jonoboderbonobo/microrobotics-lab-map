@@ -1108,6 +1108,35 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: ilika
+  name: Ilika — Stereax Solid-State Batteries
+  pi: null
+  institution: Ilika plc
+  city: Romsey
+  country: GB
+  lat: 50.98189
+  lon: -1.46353
+  osm: null
+  url: https://www.ilika.com/micro-solid-state-batteries
+  people_url: null
+  category: electronic-engineering
+  application:
+  - medical
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 4
+  status: watch
+  description: UK company making Stereax, mm-scale solid-state rechargeable batteries
+    for active medical implants and miniature IoT sensors -- no liquid or polymer
+    components, thousands of recharge cycles, nA-level leakage. The Stereax M50 is
+    a 20 mm3 rectangular-form-factor cell with 50% higher energy density than other
+    commercial solid-state batteries.
+  notes: Found via web search, not migrated. A real onboard-power alternative/supplement
+    to the project's own harvesting-only strategy (PV now, ultrasound later) -- worth
+    understanding whether a Stereax-class cell could fit the reference design's power
+    budget at all, or whether it's still orders of magnitude too large.
 - id: imperial-zhang
   name: Multi-Scale Embodied Intelligence Lab
   pi: Dandan Zhang
@@ -1721,6 +1750,35 @@
     of the same lab with near-identical description text but a point ~230km away (near
     Padova, not Pisa) -- looks like a stray pin placement in the old map. Merged into
     one entry using the Pontedera/Pisa coordinates.'
+- id: senseonics
+  name: Senseonics — Eversense
+  pi: null
+  institution: Senseonics, Incorporated
+  city: Germantown, MD
+  country: US
+  lat: 39.19279
+  lon: -77.25654
+  osm: null
+  url: https://www.senseonics.com/
+  people_url: null
+  category: nano-medicine
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 3
+  status: watch
+  description: Makes Eversense, a fully implantable continuous glucose monitor --
+    the sensor itself sits under the skin (not just a shallow patch like most CGMs)
+    paired with a rechargeable Bluetooth transmitter and smartphone app. Eversense
+    365 lasts a full year per implant, the longest duration in the CGM market.
+  notes: Found via web search, not migrated. A real, FDA-cleared, commercially available
+    precedent for 'constant observation' of a physiological parameter via a fully
+    implanted device lasting a full year -- exactly the kind of proof point the long-term
+    organ-monitoring horizon needs, even though glucose sensing has no robotics component
+    at all. A competitor, Glucotrack, is reportedly developing a 3-year fully implanted
+    CGM -- worth a look if this space matters more later.
 - id: srl-twente
   name: Surgical Robotics Lab (SRL)
   pi: Sarthak Misra
