@@ -1369,6 +1369,36 @@
     genuine sub-mm autonomy.
 
     '
+- id: princeton-nagpal
+  name: Self-Organizing Systems Research Group
+  pi: Radhika Nagpal
+  institution: Princeton University
+  city: Princeton, NJ
+  country: US
+  lat: 40.33868
+  lon: -74.65837
+  osm: null
+  url: https://ssr.princeton.edu/
+  people_url: null
+  category: information-technology
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: 'Studies self-organizing computer systems, collective intelligence,
+    and biologically-inspired multi-agent robotics. Created the Kilobots (published
+    in Science, 2014): a swarm of 1,024 coin-sized, $14-each robots that self-assemble
+    into arbitrary target shapes using only local sensing of immediate neighbors,
+    no central controller. Radhika Nagpal moved the group from Harvard SEAS/Wyss to
+    Princeton (Mechanical & Aerospace Engineering + Computer Science) in 2023.'
+  notes: Found via web search, not migrated. Textbook match for the System-Level-Behavior
+    workstream -- swarm behavior is named explicitly in the information-technology
+    category's own taxonomy.py rationale. Kilobots are cm-scale, not sub-mm, but the
+    decentralized local-sensing-only coordination algorithm is exactly the kind of
+    control principle a real microrobot swarm would need.
 - id: purdue-oxidemems
   name: OxideMEMS Lab
   pi: Sunil Bhave
@@ -1654,6 +1684,37 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: synchron
+  name: Synchron
+  pi: null
+  institution: Synchron
+  city: Brooklyn, NY
+  country: US
+  lat: 40.70007
+  lon: -73.97913
+  osm: null
+  url: https://synchron.com/
+  people_url: null
+  category: neuroscience-lab
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 3
+  status: watch
+  description: Developing the Stentrode, an implantable brain-computer interface delivered
+    endovascularly (through blood vessels, no open-brain surgery) to a vein next to
+    the motor cortex, connected to a subcutaneous antenna that transmits neural data
+    out of the body wirelessly. Implanted in six US patients as of the referenced
+    study; targeting a 2026 pivotal trial toward the first FDA-approved BCI. Backed
+    by Bezos and Gates, among others.
+  notes: 'Found via web search, not migrated. Two separate reasons to track: (1) long-term
+    organ-monitoring-horizon relevance as a wireless implant-to-external-device comms
+    precedent, and (2) the endovascular, minimally-invasive delivery technique itself
+    is a real precedent for getting a small device to a precise internal location
+    without open surgery -- closer to a near-term technique match than most of the
+    other long-term watch entries.'
 - id: tcd-florea
   name: Florea Lab
   pi: Larisa Florea

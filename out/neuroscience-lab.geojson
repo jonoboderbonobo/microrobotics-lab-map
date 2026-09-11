@@ -91,6 +91,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Synchron",
+        "description": "**Synchron** — Synchron, Brooklyn, NY (US)<br><br>Developing the Stentrode, an implantable brain-computer interface delivered endovascularly (through blood vessels, no open-brain surgery) to a vein next to the motor cortex, connected to a subcutaneous antenna that transmits neural data out of the body wirelessly. Implanted in six US patients as of the referenced study; targeting a 2026 pivotal trial toward the first FDA-approved BCI. Backed by Bezos and Gates, among others.<br><br>[[https://synchron.com/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "id": "synchron",
+        "pi": "",
+        "institution": "Synchron",
+        "country": "US",
+        "category": "neuroscience-lab",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOrange",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97913,
+          40.70007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Neuroengineering Materials",
         "description": "**Kristen Kozielski** — Technical University of Munich, Munich (DE)<br><br>Professorship of Neuroengineering Materials<br>Prof. Dr. Kristen Kozielski<br><br>Worked under Metin Sitti<br>Now does Sensors for Brains<br><br>https://www.ee.cit.tum.de/en/nen/home/<br><br>[[https://www.ee.cit.tum.de/en/nen/home/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "tum-neuroengineering",

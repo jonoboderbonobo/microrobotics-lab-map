@@ -29,6 +29,35 @@
           49.4186
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Self-Organizing Systems Research Group",
+        "description": "**Radhika Nagpal** — Princeton University, Princeton, NJ (US)<br><br>Studies self-organizing computer systems, collective intelligence, and biologically-inspired multi-agent robotics. Created the Kilobots (published in Science, 2014): a swarm of 1,024 coin-sized, $14-each robots that self-assemble into arbitrary target shapes using only local sensing of immediate neighbors, no central controller. Radhika Nagpal moved the group from Harvard SEAS/Wyss to Princeton (Mechanical & Aerospace Engineering + Computer Science) in 2023.<br><br>[[https://ssr.princeton.edu/|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
+        "id": "princeton-nagpal",
+        "pi": "Radhika Nagpal",
+        "institution": "Princeton University",
+        "country": "US",
+        "category": "information-technology",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkCyan",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.65837,
+          40.33868
+        ]
+      }
     }
   ]
 }

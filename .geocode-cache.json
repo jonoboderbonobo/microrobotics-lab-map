@@ -3,6 +3,10 @@
     "lat": 34.01942,
     "lon": -118.40763
   },
+  "399 Sands St, Brooklyn, US": {
+    "lat": 40.70007,
+    "lon": -73.97913
+  },
   "60 Rue de Wattignies, Paris, FR": {
     "lat": 48.83526,
     "lon": 2.39816
@@ -38,6 +42,10 @@
   "Institut des Syst\u00e8mes Intelligents et de Robotique, Paris, FR": {
     "lat": 48.84569,
     "lon": 2.35673
+  },
+  "Princeton University, Princeton, NJ, US": {
+    "lat": 40.33868,
+    "lon": -74.65837
   },
   "Purdue University, West Lafayette, IN, US": {
     "lat": 40.43003,
