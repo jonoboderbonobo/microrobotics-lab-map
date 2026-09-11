@@ -13,7 +13,7 @@ from pathlib import Path
 import yaml
 
 import geocode
-from taxonomy import PARADIGMS
+from taxonomy import CATEGORIES, ICON_SHAPE
 from validate import validate
 
 ROOT = Path(__file__).parent
@@ -41,13 +41,15 @@ def resolve_missing_coordinates(labs: list) -> bool:
     return changed
 
 
-def build_description(lab: dict, paradigm_label: str) -> str:
+def build_description(lab: dict, category_label: str) -> str:
+    """Builds the public uMap popup text. `lab['notes']` is a private
+    assessment and must never be read here -- only `lab['description']`."""
     header = f"**{lab['pi']}**" if lab["pi"] else f"**{lab['name']}**"
     header += f" — {lab['institution']}, {lab['city']} ({lab['country']})"
     lines = [header]
 
-    if lab.get("notes"):
-        lines += ["", lab["notes"].strip()]
+    if lab.get("description"):
+        lines += ["", lab["description"].strip()]
 
     links = [f"[[{lab['url']}|Group website]]"]
     if lab.get("people_url"):
@@ -55,21 +57,26 @@ def build_description(lab: dict, paradigm_label: str) -> str:
     lines += ["", *links]
 
     min_dim = f"{lab['min_dim_um']} µm" if lab["min_dim_um"] is not None else "unknown"
-    lines += ["", f"Paradigm: {paradigm_label} · Smallest demonstrated: {min_dim}"]
+    lines += ["", f"Category: {category_label} · Smallest demonstrated: {min_dim}"]
 
-    return "\n".join(lines)
+    # uMap's popup renderer (toHTML in umap/static/umap/js/modules/utils.js)
+    # never turns "\n" into a visual break -- no markup rule does it, and no
+    # popup CSS sets white-space: pre-line either. "br" is on its DOMPurify
+    # allow-list, so replace every newline (including ones folded into
+    # multi-paragraph `description`/`notes` text) with a literal <br>.
+    return "\n".join(lines).replace("\n", "<br>")
 
 
 def build_feature(lab: dict) -> dict:
-    paradigm_label, color, _ = PARADIGMS[lab["paradigm"]]
+    category_label, color, _ = CATEGORIES[lab["category"]]
     properties = {
         "name": lab["name"],
-        "description": build_description(lab, paradigm_label),
+        "description": build_description(lab, category_label),
         "id": lab["id"],
         "pi": lab["pi"] or "",
         "institution": lab["institution"],
         "country": lab["country"],
-        "paradigm": lab["paradigm"],
+        "category": lab["category"],
         # Comma-separated: uMap's Enum field type splits facet values on
         # "," (see Registry.Enum.parse in umap's data/fields.js), not ";".
         "application": ",".join(lab["application"]),
@@ -78,7 +85,7 @@ def build_feature(lab: dict) -> dict:
         "status": lab["status"],
         "relevance": str(lab["relevance"]),
         "min_dim_um": str(lab["min_dim_um"]) if lab["min_dim_um"] is not None else "unknown",
-        "_umap_options": {"color": color, "iconClass": "Drop"},
+        "_umap_options": {"color": color, "iconClass": ICON_SHAPE},
     }
     return {
         "type": "Feature",
@@ -87,9 +94,9 @@ def build_feature(lab: dict) -> dict:
     }
 
 
-def write_geojson(paradigm: str, labs_for_paradigm: list) -> None:
-    _, _, filename = PARADIGMS[paradigm]
-    features = [build_feature(lab) for lab in sorted(labs_for_paradigm, key=lambda lab: lab["id"])]
+def write_geojson(category: str, labs_for_category: list) -> None:
+    _, _, filename = CATEGORIES[category]
+    features = [build_feature(lab) for lab in sorted(labs_for_category, key=lambda lab: lab["id"])]
     collection = {"type": "FeatureCollection", "features": features}
     with (OUT_DIR / filename).open("w") as f:
         json.dump(collection, f, indent=2, ensure_ascii=False)
@@ -122,12 +129,12 @@ def main() -> None:
         save_labs(labs)
 
     OUT_DIR.mkdir(exist_ok=True)
-    by_paradigm = {paradigm: [] for paradigm in PARADIGMS}
+    by_category = {category: [] for category in CATEGORIES}
     for lab in labs:
-        by_paradigm[lab["paradigm"]].append(lab)
+        by_category[lab["category"]].append(lab)
 
-    for paradigm in PARADIGMS:
-        write_geojson(paradigm, by_paradigm[paradigm])
+    for category in CATEGORIES:
+        write_geojson(category, by_category[category])
 
 
 if __name__ == "__main__":

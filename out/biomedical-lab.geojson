@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mechanical, Manufacturing and Biomedical Engineering",
+        "description": "**Mechanical, Manufacturing and Biomedical Engineering** — Trinity College Dublin, Dublin (IE)<br><br>The Discipline of Mechanical, Manufacturing and Biomedical Engineering at Trinity College Dublin. Research is characterised by interdisciplinary collaboration within the department and with life sciences, natural sciences, physics, computer science, and civil and electronic engineering. Funding comes from national and European sources as well as directly from industry, philanthropy and academic partners overseas.<br>Research areas: biomedical engineering; fluids, acoustics and vibration; fluids and heat transfer; forensic engineering; fracture and fatigue of materials; nanotechnology for energy and environment; robotics; and STAM (Science and Technology in Advanced Manufacturing).<br><br>[[https://www.tcd.ie/mecheng/|Group website]]<br><br>Category: Biomedical Lab · Smallest demonstrated: unknown",
+        "id": "tcd-mmbe",
+        "pi": "",
+        "institution": "Trinity College Dublin",
+        "country": "IE",
+        "category": "biomedical-lab",
+        "application": "medical,industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.252599,
+          53.342204
+        ]
+      }
+    }
+  ]
+}

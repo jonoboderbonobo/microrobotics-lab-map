@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hakan Ceylan — Mayo Clinic",
+        "description": "**Hakan Ceylan** — Mayo Clinic, Rochester, MN (US)<br><br>Microrobotics for biomedical application in a clinical setting.<br><br>[[https://scholar.google.com/citations?user=5LU13U8AAAAJ&hl=tr|Group website]]<br><br>Category: Hospital · Smallest demonstrated: unknown",
+        "id": "mayo-ceylan",
+        "pi": "Hakan Ceylan",
+        "institution": "Mayo Clinic",
+        "country": "US",
+        "category": "hospital",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "hospital",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Crimson",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.480968,
+          44.019646
+        ]
+      }
+    }
+  ]
+}

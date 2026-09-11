@@ -3,18 +3,20 @@ the offending record's id on any problem. No silent skipping."""
 
 import re
 
-from taxonomy import APPLICATIONS, INSTITUTION_TYPES, PARADIGMS, STATUSES
+from taxonomy import APPLICATIONS, CATEGORIES, INSTITUTION_TYPES, STATUSES
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
+OSM_RE = re.compile(r"^(way|relation)/\d+$")
 
-REQUIRED_FIELDS = {
-    "id", "name", "pi", "institution", "city", "country", "lat", "lon",
-    "url", "paradigm", "application", "min_dim_um", "onboard_power",
-    "institution_type", "relevance", "status",
+# Every field key is always present in a record; nullability is checked
+# per-field below rather than via a separate optional-fields set.
+ALL_FIELDS = {
+    "id", "name", "pi", "institution", "city", "country", "lat", "lon", "osm",
+    "url", "people_url", "category", "application", "min_dim_um",
+    "onboard_power", "institution_type", "relevance", "status",
+    "description", "notes",
 }
-OPTIONAL_FIELDS = {"people_url", "notes"}
-ALL_FIELDS = REQUIRED_FIELDS | OPTIONAL_FIELDS
 
 
 def _fail(lab_id, message):
@@ -46,7 +48,7 @@ def validate(labs) -> None:
             _fail(lab_id, "duplicate id")
         seen_ids.add(lab_id)
 
-        missing = REQUIRED_FIELDS - lab.keys()
+        missing = ALL_FIELDS - lab.keys()
         if missing:
             _fail(lab_id, f"missing required field(s): {sorted(missing)}")
         unexpected = lab.keys() - ALL_FIELDS
@@ -72,11 +74,15 @@ def validate(labs) -> None:
             if not isinstance(lon, (int, float)) or not (-180 <= lon <= 180):
                 _fail(lab_id, f"lon must be in -180..180, got {lon!r}")
 
+        osm = lab["osm"]
+        if osm is not None and (not isinstance(osm, str) or not OSM_RE.match(osm)):
+            _fail(lab_id, f"osm must be null or match ^(way|relation)/<id>$, got {osm!r}")
+
         _check_url(lab_id, "url", lab["url"], required=True)
         _check_url(lab_id, "people_url", lab.get("people_url"), required=False)
 
-        if lab["paradigm"] not in PARADIGMS:
-            _fail(lab_id, f"paradigm must be one of {sorted(PARADIGMS)}, got {lab['paradigm']!r}")
+        if lab["category"] not in CATEGORIES:
+            _fail(lab_id, f"category must be one of {sorted(CATEGORIES)}, got {lab['category']!r}")
 
         applications = lab["application"]
         if not isinstance(applications, list):
@@ -102,9 +108,9 @@ def validate(labs) -> None:
         if lab["status"] not in STATUSES:
             _fail(lab_id, f"status must be one of {sorted(STATUSES)}, got {lab['status']!r}")
 
-        notes = lab.get("notes")
-        if notes is not None and not isinstance(notes, str):
-            _fail(lab_id, "notes must be a string or null")
+        for field in ("description", "notes"):
+            if lab[field] is not None and not isinstance(lab[field], str):
+                _fail(lab_id, f"{field} must be a string or null")
 
     ids_in_order = [lab["id"] for lab in labs]
     if ids_in_order != sorted(ids_in_order):

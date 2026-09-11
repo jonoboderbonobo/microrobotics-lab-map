@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MSMA Group — MicroSensors and MicroActuators",
+        "description": "**Mark G. Allen** — University of Pennsylvania, Philadelphia, PA (US)<br><br>Microsensors and microactuators. Collaborates with McEuen and Miskin.<br><br>[[https://mems.seas.upenn.edu/|Group website]]<br>[[https://mems.seas.upenn.edu/members/|People]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "penn-msma",
+        "pi": "Mark G. Allen",
+        "institution": "University of Pennsylvania",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.188898,
+          39.952881
+        ]
+      }
+    }
+  ]
+}

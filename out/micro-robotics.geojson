@@ -1,0 +1,92 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Multi-Scale Robotics Lab (MSRL)",
+        "description": "**Bradley J. Nelson** — ETH Zürich, Zürich (CH)<br><br>The Multi-Scale Robotics Lab (MSRL) pursues a dynamic research program that maintains a strong robotics research focus on several emerging areas of science and technology. A major component of the MSRL research leverages advanced robotics for creating intelligent machines that operate at micron and nanometer scales. MSRL research develops the tools and processes required to fabricate and assemble micron sized robots and nanometer scale robotic components. Many of these systems are used for robotic exploration within biomedical and biological domains.<br>The MSRL pursues a balanced agenda between fundamental and applied research. The lab consistently publishes highly cited papers in top journals while also driving significant industrial interactions. The ground breaking technologies developed at MSRL have also led to the formation of several startup companies.<br><br>[[https://msrl.ethz.ch/the-lab.html|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "ethz-msrl",
+        "pi": "Bradley J. Nelson",
+        "institution": "ETH Zürich",
+        "country": "CH",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.546639,
+          47.377731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surgical Robotics Lab (SRL)",
+        "description": "**Sarthak Misra** — University of Twente, Enschede (NL)<br><br>The Surgical Robotics Lab (SRL) is part of the Department of Biomechanical Engineering (Faculty of Engineering Technology) at the University of Twente, The Netherlands. SRL is led by Prof. Sarthak Misra, and is also part of the Department of Biomaterials and Biomedical Technology at the University of Groningen and University Medical Center Groningen. SRL is affiliated with the MESA+ Institute, Technical Medical (TechMed) Centre, and PRECISION Institute.<br>The lab designs a range of flexible minimally invasive surgical instruments and microrobotic systems, and robotically controls them using clinical imaging modalities such as ultrasound, computed tomography and magnetic resonance imaging. The team is multidisciplinary, spanning engineers, clinicians and industrial collaborators.<br>Contact for student projects: info@surgicalroboticslab.nl<br><br>[[https://surgicalroboticslab.nl/about/introduction/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "srl-twente",
+        "pi": "Sarthak Misra",
+        "institution": "University of Twente",
+        "country": "NL",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.849866,
+          52.23989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oliver G. Schmidt's Lab",
+        "description": "**Oliver G. Schmidt** — TU Chemnitz, Chemnitz (DE)<br><br>Research areas: microrobotics and micromotors; biomedical applications; flexible and shapeable electronics; energy storage at the micro/nanoscale; magnetoelectronics; micro- and nanoelectronics; microfluidics; plasmonics.<br><br>[[https://www.tu-chemnitz.de/etit/nano/OliverGSchmidt.php|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "tuc-schmidt",
+        "pi": "Oliver G. Schmidt",
+        "institution": "TU Chemnitz",
+        "country": "DE",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.927099,
+          50.817951
+        ]
+      }
+    }
+  ]
+}
