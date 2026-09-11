@@ -142,14 +142,16 @@ then deleted per its own design intent — it's one-time migration code, not
 part of the ongoing pipeline. Recoverable from git history if ever needed
 again.
 
-Every migrated entry has `application`, `institution_type`, `relevance`, and
-`status` set to the literal string `"TODO"` — deliberately not a member of
-its field's enum in `taxonomy.py`, so `validate.py` refuses to build until
-each one is replaced with a real value by hand (same mechanism as any other
-schema violation, just intentionally triggered). `onboard_power` defaults to
-`false` and won't block the build, but is flagged in `notes` as unverified.
-`out/` will only reflect the 6 pre-migration entries until the 38 new ones
-are filled in — that's expected, not a bug.
+Every migrated entry got real defaults for the fields the export can't know,
+rather than build-blocking placeholders: `status: watch`, `relevance: 1`,
+`application: []`, `onboard_power: false`. `institution_type` was set from
+general knowledge of each institution (a verifiable fact, unlike the others),
+not left generic. None of this is asserted as correct — each entry's `notes`
+spells out exactly what was defaulted and needs a real look, in plain text
+rather than as something that blocks the build. `relevance` in particular is
+almost certainly wrong for every one of the 38 (it's set uniformly to the
+floor, 1, because it's entirely your subjective call and there's no honest
+way to guess it) — go through and actually score these when you get a chance.
 
 The old map also had ten single-person placeholder-pin layers (one map layer
 per named researcher, e.g. "Metin Sitti - Stuttgart/Istanbul") plus an empty

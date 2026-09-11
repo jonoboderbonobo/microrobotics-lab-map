@@ -1,19 +1,3 @@
-# Source of truth for the microrobotics lab map.
-#
-# Sorted alphabetically by `id`. `id` is a stable slug and is never edited once
-# assigned -- it is the join key across git history.
-#
-# `color` is NOT a field here: it is derived from `category` in taxonomy.py.
-# `description` is the group's own blurb and IS rendered into the uMap popup.
-# `notes` is private assessment and is NEVER rendered.
-#
-# To add a lab: append an entry, set lat/lon to null, run `python build.py`.
-# To add a campus outline: save its geometry as polygons/<id>.geojson (a bare
-# GeoJSON Polygon/MultiPolygon geometry object -- no properties, no Feature
-# wrapper). build.py picks it up automatically by id; no labs.yaml field
-# needed. `osm` is reserved for a live OSM-lookup-by-way-id mechanism that
-# isn't built yet -- leave it null.
-
 - id: cmu-bme
   name: Biomedical Engineering, Carnegie Mellon University
   pi: null
@@ -26,13 +10,12 @@
   url: https://www.cmu.edu/bme/Research/index.html
   people_url: null
   category: biomedical-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Research Overview\n\nResearch in Biomedical Engineering at Carnegie\
     \ Mellon University spans the full range from basic science and theoretical work\
     \ through medical technologies and devices along the entire clinical translational\
@@ -43,10 +26,11 @@
     \ Imaging, \nCardiopulmonary Engineering, \nCell & Tissue Engineering, \nComputational\
     \ Biomedical Engineering, \nMedical Devices & Robotics, and \nNeural Engineering."
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cmu-bme.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Filed under Micro-Robotics Lab and Biomedical Lab in the old map; content is a
-    general BME department, not microrobotics-specific, so recategorized to biomedical-lab
-    (same pattern as tcd-mmbe).'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Filed under Micro-Robotics Lab and Biomedical Lab
+    in the old map; content is a general BME department, not microrobotics-specific,
+    so recategorized to biomedical-lab (same pattern as tcd-mmbe).'
 - id: coche-hk
   name: COCHE
   pi: null
@@ -59,13 +43,12 @@
   url: https://www.hkcoche.org/about
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: institute
+  relevance: 1
+  status: watch
   description: "Hong Kong Centre for Cerebro-cardiovascular Health Engineering\n\n\
     \\Be global hub for interdisciplinary cerebro-cardiovascular health engineering\
     \ research collaboration\n\nConverging global experts in engineering, science,\
@@ -110,7 +93,9 @@
     \ Dongan\n10 \tPorous metallic microneedle array-based test trip for gingival\
     \ crevicular fluid collection and analysis"
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/coche-hk.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: cornell-mceuen
   name: Paul McEuen Group
   pi: Paul McEuen
@@ -123,13 +108,12 @@
   url: https://physics.cornell.edu/paul-mceuen
   people_url: null
   category: medicine-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Room 109
 
     https://physics.cornell.edu/paul-mceuen
@@ -152,7 +136,9 @@
     to the use of graphene and other 2D materials for atomic-scale origami, active
     materials, and micro and nanomachines.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cornell-mceuen.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: cornell-molnar
   name: Molnar Group
   pi: Alyosha Molnar
@@ -165,13 +151,12 @@
   url: https://molnargroup.ece.cornell.edu/
   people_url: null
   category: electronic-engineering
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Bioelectronics
 
     Maker of Purcell Bot, Ant-Bot, Dog-Bot
@@ -191,9 +176,10 @@
     problems, and so spurs new interdisciplinary research in unexpected directions.
     We are often confused, but rarely bored.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cornell-molnar.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Filed under Micro-Robotics Lab and Electronic engineering (Chips) Lab; content
-    is bioelectronic ICs, so recategorized to electronic-engineering.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Filed under Micro-Robotics Lab and Electronic engineering
+    (Chips) Lab; content is bioelectronic ICs, so recategorized to electronic-engineering.'
 - id: dgist-demrc
   name: DGIST-ETH Microrobotics Research Center
   pi: null
@@ -206,13 +192,12 @@
   url: https://dgistbmr.cafe24.com/about-us/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "DGIST-ETH Microrobotics Research Center\n\nDGIST-ETH Microrobotics\
     \ Research Center (DEMRC) was initially established for global collaboration on\
     \ microrobot research between DGIST and ETH Zurich. DEMRC plans to expand collaborations\
@@ -261,7 +246,9 @@
     \ conducting animal experiments\n    Applications of engineering using piezoelectric\
     \ MEMS-based artificial auditory systems and ultrasound transducers."
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/dgist-demrc.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: epfl-microbs
   name: EPFL — Microbiorobotic Systems Laboratory (MICROBS)
   pi: null
@@ -274,17 +261,18 @@
   url: https://www.epfl.ch/labs/microbs/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/epfl-microbs.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Two raw entries differ only by a typo (BioRobotic vs BioRobotics); merged.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Two raw entries differ only by a typo (BioRobotic
+    vs BioRobotics); merged.'
 - id: ethz-msrl
   name: Multi-Scale Robotics Lab (MSRL)
   pi: Bradley J. Nelson
@@ -338,35 +326,34 @@
   url: https://www.femto-st.fr/en/Research-departments/MN2S/Research-axes
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: institute
+  relevance: 1
+  status: watch
   description: null
-  notes: 'Migrated from the old hand-drawn uMap export. TODO: verify application /
-    institution_type / relevance / status / onboard_power.'
+  notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
+    relevance=1, status=watch, application=[] (empty). institution_type set from general
+    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
 - id: fraunhofer-imte-cellmed
   name: Fraunhofer IMTE — Cell-based Medical Engineering
   pi: null
   institution: Fraunhofer IMTE
   city: Lübeck
   country: DE
-  lat: null
-  lon: null
+  lat: 53.83602
+  lon: 10.7005
   osm: null
-  url: TODO
+  url: https://www.imte.fraunhofer.de/en.html
   people_url: null
   category: medicine-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: institute
+  relevance: 1
+  status: watch
   description: 'Vision
 
 
@@ -393,8 +380,13 @@
     for the health of our society along the entire value chain and develop it further
     with agility and competence in line with our concept of Circular Health.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/fraunhofer-imte-cellmed.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    No point/link in the export, so no url and no coordinates -- fill in by hand.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. No point/link in the export, so no url and no coordinates
+    -- fill in by hand. url defaulted to the parent Fraunhofer IMTE homepage (same
+    one the export gave for the sibling fraunhofer-imte-llm entry) -- the export had
+    no link for this specific department, replace with a more specific page if one
+    exists.'
 - id: fraunhofer-imte-llm
   name: Fraunhofer IMTE — Life, Light and Matter
   pi: null
@@ -407,18 +399,18 @@
   url: https://www.imte.fraunhofer.de/en.html
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: institute
+  relevance: 1
+  status: watch
   description: null
-  notes: 'Migrated from the old hand-drawn uMap export. TODO: verify application /
-    institution_type / relevance / status / onboard_power. Same ''LL&M'' department
-    name as unirostock-llm but a different site/coordinates in the export -- kept
-    as a separate entry.'
+  notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
+    relevance=1, status=watch, application=[] (empty). institution_type set from general
+    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
+    Same ''LL&M'' department name as unirostock-llm but a different site/coordinates
+    in the export -- kept as a separate entry.'
 - id: harvard-cohen
   name: Cohen Lab
   pi: Adam E. Cohen
@@ -431,13 +423,12 @@
   url: https://cohenweb.rc.fas.harvard.edu/
   people_url: null
   category: biomedical-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'The Cohen Lab develops and applies new tools to study biology. We
     push the limits of physics and chemistry to make measurements in previously inaccessible
     regimes. Work in the lab combines optics, protein engineering, chemistry, electrophysiology,
@@ -452,7 +443,9 @@
     electrical signaling in other tissues; on mechanical signaling in cells; and on
     the roles of physical forces in embryonic development.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-cohen.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: harvard-microrobotics
   name: Microrobotics Lab (Harvard)
   pi: Robert Wood
@@ -465,13 +458,12 @@
   url: https://www.micro.seas.harvard.edu/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Works together with "The Wyss Institute"
 
 
@@ -484,7 +476,9 @@
     past and present, from AFOSR, ARO, DARPA, Draper Labs, National Geographic, NASA,
     NIH, NSF, and ONR.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-microrobotics.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: harvard-wyss
   name: Wyss Institute
   pi: null
@@ -497,13 +491,12 @@
   url: https://wyss.harvard.edu/about/
   people_url: null
   category: medicine-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: institute
+  relevance: 1
+  status: watch
   description: "Bioinspired Therapeutics & Diagnostics \nLiving Cellular Devices \n\
     Computational Design & Discovery \nMolecular Robotics \nDiagnostics Accelerator\
     \ \n3D Organ Engineering \nImmuno-Materials \nSynthetic Biology \n\n\nOur mission\
@@ -512,26 +505,27 @@
     \ products through the formation of startups and corporate partnerships to bring\
     \ about positive near-term impact in the world."
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-wyss.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: helsinki-santos
   name: Santos Group — Nanomedicines and Biomedical Engineering
   pi: Hélder A. Santos
   institution: University of Helsinki
   city: Helsinki
   country: FI
-  lat: null
-  lon: null
+  lat: 60.169475
+  lon: 24.949812
   osm: null
   url: https://researchportal.helsinki.fi/en/persons/h%C3%A9lder-a-santos
   people_url: null
   category: biomedical-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'exact position unknown
 
 
@@ -609,11 +603,16 @@
     Dr. Santos received the ERC starting grant for 2013-2017 worth of 1.5 M€ and an
     ERC PoC in 2019-2020.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/helsinki-santos.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Filed under Medicine Lab and Biomedical Lab; content is nanomedicine/drug delivery,
-    so recategorized to biomedical-lab. The old map''s own description says ''exact
-    position unknown'' -- left lat/lon null instead of keeping that placeholder point,
-    so a rebuild geocodes it properly from institution/city/country.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Filed under Medicine Lab and Biomedical Lab; content
+    is nanomedicine/drug delivery, so recategorized to biomedical-lab. The old map''s
+    own description says ''exact position unknown'' -- left lat/lon null instead of
+    keeping that placeholder point, so a rebuild geocodes it properly from institution/city/country.
+    lat/lon set to the old map''s own approximate point (it too was flagged ''exact
+    position unknown'') after Nominatim returned multiple disagreeing University of
+    Helsinki campuses -- verify against the Faculty of Pharmacy / Santos group''s
+    actual building.'
 - id: ihp-cleanroom
   name: IHP Research & Prototyping Service
   pi: René Scholz
@@ -626,13 +625,12 @@
   url: https://www.ihp-microelectronics.com/services/research-and-prototyping-service
   people_url: null
   category: cleanroom-service
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: institute
+  relevance: 1
+  status: watch
   description: 'Research & Prototyping Service
 
     The Research & Prototyping Service group coordinates service and industry relevant
@@ -670,7 +668,9 @@
     To apply our technologies and developments to high-volume production, IHP offers
     technology transfer to commercial foundries.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/ihp-cleanroom.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: imperial-zhang
   name: Multi-Scale Embodied Intelligence Lab
   pi: Dandan Zhang
@@ -683,13 +683,12 @@
   url: https://www.intelligentrobotics-acrossscales.com/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Dandan Zhang\nThe Multi-Scale Embodied Intelligence Lab focuses on\
     \ developing embodied intelligence across multiple scales, ranging from micro/nanobots\
     \ to large-scale robotic systems, primarily targeting healthcare applications.\n\
@@ -737,7 +736,9 @@
     \ human-robot shared control for surgical operations. This leads to the development\
     \ of intelligent surgical robots to assist human operators in robotic surgery."
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/imperial-zhang.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: ku-sitti
   name: Metin Sitti — KUTTAM
   pi: Metin Sitti
@@ -750,16 +751,16 @@
   url: https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/
   people_url: null
   category: neuroscience-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: null
-  notes: 'Migrated from the old hand-drawn uMap export. TODO: verify application /
-    institution_type / relevance / status / onboard_power.'
+  notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
+    relevance=1, status=watch, application=[] (empty). institution_type set from general
+    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
 - id: mainz-walther
   name: Walther Group
   pi: Andreas Walther
@@ -772,13 +773,12 @@
   url: https://www.walther-group.com/research-mission
   people_url: null
   category: material-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Asset 2\nAsset 2\n\n2/3\nOur Research Mission and Vision\n​\n\nLife\
     \ as Inspiration for Adaptive, Autonomous and Interactive Systems and Materials.\
     \ What are the essential principles of life? How can we transduce these principles\
@@ -806,9 +806,11 @@
     \ mechanosensing materials, mechanical metamaterials, soft robotics and interactive\
     \ biomaterials.\n​"
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mainz-walther.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Filed under Micro-Robotics Lab; content is entirely adaptive/interactive materials
-    systems, no robotics language, so recategorized to material-lab.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Filed under Micro-Robotics Lab; content is entirely
+    adaptive/interactive materials systems, no robotics language, so recategorized
+    to material-lab.'
 - id: mayo-ceylan
   name: Hakan Ceylan — Mayo Clinic
   pi: Hakan Ceylan
@@ -850,13 +852,12 @@
   url: https://smrl.mit.edu/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Welcome to the Soft and Micro Robotics Laboratory
 
 
@@ -886,7 +887,9 @@
     literature studies, we will also set up a weekly or biweekly meeting with each
     group member.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mit-smrl.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: mpi-physical-intelligence
   name: Physical Intelligence Department
   pi: null
@@ -899,13 +902,12 @@
   url: https://pi.is.mpg.de/
   people_url: null
   category: material-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: institute
+  relevance: 1
+  status: watch
   description: 'Metin Sitti gone
 
 
@@ -928,10 +930,11 @@
     2023, Metin Sitti headed the Physical Intelligence Department. He is now President
     of Koç University and a Guest Scientists at MPI-IS.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mpi-physical-intelligence.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Per the old map''s own description: ''Metin Sitti gone, no replacement yet'' --
-    pi left null rather than crediting Sitti. Verify current leadership. See also
-    ku-sitti for his current affiliation.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Per the old map''s own description: ''Metin Sitti
+    gone, no replacement yet'' -- pi left null rather than crediting Sitti. Verify
+    current leadership. See also ku-sitti for his current affiliation.'
 - id: penn-msma
   name: MSMA Group — MicroSensors and MicroActuators
   pi: Mark G. Allen
@@ -973,13 +976,12 @@
   url: https://www.santannapisa.it/it/istituto/biorobotica/microscale-robotics-laboratory
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Polo Sant'Anna Valdera\n\nresearch centre of Sant'Anna School of Advanced\
     \ Studies in Pisa \n\n\n\n\n\nThe Microscale Robotics Laboratory aims to create\
     \ advanced robotic technologies of sub-millimeter dimensions. Our approach is\
@@ -1004,11 +1006,12 @@
     \ the European Union’s Horizon 2020 research and innovation programme (CELLOIDS\
     \ project, GA: 948590)."
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/santanna-palagi.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    ''Stefano Palagi – SantAnna Pisa'' was a near-duplicate of the same lab with near-identical
-    description text but a point ~230km away (near Padova, not Pisa) -- looks like
-    a stray pin placement in the old map. Merged into one entry using the Pontedera/Pisa
-    coordinates.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. ''Stefano Palagi – SantAnna Pisa'' was a near-duplicate
+    of the same lab with near-identical description text but a point ~230km away (near
+    Padova, not Pisa) -- looks like a stray pin placement in the old map. Merged into
+    one entry using the Pontedera/Pisa coordinates.'
 - id: srl-twente
   name: Surgical Robotics Lab (SRL)
   pi: Sarthak Misra
@@ -1061,13 +1064,12 @@
   url: https://bammlab.stanford.edu/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Welcome to our laboratory! The Demirci Bio-Acoustic MEMS in Medicine\
     \ Labs (BAMM) laboratory specializes in applying micro- and nanoscale technologies\
     \ to problems in medicine at the interface between micro/nanoscale engineering\
@@ -1092,7 +1094,9 @@
     \ of the Canary Center at Stanford for Cancer Early Detection, a world-class research\
     \ facility dedicated to cancer early detection programs. \n\nhttps://canarycenter.stanford.edu/aboutus.html"
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/stanford-bamm.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: strath-materials
   name: Materials & Computational Chemistry
   pi: Juliane Simmchen
@@ -1105,13 +1109,12 @@
   url: https://www.strath.ac.uk/research/subjects/chemistry/materialscomputationalchemistry/
   people_url: null
   category: material-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Dr Juliane Simmchen at Hamlyn Symposium 2024\n\ncolloidal synthesis\
     \ and characterization\nactive matter\nphotocatalytic particles\n\n\n\n\nThe materials\
     \ and computational research group covers a diverse range of interests with an\
@@ -1125,7 +1128,9 @@
     \ within this section also focuses on the structure and properties of molecules,\
     \ metal-containing compounds, materials and biological systems."
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/strath-materials.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: tcd-florea
   name: Florea Lab
   pi: Larisa Florea
@@ -1138,13 +1143,12 @@
   url: https://www.florealab.com/
   people_url: null
   category: material-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Our research comprises several distinct strands of research in the
     soft matter realm, including development of new stimuli-responsive polymers, 3D
     fabrication technologies, micro-fabrication of polymeric actuators & sensors,
@@ -1155,7 +1159,9 @@
     College Dublin, and AMBER, the SFI  Research Centre for Advanced Materials and
     BioEngineering Research, in Dublin (Ireland).'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tcd-florea.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: tcd-mmbe
   name: Mechanical, Manufacturing and Biomedical Engineering
   pi: null
@@ -1229,22 +1235,21 @@
 - id: tud-bcube
   name: B CUBE — Center for Molecular Bioengineering
   pi: null
-  institution: TUD Dresden University of Technology
+  institution: Technische Universität Dresden
   city: Dresden
   country: DE
-  lat: null
-  lon: null
+  lat: 51.02987
+  lon: 13.73032
   osm: null
-  url: TODO
+  url: https://tu-dresden.de/cmcb
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "B CUBE - Center for Molecular Bioengineering at TUD Dresden University\
     \ of Technology is part of the Center for Molecular and Cellular Bioengineering\
     \ (CMCB) and focuses on the investigation of natural phenomena across scales and\
@@ -1313,8 +1318,12 @@
     \ and subjects, DRESDEN-concept offers researchers an ideal place for science\
     \ and innovation.\nWeb: www.dresden-concept.de"
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tud-bcube.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    No point/link in the export, so no url -- fill in by hand.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. No point/link in the export, so no url -- fill in
+    by hand. url defaulted to the parent CMCB center''s homepage (B CUBE''s own description
+    says it''s part of CMCB) -- the export had no link at all for this entry, replace
+    with B CUBE''s own page if it has one.'
 - id: tudarmstadt-bakenecker
   name: Microrobot Drug Transport — Bakenecker Group
   pi: Anna C. Bakenecker
@@ -1327,13 +1336,12 @@
   url: https://www.etit.tu-darmstadt.de/fachbereich/professuren_etit/etit_prof_details_141248.en.jsp
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Dr Anna C. Bakenecker has been awarded a LOEWE Start Professorship\
     \ at TU Darmstadt. The expert in medical physics is working on the development,\
     \ control and monitoring of nano- and microrobots that are designed to transport\
@@ -1358,9 +1366,10 @@
     \ in bringing Dr Bakenecker to Hesse with the LOEWE funding, thereby further expanding\
     \ our still young focus area in medical physics.’"
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tudarmstadt-bakenecker.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Old map''s layer title misspells the PI''s name as ''Backenecker''; the linked
-    description spells it ''Bakenecker'', used here.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Old map''s layer title misspells the PI''s name
+    as ''Backenecker''; the linked description spells it ''Bakenecker'', used here.'
 - id: tum-mrbl
   name: Microrobotic Bioengineering Lab (MRBL)
   pi: null
@@ -1373,39 +1382,39 @@
   url: https://www.ee.cit.tum.de/en/rmn/research/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: At MRBL, we develop novel diagnostic and therapeutic technologies by
     integrating nanorobotic tools and multifunctional micromachines with biomedicine.
     Our research group uses nanotechnology, biomaterials, and microfluidics to engineer
     the devices and we implement them in a variety of biological scales ranging from
     single cells to tissue level.
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tum-mrbl.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: tum-neuroengineering
   name: Neuroengineering Materials
   pi: Kristen Kozielski
   institution: Technical University of Munich
   city: Munich
   country: DE
-  lat: null
-  lon: null
+  lat: 48.265712
+  lon: 11.669497
   osm: null
   url: https://www.ee.cit.tum.de/en/nen/home/
   people_url: null
   category: neuroscience-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Professorship of Neuroengineering Materials
 
     Prof. Dr. Kristen Kozielski
@@ -1418,10 +1427,14 @@
 
     https://www.ee.cit.tum.de/en/nen/home/'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tum-neuroengineering.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Raw feature had an empty name property; named here from its own description (''Professorship
-    of Neuroengineering Materials, Prof. Dr. Kristen Kozielski... worked under Metin
-    Sitti, now does Sensors for Brains'').'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Raw feature had an empty name property; named here
+    from its own description (''Professorship of Neuroengineering Materials, Prof.
+    Dr. Kristen Kozielski... worked under Metin Sitti, now does Sensors for Brains'').
+    lat/lon set to the same Garching campus coordinates as tum-mrbl (both are ee.cit.tum.de
+    department pages) after Nominatim returned multiple disagreeing TUM campuses for
+    a plain city-level query -- verify the exact building.'
 - id: uab-mise
   name: Department of Microelectronics and Electronic Systems (MiSE)
   pi: null
@@ -1434,13 +1447,12 @@
   url: https://www.uab.cat/ca/microelectronica-sistemes-electronics/departament
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'The Department of Microelectronics and Electronic Systems (MiSE) was
     created in 2005 from the Microelectronics Unit: Design of Integrated Circuits
     of the Department of Computer Science and has the main objectives of teaching
@@ -1466,8 +1478,9 @@
     At the level of research and innovation, the Department participates in European,
     national, regional and regional projects, and collaborates with other administrations
     and companies, both national and foreign.'
-  notes: 'Migrated from the old hand-drawn uMap export. TODO: verify application /
-    institution_type / relevance / status / onboard_power.'
+  notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
+    relevance=1, status=watch, application=[] (empty). institution_type set from general
+    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
 - id: ucb-lin
   name: Liwei Lin Lab
   pi: Liwei Lin
@@ -1480,13 +1493,12 @@
   url: https://vcresearch.berkeley.edu/faculty/liwei-lin
   people_url: null
   category: milli-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Notable Paper:
 
 
@@ -1504,7 +1516,9 @@
     issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid
     mechanics and dynamics.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/ucb-lin.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: uks-elaine
   name: ELAINE — Elektrisch Aktive Implantate
   pi: null
@@ -1517,13 +1531,12 @@
   url: https://www.elaine.uni-rostock.de/
   people_url: null
   category: medicine-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'SFB 1270/2 ELAINE - Elektrisch Aktive Implantate
 
 
@@ -1532,9 +1545,11 @@
     zur Regeneration von Knochen und Knorpel eingesetzt werden, sowie um Implantate
     zur Tiefenhirnstimulation zur Behandlung von Bewegungsstörungen.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/uks-elaine.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.
-    Filed under Micro-Robotics Lab and Medicine Lab; content is implant devices (bone/cartilage
-    regen, deep brain stimulation), so recategorized to medicine-lab.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify. Filed under Micro-Robotics Lab and Medicine Lab;
+    content is implant devices (bone/cartilage regen, deep brain stimulation), so
+    recategorized to medicine-lab.'
 - id: unirostock-agis
   name: AGIS — Altern des Individuums und der Gesellschaft
   pi: null
@@ -1547,13 +1562,12 @@
   url: https://www.inf.uni-rostock.de/altern-des-individuums-und-der-gesellschaft/
   people_url: null
   category: medicine-lab
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Über uns
 
 
@@ -1576,7 +1590,9 @@
     die auf Erkenntnissen aus Medizin, Geisteswissenschaften und Ingenieurwissenschaften
     aufbaut.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unirostock-agis.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: unirostock-llm
   name: LL&M — Life, Light and Matter
   pi: null
@@ -1589,13 +1605,12 @@
   url: https://www.inf.uni-rostock.de/llm/ueber-uns/department/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Vision des Departments LL&M
 
 
@@ -1668,7 +1683,9 @@
     Materie auf der Nanoebene, wofür Licht-, Elektronen- und Quantentechniken eingesetzt
     werden.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unirostock-llm.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: unitoronto-liu
   name: Microfluidics and BioMEMS Laboratory (MBL)
   pi: Xinyu Liu
@@ -1681,13 +1698,12 @@
   url: https://liulab.mie.utoronto.ca/research/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Small-scale innovations for big problems.
 
     We are inventing small (micro and nano)-scale devices and systems (e.g., microfluidic
@@ -1700,7 +1716,9 @@
     scientists, and chemists.  We closely collaborate with >16 research/clinical laboratories
     at U of T, other Canadian/international institutions, and affiliated hospitals.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unitoronto-liu.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: uol-amir
   name: AMiR — Abteilung für Mikrorobotik und Regelungstechnik
   pi: Sergej Fatikow
@@ -1713,13 +1731,12 @@
   url: https://uol.de/informatik/amir/ueber-uns
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Old Projects:\n- Micro/Nano Robotics for Single Cancer Cells\n- Fast\
     \ Broadband Scanning Microwave Microscopy\n- On-Chip kalibrierender Biosensor\
     \ für kleine Analyten im Bereich POCT und Umweltanalytik\n- Kraftsensitive Biomaterialien\
@@ -1753,7 +1770,9 @@
     \ Studium der Informatik an der Schnittstelle zu den Ingenieurwissenschaften zum\
     \ Ziel hat"
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/uol-amir.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: upenn-miskin
   name: Miskin Lab
   pi: Marc Miskin
@@ -1766,13 +1785,12 @@
   url: https://miskinlab.seas.upenn.edu/home
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Legend of Legends
 
 
@@ -1781,7 +1799,9 @@
 
     https://miskinlab.seas.upenn.edu/home'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/upenn-miskin.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: utoronto-crl
   name: Continuum Robotics Lab
   pi: Jessica Burgner-Kahrs
@@ -1794,13 +1814,12 @@
   url: https://crl.utm.utoronto.ca/team/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Continuum Robotics Lab\nhttps://crl.utm.utoronto.ca/team/\n\n\n Continuum\
     \ robots differ fundamentally from traditional robots. They are biologically inspired\
     \ and instead of relying on a rigid joint-link composition, continuum robots are\
@@ -1813,7 +1832,9 @@
     \ our lives. This includes but is not limited to health care, maintenance, repair,\
     \ and operations"
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/utoronto-crl.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: utoronto-diller
   name: Diller Microrobotics Lab
   pi: Eric Diller
@@ -1826,13 +1847,12 @@
   url: https://microrobotics.mie.utoronto.ca/people/
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: 'Diller Microrobotic Lab
 
     https://microrobotics.mie.utoronto.ca/contact/
@@ -1872,7 +1892,9 @@
     New Researcher Award, the Ontario Early Researcher Award, and the I.W. Smith Award
     from the Canadian Society for Mechanical Engineers.'
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/utoronto-diller.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'
 - id: zju-fpms
   name: Fluid-Power and Mechatronic Systems
   pi: Sun Yu
@@ -1885,13 +1907,12 @@
   url: http://sklofp.zju.edu.cn/sklen/29506/list.htm
   people_url: null
   category: micro-robotics
-  application:
-  - TODO
+  application: []
   min_dim_um: null
   onboard_power: false
-  institution_type: TODO
-  relevance: TODO
-  status: TODO
+  institution_type: university
+  relevance: 1
+  status: watch
   description: "Mission Statement\nStrategic positioning:\n\n    Orientating towards\
     \ National Strategy intents and frontiers of disciplines\n\n    Keeping a foothold\
     \ on the fundamental research and its application of fluid power\n\n    Exploiting\
@@ -1946,4 +1967,6 @@
     \ Medicine); an NSERC E.W.R. Steacie Memorial Fellowship; and the IEEE C.C. Gotlieb\
     \ Computer Award."
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/zju-fpms.geojson.
-    TODO: verify application / institution_type / relevance / status / onboard_power.'
+    Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
+    institution_type set from general knowledge (not the export) -- verify. onboard_power
+    defaulted to false -- verify.'

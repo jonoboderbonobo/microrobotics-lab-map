@@ -1,4 +1,509 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paul McEuen Group",
+        "description": "**Paul McEuen** — Cornell University, Ithaca, NY (US)<br><br>Room 109<br>https://physics.cornell.edu/paul-mceuen<br><br><br><br>The science and technology of nanostructures, particularly carbon-based systems such as nanotubes and graphene; novel fabrication techniques at the nanometer scale; micro- and nanoscale machines and active matter; assembly and measurement of chemical and biological nanostructures<br>Research Focus<br><br>Our research focuses on the fabrication and study of nanostructures.  We use these structures to span the gap between the macroscopic and molecular worlds, exploring electronics, optics, mechanics, chemistry and biology at the nanoscale. Current research ranges from the use of carbon nanotubes for optoelectronics and mechanics to the use of graphene and other 2D materials for atomic-scale origami, active materials, and micro and nanomachines.<br><br>[[https://physics.cornell.edu/paul-mceuen|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "cornell-mceuen",
+        "pi": "Paul McEuen",
+        "institution": "Cornell University",
+        "country": "US",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48112,
+          42.44979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paul McEuen Group",
+        "description": "**Paul McEuen** — Cornell University, Ithaca, NY (US)<br><br>Room 109<br>https://physics.cornell.edu/paul-mceuen<br><br><br><br>The science and technology of nanostructures, particularly carbon-based systems such as nanotubes and graphene; novel fabrication techniques at the nanometer scale; micro- and nanoscale machines and active matter; assembly and measurement of chemical and biological nanostructures<br>Research Focus<br><br>Our research focuses on the fabrication and study of nanostructures.  We use these structures to span the gap between the macroscopic and molecular worlds, exploring electronics, optics, mechanics, chemistry and biology at the nanoscale. Current research ranges from the use of carbon nanotubes for optoelectronics and mechanics to the use of graphene and other 2D materials for atomic-scale origami, active materials, and micro and nanomachines.<br><br>[[https://physics.cornell.edu/paul-mceuen|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "cornell-mceuen",
+        "pi": "Paul McEuen",
+        "institution": "Cornell University",
+        "country": "US",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -76.481541,
+              42.449373
+            ],
+            [
+              -76.481345,
+              42.449371
+            ],
+            [
+              -76.481331,
+              42.449345
+            ],
+            [
+              -76.480889,
+              42.449355
+            ],
+            [
+              -76.480929,
+              42.450243
+            ],
+            [
+              -76.48138,
+              42.450238
+            ],
+            [
+              -76.48138,
+              42.450194
+            ],
+            [
+              -76.481355,
+              42.450192
+            ],
+            [
+              -76.481313,
+              42.44963
+            ],
+            [
+              -76.481331,
+              42.449511
+            ],
+            [
+              -76.481562,
+              42.449493
+            ],
+            [
+              -76.481541,
+              42.449373
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fraunhofer IMTE — Cell-based Medical Engineering",
+        "description": "**Fraunhofer IMTE — Cell-based Medical Engineering** — Fraunhofer IMTE, Lübeck (DE)<br><br>Vision<br><br>Fraunhofer IMTE is an innovative and unique research institution developing intelligent systems and processes for health in the fields of medical technology, cell technology and aquaculture. The focus is on the safe translation of these solutions into beneficial applications for a healthy society. With a cycle of prevention, diagnostics, therapy and rehabilitation, we are redefining the term Circular Health and creating ideal conditions for the individualization of health technologies.<br>Mission<br><br>The combination of our competencies in engineering, informatics, aquaculture and cell technology forms a particular strength of research at Fraunhofer IMTE. In this unique combination, they are a unique selling point and at their interface form a new field of research: blue health technologies. To keep our society healthy, we use individual therapeutic and diagnostic methods in close cooperation with the clinic and our customers. In addition, we are tapping into new animal and cell culture models as well as other substance groups from the ocean. Through our central platforms of Surgical Robotics, Food Technology, Additive Manufacturing and Clinical and Regulatory Affairs, the developed solutions are quickly and reliably transferred into application. In this way, we achieve significant added value for the health of our society along the entire value chain and develop it further with agility and competence in line with our concept of Circular Health.<br><br>[[https://www.imte.fraunhofer.de/en.html|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "fraunhofer-imte-cellmed",
+        "pi": "",
+        "institution": "Fraunhofer IMTE",
+        "country": "DE",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7005,
+          53.83602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fraunhofer IMTE — Cell-based Medical Engineering",
+        "description": "**Fraunhofer IMTE — Cell-based Medical Engineering** — Fraunhofer IMTE, Lübeck (DE)<br><br>Vision<br><br>Fraunhofer IMTE is an innovative and unique research institution developing intelligent systems and processes for health in the fields of medical technology, cell technology and aquaculture. The focus is on the safe translation of these solutions into beneficial applications for a healthy society. With a cycle of prevention, diagnostics, therapy and rehabilitation, we are redefining the term Circular Health and creating ideal conditions for the individualization of health technologies.<br>Mission<br><br>The combination of our competencies in engineering, informatics, aquaculture and cell technology forms a particular strength of research at Fraunhofer IMTE. In this unique combination, they are a unique selling point and at their interface form a new field of research: blue health technologies. To keep our society healthy, we use individual therapeutic and diagnostic methods in close cooperation with the clinic and our customers. In addition, we are tapping into new animal and cell culture models as well as other substance groups from the ocean. Through our central platforms of Surgical Robotics, Food Technology, Additive Manufacturing and Clinical and Regulatory Affairs, the developed solutions are quickly and reliably transferred into application. In this way, we achieve significant added value for the health of our society along the entire value chain and develop it further with agility and competence in line with our concept of Circular Health.<br><br>[[https://www.imte.fraunhofer.de/en.html|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "fraunhofer-imte-cellmed",
+        "pi": "",
+        "institution": "Fraunhofer IMTE",
+        "country": "DE",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              10.699959,
+              53.835965
+            ],
+            [
+              10.701445,
+              53.836458
+            ],
+            [
+              10.701751,
+              53.836145
+            ],
+            [
+              10.700281,
+              53.835656
+            ],
+            [
+              10.699959,
+              53.835965
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wyss Institute",
+        "description": "**Wyss Institute** — Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA (US)<br><br>Bioinspired Therapeutics & Diagnostics <br>Living Cellular Devices <br>Computational Design & Discovery <br>Molecular Robotics <br>Diagnostics Accelerator <br>3D Organ Engineering <br>Immuno-Materials <br>Synthetic Biology <br><br><br>Our mission is to transform healthcare and the environment by developing innovative technologies that emulate the way Nature builds, and accelerate their translation into commercial products through the formation of startups and corporate partnerships to bring about positive near-term impact in the world.<br><br>[[https://wyss.harvard.edu/about/|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "harvard-wyss",
+        "pi": "",
+        "institution": "Wyss Institute for Biologically Inspired Engineering, Harvard University",
+        "country": "US",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.10178,
+          42.34487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wyss Institute",
+        "description": "**Wyss Institute** — Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA (US)<br><br>Bioinspired Therapeutics & Diagnostics <br>Living Cellular Devices <br>Computational Design & Discovery <br>Molecular Robotics <br>Diagnostics Accelerator <br>3D Organ Engineering <br>Immuno-Materials <br>Synthetic Biology <br><br><br>Our mission is to transform healthcare and the environment by developing innovative technologies that emulate the way Nature builds, and accelerate their translation into commercial products through the formation of startups and corporate partnerships to bring about positive near-term impact in the world.<br><br>[[https://wyss.harvard.edu/about/|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "harvard-wyss",
+        "pi": "",
+        "institution": "Wyss Institute for Biologically Inspired Engineering, Harvard University",
+        "country": "US",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -71.10159,
+              42.344514
+            ],
+            [
+              -71.101424,
+              42.344625
+            ],
+            [
+              -71.101536,
+              42.344696
+            ],
+            [
+              -71.101273,
+              42.344942
+            ],
+            [
+              -71.102373,
+              42.345549
+            ],
+            [
+              -71.102464,
+              42.345442
+            ],
+            [
+              -71.102507,
+              42.345469
+            ],
+            [
+              -71.10284,
+              42.345136
+            ],
+            [
+              -71.102303,
+              42.344847
+            ],
+            [
+              -71.101756,
+              42.344403
+            ],
+            [
+              -71.10159,
+              42.344514
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ELAINE — Elektrisch Aktive Implantate",
+        "description": "**ELAINE — Elektrisch Aktive Implantate** — University of Rostock, Rostock (DE)<br><br>SFB 1270/2 ELAINE - Elektrisch Aktive Implantate<br><br>Die Forschungsvision des Sonderforschungsbereichs (SFB) 1270/2 konzentriert sich auf neuartige, elektrisch aktive Implantate. Konkret geht es um Implantate, die zur Regeneration von Knochen und Knorpel eingesetzt werden, sowie um Implantate zur Tiefenhirnstimulation zur Behandlung von Bewegungsstörungen.<br><br>[[https://www.elaine.uni-rostock.de/|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "uks-elaine",
+        "pi": "",
+        "institution": "University of Rostock",
+        "country": "DE",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1139,
+          54.07707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ELAINE — Elektrisch Aktive Implantate",
+        "description": "**ELAINE — Elektrisch Aktive Implantate** — University of Rostock, Rostock (DE)<br><br>SFB 1270/2 ELAINE - Elektrisch Aktive Implantate<br><br>Die Forschungsvision des Sonderforschungsbereichs (SFB) 1270/2 konzentriert sich auf neuartige, elektrisch aktive Implantate. Konkret geht es um Implantate, die zur Regeneration von Knochen und Knorpel eingesetzt werden, sowie um Implantate zur Tiefenhirnstimulation zur Behandlung von Bewegungsstörungen.<br><br>[[https://www.elaine.uni-rostock.de/|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "uks-elaine",
+        "pi": "",
+        "institution": "University of Rostock",
+        "country": "DE",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              12.114106,
+              54.076817
+            ],
+            [
+              12.114299,
+              54.07688
+            ],
+            [
+              12.113733,
+              54.077386
+            ],
+            [
+              12.113551,
+              54.077319
+            ],
+            [
+              12.114106,
+              54.076817
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AGIS — Altern des Individuums und der Gesellschaft",
+        "description": "**AGIS — Altern des Individuums und der Gesellschaft** — University of Rostock, Rostock (DE)<br><br>Über uns<br><br>Eine steigende Lebenserwartung und eine niedrige Geburtenraten verändern die Bevölkerungsstruktur tiefgreifend. Der demografische Wandel gilt als eine der großen Herausforderungen der modernen Industriegesellschaft. Zu seinen Folgen zählen die zunehmende Knappheit an Nachwuchs- und Führungskräften, der Anstieg der Pflegebedürftigkeit und Finanzierungsschwierigkeiten der Sozialversicherungssysteme. Zentrales gesellschaftliches Ziel einer alternden Gesellschaft bleibt die Sicherung des Wohlstands. Das setzt die Aufrechterhaltung der Innovationsfähigkeit, die Verfügbarkeit von Arbeitskräften und die Anpassung der Institutionen an demografischen Veränderungen voraus. Wohlstand bedeutet auch, ein selbständiges und selbstbestimmtes Leben im Alter zu ermöglichen, in Gesundheit und mit voller gesellschaftlicher Teilhabe.<br><br>Das Department Altern des Individuums und der Gesellschaft (AGIS) sucht hierfür nach neuen Lösungen – auf der Ebene der medizinischen Versorgungs- und Therapieformen, im Bereich der wirtschaftlichen und sozialen Strukturen und in Bezug auf technische Assistenzsysteme. Voraussetzung hierfür ist eine interdisziplinäre Forschung, die auf Erkenntnissen aus Medizin, Geisteswissenschaften und Ingenieurwissenschaften aufbaut.<br><br>[[https://www.inf.uni-rostock.de/altern-des-individuums-und-der-gesellschaft/|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "unirostock-agis",
+        "pi": "",
+        "institution": "University of Rostock",
+        "country": "DE",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.13328,
+          54.08805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AGIS — Altern des Individuums und der Gesellschaft",
+        "description": "**AGIS — Altern des Individuums und der Gesellschaft** — University of Rostock, Rostock (DE)<br><br>Über uns<br><br>Eine steigende Lebenserwartung und eine niedrige Geburtenraten verändern die Bevölkerungsstruktur tiefgreifend. Der demografische Wandel gilt als eine der großen Herausforderungen der modernen Industriegesellschaft. Zu seinen Folgen zählen die zunehmende Knappheit an Nachwuchs- und Führungskräften, der Anstieg der Pflegebedürftigkeit und Finanzierungsschwierigkeiten der Sozialversicherungssysteme. Zentrales gesellschaftliches Ziel einer alternden Gesellschaft bleibt die Sicherung des Wohlstands. Das setzt die Aufrechterhaltung der Innovationsfähigkeit, die Verfügbarkeit von Arbeitskräften und die Anpassung der Institutionen an demografischen Veränderungen voraus. Wohlstand bedeutet auch, ein selbständiges und selbstbestimmtes Leben im Alter zu ermöglichen, in Gesundheit und mit voller gesellschaftlicher Teilhabe.<br><br>Das Department Altern des Individuums und der Gesellschaft (AGIS) sucht hierfür nach neuen Lösungen – auf der Ebene der medizinischen Versorgungs- und Therapieformen, im Bereich der wirtschaftlichen und sozialen Strukturen und in Bezug auf technische Assistenzsysteme. Voraussetzung hierfür ist eine interdisziplinäre Forschung, die auf Erkenntnissen aus Medizin, Geisteswissenschaften und Ingenieurwissenschaften aufbaut.<br><br>[[https://www.inf.uni-rostock.de/altern-des-individuums-und-der-gesellschaft/|Group website]]<br><br>Category: Medicine Lab · Smallest demonstrated: unknown",
+        "id": "unirostock-agis",
+        "pi": "",
+        "institution": "University of Rostock",
+        "country": "DE",
+        "category": "medicine-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOliveGreen",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              12.133206,
+              54.087796
+            ],
+            [
+              12.133487,
+              54.087817
+            ],
+            [
+              12.133431,
+              54.088032
+            ],
+            [
+              12.133479,
+              54.088037
+            ],
+            [
+              12.133455,
+              54.088163
+            ],
+            [
+              12.133404,
+              54.088153
+            ],
+            [
+              12.133369,
+              54.088362
+            ],
+            [
+              12.133099,
+              54.088353
+            ],
+            [
+              12.13308,
+              54.088274
+            ],
+            [
+              12.133128,
+              54.088131
+            ],
+            [
+              12.133104,
+              54.08812
+            ],
+            [
+              12.133123,
+              54.088023
+            ],
+            [
+              12.133155,
+              54.088021
+            ],
+            [
+              12.133158,
+              54.087942
+            ],
+            [
+              12.132817,
+              54.087886
+            ],
+            [
+              12.132852,
+              54.087787
+            ],
+            [
+              12.133182,
+              54.08784
+            ],
+            [
+              12.133206,
+              54.087796
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
 }

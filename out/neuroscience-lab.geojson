@@ -1,4 +1,114 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Metin Sitti — KUTTAM",
+        "description": "**Metin Sitti** — Koç University, Istanbul (TR)<br><br>[[https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "id": "ku-sitti",
+        "pi": "Metin Sitti",
+        "institution": "Koç University",
+        "country": "TR",
+        "category": "neuroscience-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOrange",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07349,
+          41.20575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neuroengineering Materials",
+        "description": "**Kristen Kozielski** — Technical University of Munich, Munich (DE)<br><br>Professorship of Neuroengineering Materials<br>Prof. Dr. Kristen Kozielski<br><br>Worked under Metin Sitti<br>Now does Sensors for Brains<br><br>https://www.ee.cit.tum.de/en/nen/home/<br><br>[[https://www.ee.cit.tum.de/en/nen/home/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "id": "tum-neuroengineering",
+        "pi": "Kristen Kozielski",
+        "institution": "Technical University of Munich",
+        "country": "DE",
+        "category": "neuroscience-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOrange",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.669497,
+          48.265712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neuroengineering Materials",
+        "description": "**Kristen Kozielski** — Technical University of Munich, Munich (DE)<br><br>Professorship of Neuroengineering Materials<br>Prof. Dr. Kristen Kozielski<br><br>Worked under Metin Sitti<br>Now does Sensors for Brains<br><br>https://www.ee.cit.tum.de/en/nen/home/<br><br>[[https://www.ee.cit.tum.de/en/nen/home/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "id": "tum-neuroengineering",
+        "pi": "Kristen Kozielski",
+        "institution": "Technical University of Munich",
+        "country": "DE",
+        "category": "neuroscience-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkOrange",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              11.561018,
+              48.144477
+            ],
+            [
+              11.561093,
+              48.144594
+            ],
+            [
+              11.560576,
+              48.144749
+            ],
+            [
+              11.560495,
+              48.144631
+            ],
+            [
+              11.561018,
+              48.144477
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
 }

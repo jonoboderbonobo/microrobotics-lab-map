@@ -1,4 +1,377 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walther Group",
+        "description": "**Andreas Walther** — Johannes Gutenberg University Mainz, Mainz (DE)<br><br>Asset 2<br>Asset 2<br><br>2/3<br>Our Research Mission and Vision<br>​<br><br>Life as Inspiration for Adaptive, Autonomous and Interactive Systems and Materials. What are the essential principles of life? How can we transduce these principles to synthetic systems and materials to innovate for next generation of macromolecular materials systems with unprecedented active and interactive properties? On a molecular level, living systems are characterized by being organized in chemically fueled out-of-equilibrium states that are regulated by signaling networks. This results in a stunning richness of active properties such as self-regulation, adaptation, communication, morphogenesis, self-replication and evolution. <br><br>​<br><br>Complex (Macro)molecular Systems that Organize in Space and Time: Inspired by these challenges, we dedicate our efforts on fueled and feedback-controlled non-equilibrium self-assembling molecular systems that are regulated by signal-processing chemical reaction networks (CRNs). We research such systems on a fundamental system chemistry level and connect such CRNs to artifical cells, self-regulating structures and soft materials research. At the core of our investigations is the design and the synthesis of precision-engineered synthetic polymers, DNA and colloids, as well as their hierarchically self-assembled systems.<br><br><br>Complexity as a Driver for Materials Innovation: Our philosophy is to go beyond a quantitative understanding of structure formation processes, and we aim for an analysis and exploitation of the resulting life-like systems on a functional materials level to bridge the gap between fundamental research and first-time applications. ​For life-like materials systems we focus on self-regulation, adaptation, training, learning, morphogenesis, as well as communication and co-evolution with biological systems as in the context of self-erasing hydrogels, mechanosensing materials, mechanical metamaterials, soft robotics and interactive biomaterials.<br>​<br><br>[[https://www.walther-group.com/research-mission|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "mainz-walther",
+        "pi": "Andreas Walther",
+        "institution": "Johannes Gutenberg University Mainz",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.23192,
+          49.99166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walther Group",
+        "description": "**Andreas Walther** — Johannes Gutenberg University Mainz, Mainz (DE)<br><br>Asset 2<br>Asset 2<br><br>2/3<br>Our Research Mission and Vision<br>​<br><br>Life as Inspiration for Adaptive, Autonomous and Interactive Systems and Materials. What are the essential principles of life? How can we transduce these principles to synthetic systems and materials to innovate for next generation of macromolecular materials systems with unprecedented active and interactive properties? On a molecular level, living systems are characterized by being organized in chemically fueled out-of-equilibrium states that are regulated by signaling networks. This results in a stunning richness of active properties such as self-regulation, adaptation, communication, morphogenesis, self-replication and evolution. <br><br>​<br><br>Complex (Macro)molecular Systems that Organize in Space and Time: Inspired by these challenges, we dedicate our efforts on fueled and feedback-controlled non-equilibrium self-assembling molecular systems that are regulated by signal-processing chemical reaction networks (CRNs). We research such systems on a fundamental system chemistry level and connect such CRNs to artifical cells, self-regulating structures and soft materials research. At the core of our investigations is the design and the synthesis of precision-engineered synthetic polymers, DNA and colloids, as well as their hierarchically self-assembled systems.<br><br><br>Complexity as a Driver for Materials Innovation: Our philosophy is to go beyond a quantitative understanding of structure formation processes, and we aim for an analysis and exploitation of the resulting life-like systems on a functional materials level to bridge the gap between fundamental research and first-time applications. ​For life-like materials systems we focus on self-regulation, adaptation, training, learning, morphogenesis, as well as communication and co-evolution with biological systems as in the context of self-erasing hydrogels, mechanosensing materials, mechanical metamaterials, soft robotics and interactive biomaterials.<br>​<br><br>[[https://www.walther-group.com/research-mission|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "mainz-walther",
+        "pi": "Andreas Walther",
+        "institution": "Johannes Gutenberg University Mainz",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.231624,
+              49.992033
+            ],
+            [
+              8.232075,
+              49.99116
+            ],
+            [
+              8.232115,
+              49.991175
+            ],
+            [
+              8.231984,
+              49.991424
+            ],
+            [
+              8.232193,
+              49.991462
+            ],
+            [
+              8.231976,
+              49.991869
+            ],
+            [
+              8.231799,
+              49.991839
+            ],
+            [
+              8.231691,
+              49.992051
+            ],
+            [
+              8.231624,
+              49.992033
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Physical Intelligence Department",
+        "description": "**Physical Intelligence Department** — Max Planck Institute for Intelligent Systems, Stuttgart (DE)<br><br>Metin Sitti gone<br><br>no replacement yet<br><br>Physical Intelligence Department aims to understand the principles of design, locomotion, control, and physical intelligence of small-scale mobile robots.<br><br><br>The department aims to understand the underlying principles of physical intelligence of single and collectives of biological organisms at milli- and micrometer length scales, and realize advanced physical intelligence capabilities on small-scale mobile robots using such principles. As the societal and translational research mission, the team aims to apply these tiny robots as minimally invasive and implantable wireless medical robots inside our body to revolutionize medicine and healthcare. The highly interdisciplinary team has expertise in robotics, micro/nanotechnology, materials science, engineering, physics, biology, chemistry, and medicine. Until 2023, Metin Sitti headed the Physical Intelligence Department. He is now President of Koç University and a Guest Scientists at MPI-IS.<br><br>[[https://pi.is.mpg.de/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "mpi-physical-intelligence",
+        "pi": "",
+        "institution": "Max Planck Institute for Intelligent Systems",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.08056,
+          48.74687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Physical Intelligence Department",
+        "description": "**Physical Intelligence Department** — Max Planck Institute for Intelligent Systems, Stuttgart (DE)<br><br>Metin Sitti gone<br><br>no replacement yet<br><br>Physical Intelligence Department aims to understand the principles of design, locomotion, control, and physical intelligence of small-scale mobile robots.<br><br><br>The department aims to understand the underlying principles of physical intelligence of single and collectives of biological organisms at milli- and micrometer length scales, and realize advanced physical intelligence capabilities on small-scale mobile robots using such principles. As the societal and translational research mission, the team aims to apply these tiny robots as minimally invasive and implantable wireless medical robots inside our body to revolutionize medicine and healthcare. The highly interdisciplinary team has expertise in robotics, micro/nanotechnology, materials science, engineering, physics, biology, chemistry, and medicine. Until 2023, Metin Sitti headed the Physical Intelligence Department. He is now President of Koç University and a Guest Scientists at MPI-IS.<br><br>[[https://pi.is.mpg.de/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "mpi-physical-intelligence",
+        "pi": "",
+        "institution": "Max Planck Institute for Intelligent Systems",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              9.08012,
+              48.746678
+            ],
+            [
+              9.080927,
+              48.746653
+            ],
+            [
+              9.080973,
+              48.746835
+            ],
+            [
+              9.080822,
+              48.746841
+            ],
+            [
+              9.080863,
+              48.747124
+            ],
+            [
+              9.08038,
+              48.747147
+            ],
+            [
+              9.080329,
+              48.746816
+            ],
+            [
+              9.08013,
+              48.746827
+            ],
+            [
+              9.08012,
+              48.746678
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Materials & Computational Chemistry",
+        "description": "**Juliane Simmchen** — University of Strathclyde, Glasgow (GB)<br><br>Dr Juliane Simmchen at Hamlyn Symposium 2024<br><br>colloidal synthesis and characterization<br>active matter<br>photocatalytic particles<br><br><br><br><br>The materials and computational research group covers a diverse range of interests with an emphasis on applied, multidisciplinary projects. The group has a strong track record of working with industry in areas such as:<br><br>    energy<br>    lighting<br>    displays<br>    polymer science<br>    bionanotechnology<br>    biophysical chemistry<br>    sensors<br>    the food industry<br><br>The activities of the section encompass inorganic and organic synthetic chemistry for the development of functional materials and devices. The work is complemented by substantial characterisation facilities and pioneering research into structure-property relationships. Research within this section also focuses on the structure and properties of molecules, metal-containing compounds, materials and biological systems.<br><br>[[https://www.strath.ac.uk/research/subjects/chemistry/materialscomputationalchemistry/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "strath-materials",
+        "pi": "Juliane Simmchen",
+        "institution": "University of Strathclyde",
+        "country": "GB",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.29331,
+          55.87195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Materials & Computational Chemistry",
+        "description": "**Juliane Simmchen** — University of Strathclyde, Glasgow (GB)<br><br>Dr Juliane Simmchen at Hamlyn Symposium 2024<br><br>colloidal synthesis and characterization<br>active matter<br>photocatalytic particles<br><br><br><br><br>The materials and computational research group covers a diverse range of interests with an emphasis on applied, multidisciplinary projects. The group has a strong track record of working with industry in areas such as:<br><br>    energy<br>    lighting<br>    displays<br>    polymer science<br>    bionanotechnology<br>    biophysical chemistry<br>    sensors<br>    the food industry<br><br>The activities of the section encompass inorganic and organic synthetic chemistry for the development of functional materials and devices. The work is complemented by substantial characterisation facilities and pioneering research into structure-property relationships. Research within this section also focuses on the structure and properties of molecules, metal-containing compounds, materials and biological systems.<br><br>[[https://www.strath.ac.uk/research/subjects/chemistry/materialscomputationalchemistry/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "strath-materials",
+        "pi": "Juliane Simmchen",
+        "institution": "University of Strathclyde",
+        "country": "GB",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -4.293557,
+              55.871215
+            ],
+            [
+              -4.292269,
+              55.871194
+            ],
+            [
+              -4.291856,
+              55.872638
+            ],
+            [
+              -4.295295,
+              55.872638
+            ],
+            [
+              -4.293557,
+              55.871215
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Florea Lab",
+        "description": "**Larisa Florea** — Trinity College Dublin, Dublin (IE)<br><br>Our research comprises several distinct strands of research in the soft matter realm, including development of new stimuli-responsive polymers, 3D fabrication technologies, micro-fabrication of polymeric actuators & sensors, and development of smart micro-vehicles.<br><br>Led by Larisa Florea, our laboratory is hosted by the School of Chemistry, Trinity College Dublin, and AMBER, the SFI  Research Centre for Advanced Materials and BioEngineering Research, in Dublin (Ireland).<br><br>[[https://www.florealab.com/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "tcd-florea",
+        "pi": "Larisa Florea",
+        "institution": "Trinity College Dublin",
+        "country": "IE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.25018,
+          53.34399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Florea Lab",
+        "description": "**Larisa Florea** — Trinity College Dublin, Dublin (IE)<br><br>Our research comprises several distinct strands of research in the soft matter realm, including development of new stimuli-responsive polymers, 3D fabrication technologies, micro-fabrication of polymeric actuators & sensors, and development of smart micro-vehicles.<br><br>Led by Larisa Florea, our laboratory is hosted by the School of Chemistry, Trinity College Dublin, and AMBER, the SFI  Research Centre for Advanced Materials and BioEngineering Research, in Dublin (Ireland).<br><br>[[https://www.florealab.com/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "tcd-florea",
+        "pi": "Larisa Florea",
+        "institution": "Trinity College Dublin",
+        "country": "IE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -6.25118,
+              53.344398
+            ],
+            [
+              -6.250912,
+              53.344203
+            ],
+            [
+              -6.250601,
+              53.344031
+            ],
+            [
+              -6.250282,
+              53.343898
+            ],
+            [
+              -6.249931,
+              53.343806
+            ],
+            [
+              -6.249705,
+              53.343732
+            ],
+            [
+              -6.249598,
+              53.343943
+            ],
+            [
+              -6.249601,
+              53.344002
+            ],
+            [
+              -6.2497,
+              53.344067
+            ],
+            [
+              -6.25118,
+              53.344398
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
 }

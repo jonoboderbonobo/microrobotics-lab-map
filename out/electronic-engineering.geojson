@@ -4,6 +4,94 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Molnar Group",
+        "description": "**Alyosha Molnar** — Cornell University, Ithaca, NY (US)<br><br>Bioelectronics<br>Maker of Purcell Bot, Ant-Bot, Dog-Bot<br>Worked with McEuen and Miskin<br><br><br>Our group works primarily in a space encompassing integrated circuits for RF, computational imaging, and bioelectrical interfaces under the direction of Dr. Alyosha Molnar. As a result, we have had to develop a range of expertise, from signal processing algorithms to systems architecture to transistor-level circuits to opto-electronic device physics to wet biology (and especially neurobiology). This broad range of interests is rooted in core expertise in radio communications circuits and sensory (and especially visual) neuroscience. One of the great things about interdisciplinary research is that reveals fundamental similarities across problems, and so spurs new interdisciplinary research in unexpected directions. We are often confused, but rarely bored.<br><br>[[https://molnargroup.ece.cornell.edu/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "cornell-molnar",
+        "pi": "Alyosha Molnar",
+        "institution": "Cornell University",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48205,
+          42.44447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Molnar Group",
+        "description": "**Alyosha Molnar** — Cornell University, Ithaca, NY (US)<br><br>Bioelectronics<br>Maker of Purcell Bot, Ant-Bot, Dog-Bot<br>Worked with McEuen and Miskin<br><br><br>Our group works primarily in a space encompassing integrated circuits for RF, computational imaging, and bioelectrical interfaces under the direction of Dr. Alyosha Molnar. As a result, we have had to develop a range of expertise, from signal processing algorithms to systems architecture to transistor-level circuits to opto-electronic device physics to wet biology (and especially neurobiology). This broad range of interests is rooted in core expertise in radio communications circuits and sensory (and especially visual) neuroscience. One of the great things about interdisciplinary research is that reveals fundamental similarities across problems, and so spurs new interdisciplinary research in unexpected directions. We are often confused, but rarely bored.<br><br>[[https://molnargroup.ece.cornell.edu/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "cornell-molnar",
+        "pi": "Alyosha Molnar",
+        "institution": "Cornell University",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -76.482259,
+              42.444187
+            ],
+            [
+              -76.481586,
+              42.444207
+            ],
+            [
+              -76.481688,
+              42.444664
+            ],
+            [
+              -76.482165,
+              42.44466
+            ],
+            [
+              -76.482192,
+              42.44504
+            ],
+            [
+              -76.482369,
+              42.44504
+            ],
+            [
+              -76.482259,
+              42.444187
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MSMA Group — MicroSensors and MicroActuators",
         "description": "**Mark G. Allen** — University of Pennsylvania, Philadelphia, PA (US)<br><br>Microsensors and microactuators. Collaborates with McEuen and Miskin.<br><br>[[https://mems.seas.upenn.edu/|Group website]]<br>[[https://mems.seas.upenn.edu/members/|People]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
         "id": "penn-msma",

@@ -1,1 +1,10 @@
-{}
+{
+  "Fraunhofer IMTE, L\u00fcbeck, DE": {
+    "lat": 53.83602,
+    "lon": 10.7005
+  },
+  "Technische Universit\u00e4t Dresden, Dresden, DE": {
+    "lat": 51.02987,
+    "lon": 13.73032
+  }
+}

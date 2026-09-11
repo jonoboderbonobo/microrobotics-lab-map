@@ -1,4 +1,85 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liwei Lin Lab",
+        "description": "**Liwei Lin** — University of California, Berkeley, Berkeley (US)<br><br>Notable Paper:<br><br>Insect-scale fast moving and ultrarobust soft robot<br>10.1126/scirobotics.aax1594<br><br><br>Research Interests<br>MEMS (Microelectromechanical Systems); NEMS (Nanoelectromechanical Systems); Nanotechnology; design and manufacturing of microsensors and microactuators; development of micromachining processes by silicon surface/bulk micromachining; micro moulding process; mechanical issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid mechanics and dynamics.<br><br>[[https://vcresearch.berkeley.edu/faculty/liwei-lin|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "ucb-lin",
+        "pi": "Liwei Lin",
+        "institution": "University of California, Berkeley",
+        "country": "US",
+        "category": "milli-robotics",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25729,
+          37.87454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liwei Lin Lab",
+        "description": "**Liwei Lin** — University of California, Berkeley, Berkeley (US)<br><br>Notable Paper:<br><br>Insect-scale fast moving and ultrarobust soft robot<br>10.1126/scirobotics.aax1594<br><br><br>Research Interests<br>MEMS (Microelectromechanical Systems); NEMS (Nanoelectromechanical Systems); Nanotechnology; design and manufacturing of microsensors and microactuators; development of micromachining processes by silicon surface/bulk micromachining; micro moulding process; mechanical issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid mechanics and dynamics.<br><br>[[https://vcresearch.berkeley.edu/faculty/liwei-lin|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "ucb-lin",
+        "pi": "Liwei Lin",
+        "institution": "University of California, Berkeley",
+        "country": "US",
+        "category": "milli-robotics",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -122.257479,
+              37.874108
+            ],
+            [
+              -122.256895,
+              37.874239
+            ],
+            [
+              -122.257117,
+              37.874862
+            ],
+            [
+              -122.257713,
+              37.874699
+            ],
+            [
+              -122.257479,
+              37.874108
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
 }
