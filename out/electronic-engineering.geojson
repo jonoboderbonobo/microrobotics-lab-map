@@ -92,6 +92,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "CSEM -- Analog Front-Ends for Implantable Devices",
+        "description": "**CSEM -- Analog Front-Ends for Implantable Devices** — CSEM (Centre Suisse d'Electronique et de Microtechnique), Neuchâtel (CH)<br><br>CSEM designs custom ultra-low-power analog front-end ASICs for wearable and implantable medical devices -- multi-channel systems for brain, heart, and muscle monitoring, and specialized circuits for invasive epilepsy treatment and neural brain-machine interfaces. Focus is on minimizing power consumption to extend implant battery life while maintaining precise biomedical signal acquisition.<br><br>[[https://www.csem.ch/en/technical-focus/asics-for-the-edge/analog-front-ends/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "csem-neuchatel",
+        "pi": "",
+        "institution": "CSEM (Centre Suisse d'Electronique et de Microtechnique)",
+        "country": "CH",
+        "category": "electronic-engineering",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.94747,
+          46.99769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MSMA Group — MicroSensors and MicroActuators",
         "description": "**Mark G. Allen** — University of Pennsylvania, Philadelphia, PA (US)<br><br>Microsensors and microactuators. Collaborates with McEuen and Miskin.<br><br>[[https://mems.seas.upenn.edu/|Group website]]<br>[[https://mems.seas.upenn.edu/members/|People]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
         "id": "penn-msma",

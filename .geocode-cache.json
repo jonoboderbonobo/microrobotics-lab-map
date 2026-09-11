@@ -1,10 +1,30 @@
 {
+  "3767 Overland Ave, Los Angeles, US": {
+    "lat": 34.01942,
+    "lon": -118.40763
+  },
+  "CSEM, Neuch\u00e2tel, CH": {
+    "lat": 46.99769,
+    "lon": 6.94747
+  },
+  "Cornell University, Ithaca, NY, US": {
+    "lat": 42.45292,
+    "lon": -76.48006
+  },
   "Fraunhofer IMTE, L\u00fcbeck, DE": {
     "lat": 53.83602,
     "lon": 10.7005
   },
+  "H\u00f4tel-Dieu, Paris, FR": {
+    "lat": 48.85468,
+    "lon": 2.34886
+  },
   "Technische Universit\u00e4t Dresden, Dresden, DE": {
     "lat": 51.02987,
     "lon": 13.73032
+  },
+  "University of Washington, Seattle, WA, US": {
+    "lat": 47.65543,
+    "lon": -122.30017
   }
 }

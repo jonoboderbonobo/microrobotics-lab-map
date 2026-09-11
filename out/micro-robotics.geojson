@@ -104,6 +104,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Itai Cohen Group",
+        "description": "**Itai Cohen** — Cornell University, Ithaca, NY (US)<br><br>Builds microscopic robots -- roughly 5 microns thick, 40-70 microns long, the size of a paramecium -- from a simple circuit with silicon photovoltaics as torso and brain, and electrochemical actuators as legs. Shining laser light on the photovoltaics walks the robots. Demonstrated up to ~1 million robots fabricated per silicon wafer.<br><br>[[https://cohengroup.lassp.cornell.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: 5 µm",
+        "id": "cornell-cohen",
+        "pi": "Itai Cohen",
+        "institution": "Cornell University",
+        "country": "US",
+        "category": "micro-robotics",
+        "application": "fundamental",
+        "onboard_power": "yes",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "5",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.48006,
+          42.45292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "DGIST-ETH Microrobotics Research Center",
         "description": "**DGIST-ETH Microrobotics Research Center** — DGIST, Daegu (KR)<br><br>DGIST-ETH Microrobotics Research Center<br><br>DGIST-ETH Microrobotics Research Center (DEMRC) was initially established for global collaboration on microrobot research between DGIST and ETH Zurich. DEMRC plans to expand collaborations with other domestic and international institutes. DEMRC has several government-funded research projects including a major robotics project on industrial core technology development funded by the Korea Evaluation Institute of Industrial Technologies (KEIT) and the Ministry of Trade, Industry and Energy (MOTIE), Korea. The center will pursue the project by developing new medical microrobots and minimally invasive treatment technologies to cure chronic arterial occlusion with blocked arteries. Furthermore, the center plans to develop core technology of microrobots such as two and three-dimensional medical imaging, remote robot control for minimal exposure to radiation and efficient chronic arterial occlusion treatment.<br><br><br><br><br><br>Research Areas<br><br>    Micro/nano-robots<br>    Micro/nano manipulation & control<br>    Magnetic control systems<br>    Piezoelectric micro-electro-mechanical system (MEMS)<br>    Materials for biomedical applications<br>    Medical imaging and surgical navigation<br>    Microfluidics<br><br><br>Bio-Micro Robotics Lab. in Department of Robotics Engineering<br><br>Our research focus is on Micro-Electromechanical Systems (MEMS) and Nano- Electromechanical Systems (NEMS) for robotics and biomedicine. Current research activities in our group include micro-robots, micro/nano manipulation, acoustic MEMS transducers, brain-machine interfaces, and microfluidics devices. Potential applications for those research areas include minimally-invasive surgery, drug/cell transportation within the human body, neural prostheses for artificial sensory systems, medical communication, and ultrasonic medical imaging.<br><br>Research Areas<br>DGIST-ETH Microrobotics Research Center and Biomicrorobotics Lab is aiming to Micro/nano-robots, magnetic control systems and Piezoelectric micro-electro-mechanical system for multidisciplinary research between biomedical and micro/nano technologies<br><br><br><br><br><br>    Creating a conducive research environment for interdisciplinary micro-robotics studies and overcoming technological barriers in the field through the advancement of related foundational research and securing fundamental patents.<br>    Training globally competitive researchers in the field of micro-robotics convergence.<br>    Establishing partnerships with industry for technology transfer related to micro-robotics and fostering collaboration between academia and industry in research and development.<br>    Building cooperative networks with leading micro-robotics research institutions worldwide, ensuring international agility and collaboration.<br><br><br><br><br><br>    Development of applied technologies for medical micro/nano robots<br>        Development of biocompatible and highly efficient micro/nano robots using MEMS technology<br>        Development of precise magnetic field control systems<br>        Development of micro medical robots for targeted precision therapies such as drug delivery, cell delivery, treatment of heart diseases, brain disorders, etc.<br>        Ensuring efficacy and safety of disease treatment with micro/nano robots and advancing commercialization through joint research with clinical physicians<br>    Development of imaging technologies for micro robots:<br>        Bi-planar X-ray system and CTA & X-ray image fusion<br>        Development of 3D shape models and navigation, interpretation, and compensation of cardiac motion<br>        Development of image-based surgical planning and conducting animal experiments<br>    Applications of engineering using piezoelectric MEMS-based artificial auditory systems and ultrasound transducers.<br><br>[[https://dgistbmr.cafe24.com/about-us/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "dgist-demrc",

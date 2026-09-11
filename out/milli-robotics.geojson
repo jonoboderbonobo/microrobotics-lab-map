@@ -4,6 +4,64 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Bionaut Labs",
+        "description": "**Bionaut Labs** — Bionaut Labs, Los Angeles, CA (US)<br><br>Bionaut Labs develops magnetically-guided microscale robots (rice-grain-scale overall, with some features under 1mm) that are remote-controlled from outside the body to deliver biologics, nucleic acids, or small-molecule therapies to precise targets in the central nervous system, including deep brain structures. Founded 2016, headquartered in Los Angeles with R&D sites in Israel and at the Max Planck Institute in Germany.<br><br>[[https://bionautlabs.com|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "bionaut-labs",
+        "pi": "",
+        "institution": "Bionaut Labs",
+        "country": "US",
+        "category": "milli-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.40763,
+          34.01942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Robeauté",
+        "description": "**Robeauté** — Robeauté, Paris (FR)<br><br>Robeauté is developing rice-grain-sized therapeutic microrobots for neurosurgery, designed to move along curved routes through brain tissue's extracellular matrix to reach multiple targets, deliver molecules, implant electrodes, or collect live tissue samples. Founded 2017 by Joana Cartocci and Bertrand Duplat, based in Paris, raised ~EUR27M as of January 2025.<br><br>[[https://robeaute.com/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "robeaute",
+        "pi": "",
+        "institution": "Robeauté",
+        "country": "FR",
+        "category": "milli-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.34886,
+          48.85468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Liwei Lin Lab",
         "description": "**Liwei Lin** — University of California, Berkeley, Berkeley (US)<br><br>Notable Paper:<br><br>Insect-scale fast moving and ultrarobust soft robot<br>10.1126/scirobotics.aax1594<br><br><br>Research Interests<br>MEMS (Microelectromechanical Systems); NEMS (Nanoelectromechanical Systems); Nanotechnology; design and manufacturing of microsensors and microactuators; development of micromachining processes by silicon surface/bulk micromachining; micro moulding process; mechanical issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid mechanics and dynamics.<br><br>[[https://vcresearch.berkeley.edu/faculty/liwei-lin|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "ucb-lin",
@@ -79,6 +137,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Networks & Mobile Systems Lab (MilliMobile)",
+        "description": "**Vikram Iyer** — University of Washington, Seattle, WA (US)<br><br>MilliMobile is an autonomous, battery-free wireless microrobot with a 10x10 mm chassis weighing under 1.1 g, powered entirely by harvested solar and RF energy. It uses onboard photodiodes to seek light and keep moving indefinitely, can carry payloads up to 3x its own weight, and transmits sensor data wirelessly over 200 m. Built on 'intermittent computing' techniques that let it operate incrementally as harvested energy becomes available.<br><br>[[https://netlab.cs.washington.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "uw-netlab",
+        "pi": "Vikram Iyer",
+        "institution": "University of Washington",
+        "country": "US",
+        "category": "milli-robotics",
+        "application": "environmental,industrial",
+        "onboard_power": "yes",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30017,
+          47.65543
+        ]
       }
     }
   ]

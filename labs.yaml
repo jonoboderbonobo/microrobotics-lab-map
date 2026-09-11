@@ -1,3 +1,36 @@
+- id: bionaut-labs
+  name: Bionaut Labs
+  pi: null
+  institution: Bionaut Labs
+  city: Los Angeles, CA
+  country: US
+  lat: 34.01942
+  lon: -118.40763
+  osm: null
+  url: https://bionautlabs.com
+  people_url: null
+  category: milli-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 3
+  status: watch
+  description: Bionaut Labs develops magnetically-guided microscale robots (rice-grain-scale
+    overall, with some features under 1mm) that are remote-controlled from outside
+    the body to deliver biologics, nucleic acids, or small-molecule therapies to precise
+    targets in the central nervous system, including deep brain structures. Founded
+    2016, headquartered in Los Angeles with R&D sites in Israel and at the Max Planck
+    Institute in Germany.
+  notes: 'Found via web search, not migrated. Textbook case of the conflation this
+    project explicitly tracks: externally magnetically actuated, no onboard power
+    source, so it doesn''t meet the strict autonomous micro-robotics definition despite
+    being called a ''microrobot'' everywhere in press coverage. Filed under milli-robotics,
+    onboard_power=false. Still worth tracking as a well-funded (~$63M raised) comparable
+    company and as a source for what clinical/regulatory path a robotic-therapeutics
+    company actually walks. lat/lon from their LA corporate office address (3767 Overland
+    Ave), since geocoding the company name alone found nothing.'
 - id: cmu-bme
   name: Biomedical Engineering, Carnegie Mellon University
   pi: null
@@ -96,6 +129,38 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: cornell-cohen
+  name: Itai Cohen Group
+  pi: Itai Cohen
+  institution: Cornell University
+  city: Ithaca, NY
+  country: US
+  lat: 42.45292
+  lon: -76.48006
+  osm: null
+  url: https://cohengroup.lassp.cornell.edu/
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  min_dim_um: 5
+  onboard_power: true
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: Builds microscopic robots -- roughly 5 microns thick, 40-70 microns
+    long, the size of a paramecium -- from a simple circuit with silicon photovoltaics
+    as torso and brain, and electrochemical actuators as legs. Shining laser light
+    on the photovoltaics walks the robots. Demonstrated up to ~1 million robots fabricated
+    per silicon wafer.
+  notes: 'Found via web search, not migrated. Itai Cohen co-leads this work with Paul
+    McEuen (already on the map as cornell-mceuen, filed under medicine-lab per the
+    old map''s own categorization) and their former postdoc Marc Miskin (upenn-miskin)
+    -- same ''Ivy Boys'' cluster, but this is Cohen''s own dedicated lab page and
+    a genuinely distinct entry, not a duplicate. Arguably the single best fit on the
+    whole map for the strict micro-robotics definition: whole autonomous system, sub-100-micron,
+    onboard photovoltaic harvesting + actuation, exactly the reference design''s own
+    energy strategy.'
 - id: cornell-mceuen
   name: Paul McEuen Group
   pi: Paul McEuen
@@ -180,6 +245,35 @@
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify. Filed under Micro-Robotics Lab and Electronic engineering
     (Chips) Lab; content is bioelectronic ICs, so recategorized to electronic-engineering.'
+- id: csem-neuchatel
+  name: CSEM -- Analog Front-Ends for Implantable Devices
+  pi: null
+  institution: CSEM (Centre Suisse d'Electronique et de Microtechnique)
+  city: Neuchâtel
+  country: CH
+  lat: 46.99769
+  lon: 6.94747
+  osm: null
+  url: https://www.csem.ch/en/technical-focus/asics-for-the-edge/analog-front-ends/
+  people_url: null
+  category: electronic-engineering
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  description: CSEM designs custom ultra-low-power analog front-end ASICs for wearable
+    and implantable medical devices -- multi-channel systems for brain, heart, and
+    muscle monitoring, and specialized circuits for invasive epilepsy treatment and
+    neural brain-machine interfaces. Focus is on minimizing power consumption to extend
+    implant battery life while maintaining precise biomedical signal acquisition.
+  notes: Found via web search, not migrated. Direct fit for the Basic Chip workstream
+    -- exactly the kind of ultra-low-power analog IC design (implantable-grade, sub-microwatt-class)
+    that's otherwise scarce and expensive to hire for. Worth a real look as a potential
+    collaborator or comparable-process reference, not just a watch entry, if the power
+    budgets line up. lat/lon resolved from 'CSEM, Neuchâtel' as a known point of interest.
 - id: dgist-demrc
   name: DGIST-ETH Microrobotics Research Center
   pi: null
@@ -964,6 +1058,37 @@
     genuine sub-mm autonomy.
 
     '
+- id: robeaute
+  name: Robeauté
+  pi: null
+  institution: Robeauté
+  city: Paris
+  country: FR
+  lat: 48.85468
+  lon: 2.34886
+  osm: null
+  url: https://robeaute.com/
+  people_url: null
+  category: milli-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 3
+  status: watch
+  description: Robeauté is developing rice-grain-sized therapeutic microrobots for
+    neurosurgery, designed to move along curved routes through brain tissue's extracellular
+    matrix to reach multiple targets, deliver molecules, implant electrodes, or collect
+    live tissue samples. Founded 2017 by Joana Cartocci and Bertrand Duplat, based
+    in Paris, raised ~EUR27M as of January 2025.
+  notes: Found via web search, not migrated. Rice-grain scale is well above 1mm, and
+    the site doesn't state whether locomotion is externally guided or self-contained
+    -- flagging per the manifest's conflation warning rather than assuming either
+    way. Filed under milli-robotics on scale grounds. Useful mainly as a company-structure
+    / funding / go-to-market comparable, not a technology match, hence relevance 3
+    not higher. lat/lon from their first office at AP-HP Hôtel-Dieu, Paris -- they've
+    since also taken space at Cochin Hospital, so treat this as approximate.
 - id: santanna-palagi
   name: Microscale Robotics Laboratory
   pi: Stefano Palagi
@@ -1895,6 +2020,37 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: uw-netlab
+  name: Networks & Mobile Systems Lab (MilliMobile)
+  pi: Vikram Iyer
+  institution: University of Washington
+  city: Seattle, WA
+  country: US
+  lat: 47.65543
+  lon: -122.30017
+  osm: null
+  url: https://netlab.cs.washington.edu/
+  people_url: null
+  category: milli-robotics
+  application:
+  - environmental
+  - industrial
+  min_dim_um: null
+  onboard_power: true
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: MilliMobile is an autonomous, battery-free wireless microrobot with
+    a 10x10 mm chassis weighing under 1.1 g, powered entirely by harvested solar and
+    RF energy. It uses onboard photodiodes to seek light and keep moving indefinitely,
+    can carry payloads up to 3x its own weight, and transmits sensor data wirelessly
+    over 200 m. Built on 'intermittent computing' techniques that let it operate incrementally
+    as harvested energy becomes available.
+  notes: 'Found via web search (MANIFEST.md relevance pass), not migrated from the
+    old map. Strong fit for the Energy and Computing workstreams even at milli-scale:
+    fully onboard energy harvesting, autonomous operation, and an intermittent-computing
+    approach directly relevant to a sub-nW power budget. Category is milli-robotics
+    (10mm chassis, well above the 1mm micro-robotics cutoff), not micro-robotics.'
 - id: zju-fpms
   name: Fluid-Power and Mechatronic Systems
   pi: Sun Yu
