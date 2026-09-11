@@ -727,6 +727,29 @@
     and continuum-robot autonomous navigation is a genuine technique overlap even
     though the scale (catheter, not sub-mm) and actuation (tendon-driven, not onboard)
     are both far from the reference design.
+- id: dut-du
+  name: Xingzhou Du Group
+  pi: Xingzhou Du
+  institution: Dalian University of Technology
+  city: Dalian
+  country: CN
+  lat: 38.88126
+  lon: 121.52016
+  osm: null
+  url: https://scholar.google.com.hk/citations?hl=en&user=X9Mzqb0AAAAJ
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Associate Professor at the Institute of Robotics and Intelligent Systems,
+    working on microrobotics and magnetic actuation systems, including magnetic micro/nanorobots
+    for precise physical stimulation of cells and intracellular structures.
+  notes: Found via alumni-snowballing from cuhk-zhang. First Dalian entry on the map.
 - id: epfl-microbs
   name: EPFL — Microbiorobotic Systems Laboratory (MICROBS)
   pi: null
@@ -2752,6 +2775,57 @@
     organ-monitoring horizon needs, even though glucose sensing has no robotics component
     at all. A competitor, Glucotrack, is reportedly developing a 3-year fully implanted
     CGM -- worth a look if this space matters more later.
+- id: siat-cai
+  name: Mingxue Cai Group
+  pi: Mingxue Cai
+  institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+  city: Shenzhen
+  country: CN
+  lat: 22.80974
+  lon: 113.96437
+  osm: null
+  url: https://people.ucas.ac.cn/~caimingxue?language=en
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  description: Associate Researcher working on magnetic robots, rotating magnetic
+    field control, soft magnetic miniature robots, and magnetic field-priority force
+    control for automated manipulation in large workspaces.
+  notes: Found via alumni-snowballing from cuhk-zhang. Same institute (SIAT/CAS) as
+    siat-xu -- a real cluster.
+- id: siat-xu
+  name: Tiantian Xu Group
+  pi: Tiantian Xu
+  institution: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+  city: Shenzhen
+  country: CN
+  lat: 22.80974
+  lon: 113.96437
+  osm: null
+  url: https://scholar.google.com/citations?user=jSv44msAAAAJ&hl=zh-CN
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 5
+  status: watch
+  description: 'Professor at the Guangdong Provincial Key Laboratory of Robotics and
+    Intelligent System, leading extensive microrobot research: magnetic-acoustic sequentially
+    actuated CAR-T cell microrobots for precision navigation and in-situ antitumor
+    immunoactivation, untethered quadruped soft thin-film microrobots, and living
+    microalgae-based magnetic microrobots for cancer therapy.'
+  notes: Found via alumni-snowballing from cuhk-zhang. Prolific, diverse microrobot
+    portfolio -- high-confidence relevance 5. Same institute (SIAT/CAS) as siat-cai.
 - id: silicon-saxony
   name: Silicon Saxony
   pi: null
@@ -3991,6 +4065,32 @@
     and because precision nanomedicine is one of its named pillars. Worth drilling
     into specific groups there later rather than treating the whole institute as one
     contact.
+- id: ustc-feng
+  name: Smart Materials and Interfaces
+  pi: Wei Feng
+  institution: University of Science and Technology of China (USTC)
+  city: Hefei
+  country: CN
+  lat: 31.8414
+  lon: 117.2731
+  osm: null
+  url: https://faculty.ustc.edu.cn/fengw/en/index.htm
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Tenure-track professor at the Department of Modern Mechanics researching
+    smart materials -- liquid crystal polymers and magnetic polymers -- their deformation
+    mechanisms, interfacial interactions, and control strategies under external field
+    stimulation.
+  notes: Found via alumni-snowballing from cuhk-zhang. Responsive/field-actuated smart
+    materials rather than whole-device microrobotics -- an actuator-materials match,
+    similar level to purdue-oxidemems.
 - id: utah-abbott
   name: Telerobotics Lab
   pi: Jake J. Abbott

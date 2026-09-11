@@ -333,6 +333,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Xingzhou Du Group",
+        "description": "**Xingzhou Du** — Dalian University of Technology, Dalian (CN)<br><br>Associate Professor at the Institute of Robotics and Intelligent Systems, working on microrobotics and magnetic actuation systems, including magnetic micro/nanorobots for precise physical stimulation of cells and intracellular structures.<br><br>[[https://scholar.google.com.hk/citations?hl=en&user=X9Mzqb0AAAAJ|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "dut-du",
+        "pi": "Xingzhou Du",
+        "institution": "Dalian University of Technology",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52016,
+          38.88126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "EPFL — Microbiorobotic Systems Laboratory (MICROBS)",
         "description": "**EPFL — Microbiorobotic Systems Laboratory (MICROBS)** — École Polytechnique Fédérale de Lausanne, Lausanne (CH)<br><br>[[https://www.epfl.ch/labs/microbs/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "epfl-microbs",
@@ -1384,6 +1413,64 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mingxue Cai Group",
+        "description": "**Mingxue Cai** — Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen (CN)<br><br>Associate Researcher working on magnetic robots, rotating magnetic field control, soft magnetic miniature robots, and magnetic field-priority force control for automated manipulation in large workspaces.<br><br>[[https://people.ucas.ac.cn/~caimingxue?language=en|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "siat-cai",
+        "pi": "Mingxue Cai",
+        "institution": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96437,
+          22.80974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tiantian Xu Group",
+        "description": "**Tiantian Xu** — Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen (CN)<br><br>Professor at the Guangdong Provincial Key Laboratory of Robotics and Intelligent System, leading extensive microrobot research: magnetic-acoustic sequentially actuated CAR-T cell microrobots for precision navigation and in-situ antitumor immunoactivation, untethered quadruped soft thin-film microrobots, and living microalgae-based magnetic microrobots for cancer therapy.<br><br>[[https://scholar.google.com/citations?user=jSv44msAAAAJ&hl=zh-CN|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "siat-xu",
+        "pi": "Tiantian Xu",
+        "institution": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96437,
+          22.80974
+        ]
       }
     },
     {

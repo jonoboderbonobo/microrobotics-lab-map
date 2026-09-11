@@ -63,6 +63,10 @@
     "lat": 42.45292,
     "lon": -76.48006
   },
+  "Dalian University of Technology, Dalian, CN": {
+    "lat": 38.88126,
+    "lon": 121.52016
+  },
   "Delft University of Technology, Delft, NL": {
     "lat": 51.99883,
     "lon": 4.37396
@@ -178,6 +182,10 @@
   "Rice University, Houston, TX, US": {
     "lat": 29.71679,
     "lon": -95.40478
+  },
+  "SIAT, Shenzhen, CN": {
+    "lat": 22.80974,
+    "lon": 113.96437
   },
   "SUSTech, Shenzhen, CN": {
     "lat": 22.6036,

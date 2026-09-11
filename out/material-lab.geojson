@@ -778,6 +778,35 @@
           39.95221
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smart Materials and Interfaces",
+        "description": "**Wei Feng** — University of Science and Technology of China (USTC), Hefei (CN)<br><br>Tenure-track professor at the Department of Modern Mechanics researching smart materials -- liquid crystal polymers and magnetic polymers -- their deformation mechanisms, interfacial interactions, and control strategies under external field stimulation.<br><br>[[https://faculty.ustc.edu.cn/fengw/en/index.htm|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "ustc-feng",
+        "pi": "Wei Feng",
+        "institution": "University of Science and Technology of China (USTC)",
+        "country": "CN",
+        "category": "material-lab",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2731,
+          31.8414
+        ]
+      }
     }
   ]
 }
