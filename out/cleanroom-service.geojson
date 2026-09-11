@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "CEA-Leti",
+        "description": "**CEA-Leti** — CEA-Leti (Laboratoire d'électronique des technologies de l'information), Grenoble (FR)<br><br>One of the world's largest applied research organizations in microelectronics and nanotechnology, established 1967 in Grenoble. Operates 200mm and 300mm CMOS lines, a 200mm MEMS line, a 300mm photonics platform, and a 300mm 3D integration line across 11,000 m2 of ISO 9001-certified cleanroom space. ~1,900 employees, 286+ patents granted per year.<br><br>[[https://www.leti-cea.com/cea-tech/leti/english/Pages/Welcome.aspx|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
+        "id": "cea-leti",
+        "pi": "",
+        "institution": "CEA-Leti (Laboratoire d'électronique des technologies de l'information)",
+        "country": "FR",
+        "category": "cleanroom-service",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "SlateGray",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.70615,
+          45.19525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "ChipFoundry.io",
         "description": "**ChipFoundry.io** — ChipFoundry, San Francisco Bay Area, CA (US)<br><br>Chip design and fabrication service built on SkyWater 130nm with an open-source PDK and open-source toolchain, offering chipIgnite tapeouts at $14,950 plus an educational chipDiscover program. Founded by former Efabless leadership (Jeff DiCorpo, Mohamed Kassem) after Efabless shut down in early 2025, re-enabling the same SkyWater 130 access route the open-source silicon community had relied on.<br><br>[[https://chipfoundry.io/|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
         "id": "chipfoundry",

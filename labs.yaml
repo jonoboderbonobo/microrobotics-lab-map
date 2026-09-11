@@ -217,6 +217,36 @@
     it''s a near-term technology match. Interesting mainly as a long-term conceptual
     comparison: what does ''computation on board a molecule-scale robot'' even look
     like.'
+- id: cea-leti
+  name: CEA-Leti
+  pi: null
+  institution: CEA-Leti (Laboratoire d'électronique des technologies de l'information)
+  city: Grenoble
+  country: FR
+  lat: 45.19525
+  lon: 5.70615
+  osm: null
+  url: https://www.leti-cea.com/cea-tech/leti/english/Pages/Welcome.aspx
+  people_url: null
+  category: cleanroom-service
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  description: One of the world's largest applied research organizations in microelectronics
+    and nanotechnology, established 1967 in Grenoble. Operates 200mm and 300mm CMOS
+    lines, a 200mm MEMS line, a 300mm photonics platform, and a 300mm 3D integration
+    line across 11,000 m2 of ISO 9001-certified cleanroom space. ~1,900 employees,
+    286+ patents granted per year.
+  notes: Found via web search, not migrated. A major European microelectronics research
+    institute with real MEMS and 3D-integration capability at both 200mm and 300mm
+    -- likely enterprise-scale rather than startup-cheap access, but worth knowing
+    about alongside EUROPRACTICE/ihp-cleanroom/fraunhofer-ipms as part of the broader
+    European fab landscape.
 - id: chipfoundry
   name: ChipFoundry.io
   pi: null
