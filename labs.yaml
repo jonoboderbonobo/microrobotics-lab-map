@@ -1,1 +1,210 @@
-[]
+# Source of truth for the microrobotics lab map.
+#
+# Sorted alphabetically by `id`. `id` is a stable slug and is never edited once
+# assigned -- it is the join key across git history.
+#
+# `color` is NOT a field here: it is derived from `category` in taxonomy.py.
+# `description` is the group's own blurb and IS rendered into the uMap popup.
+# `notes` is private assessment and is NEVER rendered.
+#
+# To add a lab: append an entry, set lat/lon to null, run `python build.py`.
+# To add a campus outline: find it on openstreetmap.org, click the shape, and
+# copy the id from the URL into `osm` as e.g. `way/104393803`. Leave it null
+# for a marker without a polygon.
+
+- id: ethz-msrl
+  name: Multi-Scale Robotics Lab (MSRL)
+  pi: Bradley J. Nelson
+  institution: ETH Zürich
+  city: Zürich
+  country: CH
+  lat: 47.377731
+  lon: 8.546639
+  osm: null
+  url: https://msrl.ethz.ch/the-lab.html
+  people_url: null
+  category: micro-robotics
+  application: [medical, fundamental]
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: >
+    The Multi-Scale Robotics Lab (MSRL) pursues a dynamic research program that
+    maintains a strong robotics research focus on several emerging areas of
+    science and technology. A major component of the MSRL research leverages
+    advanced robotics for creating intelligent machines that operate at micron
+    and nanometer scales. MSRL research develops the tools and processes
+    required to fabricate and assemble micron sized robots and nanometer scale
+    robotic components. Many of these systems are used for robotic exploration
+    within biomedical and biological domains.
+
+    The MSRL pursues a balanced agenda between fundamental and applied
+    research. The lab consistently publishes highly cited papers in top
+    journals while also driving significant industrial interactions. The
+    ground breaking technologies developed at MSRL have also led to the
+    formation of several startup companies.
+  notes: >
+    Largest and most visible group in the field, and the main source of the
+    "microrobot" terminology this map is trying to be precise about. Most
+    systems are externally actuated, so by the strict criterion this is closer
+    to a material lab -- but the systems-level ambition and the startup track
+    record justify micro-robotics. Worth pinning down min_dim_um for their
+    smallest genuinely untethered device.
+
+- id: mayo-ceylan
+  name: Hakan Ceylan — Mayo Clinic
+  pi: Hakan Ceylan
+  institution: Mayo Clinic
+  city: Rochester, MN
+  country: US
+  lat: 44.019646
+  lon: -92.480968
+  osm: null
+  url: https://scholar.google.com/citations?user=5LU13U8AAAAJ&hl=tr
+  people_url: null
+  category: hospital
+  application: [medical]
+  min_dim_um: null
+  onboard_power: false
+  institution_type: hospital
+  relevance: 3
+  status: watch
+  description: >
+    Microrobotics for biomedical application in a clinical setting.
+  notes: >
+    TODO: description is a placeholder. Replace with text from his Mayo group
+    page or a recent paper abstract -- the original pin had only a Scholar
+    link. Also replace `url` with the lab page once found; a Scholar profile is
+    a weak primary link. Clinical-setting contact, so relevant for trials and
+    for problem statements rather than for technology.
+
+- id: penn-msma
+  name: MSMA Group — MicroSensors and MicroActuators
+  pi: Mark G. Allen
+  institution: University of Pennsylvania
+  city: Philadelphia, PA
+  country: US
+  lat: 39.952881
+  lon: -75.188898
+  osm: null
+  url: https://mems.seas.upenn.edu/
+  people_url: https://mems.seas.upenn.edu/members/
+  category: electronic-engineering
+  application: [fundamental, industrial]
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: >
+    Microsensors and microactuators. Collaborates with McEuen and Miskin.
+  notes: >
+    High relevance on the chip-design-scarcity argument: fabrication and
+    actuator routes for devices that an actual microrobot could carry. The
+    McEuen/Miskin collaboration is the reason to watch this one closely --
+    it is the bridge from this group to genuine sub-mm autonomy.
+
+- id: srl-twente
+  name: Surgical Robotics Lab (SRL)
+  pi: Sarthak Misra
+  institution: University of Twente
+  city: Enschede
+  country: NL
+  lat: 52.23989
+  lon: 6.849866
+  osm: null
+  url: https://surgicalroboticslab.nl/about/introduction/
+  people_url: null
+  category: micro-robotics
+  application: [medical]
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: >
+    The Surgical Robotics Lab (SRL) is part of the Department of Biomechanical
+    Engineering (Faculty of Engineering Technology) at the University of
+    Twente, The Netherlands. SRL is led by Prof. Sarthak Misra, and is also
+    part of the Department of Biomaterials and Biomedical Technology at the
+    University of Groningen and University Medical Center Groningen. SRL is
+    affiliated with the MESA+ Institute, Technical Medical (TechMed) Centre,
+    and PRECISION Institute.
+
+    The lab designs a range of flexible minimally invasive surgical
+    instruments and microrobotic systems, and robotically controls them using
+    clinical imaging modalities such as ultrasound, computed tomography and
+    magnetic resonance imaging. The team is multidisciplinary, spanning
+    engineers, clinicians and industrial collaborators.
+
+    Contact for student projects: info@surgicalroboticslab.nl
+  notes: >
+    Strong clinical-imaging control stack. Externally actuated and
+    instrument-scale rather than sub-mm autonomous, so the micro-robotics
+    label is generous -- revisit once min_dim_um is filled in. The polygon on
+    the original map was the Twente campus; find the OSM way and set `osm`.
+
+- id: tcd-mmbe
+  name: Mechanical, Manufacturing and Biomedical Engineering
+  pi: null
+  institution: Trinity College Dublin
+  city: Dublin
+  country: IE
+  lat: 53.342204
+  lon: -6.252599
+  osm: null
+  url: https://www.tcd.ie/mecheng/
+  people_url: null
+  category: biomedical-lab
+  application: [medical, industrial, fundamental]
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 2
+  status: watch
+  description: >
+    The Discipline of Mechanical, Manufacturing and Biomedical Engineering at
+    Trinity College Dublin. Research is characterised by interdisciplinary
+    collaboration within the department and with life sciences, natural
+    sciences, physics, computer science, and civil and electronic engineering.
+    Funding comes from national and European sources as well as directly from
+    industry, philanthropy and academic partners overseas.
+
+    Research areas: biomedical engineering; fluids, acoustics and vibration;
+    fluids and heat transfer; forensic engineering; fracture and fatigue of
+    materials; nanotechnology for energy and environment; robotics; and STAM
+    (Science and Technology in Advanced Manufacturing).
+  notes: >
+    You flagged this as possibly miscategorised. Agreed that biomedical-lab
+    fits better than micro-robotics -- it is a broad mechanical/biomedical
+    department with a robotics area, not a microrobotics group. If a specific
+    PI there turns out to be the reason this pin exists, split that person out
+    into their own entry and drop this one.
+
+- id: tuc-schmidt
+  name: Oliver G. Schmidt's Lab
+  pi: Oliver G. Schmidt
+  institution: TU Chemnitz
+  city: Chemnitz
+  country: DE
+  lat: 50.817951
+  lon: 12.927099
+  osm: null
+  url: https://www.tu-chemnitz.de/etit/nano/OliverGSchmidt.php
+  people_url: null
+  category: micro-robotics
+  application: [medical, fundamental]
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  description: >
+    Research areas: microrobotics and micromotors; biomedical applications;
+    flexible and shapeable electronics; energy storage at the micro/nanoscale;
+    magnetoelectronics; micro- and nanoelectronics; microfluidics; plasmonics.
+  notes: >
+    Local. One of the two groups that meet the whole-system criterion.
+    Highest-value proximity on the map -- relevance 5 on access alone.
