@@ -4,6 +4,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "ChipFoundry.io",
+        "description": "**ChipFoundry.io** — ChipFoundry, San Francisco Bay Area, CA (US)<br><br>Chip design and fabrication service built on SkyWater 130nm with an open-source PDK and open-source toolchain, offering chipIgnite tapeouts at $14,950 plus an educational chipDiscover program. Founded by former Efabless leadership (Jeff DiCorpo, Mohamed Kassem) after Efabless shut down in early 2025, re-enabling the same SkyWater 130 access route the open-source silicon community had relied on.<br><br>[[https://chipfoundry.io/|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
+        "id": "chipfoundry",
+        "pi": "",
+        "institution": "ChipFoundry",
+        "country": "US",
+        "category": "cleanroom-service",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "company",
+        "status": "watch",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "SlateGray",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "EUROPRACTICE",
         "description": "**EUROPRACTICE** — EUROPRACTICE (imec-coordinated consortium), Leuven (BE)<br><br>European Commission-launched consortium (since 1995) of five research organizations, led by imec, providing academia and industry with affordable Multi-Project-Wafer (MPW) prototyping across a wide range of processes -- digital, RF, mixed-signal, high-voltage ASICs, MEMS, photonics, microfluidics, flexible electronics, compound semiconductors -- plus ~65,000 concurrent EDA tool licenses distributed to European universities annually and training programs.<br><br>[[https://europractice-ic.com/|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
         "id": "europractice",

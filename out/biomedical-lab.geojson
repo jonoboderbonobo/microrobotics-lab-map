@@ -104,6 +104,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Laboratory for Drug Delivery",
+        "description": "**Mark R. Prausnitz** — Georgia Institute of Technology, Atlanta, GA (US)<br><br>Researches biophysical methods of drug delivery -- microneedles, ultrasound, lasers, electric fields, heat, and convective forces -- to control transport of drugs, proteins, genes, and vaccines into and within the body. A major focus is microneedle patches for painless, minimally-invasive skin vaccine delivery.<br><br>[[https://drugdelivery.chbe.gatech.edu/|Group website]]<br><br>Category: Biomedical Lab · Smallest demonstrated: unknown",
+        "id": "gatech-prausnitz",
+        "pi": "Mark R. Prausnitz",
+        "institution": "Georgia Institute of Technology",
+        "country": "US",
+        "category": "biomedical-lab",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39881,
+          33.77609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Cohen Lab",
         "description": "**Adam E. Cohen** — Harvard University, Cambridge, MA (US)<br><br>The Cohen Lab develops and applies new tools to study biology. We push the limits of physics and chemistry to make measurements in previously inaccessible regimes. Work in the lab combines optics, protein engineering, chemistry, electrophysiology, simulation, and theory. We work at the levels of individual molecules, single cells, and whole, genetically modified, organisms.<br><br>A major focus is toward studying electrical signaling in the nervous system. We developed fluorescent reporters of membrane voltage and associated instrumentation to map electrical activity with high resolution in space and time. We study information processing in the brains of awake, behaving mice and zebrafish. We also work on electrical signaling in other tissues; on mechanical signaling in cells; and on the roles of physical forces in embryonic development.<br><br>[[https://cohenweb.rc.fas.harvard.edu/|Group website]]<br><br>Category: Biomedical Lab · Smallest demonstrated: unknown",
         "id": "harvard-cohen",

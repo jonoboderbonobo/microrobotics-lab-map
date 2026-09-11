@@ -154,6 +154,39 @@
     company and as a source for what clinical/regulatory path a robotic-therapeutics
     company actually walks. lat/lon from their LA corporate office address (3767 Overland
     Ave), since geocoding the company name alone found nothing.'
+- id: chipfoundry
+  name: ChipFoundry.io
+  pi: null
+  institution: ChipFoundry
+  city: San Francisco Bay Area, CA
+  country: US
+  lat: 37.3382
+  lon: -121.8863
+  osm: null
+  url: https://chipfoundry.io/
+  people_url: null
+  category: cleanroom-service
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 5
+  status: watch
+  description: Chip design and fabrication service built on SkyWater 130nm with an
+    open-source PDK and open-source toolchain, offering chipIgnite tapeouts at $14,950
+    plus an educational chipDiscover program. Founded by former Efabless leadership
+    (Jeff DiCorpo, Mohamed Kassem) after Efabless shut down in early 2025, re-enabling
+    the same SkyWater 130 access route the open-source silicon community had relied
+    on.
+  notes: 'Found via web search, not migrated. Time-sensitive and directly actionable:
+    Efabless -- the project''s own stated Plan A tapeout route via SkyWater 130/Tiny
+    Tapeout -- shut down in early 2025. ChipFoundry is the direct successor for that
+    exact access path. Worth verifying current status/pricing before relying on it,
+    but this is infrastructure news, not just a watch entry. lat/lon is downtown San
+    Jose as an approximate Bay Area stand-in -- no specific office address found,
+    verify.'
 - id: cmu-bme
   name: Biomedical Engineering, Carnegie Mellon University
   pi: null
@@ -661,6 +694,33 @@
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
     Same ''LL&M'' department name as unirostock-llm but a different site/coordinates
     in the export -- kept as a separate entry.'
+- id: gatech-prausnitz
+  name: Laboratory for Drug Delivery
+  pi: Mark R. Prausnitz
+  institution: Georgia Institute of Technology
+  city: Atlanta, GA
+  country: US
+  lat: 33.77609
+  lon: -84.39881
+  osm: null
+  url: https://drugdelivery.chbe.gatech.edu/
+  people_url: null
+  category: biomedical-lab
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Researches biophysical methods of drug delivery -- microneedles, ultrasound,
+    lasers, electric fields, heat, and convective forces -- to control transport of
+    drugs, proteins, genes, and vaccines into and within the body. A major focus is
+    microneedle patches for painless, minimally-invasive skin vaccine delivery.
+  notes: 'Found via web search, not migrated. Not a microrobotics lab, but a real
+    concrete problem-statement source: physical (not just chemical) methods of getting
+    something small into a precise location in the body, several of which (ultrasound,
+    EM fields) overlap with workstreams already being pursued for other reasons.'
 - id: generation-lab
   name: Generation Lab
   pi: Irina Conboy
@@ -1115,6 +1175,38 @@
     match rather than a whole-system micro-robotics match by the strict definition
     -- filed here anyway since the group itself frames its output as microrobots and
     single-cell manipulation is the reference design's own first application.
+- id: kimiro
+  name: Korea Institute of Medical Micro-robotics (KIMIRo)
+  pi: Jong Oh Park
+  institution: KIMIRo
+  city: Gwangju
+  country: KR
+  lat: 35.16
+  lon: 126.85
+  osm: null
+  url: https://www.kimiro.re.kr/
+  people_url: null
+  category: milli-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  description: A dedicated South Korean research institute (established 2019, president
+    Jong Oh Park) focused on medical microrobots, including magnetically-actuated
+    multifunctional robots with real-time MRI visualization for applications such
+    as liver cancer chemoembolization therapy.
+  notes: Found via web search, not migrated. A whole institute dedicated specifically
+    to medical microrobotics is rare -- worth real attention, not just a watch entry,
+    and adds South Korea to a map that otherwise skews heavily US/EU. Magnetically
+    actuated and externally controlled per the source, so onboard_power=false; scale
+    is likely mm-range for MRI-visualized devices, filed under milli-robotics rather
+    than micro-robotics -- verify against their actual smallest demonstrated device.
+    lat/lon is approximate Gwangju city coordinates -- their exact address (43-26
+    Cheomdangwagi-ro, Buk-gu) didn't resolve cleanly via Nominatim, verify precise
+    location.
 - id: ku-sitti
   name: Metin Sitti — KUTTAM
   pi: Metin Sitti

@@ -62,6 +62,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Korea Institute of Medical Micro-robotics (KIMIRo)",
+        "description": "**Jong Oh Park** — KIMIRo, Gwangju (KR)<br><br>A dedicated South Korean research institute (established 2019, president Jong Oh Park) focused on medical microrobots, including magnetically-actuated multifunctional robots with real-time MRI visualization for applications such as liver cancer chemoembolization therapy.<br><br>[[https://www.kimiro.re.kr/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "kimiro",
+        "pi": "Jong Oh Park",
+        "institution": "KIMIRo",
+        "country": "KR",
+        "category": "milli-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85,
+          35.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Robeauté",
         "description": "**Robeauté** — Robeauté, Paris (FR)<br><br>Robeauté is developing rice-grain-sized therapeutic microrobots for neurosurgery, designed to move along curved routes through brain tissue's extracellular matrix to reach multiple targets, deliver molecules, implant electrodes, or collect live tissue samples. Founded 2017 by Joana Cartocci and Bertrand Duplat, based in Paris, raised ~EUR27M as of January 2025.<br><br>[[https://robeaute.com/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "robeaute",
