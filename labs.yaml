@@ -880,6 +880,59 @@
     same Silicon Saxony ecosystem as fraunhofer-enas and silicon-saxony, already on
     this map) for MEMS/microsystems prototyping -- a plausible route for the reference
     design's mechanical parts, not just the CMOS die.
+- id: fudan-huang
+  name: Nanomembrane Group
+  pi: Gaoshan Huang
+  institution: Fudan University
+  city: Shanghai
+  country: CN
+  lat: 31.30117
+  lon: 121.49747
+  osm: null
+  url: https://nanomem.fudan.edu.cn/25605/list.htm
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: 'Works on rolled-up nanomembrane technology: catalytic/magnetic assemblies
+    of rolled-up tubular nanomembrane-based micromotors, self-rolled-up single-crystalline
+    silicon nanomembranes for on-chip photodetectors, and rolled-up optical microcavities.
+    Affiliated with Fudan''s International Institute of Intelligent Nanorobots and
+    Nanosystems.'
+  notes: Found via alumni-snowballing from tuc-schmidt (same Fudan group as fudan-mei
+    -- Schmidt's own lab pioneered rolled-up nanomembrane fabrication, and both alumni
+    continued that exact technique family independently in China). Micromotor work
+    is a direct fit.
+- id: fudan-mei
+  name: NanoMem Group / Smart Materials and Micro/Nanoscale Robotics
+  pi: Yongfeng Mei
+  institution: Fudan University
+  city: Shanghai
+  country: CN
+  lat: 31.30117
+  lon: 121.49747
+  osm: null
+  url: http://nanomem.fudan.edu.cn
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  description: Professor of Materials Science at Fudan University, working on thin
+    film materials, semiconductor materials and flexible electronics, and smart materials
+    and micro/nanoscale robotics. Group has been operating since 2010.
+  notes: Found via alumni-snowballing from tuc-schmidt. 'Micro/nanoscale robotics'
+    is an explicit named research area -- direct fit, not an inferred one.
 - id: gatech-bakir
   name: Integrated 3D Systems Group
   pi: Muhannad Bakir
@@ -1529,6 +1582,31 @@
     (already on this map) -- real pharma-backed validation with active FDA trials,
     worth understanding as the actual regulatory/commercial path this kind of technology
     has already walked.
+- id: ipht-schmidt
+  name: Heidemarie Schmidt Group
+  pi: Heidemarie Schmidt
+  institution: Leibniz Institute of Photonic Technology (IPHT Jena)
+  city: Jena
+  country: DE
+  lat: 50.90916
+  lon: 11.56741
+  osm: null
+  url: https://www.leibniz-ipht.de/en/
+  people_url: null
+  category: information-technology
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 3
+  status: watch
+  description: Works on quantum detection and new detector systems characterizing
+    quantum-limited signals, and on neuromorphic computing architectures based on
+    memristive devices.
+  notes: Found via alumni-snowballing from tuc-schmidt. Memristive neuromorphic computing
+    is the same family of alternative computing substrate as heidelberg-schemmel,
+    already on the map -- a second entry in that specific niche.
 - id: isir-rpibio
   name: RPI-Bio — Robotics and Micro-Bio-Robotics
   pi: Stéphane Régnier
@@ -1929,6 +2007,34 @@
     microrobots -- real, already-in-use fabrication infrastructure for sub-mm mechanical
     structures, not just a watch entry. German company, worth a direct look for prototyping
     mechanical parts of the reference design outside the CMOS process itself.
+- id: nanotriz-solovev
+  name: Alexander Solovev Nanotechnology Group
+  pi: Alexander A. Solovev
+  institution: NanoTRIZ Innovation Institute
+  city: Brisbane
+  country: AU
+  lat: -27.4698
+  lon: 153.0251
+  osm: null
+  url: https://www.solovevlab.com/
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  description: Works on microrobotics, nanomaterials, nanodevices, microfluidics,
+    and AI-assisted inventive problem solving. Alexander Solovev is Professor and
+    Founding Director of the NanoTRIZ Innovation Institute in Australia, after prior
+    professorships/appointments at Fudan University, TU Munich, University of Toronto,
+    Harvard, and Columbia.
+  notes: Found via alumni-snowballing from tuc-schmidt. Second Australian entry after
+    uq-aibn. City confirmed as Brisbane via NanoTRIZ's own site (nanotriz.com) --
+    lat/lon is Brisbane CBD as an approximate point, not a specific street address.
 - id: northwestern-rogers
   name: Rogers Research Group
   pi: John A. Rogers
@@ -3044,6 +3150,33 @@
     and active-matter-rectification work is a real, if unusual-angle, parallel to
     the System-Level-Behavior workstream -- using physics of collective motion rather
     than programmed algorithms to get emergent swarm behavior.
+- id: unicamp-deneke
+  name: Deneke Group
+  pi: Christoph Deneke
+  institution: Universidade Estadual de Campinas (Unicamp)
+  city: Campinas
+  country: BR
+  lat: -22.82266
+  lon: -47.0628
+  osm: null
+  url: https://sites.ifi.unicamp.br/cdeneke/
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Works on advanced 2D materials -- semiconductor nanomembranes, rolled-up
+    tubes, graphene, and transition metal dichalcogenides (TMDs) -- using molecular
+    beam epitaxy and scanning probe techniques. Previously headed the surface science
+    group at LNNano, Brazil's national nanotechnology laboratory, before moving to
+    Unicamp in 2017.
+  notes: Found via alumni-snowballing from tuc-schmidt. First South American entry
+    on the map. Same rolled-up-nanomembrane technique family as fudan-huang and Schmidt's
+    own group -- materials/fabrication level rather than whole-device.
 - id: unirostock-agis
   name: AGIS — Altern des Individuums und der Gesellschaft
   pi: null
@@ -3213,6 +3346,32 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: unm-cavallo
+  name: Cavallo Research Group
+  pi: Francesca Cavallo
+  institution: University of New Mexico
+  city: Albuquerque, NM
+  country: US
+  lat: 35.08663
+  lon: -106.62021
+  osm: null
+  url: https://sites.google.com/view/cavallo-research-group/home
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: 'Studies fundamental properties and applications of inorganic sheets
+    from sub-nanometer to a few micrometers thick: sheet science and technology, nano-origami,
+    integration of highly mismatched materials, flexible electronics, and strain engineering.
+    PI received her doctorate from TU Chemnitz.'
+  notes: Found via alumni-snowballing from tuc-schmidt. Nano-origami and strain-engineered
+    sheet folding is a real technique parallel to cornell-cohen/upenn-miskin/jhu-gracias's
+    self-folding approach, at a materials-science level rather than whole-device.
 - id: uol-amir
   name: AMiR — Abteilung für Mikrorobotik und Regelungstechnik
   pi: Sergej Fatikow

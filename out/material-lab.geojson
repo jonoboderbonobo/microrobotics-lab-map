@@ -608,6 +608,64 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Deneke Group",
+        "description": "**Christoph Deneke** — Universidade Estadual de Campinas (Unicamp), Campinas (BR)<br><br>Works on advanced 2D materials -- semiconductor nanomembranes, rolled-up tubes, graphene, and transition metal dichalcogenides (TMDs) -- using molecular beam epitaxy and scanning probe techniques. Previously headed the surface science group at LNNano, Brazil's national nanotechnology laboratory, before moving to Unicamp in 2017.<br><br>[[https://sites.ifi.unicamp.br/cdeneke/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "unicamp-deneke",
+        "pi": "Christoph Deneke",
+        "institution": "Universidade Estadual de Campinas (Unicamp)",
+        "country": "BR",
+        "category": "material-lab",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.0628,
+          -22.82266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cavallo Research Group",
+        "description": "**Francesca Cavallo** — University of New Mexico, Albuquerque, NM (US)<br><br>Studies fundamental properties and applications of inorganic sheets from sub-nanometer to a few micrometers thick: sheet science and technology, nano-origami, integration of highly mismatched materials, flexible electronics, and strain engineering. PI received her doctorate from TU Chemnitz.<br><br>[[https://sites.google.com/view/cavallo-research-group/home|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "unm-cavallo",
+        "pi": "Francesca Cavallo",
+        "institution": "University of New Mexico",
+        "country": "US",
+        "category": "material-lab",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.62021,
+          35.08663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Pikul Research Group",
         "description": "**James Pikul** — University of Pennsylvania, Philadelphia, PA (US)<br><br>Develops new materials systems to increase robot mobility and autonomy: shape-transforming soft robotic surfaces, synthetic vascular systems for robots, air-breathing power sources, and room-temperature self-healing metallic parts, drawing on electrochemistry, soft matter physics, and manufacturing.<br><br>[[https://pikul-lab.seas.upenn.edu/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "upenn-pikul",

@@ -91,6 +91,35 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Heidemarie Schmidt Group",
+        "description": "**Heidemarie Schmidt** — Leibniz Institute of Photonic Technology (IPHT Jena), Jena (DE)<br><br>Works on quantum detection and new detector systems characterizing quantum-limited signals, and on neuromorphic computing architectures based on memristive devices.<br><br>[[https://www.leibniz-ipht.de/en/|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
+        "id": "ipht-schmidt",
+        "pi": "Heidemarie Schmidt",
+        "institution": "Leibniz Institute of Photonic Technology (IPHT Jena)",
+        "country": "DE",
+        "category": "information-technology",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkCyan",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.56741,
+          50.90916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Self-Organizing Systems Research Group",
         "description": "**Radhika Nagpal** — Princeton University, Princeton, NJ (US)<br><br>Studies self-organizing computer systems, collective intelligence, and biologically-inspired multi-agent robotics. Created the Kilobots (published in Science, 2014): a swarm of 1,024 coin-sized, $14-each robots that self-assemble into arbitrary target shapes using only local sensing of immediate neighbors, no central controller. Radhika Nagpal moved the group from Harvard SEAS/Wyss to Princeton (Mechanical & Aerospace Engineering + Computer Science) in 2023.<br><br>[[https://ssr.princeton.edu/|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
         "id": "princeton-nagpal",

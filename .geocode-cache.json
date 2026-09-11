@@ -67,6 +67,10 @@
     "lat": 53.83602,
     "lon": 10.7005
   },
+  "Fudan University, Shanghai, CN": {
+    "lat": 31.30117,
+    "lon": 121.49747
+  },
   "Georgia Institute of Technology, Atlanta, GA, US": {
     "lat": 33.77609,
     "lon": -84.39881
@@ -110,6 +114,10 @@
   "Kyung Hee University, Yongin, KR": {
     "lat": 37.2424,
     "lon": 127.08133
+  },
+  "Leibniz-IPHT, Jena, DE": {
+    "lat": 50.90916,
+    "lon": 11.56741
   },
   "Manfred-von-Ardenne-Ring 20, Dresden, DE": {
     "lat": 51.09804,
@@ -163,6 +171,10 @@
     "lat": 51.02987,
     "lon": 13.73032
   },
+  "Unicamp, Campinas, BR": {
+    "lat": -22.82266,
+    "lon": -47.0628
+  },
   "University of California, Berkeley, Berkeley, CA, US": {
     "lat": 37.87078,
     "lon": -122.26568
@@ -182,6 +194,10 @@
   "University of Minnesota, Minneapolis, US": {
     "lat": 44.98634,
     "lon": -93.17945
+  },
+  "University of New Mexico, Albuquerque, NM, US": {
+    "lat": 35.08663,
+    "lon": -106.62021
   },
   "University of Pennsylvania, Philadelphia, PA, US": {
     "lat": 39.95221,

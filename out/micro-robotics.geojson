@@ -435,6 +435,64 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Nanomembrane Group",
+        "description": "**Gaoshan Huang** — Fudan University, Shanghai (CN)<br><br>Works on rolled-up nanomembrane technology: catalytic/magnetic assemblies of rolled-up tubular nanomembrane-based micromotors, self-rolled-up single-crystalline silicon nanomembranes for on-chip photodetectors, and rolled-up optical microcavities. Affiliated with Fudan's International Institute of Intelligent Nanorobots and Nanosystems.<br><br>[[https://nanomem.fudan.edu.cn/25605/list.htm|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "fudan-huang",
+        "pi": "Gaoshan Huang",
+        "institution": "Fudan University",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49747,
+          31.30117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NanoMem Group / Smart Materials and Micro/Nanoscale Robotics",
+        "description": "**Yongfeng Mei** — Fudan University, Shanghai (CN)<br><br>Professor of Materials Science at Fudan University, working on thin film materials, semiconductor materials and flexible electronics, and smart materials and micro/nanoscale robotics. Group has been operating since 2010.<br><br>[[http://nanomem.fudan.edu.cn|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "fudan-mei",
+        "pi": "Yongfeng Mei",
+        "institution": "Fudan University",
+        "country": "CN",
+        "category": "micro-robotics",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49747,
+          31.30117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Microrobotics Lab (Harvard)",
         "description": "**Robert Wood** — Harvard John A. Paulson School of Engineering and Applied Sciences, Cambridge, MA (US)<br><br>Works together with \"The Wyss Institute\"<br><br>The lab was founded within the Harvard John A. Paulson School of Engineering and Applied Sciences by Prof. Robert Wood. It houses all the necessary tools to design, create, and evaluate robots with unique sizes, shapes, and material compositions. The lab employs a highly experimental approach to developing robots and we use these robots as tools to explore fundamental questions in micromechanics, actuation, fluid mechanics, controls, and microelectronics. We are grateful for sponsorship, past and present, from AFOSR, ARO, DARPA, Draper Labs, National Geographic, NASA, NIH, NSF, and ONR.<br><br>[[https://www.micro.seas.harvard.edu/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "harvard-microrobotics",
@@ -857,6 +915,35 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexander Solovev Nanotechnology Group",
+        "description": "**Alexander A. Solovev** — NanoTRIZ Innovation Institute, Brisbane (AU)<br><br>Works on microrobotics, nanomaterials, nanodevices, microfluidics, and AI-assisted inventive problem solving. Alexander Solovev is Professor and Founding Director of the NanoTRIZ Innovation Institute in Australia, after prior professorships/appointments at Fudan University, TU Munich, University of Toronto, Harvard, and Columbia.<br><br>[[https://www.solovevlab.com/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "nanotriz-solovev",
+        "pi": "Alexander A. Solovev",
+        "institution": "NanoTRIZ Innovation Institute",
+        "country": "AU",
+        "category": "micro-robotics",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0251,
+          -27.4698
+        ]
       }
     },
     {
