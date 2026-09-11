@@ -1,3 +1,34 @@
+- id: ambiq
+  name: Ambiq — SPOT Subthreshold Power Platform
+  pi: null
+  institution: Ambiq Micro, Inc.
+  city: Austin, TX
+  country: US
+  lat: 30.39202
+  lon: -97.84834
+  osm: null
+  url: https://ambiq.com/technology/spot/
+  people_url: null
+  category: electronic-engineering
+  application:
+  - industrial
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 5
+  status: watch
+  description: Ambiq builds ultra-low-power SoCs around SPOT (Subthreshold Power Optimized
+    Technology), operating transistors below 1V -- as low as 300mV in its newest 12nm
+    platform -- for a quadratic energy-efficiency gain over conventional above-threshold
+    digital design. Has shipped in over 280 million devices (wearables, healthcare
+    monitoring, industrial IoT); latest product is Atomiq, an ultra-low-power NPU
+    SoC.
+  notes: Found via web search, not migrated. Closest thing found so far to a commercial
+    proof that a subthreshold design strategy scales to real shipped products at volume
+    -- directly relevant to the project's own sub-threshold reference/MICMOS work,
+    not just conceptually adjacent. Worth understanding their process node and IP
+    licensing model, not just watching.
 - id: berkeley-conboy
   name: Conboy Lab
   pi: Irina Conboy
@@ -28,6 +59,39 @@
     is exactly the kind of longitudinal, real-time aging-biomarker work that a future
     distributed in-body sensor network would need to plug into. relevance=2, watch
     only.'
+- id: berkeley-full
+  name: Poly-PEDAL Lab
+  pi: Robert J. Full
+  institution: University of California, Berkeley
+  city: Berkeley, CA
+  country: US
+  lat: 37.87078
+  lon: -122.26568
+  osm: null
+  url: https://polypedal.berkeley.edu/
+  people_url: null
+  category: milli-robotics
+  application:
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  description: Studies the Performance, Energetics and Dynamics of Animal Locomotion
+    (P.E.D.A.L.) in many-legged creatures -- cost of locomotion, musculoskeletal mechanics,
+    and whole-animal exercise physiology -- using biomechanical, computational, and
+    physical modeling. Findings have directly informed the design of insect-inspired
+    search-and-rescue robots, gecko-inspired dry adhesives, and other bio-inspired
+    multilegged robots. PI Robert Full is Editor-in-Chief of Bioinspiration & Biomimetics.
+  notes: Found via web search, not migrated. This is the actual research the project's
+    own Miteskeeping workstream is aiming at -- locomotion biomechanics of small,
+    fast, many-legged animals as direct design input, not mites specifically but the
+    closest active lab found doing exactly this kind of work. Filed under milli-robotics
+    since the lab does build physical robots from its findings (cm-scale), but note
+    the core contribution here is principles/biomimicry, not a component or technology
+    match -- the taxonomy doesn't have a clean 'biomimicry research' bucket, this
+    is the closest fit.
 - id: berkeley-maharbiz
   name: Maharbiz Lab — Neural Dust
   pi: Michel Maharbiz
@@ -626,6 +690,39 @@
     academic lab. lat/lon is UC Berkeley''s campus coordinate as a stand-in -- no
     confirmed public office address found for Generation Lab itself, verify their
     actual HQ location.'
+- id: haila
+  name: HaiLa Technologies
+  pi: null
+  institution: HaiLa Technologies Inc.
+  city: Montreal, QC
+  country: CA
+  lat: 45.5019
+  lon: -73.5674
+  osm: null
+  url: https://www.haila.io/
+  people_url: null
+  category: electronic-engineering
+  application:
+  - industrial
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: company
+  relevance: 4
+  status: watch
+  description: Fabless semiconductor company building passive backscatter wireless
+    SoCs -- the BSC2000, the first monolithic chip implementing passive backscatter
+    on Wi-Fi, and the in-development BSC3000 combining backscatter with an active
+    RISC-V-based transceiver. Removes the need for battery maintenance by reflecting
+    ambient wireless signals instead of generating RF actively. Founded 2019, originally
+    conceptualized at Stanford.
+  notes: Found via web search, not migrated. Licensed backscatter IP from the University
+    of Washington's CoMotion tech transfer office in 2024 -- plausibly connected to
+    uw-netlab (Vikram Iyer's group, already on this map), which does exactly this
+    kind of battery-free backscatter work. Worth checking whether that's the same
+    underlying technology before assuming so. lat/lon is downtown Montreal as an approximate
+    stand-in -- sources disagreed on HaiLa's exact office address (three different
+    addresses found across ZoomInfo/CBInsights/D&B), verify their actual location.
 - id: harvard-cohen
   name: Cohen Lab
   pi: Adam E. Cohen
