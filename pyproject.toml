@@ -1,0 +1,9 @@
+[project]
+name = "microrobotics-lab-map"
+version = "0.1.0"
+description = "labs.yaml -> per-category GeoJSON for a uMap remote-data map"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml",
+    "requests",
+]
