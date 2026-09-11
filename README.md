@@ -99,9 +99,18 @@ undocumented, session-authenticated, and out of scope by design.
 3. Configure facet search. Current uMap (unlike some docs you may find)
    configures this through two structured dialogs, not a single `key|Label`
    text field — that shorthand is legacy and gets auto-migrated on load, but
-   set it up the current way:
-   - Open **Manage fields** and add one field per property you want to filter
-     or search on, with the matching type:
+   set it up the current way. This is done **once, at the map level** (not
+   per layer — verified in uMap's own source, `app.js`: the map object owns
+   its own `fields`/`filters` collections, separate from any one layer's),
+   so you don't repeat it 11 times:
+   - The whole panel only exists when the map's edit mode is **Advanced** —
+     if you open the map's settings/edit panel and don't see a "Manage
+     Fields" section at all, that's why; find the simple/advanced edit-mode
+     toggle in the map's general settings and switch it first.
+   - With Advanced mode on, click the map's **Edit** control (gear icon) to
+     open "Map advanced properties", then find the **Manage Fields** section
+     (a collapsible panel partway down). Click **Add a new field** once per
+     property you want to filter or search on, with the matching type:
      | Field key | Type |
      |---|---|
      | `application` | Enum (splits on `,` into multiple facet values — this is why `build.py` joins with a comma, not a semicolon) |
@@ -111,9 +120,14 @@ undocumented, session-authenticated, and out of scope by design.
      | `country` | String |
      | `relevance` | Number |
      | `min_dim_um` | String (keeps `"unknown"` as its own facet bucket instead of being dropped from a numeric range — use Number instead if you'd rather have a min/max slider and don't care about the unknown bucket) |
-   - Open **Manage filters** and add a filter for each field: Checkbox widget
-     for `application`, `status`, `institution_type`, `country`, `min_dim_um`;
-     Switch for `onboard_power`; MinMax for `relevance`.
+   - Adding a field only makes it *available*; it doesn't put a widget in
+     the sidebar yet. Still inside Fields management, click **Manage
+     filters** and **Add filter** once per field you actually want visible
+     and interactive: Checkbox widget for `application`, `status`,
+     `institution_type`, `country`, `min_dim_um`; Switch for
+     `onboard_power`; MinMax for `relevance`. Give each one a human-readable
+     label (e.g. "Onboard power") — that's what shows in the sidebar, not
+     the raw field key.
 4. Verify the legend shows one entry per layer with the right color.
 
 From this point the uMap map is read-only. Markers dragged in the uMap UI are
