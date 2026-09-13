@@ -17,16 +17,27 @@ Python >= 3.11.
 
 Append an entry to `labs.yaml`, sorted alphabetically by `id`. Every field key
 is always present (use `null` for an absent value — see the existing entries
-for the shape). Two fields are worth calling out:
+for the shape). Several fields are worth calling out:
 
 - `description` is the group's own public blurb and **is** rendered into the
   uMap popup.
+- `interesting_work` and `community_improvement` are *your* public commentary
+  — respectively, latest research/products you find interesting, and ways
+  this lab/institute could improve the microrobotics community. Both **are**
+  rendered into the uMap popup (as extra bolded sections after `description`,
+  only when non-null) — unlike `notes`, treat these as public the moment you
+  write them.
 - `notes` is your private assessment (why it's categorized the way it is, what
   to fix, etc.) and is **never** rendered or emitted anywhere in `out/` — it
   never leaves `labs.yaml`. `out/*.geojson` is published to a public repo, so
   nothing in `notes` should be written as if it might leak; it currently won't,
   but don't rely on that as your only safeguard against saying something there
   you wouldn't want public.
+- `human_reviewed` (`true`/`false`) marks whether you've personally checked
+  and, if needed, corrected an entry. New/migrated entries default to
+  `false`; flip to `true` once you've verified it by hand. Emitted as a
+  `human_reviewed` (`yes`/`no`) property for uMap facet filtering, same
+  pattern as `onboard_power`.
 
 If you don't know the coordinates, set `lat: null` and `lon: null` — the build
 geocodes from `institution, city, country` and writes the result back into
@@ -115,6 +126,7 @@ undocumented, session-authenticated, and out of scope by design.
      |---|---|
      | `application` | Enum (splits on `,` into multiple facet values — this is why `build.py` joins with a comma, not a semicolon) |
      | `onboard_power` | Boolean |
+     | `human_reviewed` | Boolean |
      | `status` | String |
      | `institution_type` | String |
      | `country` | String |
@@ -125,9 +137,9 @@ undocumented, session-authenticated, and out of scope by design.
      filters** and **Add filter** once per field you actually want visible
      and interactive: Checkbox widget for `application`, `status`,
      `institution_type`, `country`, `min_dim_um`; Switch for
-     `onboard_power`; MinMax for `relevance`. Give each one a human-readable
-     label (e.g. "Onboard power") — that's what shows in the sidebar, not
-     the raw field key.
+     `onboard_power` and `human_reviewed`; MinMax for `relevance`. Give each
+     one a human-readable label (e.g. "Onboard power", "Human reviewed") —
+     that's what shows in the sidebar, not the raw field key.
 4. Verify the legend shows one entry per layer with the right color.
 
 From this point the uMap map is read-only. Markers dragged in the uMap UI are
@@ -135,10 +147,17 @@ discarded on reload — that's intended; `labs.yaml` is the only source of truth
 
 ## Popup markup
 
-`description` uses uMap's own lightweight markup, verified against uMap's
-current source (`umap/static/umap/js/modules/utils.js`, `toHTML`):
-`**bold**`, `*italic*`, and `[[https://url]]` / `[[https://url|label]]` for
-links. Bare `https://...` in text is auto-linked too.
+`description`, `interesting_work`, and `community_improvement` all use
+uMap's own lightweight markup, verified against uMap's current source
+(`umap/static/umap/js/modules/utils.js`, `toHTML`): `**bold**`, `*italic*`,
+and `[[https://url]]` / `[[https://url|label]]` for links. Bare `https://...`
+in text is auto-linked too.
+
+uMap's popup renderer only supports one blob of markup text per feature —
+there's no native way to give a feature multiple separate popup panels.
+`build.py` fakes the structure by appending `interesting_work` and
+`community_improvement` (when set) as their own `**bolded**` sections after
+`description`, inside the same popup.
 
 One thing that is **not** true despite looking like it should be: a plain
 newline is not rendered as a line break. `toHTML` has no rule that turns `\n`

@@ -44,13 +44,21 @@ def resolve_missing_coordinates(labs: list) -> bool:
 
 def build_description(lab: dict, category_label: str) -> str:
     """Builds the public uMap popup text. `lab['notes']` is a private
-    assessment and must never be read here -- only `lab['description']`."""
+    assessment and must never be read here -- only `lab['description']`,
+    `lab['interesting_work']`, and `lab['community_improvement']` (both
+    public commentary, unlike `notes`) are rendered into the popup."""
     header = f"**{lab['pi']}**" if lab["pi"] else f"**{lab['name']}**"
     header += f" — {lab['institution']}, {lab['city']} ({lab['country']})"
     lines = [header]
 
     if lab.get("description"):
         lines += ["", lab["description"].strip()]
+
+    if lab.get("interesting_work"):
+        lines += ["", f"**Latest research/products of interest:** {lab['interesting_work'].strip()}"]
+
+    if lab.get("community_improvement"):
+        lines += ["", f"**How this could improve the microrobotics community:** {lab['community_improvement'].strip()}"]
 
     links = [f"[[{lab['url']}|Group website]]"]
     if lab.get("people_url"):
@@ -84,6 +92,7 @@ def build_properties(lab: dict) -> dict:
         "onboard_power": "yes" if lab["onboard_power"] else "no",
         "institution_type": lab["institution_type"],
         "status": lab["status"],
+        "human_reviewed": "yes" if lab["human_reviewed"] else "no",
         "relevance": str(lab["relevance"]),
         "min_dim_um": str(lab["min_dim_um"]) if lab["min_dim_um"] is not None else "unknown",
     }, color

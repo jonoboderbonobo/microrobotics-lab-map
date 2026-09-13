@@ -15,6 +15,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "4",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -44,6 +45,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "1",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -73,6 +75,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "1",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -144,6 +147,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "3",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -173,6 +177,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "1",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -202,6 +207,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "1",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -269,6 +275,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "1",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -298,6 +305,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "1",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -349,6 +357,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "2",
         "min_dim_um": "unknown",
         "_umap_options": {
@@ -378,6 +387,7 @@
         "onboard_power": "no",
         "institution_type": "university",
         "status": "watch",
+        "human_reviewed": "no",
         "relevance": "2",
         "min_dim_um": "unknown",
         "_umap_options": {

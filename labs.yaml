@@ -18,12 +18,15 @@
   institution_type: company
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Ambiq builds ultra-low-power SoCs around SPOT (Subthreshold Power Optimized
     Technology), operating transistors below 1V -- as low as 300mV in its newest 12nm
     platform -- for a quadratic energy-efficiency gain over conventional above-threshold
     digital design. Has shipped in over 280 million devices (wearables, healthcare
     monitoring, industrial IoT); latest product is Atomiq, an ultra-low-power NPU
     SoC.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Closest thing found so far to a commercial
     proof that a subthreshold design strategy scales to real shipped products at volume
     -- directly relevant to the project's own sub-threshold reference/MICMOS work,
@@ -48,9 +51,12 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Professor of Aerospace and Mechanical Engineering working on system
     identification, design and fabrication of MEMS, miniature mechatronic systems,
     sensors, and actuators -- including micro-robotic drug delivery.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found;
     linked to faculty profile instead.
 - id: berkeley-conboy
@@ -72,12 +78,15 @@
   institution_type: university
   relevance: 2
   status: watch
+  human_reviewed: false
   description: Studies age-imposed and pathological changes in circulatory signaling
     and their effect on tissue maintenance and repair -- the lab that showed adult
     stem cell repair capacity is governed by age-changing molecular signals from surrounding
     tissue (heterochronic parabiosis work). More recently has moved toward synthetic
     biology and digital biosensors for longitudinal, real-time diagnosis of age-related
     change and treatment response.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. No microrobotics link whatsoever today
     -- added purely for the 10+ year organ-control/aging horizon in MANIFEST.md: this
     is exactly the kind of longitudinal, real-time aging-biomarker work that a future
@@ -102,12 +111,15 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Studies the Performance, Energetics and Dynamics of Animal Locomotion
     (P.E.D.A.L.) in many-legged creatures -- cost of locomotion, musculoskeletal mechanics,
     and whole-animal exercise physiology -- using biomechanical, computational, and
     physical modeling. Findings have directly informed the design of insect-inspired
     search-and-rescue robots, gecko-inspired dry adhesives, and other bio-inspired
     multilegged robots. PI Robert Full is Editor-in-Chief of Bioinspiration & Biomimetics.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. This is the actual research the project's
     own Miteskeeping workstream is aiming at -- locomotion biomechanics of small,
     fast, many-legged animals as direct design input, not mites specifically but the
@@ -135,11 +147,14 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Co-inventor (with Jose Carmena, Elad Alon, Jan Rabaey) of 'neural dust'
     -- an ultrasonic power and communication platform for vanishingly small, batteryless,
     tetherless implants that record and transmit neural activity. Group works broadly
     on extreme miniaturization of synthetic interfaces to cells and organisms; also
     known for the earlier radio-controlled cyborg beetle work.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Same ultrasonic power+comms approach
     as stanford-arbabian, applied specifically to neural interfaces -- strong double
     match for both the Energy and Communication workstreams, and squarely on the long-term
@@ -164,12 +179,15 @@
   institution_type: company
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Bionaut Labs develops magnetically-guided microscale robots (rice-grain-scale
     overall, with some features under 1mm) that are remote-controlled from outside
     the body to deliver biologics, nucleic acids, or small-molecule therapies to precise
     targets in the central nervous system, including deep brain structures. Founded
     2016, headquartered in Los Angeles with R&D sites in Israel and at the Max Planck
     Institute in Germany.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Textbook case of the conflation this
     project explicitly tracks: externally magnetically actuated, no onboard power
     source, so it doesn''t meet the strict autonomous micro-robotics definition despite
@@ -198,12 +216,15 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Professor of Swarm Engineering working across Engineering Mathematics,
     the Bristol Robotics Laboratory, and Life Sciences on 'swarms for people' across
     scales -- from nanoparticle swarms for cancer treatment (her earlier work at MIT)
     to larger robot swarms for environmental monitoring and logistics. Previously
     deployed flying robot swarms at EPFL. Also executive trustee of the AIhub.org
     and Robohub.org communities.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. About as precise a match as this search
     process has found: swarm engineering explicitly spanning nanoscale medical applications
     and larger robots is exactly the System-Level-Behavior workstream plus the biomedical-application
@@ -229,12 +250,15 @@
   institution_type: university
   relevance: 2
   status: watch
+  human_reviewed: false
   description: Pioneers DNA nanotechnology and molecular programming -- computation
     and robotics built from DNA itself rather than silicon. State-of-the-art DNA robots
     can walk a few steps along a 2D track, make branching decisions, and pick up cargo;
     the group is working toward molecular robots with swarm-intelligence-inspired
     collective behavior. Co-shared the 2006 Feynman Prize in Nanotechnology (with
     Paul Rothemund) for demonstrating DNA computing.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. A completely different computational
     and fabrication substrate from the project''s own CMOS approach -- included as
     a genuine alternative-paradigm reference for the Computing workstream, not because
@@ -261,11 +285,14 @@
   institution_type: institute
   relevance: 4
   status: watch
+  human_reviewed: false
   description: One of the world's largest applied research organizations in microelectronics
     and nanotechnology, established 1967 in Grenoble. Operates 200mm and 300mm CMOS
     lines, a 200mm MEMS line, a 300mm photonics platform, and a 300mm 3D integration
     line across 11,000 m2 of ISO 9001-certified cleanroom space. ~1,900 employees,
     286+ patents granted per year.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. A major European microelectronics research
     institute with real MEMS and 3D-integration capability at both 200mm and 300mm
     -- likely enterprise-scale rather than startup-cheap access, but worth knowing
@@ -291,12 +318,15 @@
   institution_type: company
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Chip design and fabrication service built on SkyWater 130nm with an
     open-source PDK and open-source toolchain, offering chipIgnite tapeouts at $14,950
     plus an educational chipDiscover program. Founded by former Efabless leadership
     (Jeff DiCorpo, Mohamed Kassem) after Efabless shut down in early 2025, re-enabling
     the same SkyWater 130 access route the open-source silicon community had relied
     on.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Time-sensitive and directly actionable:
     Efabless -- the project''s own stated Plan A tapeout route via SkyWater 130/Tiny
     Tapeout -- shut down in early 2025. ChipFoundry is the direct successor for that
@@ -324,10 +354,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Nanorobotics research, including ionic shape-morphing microrobotic
     end-effectors for environmentally adaptive targeting, releasing, and sampling.
     Now Professor of Biomedical Engineering at City University of Hong Kong, having
     previously built the NanoRobotic Systems Lab at Michigan State University.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. The alumni page still listed
     his old MSU affiliation -- verified and corrected to his current CityU position.
 - id: cityu-song
@@ -349,11 +382,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Assistant Professor in Biomedical Engineering (since 2025) developing
     advanced intelligent materials and systems for therapeutic, purification, and
     diagnostic applications in blood environments -- blood purification devices, micro/nano
     robotic systems, and blood-contacting biomaterials. Previously Research Assistant
     Professor at CUHK under Li Zhang; PhD from Imperial College London (Molly Stevens).
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Third CUHK-lineage Hong Kong
     entry alongside cuhk-chan and cityu-dong. Categorized biomedical-lab rather than
     micro-robotics since the current focus is blood-contacting materials/devices broadly,
@@ -376,6 +412,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Research Overview\n\nResearch in Biomedical Engineering at Carnegie\
     \ Mellon University spans the full range from basic science and theoretical work\
     \ through medical technologies and devices along the entire clinical translational\
@@ -385,6 +422,8 @@
     \ strength areas of \nBiomaterials & Nanotechnology, \nBiomechanics, \nBiomedical\
     \ Imaging, \nCardiopulmonary Engineering, \nCell & Tissue Engineering, \nComputational\
     \ Biomedical Engineering, \nMedical Devices & Robotics, and \nNeural Engineering."
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cmu-bme.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -409,6 +448,7 @@
   institution_type: institute
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Hong Kong Centre for Cerebro-cardiovascular Health Engineering\n\n\
     \\Be global hub for interdisciplinary cerebro-cardiovascular health engineering\
     \ research collaboration\n\nConverging global experts in engineering, science,\
@@ -452,6 +492,8 @@
     \ for space medicine: influence by microgravity and cosmic radiation \tProf WANG\
     \ Dongan\n10 \tPorous metallic microneedle array-based test trip for gingival\
     \ crevicular fluid collection and analysis"
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/coche-hk.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -475,11 +517,14 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Builds microscopic robots -- roughly 5 microns thick, 40-70 microns
     long, the size of a paramecium -- from a simple circuit with silicon photovoltaics
     as torso and brain, and electrochemical actuators as legs. Shining laser light
     on the photovoltaics walks the robots. Demonstrated up to ~1 million robots fabricated
     per silicon wafer.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Itai Cohen co-leads this work with Paul
     McEuen (already on the map as cornell-mceuen, filed under medicine-lab per the
     old map''s own categorization) and their former postdoc Marc Miskin (upenn-miskin)
@@ -506,6 +551,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Room 109
 
     https://physics.cornell.edu/paul-mceuen
@@ -527,6 +573,8 @@
     research ranges from the use of carbon nanotubes for optoelectronics and mechanics
     to the use of graphene and other 2D materials for atomic-scale origami, active
     materials, and micro and nanomachines.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cornell-mceuen.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -549,6 +597,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Bioelectronics
 
     Maker of Purcell Bot, Ant-Bot, Dog-Bot
@@ -567,6 +616,8 @@
     about interdisciplinary research is that reveals fundamental similarities across
     problems, and so spurs new interdisciplinary research in unexpected directions.
     We are often confused, but rarely bored.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cornell-molnar.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -591,11 +642,14 @@
   institution_type: institute
   relevance: 4
   status: watch
+  human_reviewed: false
   description: CSEM designs custom ultra-low-power analog front-end ASICs for wearable
     and implantable medical devices -- multi-channel systems for brain, heart, and
     muscle monitoring, and specialized circuits for invasive epilepsy treatment and
     neural brain-machine interfaces. Focus is on minimizing power consumption to extend
     implant battery life while maintaining precise biomedical signal acquisition.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Direct fit for the Basic Chip workstream
     -- exactly the kind of ultra-low-power analog IC design (implantable-grade, sub-microwatt-class)
     that's otherwise scarce and expensive to hire for. Worth a real look as a potential
@@ -620,9 +674,12 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Research Assistant Professor working on medical miniature devices,
     robotic surgical tools, micro-/nanorobotics, and flexible electronic implants
     for translational medicine.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Second CUHK entry alongside
     cuhk-zhang itself, a distinct research assistant professor with his own lab and
     dedicated site.
@@ -645,10 +702,13 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Department of Mechanical and Automation Engineering researcher, co-author
     of 'Dynamic coupling enables impulsive ejection in a hydrogel catapult' (Nature
     Communications), a dynamic-coupling ejection strategy giving miniature robots
     high-speed, cross-scale, non-contact locomotion.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Co-authored with Neng Xia and
     Chengfeng Pan, both already on this map (zju-xia, zju-pan) -- confirms this is
     a real, connected extended network, not an isolated hit.
@@ -671,6 +731,7 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Works on microrobotics, medical robotics, biorobotics, and soft materials
     -- including navigation and localization of microrobotic swarms in blood vessels,
     and a biohybrid microbot built from Spirulina algae with in-vivo tracking and
@@ -678,6 +739,8 @@
     Science Robotics, Nature Materials, and Nature Biomedical Engineering; earlier
     artificial-bacterial-flagella work was indexed in the Guinness Book of World Records
     2012 as the 'Most Advanced Mini Robot for Medical Use.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. One of the most prominent, prolific
     microrobotics groups found this whole session -- high-confidence relevance 5.
 - id: dgist-demrc
@@ -698,6 +761,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "DGIST-ETH Microrobotics Research Center\n\nDGIST-ETH Microrobotics\
     \ Research Center (DEMRC) was initially established for global collaboration on\
     \ microrobot research between DGIST and ETH Zurich. DEMRC plans to expand collaborations\
@@ -745,6 +809,8 @@
     \ of cardiac motion\n        Development of image-based surgical planning and\
     \ conducting animal experiments\n    Applications of engineering using piezoelectric\
     \ MEMS-based artificial auditory systems and ultrasound transducers."
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/dgist-demrc.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -768,6 +834,7 @@
   institution_type: hospital
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'Develops technologies for image-guided minimally invasive surgery:
     catheter-like continuum robots that navigate the branching curves of blood vessels
     and other biological structures, tool-tissue interaction modeling, multi-probe/multi-modal
@@ -776,6 +843,8 @@
     Hospital and Professor of Surgery at Harvard Medical School; the group demonstrated
     a first-of-its-kind autonomous robotic catheter navigating from the jugular vein
     into the right atrium.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Embedded directly in a hospital's cardiac
     surgery department, not just adjacent to one -- real clinical-integration precedent,
     and continuum-robot autonomous navigation is a genuine technique overlap even
@@ -800,9 +869,12 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Associate Professor at the Institute of Robotics and Intelligent Systems,
     working on microrobotics and magnetic actuation systems, including magnetic micro/nanorobots
     for precise physical stimulation of cells and intracellular structures.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. First Dalian entry on the map.
 - id: epfl-microbs
   name: EPFL — Microbiorobotic Systems Laboratory (MICROBS)
@@ -822,7 +894,10 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: null
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/epfl-microbs.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -847,10 +922,13 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Develops diagnostic and therapeutic systems at the nano- and microscale
     to address challenges in cancer and musculoskeletal conditions. Simone Schürle
     is Assistant Professor at ETH Zurich's Department of Health Sciences and Technology,
     part of the Institute of Robotics and Intelligent Systems (IRIS).
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. The alumni page listed her old
     MIT affiliation -- she has since returned to ETH as independent faculty, in the
     same institute as her original advisor (Bradley Nelson).
@@ -874,6 +952,7 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: 'The Multi-Scale Robotics Lab (MSRL) pursues a dynamic research program
     that maintains a strong robotics research focus on several emerging areas of science
     and technology. A major component of the MSRL research leverages advanced robotics
@@ -888,6 +967,8 @@
     at MSRL have also led to the formation of several startup companies.
 
     '
+  interesting_work: null
+  community_improvement: null
   notes: 'Largest and most visible group in the field, and the main source of the
     "microrobot" terminology this map is trying to be precise about. Most systems
     are externally actuated, so by the strict criterion this is closer to a material
@@ -915,12 +996,15 @@
   institution_type: institute
   relevance: 5
   status: watch
+  human_reviewed: false
   description: European Commission-launched consortium (since 1995) of five research
     organizations, led by imec, providing academia and industry with affordable Multi-Project-Wafer
     (MPW) prototyping across a wide range of processes -- digital, RF, mixed-signal,
     high-voltage ASICs, MEMS, photonics, microfluidics, flexible electronics, compound
     semiconductors -- plus ~65,000 concurrent EDA tool licenses distributed to European
     universities annually and training programs.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Directly matches the project''s own
     stated cost strategy (Plan B: startup/academic discounts from commercial vendors
     via a shared-run consortium) -- this is infrastructure that would actually get
@@ -946,7 +1030,10 @@
   institution_type: institute
   relevance: 1
   status: watch
+  human_reviewed: false
   description: null
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
@@ -970,11 +1057,14 @@
   institution_type: company
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'Swiss company (ETH Zurich MSRL spin-off) making ultra-high-precision
     instruments for mechanical testing and robotic handling at the micro- and nanoscale:
     microforce sensing probes and force-sensing microgrippers, fabricated via a custom
     MEMS process, serving semiconductor, microsystem, materials science, and micromedicine
     markets. Acquired by Oxford Instruments in 2024.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl (Famin Qiu, listed alumnus).
     A real, acquirable component supplier for micromanipulation/microgripping -- not
     just a watch entry, worth checking their catalog directly for anything the reference
@@ -999,6 +1089,7 @@
   institution_type: institute
   relevance: 5
   status: watch
+  human_reviewed: false
   description: 'Develops smart integrated systems using micro and nano technologies:
     individual components, manufacturing technologies, system concepts, and system
     integration, from initial idea through design, technology development, prototyping,
@@ -1006,6 +1097,8 @@
     highly sensitive magnetic field sensors based on GMR and TMR effects. Located
     on the Smart Systems Campus, directly adjacent to Chemnitz University of Technology,
     and cooperates with the university''s Center for Microtechnologies (ZfM).'
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Physically next door -- this is a real,
     walkable networking target, not a distant reference. Directly relevant to system-integration
     and sensor fabrication needs, and an obvious first stop for local collaboration
@@ -1028,6 +1121,7 @@
   institution_type: institute
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Vision
 
 
@@ -1053,6 +1147,8 @@
     transferred into application. In this way, we achieve significant added value
     for the health of our society along the entire value chain and develop it further
     with agility and competence in line with our concept of Circular Health.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/fraunhofer-imte-cellmed.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1079,7 +1175,10 @@
   institution_type: institute
   relevance: 1
   status: watch
+  human_reviewed: false
   description: null
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
@@ -1105,12 +1204,15 @@
   institution_type: institute
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Applied research institute for photonic and electronic microsystems,
     nanoelectronics, microdisplays, and wireless data communication. Operates a 1500
     m2, ISO 14644-1 class 4 MOEMS/MEMS cleanroom supporting technology development
     up to pilot production on 200 mm wafers, plus wafer processing, characterization/test,
     and packaging/interconnection services. One of only two German research institutions
     -- alongside Fraunhofer IZM-ASSID -- with 300 mm wafer capability.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Real, in-region cleanroom access (Dresden,
     same Silicon Saxony ecosystem as fraunhofer-enas and silicon-saxony, already on
     this map) for MEMS/microsystems prototyping -- a plausible route for the reference
@@ -1134,11 +1236,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'Works on rolled-up nanomembrane technology: catalytic/magnetic assemblies
     of rolled-up tubular nanomembrane-based micromotors, self-rolled-up single-crystalline
     silicon nanomembranes for on-chip photodetectors, and rolled-up optical microcavities.
     Affiliated with Fudan''s International Institute of Intelligent Nanorobots and
     Nanosystems.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt (same Fudan group as fudan-mei
     -- Schmidt's own lab pioneered rolled-up nanomembrane fabrication, and both alumni
     continued that exact technique family independently in China). Micromotor work
@@ -1163,9 +1268,12 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Professor of Materials Science at Fudan University, working on thin
     film materials, semiconductor materials and flexible electronics, and smart materials
     and micro/nanoscale robotics. Group has been operating since 2010.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt. 'Micro/nanoscale robotics'
     is an explicit named research area -- direct fit, not an inferred one.
 - id: gatech-bakir
@@ -1188,11 +1296,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Researches 2.5D and 3D chip packaging integration architectures, co-designing
     thermal management, power delivery, and interconnect technologies to combine diverse
     chip types (digital, analog, photonic) into a single system. Applications named
     include healthcare systems alongside machine learning and autonomous vehicles.
     Part of Georgia Tech's broader 3D Systems Packaging Research Center.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Direct fit for the Wafer-Level Processes
     workstream -- 2.5D/3D heterogeneous integration is exactly the kind of packaging
     technique a multi-chiplet µBot (actuator die + sensor die + comms die) would need
@@ -1216,10 +1327,13 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Researches biophysical methods of drug delivery -- microneedles, ultrasound,
     lasers, electric fields, heat, and convective forces -- to control transport of
     drugs, proteins, genes, and vaccines into and within the body. A major focus is
     microneedle patches for painless, minimally-invasive skin vaccine delivery.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Not a microrobotics lab, but a real
     concrete problem-statement source: physical (not just chemical) methods of getting
     something small into a precise location in the body, several of which (ultrasound,
@@ -1244,11 +1358,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Invented the triboelectric nanogenerator (TENG) in 2012 -- a device
     that converts mechanical energy into electrical energy via contact electrification
     and electrostatic induction between two different materials rubbing or touching.
     Wang is also Chief Scientist and Director of the Beijing Institute of Nanoenergy
     and Nanosystems, Chinese Academy of Sciences.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. A third distinct micro-scale energy harvesting
     mechanism alongside the project's own PV-now/ultrasound-later roadmap -- mechanical/vibrational
     harvesting via triboelectricity, potentially relevant if a crawling robot's own
@@ -1272,9 +1389,12 @@
   institution_type: company
   relevance: 2
   status: watch
+  human_reviewed: false
   description: Longevity diagnostics company co-founded by Irina Conboy (UC Berkeley
     bioengineering), combining a cheek-swab test with proprietary techniques to measure
     molecular markers of biological aging and disease risk.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Same rationale as berkeley-conboy (its
     academic counterpart): long-term-horizon watch entry for the aging/organ-monitoring
     vision, not a near-term microrobotics connection. Included as a business-model
@@ -1302,12 +1422,15 @@
   institution_type: company
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Fabless semiconductor company building passive backscatter wireless
     SoCs -- the BSC2000, the first monolithic chip implementing passive backscatter
     on Wi-Fi, and the in-development BSC3000 combining backscatter with an active
     RISC-V-based transceiver. Removes the need for battery maintenance by reflecting
     ambient wireless signals instead of generating RF actively. Founded 2019, originally
     conceptualized at Stanford.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Licensed backscatter IP from the University
     of Washington's CoMotion tech transfer office in 2024 -- plausibly connected to
     uw-netlab (Vikram Iyer's group, already on this map), which does exactly this
@@ -1333,6 +1456,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'The Cohen Lab develops and applies new tools to study biology. We
     push the limits of physics and chemistry to make measurements in previously inaccessible
     regimes. Work in the lab combines optics, protein engineering, chemistry, electrophysiology,
@@ -1346,6 +1470,8 @@
     processing in the brains of awake, behaving mice and zebrafish. We also work on
     electrical signaling in other tissues; on mechanical signaling in cells; and on
     the roles of physical forces in embryonic development.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-cohen.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1368,6 +1494,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Works together with "The Wyss Institute"
 
 
@@ -1379,6 +1506,8 @@
     fluid mechanics, controls, and microelectronics. We are grateful for sponsorship,
     past and present, from AFOSR, ARO, DARPA, Draper Labs, National Geographic, NASA,
     NIH, NSF, and ONR.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-microrobotics.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1401,6 +1530,7 @@
   institution_type: institute
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Bioinspired Therapeutics & Diagnostics \nLiving Cellular Devices \n\
     Computational Design & Discovery \nMolecular Robotics \nDiagnostics Accelerator\
     \ \n3D Organ Engineering \nImmuno-Materials \nSynthetic Biology \n\n\nOur mission\
@@ -1408,6 +1538,8 @@
     \ that emulate the way Nature builds, and accelerate their translation into commercial\
     \ products through the formation of startups and corporate partnerships to bring\
     \ about positive near-term impact in the world."
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-wyss.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1431,6 +1563,7 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Designs BrainScaleS, a mixed-signal analog/digital neuromorphic computing
     platform emulating spiking neural networks in continuous time (~1000x faster than
     biological real-time, far lower energy than conventional digital compute). BrainScaleS-2
@@ -1439,6 +1572,8 @@
     the EU EBRAINS research infrastructure. PI Johannes Schemmel holds Heidelberg's
     Chair of Neuromorphic Computing Architectures and has led the group's ASIC lab
     since 2008.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. German, mixed-signal analog chip design
     group -- close to home and close to the project's own specialty. Neuromorphic/spiking
     hardware is explicitly named in the project's System-Level-Behavior workstream
@@ -1463,6 +1598,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'exact position unknown
 
 
@@ -1539,6 +1675,8 @@
     Research (2018-2021) and the Director of the FinPharmaNet (2020-2021). In 2013,
     Dr. Santos received the ERC starting grant for 2013-2017 worth of 1.5 M€ and an
     ERC PoC in 2019-2020.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/helsinki-santos.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1570,9 +1708,12 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Works on femtosecond laser direct-writing fabrication of micro/nanostructures,
     including Dammann gratings, SERS substrates, and bioinspired flexible tactile
     sensors with hierarchical microhair arrays.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Fabrication-technique-level
     match (laser micromachining relevant to Wafer-Level Processes) rather than a device/robotics
     group itself.
@@ -1596,10 +1737,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Professor at the Guangdong Provincial Key Laboratory of Intelligent
     Morphing Mechanisms and Adaptive Robotics, School of Mechanical Engineering and
     Automation, working on micro/nanorobots including gear-like MOF microrobots for
     single-cell mechanotransduction studies.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. First named Harbin Institute
     of Technology entry -- earlier in this session a general HIT search couldn't find
     one clean citable PI, this closes that gap. No dedicated lab site found; linked
@@ -1623,11 +1767,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'Associate Professor in the School of Integrated Circuits, working
     on reconfigurable soft-matter robotics at small scale: microrobotics, smart hydrogels,
     3D printing, and medical robots, including magnetically-driven microrobots for
     cell manipulation and targeted medical interventions. PhD from CUHK (2020), joined
     HIT Shenzhen 2022.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Second HIT Shenzhen entry alongside
     hitsz-dong -- a real cluster there, and notably in the School of Integrated Circuits
     specifically, not just mechanical engineering.
@@ -1650,10 +1797,13 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: 'Studies two fronts in experimental soft matter physics: colloidal
     self-assembly into thermodynamic phases, and adaptive biomaterials -- soft, microstructured
     biological tissues that actuate complex motions. Sharon Gerbode is the Iris and
     Howard Critchell Associate Professor of Physics.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. The adaptive-biomaterials/tissue-actuation
     side is a genuine biomimicry parallel to the Actuation workstream, distinct from
     the colloidal self-assembly side which is more purely fundamental.
@@ -1676,10 +1826,13 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Studies the mechanisms of insect flight control and implements them
     in biomimetic flying robots. PI Tsevi Beatus did his postdoc in Cornell's Physics
     department on insect flight control, and his PhD (Weizmann Institute) on collective
     non-equilibrium dynamics of microfluidic droplets.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. A dedicated insect-flight
     biomimicry lab -- a sharper, more specific version of what tudelft-mavlab and
     berkeley-full each cover part of. Second Israeli entry after technion-haick.
@@ -1702,10 +1855,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Professor of Polymer Physics and Chemistry researching self-assembly,
     micro-swimmers, colloidal phase transitions, rheology, and nanoparticle-polymer
     composites -- including autonomous assembly and self-propulsion of active and
     inactive components.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. 'Micro-swimmer' as an explicit
     named research interest -- direct fit.
 - id: hzdr-makarov
@@ -1728,11 +1884,14 @@
   institution_type: institute
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Pioneered curvilinear magnetism and shapeable magnetoelectronics on
     flexible, bendable, and stretchable surfaces -- flexible and printable magnetic
     field sensors (Hall effect and magnetoresistive) on ultra-thin substrates with
     high mechanical adaptability. Won an ERC Starting Grant (SMaRT) and ERC Proof-of-Concept
     Grant (MagnetoFLEX).
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt. Flexible magnetic sensors
     are a plausible fit for onboard localization/field-sensing on a small robot, though
     the group's own applications target wearables/industrial sensing, not microrobots
@@ -1757,11 +1916,14 @@
   institution_type: institute
   relevance: 5
   status: watch
+  human_reviewed: false
   description: ICREA Professor and group leader at IBEC, leading the Smart Nano-Bio-Devices
     group with a focus on self-powered nanorobots, nanomedicine, and biohybrid robotics
     -- chemically-powered micro- and nanomotors, including fully biocompatible self-propelling
     particles powered by enzymes consuming biological fuels like glucose. ~200 publications,
     h-index 83, 8 patents.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt (Oliver Schmidt's group alumni
     page lists 'Prof. Dr. Samuel Sanchez'). One of the most prolific and cited researchers
     in the whole self-powered micro/nanomotor space -- high-confidence relevance 5.
@@ -1783,6 +1945,7 @@
   institution_type: institute
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Research & Prototyping Service
 
     The Research & Prototyping Service group coordinates service and industry relevant
@@ -1819,6 +1982,8 @@
 
     To apply our technologies and developments to high-volume production, IHP offers
     technology transfer to commercial foundries.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/ihp-cleanroom.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1843,11 +2008,14 @@
   institution_type: company
   relevance: 4
   status: watch
+  human_reviewed: false
   description: UK company making Stereax, mm-scale solid-state rechargeable batteries
     for active medical implants and miniature IoT sensors -- no liquid or polymer
     components, thousands of recharge cycles, nA-level leakage. The Stereax M50 is
     a 20 mm3 rectangular-form-factor cell with 50% higher energy density than other
     commercial solid-state batteries.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. A real onboard-power alternative/supplement
     to the project's own harvesting-only strategy (PV now, ultrasound later) -- worth
     understanding whether a Stereax-class cell could fit the reference design's power
@@ -1870,6 +2038,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Dandan Zhang\nThe Multi-Scale Embodied Intelligence Lab focuses on\
     \ developing embodied intelligence across multiple scales, ranging from micro/nanobots\
     \ to large-scale robotic systems, primarily targeting healthcare applications.\n\
@@ -1916,6 +2085,8 @@
     \ human operators and machine learning-based autonomous control to enable efficient\
     \ human-robot shared control for surgical operations. This leads to the development\
     \ of intelligent surgical robots to assist human operators in robotic surgery."
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/imperial-zhang.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1939,12 +2110,15 @@
   institution_type: company
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'Commercializing neural dust: millimeter-sized bioelectronic implants
     wirelessly powered and read out via ultrasound, able to record and stimulate nerve
     activity and communicate with other devices via ultrasound backscatter. Founded
     2017 by Jose Carmena and Michel Maharbiz out of their UC Berkeley research; acquired
     by Astellas Pharma in 2020. As of 2024, has an FDA investigational device exemption
     for an early feasibility study in underactive bladder treatment.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Direct commercial continuation of berkeley-maharbiz
     (already on this map) -- real pharma-backed validation with active FDA trials,
     worth understanding as the actual regulatory/commercial path this kind of technology
@@ -1968,9 +2142,12 @@
   institution_type: institute
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Works on quantum detection and new detector systems characterizing
     quantum-limited signals, and on neuromorphic computing architectures based on
     memristive devices.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt. Memristive neuromorphic computing
     is the same family of alternative computing substrate as heidelberg-schemmel,
     already on the map -- a second entry in that specific niche.
@@ -1994,12 +2171,15 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'Develops microrobotic systems for biological applications: magnetic
     micro-swimmers, optical-tweezers-driven micromanipulators, automated atomic force
     microscopy, and haptic teleoperation for robotic micro-assembly. Work spans nanoscale
     characterization, single-cell manipulation, and force-feedback control. Fabricates
     some devices in collaboration with the FEMTO-ST Institute (already on this map
     as femto-st-mn2s).'
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Externally actuated (optical tweezers,
     magnetic fields) rather than onboard-powered, so this is a material/technique
     match rather than a whole-system micro-robotics match by the strict definition
@@ -2025,12 +2205,15 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: 'Pioneers self-folding micro- and nanoscale 3D metamaterials and devices:
     thermoresponsive and DNA-programmable soft robots, untethered microgrippers and
     microinjectors, curved/folded/integrated biosensors, and microphysiological systems.
     36 issued patents on self-assembly and self-folding polyhedra. PI David Gracias
     is a Professor of Chemical and Biomolecular Engineering with secondary appointments
     in Medicine and Arts & Sciences.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt. Self-folding microstructures
     is directly adjacent to cornell-cohen/upenn-miskin's own approach (flat-fabricate
     then fold), but an independent, highly-patented group -- untethered microgrippers
@@ -2054,10 +2237,13 @@
   institution_type: institute
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Professor at JNCASR's International Centre for Materials Science and
     School of Advanced Materials, working on soft matter physics. Recipient of the
     Shanti Swarup Bhatnagar Prize for Science and Technology, India's top science
     award.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. First Indian entry on the
     map. Soft matter physics is a broad field-level match, not a specific component/technology
     match -- relevance kept moderate accordingly.
@@ -2080,11 +2266,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Develops micro-surgical robots to deliver regenerative therapies deep
     inside the human body, at the School of Biomedical Engineering & Imaging Sciences.
     PI Christos Bergeles was a postdoctoral fellow at Boston Children's Hospital/Harvard
     Medical School and the Hamlyn Centre for Robotic Surgery, Imperial College, before
     King's.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. Alumni page listed his outdated
     Harvard affiliation -- corrected to current KCL position.
 - id: khu-lee
@@ -2106,9 +2295,12 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Assistant Professor of Mechanical Engineering researching iontronics,
     tribotronics, soft robotics, and hydrogels. Previously a postdoc at MIT's Soft
     and Micro Robotics Laboratory before joining Kyung Hee University.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from mit-smrl. No dedicated lab website found,
     linked to his university Pure profile instead -- verify a better link exists before
     treating this as a primary contact page. Tribotronics ties to the same triboelectric
@@ -2133,10 +2325,13 @@
   institution_type: institute
   relevance: 4
   status: watch
+  human_reviewed: false
   description: A dedicated South Korean research institute (established 2019, president
     Jong Oh Park) focused on medical microrobots, including magnetically-actuated
     multifunctional robots with real-time MRI visualization for applications such
     as liver cancer chemoembolization therapy.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. A whole institute dedicated specifically
     to medical microrobotics is rare -- worth real attention, not just a watch entry,
     and adds South Korea to a map that otherwise skews heavily US/EU. Magnetically
@@ -2164,7 +2359,10 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: null
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
@@ -2186,6 +2384,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Asset 2\nAsset 2\n\n2/3\nOur Research Mission and Vision\n​\n\nLife\
     \ as Inspiration for Adaptive, Autonomous and Interactive Systems and Materials.\
     \ What are the essential principles of life? How can we transduce these principles\
@@ -2212,6 +2411,8 @@
     \ co-evolution with biological systems as in the context of self-erasing hydrogels,\
     \ mechanosensing materials, mechanical metamaterials, soft robotics and interactive\
     \ biomaterials.\n​"
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mainz-walther.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2237,9 +2438,12 @@
   institution_type: hospital
   relevance: 3
   status: watch
+  human_reviewed: false
   description: 'Microrobotics for biomedical application in a clinical setting.
 
     '
+  interesting_work: null
+  community_improvement: null
   notes: 'TODO: description is a placeholder. Replace with text from his Mayo group
     page or a recent paper abstract -- the original pin had only a Scholar link. Also
     replace `url` with the lab page once found; a Scholar profile is a weak primary
@@ -2266,11 +2470,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Studies controlled assembly of colloidal particles using external time-varying
     electromagnetic, electric, and magnetic fields, building toward micron-scale colloidal-based
     devices and microbots for biomedical treatment. David Marr is the Gaylord and
     Phyllis Weaver Distinguished Chair of Chemical and Biological Engineering; work
     funded by NIH, NSF, and NASA.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. Second Colorado School of Mines
     entry this session alongside mines-petruska -- two independent microrobotics-adjacent
     groups at the same institution, worth noting as a cluster.
@@ -2294,10 +2501,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Studies control of complex dynamic systems, with emphasis on magnetic
     manipulation for medical applications and autonomous systems for mining. Andrew
     Petruska directs the lab and the Robotics Interdisciplinary Graduate Program at
     Colorado School of Mines, joined 2016.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. Magnetic manipulation applied
     to both medical and (unusually) mining robotics -- a genuinely different application
     domain for the same underlying actuation approach.
@@ -2319,6 +2529,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Welcome to the Soft and Micro Robotics Laboratory
 
 
@@ -2347,6 +2558,8 @@
     In addition to having a weekly group meeting that discusses research ideas and
     literature studies, we will also set up a weekly or biweekly meeting with each
     group member.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mit-smrl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2369,6 +2582,7 @@
   institution_type: institute
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Metin Sitti gone
 
 
@@ -2390,6 +2604,8 @@
     materials science, engineering, physics, biology, chemistry, and medicine. Until
     2023, Metin Sitti headed the Physical Intelligence Department. He is now President
     of Koç University and a Guest Scientists at MPI-IS.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mpi-physical-intelligence.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2415,11 +2631,14 @@
   institution_type: company
   relevance: 3
   status: watch
+  human_reviewed: false
   description: 'Publicly traded (Euronext: NANO, Nasdaq: NBTX) nanomedicine company
     developing NBTXR3, a nanoparticle radioenhancer -- CE-marked since 2019 for locally
     advanced soft tissue sarcoma across 27 European countries under the brand Hensify,
     with an ongoing Phase 3 head and neck cancer program. Incorporated 2003, headquartered
     in Paris.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Not a microrobotics match at all, but
     one of the few nanoscale-therapeutic companies with an actual approved, marketed
     product -- worth understanding purely as a regulatory-pathway precedent for how
@@ -2444,12 +2663,15 @@
   institution_type: company
   relevance: 5
   status: watch
+  human_reviewed: false
   description: ETH Zurich spin-out (2021) developing a magnetically-controlled soft
     robotic catheter system for endovascular navigation -- a mobile electromagnetic
     control system that can be wheeled into a standard operating room, no special
     shielding required. Founded by Bradley Nelson (ethz-msrl's own PI, already on
     this map) with Christophe Chautems and Matt Curran. Raised $12M+ as of Feb 2023,
     targeting FDA submission for neuro-interventional stroke treatment.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl (Simone Gervasoni, listed alumna,
     works here). Direct commercial spin-out of an already-tracked lab's own PI --
     a real, funded, near-clinical company built on exactly the magnetic-microrobotics
@@ -2474,10 +2696,13 @@
   institution_type: company
   relevance: 4
   status: watch
+  human_reviewed: false
   description: German manufacturer (KIT spinoff, ZEISS-backed) of two-photon polymerization
     (2PP) 3D microprinters, producing arbitrary sub-micron-precision 3D structures
     in resin. Their proprietary 2GL (Two-Photon Grayscale Lithography) technology
     speeds up printing of smooth high-precision structures.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. This is the actual 3D printer isir-rpibio
     (already on this map) used, via FEMTO-ST, to fabricate their optical-tweezers-driven
     microrobots -- real, already-in-use fabrication infrastructure for sub-mm mechanical
@@ -2503,11 +2728,14 @@
   institution_type: institute
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Works on microrobotics, nanomaterials, nanodevices, microfluidics,
     and AI-assisted inventive problem solving. Alexander Solovev is Professor and
     Founding Director of the NanoTRIZ Innovation Institute in Australia, after prior
     professorships/appointments at Fudan University, TU Munich, University of Toronto,
     Harvard, and Columbia.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt. Second Australian entry after
     uq-aibn. City confirmed as Brisbane via NanoTRIZ's own site (nanotriz.com) --
     lat/lon is Brisbane CBD as an approximate point, not a specific street address.
@@ -2530,11 +2758,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Pioneers bioresorbable and flexible electronics -- implants that deliver
     wireless electrical stimulation to damaged nerves during healing, then dissolve
     and disappear without a trace ('bioresorbable electronic medicine'). Also develops
     soft, stretchable microfluidic systems that bond to skin without irritation. PI
     John A. Rogers directs Northwestern's Querrey-Simpson Institute for Bioelectronics.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. One of the most prominent groups in implantable
     electronics worldwide -- bioresorbable materials are a genuinely distinct materials
     strategy from the project's own (permanent CMOS), but directly relevant if any
@@ -2560,10 +2791,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Department of Biomedical Engineering researcher working on micro/nanorobots
     for targeted therapy and diagnostics, including a review of gastrointestinal capsule
     robots (materials, actuation, diagnostics, therapeutics) and versatile modular
     magnetic solid-droplet systems.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. First Singapore entry on the
     map.
 - id: penn-msma
@@ -2586,9 +2820,12 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: 'Microsensors and microactuators. Collaborates with McEuen and Miskin.
 
     '
+  interesting_work: null
+  community_improvement: null
   notes: 'High relevance on the chip-design-scarcity argument: fabrication and actuator
     routes for devices that an actual microrobot could carry. The McEuen/Miskin collaboration
     is the reason to watch this one closely -- it is the bridge from this group to
@@ -2615,10 +2852,13 @@
   institution_type: company
   relevance: 3
   status: watch
+  human_reviewed: false
   description: German manufacturer of piezoelectric nanopositioning actuators and
     stages, including patented PICMA ceramic-coated stacked piezo actuators rated
     for 100 billion cycles, sub-nanometer resolution, and forces up to 10,000 N. Serves
     semiconductor fabrication and atomic-force-microscopy markets among others.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. An established commercial reference for
     piezo actuator performance and reliability, but their products are precision macro-scale
     stages, not monolithically microfabricated on-chip actuators -- a scale/integration
@@ -2644,11 +2884,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Assistant Professor of Micromachine Intelligence (μ-AI) in the Department
     of Advanced Manufacturing and Robotics. Works on micromachine intelligence, micro-/nanorobotics,
     and advanced additive manufacturing -- an integrated platform for design, fabrication,
     characterization, and actuation of intelligent micromachines for precision medicine
     and bioengineering in complex microenvironments. PhD from ETH MSRL.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found
     -- linked to ResearchGate lab page instead.
 - id: polyu-yang
@@ -2670,11 +2913,14 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Assistant Professor in the Department of Industrial and Systems Engineering,
     working on micro-/nanorobot design and fabrication, microrobotic system development
     and control, and biomedical applications. 50+ publications including Nature Machine
     Intelligence, Science Robotics, and IEEE Transactions on Robotics. PhD from CUHK
     (2020), B.Eng from Harbin Institute of Technology (2014).
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Strong publication record in
     top venues -- high-confidence relevance 5. Second PolyU-adjacent entry on the
     map.
@@ -2697,12 +2943,15 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'Studies self-organizing computer systems, collective intelligence,
     and biologically-inspired multi-agent robotics. Created the Kilobots (published
     in Science, 2014): a swarm of 1,024 coin-sized, $14-each robots that self-assemble
     into arbitrary target shapes using only local sensing of immediate neighbors,
     no central controller. Radhika Nagpal moved the group from Harvard SEAS/Wyss to
     Princeton (Mechanical & Aerospace Engineering + Computer Science) in 2023.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Textbook match for the System-Level-Behavior
     workstream -- swarm behavior is named explicitly in the information-technology
     category's own taxonomy.py rationale. Kilobots are cm-scale, not sub-mm, but the
@@ -2728,11 +2977,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Investigates coupled opto-mechanical, spin-acoustic, and atom-MEMS
     systems, applied to inertial sensors, frequency standards, and microwave components
     -- including piezo-optomechanical transduction for LIDAR and IR sensing. Works
     with advanced fabrication of piezoelectric materials including PMN-PT and lithium
     niobate.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. PMN-PT is the exact single-crystal piezoelectric
     material named in the project's own reference design -- strong material/fabrication
     match for the Actuation workstream, even though this lab's own applications (LIDAR,
@@ -2756,6 +3008,7 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Uses semiconductor nanofabrication and genetic engineering to build
     electronic, photonic, and magnetic interfaces to the brain. Co-authored a magnetoelectric
     backscatter communication system for bioelectronic implants achieving <0.3 pJ/bit
@@ -2763,6 +3016,8 @@
     transmitting cardiac signals from a beating heart in a porcine model. PI Jacob
     T. Robinson is also co-founder/CEO of Motif Neurotech (brain-computer interface
     for mental health disorders).
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Direct fit for the Communication workstream
     (µBot<->mothership link) -- the pJ/bit-class power budget for passive backscatter
     is exactly the order of magnitude a sub-mm onboard radio would need. Motif Neurotech
@@ -2786,11 +3041,14 @@
   institution_type: company
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Robeauté is developing rice-grain-sized therapeutic microrobots for
     neurosurgery, designed to move along curved routes through brain tissue's extracellular
     matrix to reach multiple targets, deliver molecules, implant electrodes, or collect
     live tissue samples. Founded 2017 by Joana Cartocci and Bertrand Duplat, based
     in Paris, raised ~EUR27M as of January 2025.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Rice-grain scale is well above 1mm, and
     the site doesn't state whether locomotion is externally guided or self-contained
     -- flagging per the manifest's conflation warning rather than assuming either
@@ -2817,12 +3075,15 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Assistant Professor at The BioRobotics Institute developing fully implantable
     medical microrobots that navigate inside the human body and release drugs in a
     controlled manner. Coordinates the ERC Starting Grant project I-BOT (first-generation
     implantable navigable microrobots) and was awarded a Marie Skłodowska-Curie Fellowship
     for Mambo (magnetic microrobots for localized therapy). Winner of the Big-on-Small
     Award for small-scale robotics research.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Second Sant'Anna Pisa entry
     alongside santanna-palagi -- a real cluster of implantable-microrobot expertise
     there. ERC-funded, high-confidence relevance 5.
@@ -2844,6 +3105,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Polo Sant'Anna Valdera\n\nresearch centre of Sant'Anna School of Advanced\
     \ Studies in Pisa \n\n\n\n\n\nThe Microscale Robotics Laboratory aims to create\
     \ advanced robotic technologies of sub-millimeter dimensions. Our approach is\
@@ -2867,6 +3129,8 @@
     \ was established thanks to a European Research Council Starting Grant (ERC) under\
     \ the European Union’s Horizon 2020 research and innovation programme (CELLOIDS\
     \ project, GA: 948590)."
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/santanna-palagi.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2894,12 +3158,15 @@
   institution_type: company
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 55+ year old company (founded as part of a longer conformal-coating
     lineage) providing Parylene, liquid, plasma-polymerized, atomic-layer-deposition,
     and multilayer conformal coating services. Parylene C in particular has a decades-long
     track record as a biocompatible, pinhole-free hermetic encapsulation for implants
     -- pacemakers, stents, cochlear implants, neural interfaces -- meeting USP Class
     VI and ISO 10993 standards.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. A real, practical gap this fills: nothing
     else on the map addresses how a chip survives being inside a body at all. Worth
     an actual quote/conversation for prototype encapsulation, not just a watch entry
@@ -2924,10 +3191,13 @@
   institution_type: company
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Makes Eversense, a fully implantable continuous glucose monitor --
     the sensor itself sits under the skin (not just a shallow patch like most CGMs)
     paired with a rechargeable Bluetooth transmitter and smartphone app. Eversense
     365 lasts a full year per implant, the longest duration in the CGM market.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. A real, FDA-cleared, commercially available
     precedent for 'constant observation' of a physiological parameter via a fully
     implanted device lasting a full year -- exactly the kind of proof point the long-term
@@ -2953,10 +3223,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: School of Mechanical Engineering researcher working on micro/nanorobot
     swarms and magnetically actuated microrobots for medical applications -- on-demand
     pattern transformation of microrobotic swarms for targeted navigation, and nanothorn-equipped
     ionogel microrobots for periodontitis therapy.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. First Southeast University
     entry. Institution string set to the Sipailou campus for geocoding disambiguation
     (Southeast University is multi-campus).
@@ -2979,9 +3252,12 @@
   institution_type: institute
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Works on microswarm path planning and navigation, including RRT*-based
     hybrid path planning for automatic navigation of microswarms -- vortex-like microswarms
     formed from millions of nanoscale Fe3O4 particles as the robot agents.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. First Shenyang Institute of
     Automation entry -- verified via a Google Scholar URL fetch (WebFetch) rather
     than WebSearch, after this session's WebSearch budget ran out. Institution taken
@@ -3008,9 +3284,12 @@
   institution_type: institute
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Associate Researcher working on magnetic robots, rotating magnetic
     field control, soft magnetic miniature robots, and magnetic field-priority force
     control for automated manipulation in large workspaces.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Same institute (SIAT/CAS) as
     siat-xu -- a real cluster.
 - id: siat-xu
@@ -3032,11 +3311,14 @@
   institution_type: institute
   relevance: 5
   status: watch
+  human_reviewed: false
   description: 'Professor at the Guangdong Provincial Key Laboratory of Robotics and
     Intelligent System, leading extensive microrobot research: magnetic-acoustic sequentially
     actuated CAR-T cell microrobots for precision navigation and in-situ antitumor
     immunoactivation, untethered quadruped soft thin-film microrobots, and living
     microalgae-based magnetic microrobots for cancer therapy.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Prolific, diverse microrobot
     portfolio -- high-confidence relevance 5. Same institute (SIAT/CAS) as siat-cai.
 - id: silicon-saxony
@@ -3058,11 +3340,14 @@
   institution_type: institute
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Europe's largest microelectronics/ICT cluster association, self-funded
     since 2000, connecting 700+ manufacturers, suppliers, service providers, universities,
     research institutes, and startups across the Dresden-Chemnitz-Freiberg triangle.
     Thematic focus includes AI, robotics, automation, IoT, sensor technology, energy
     efficiency, and neuromorphic/edge computing.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Not a lab or company -- an industry
     network association -- so it''s a genuine categorization stretch under this taxonomy
     (filed as electronic-engineering for lack of a better fit). Added anyway because
@@ -3089,9 +3374,12 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Research interests span microrobotics, metamaterials, nanomaterials,
     soft matter, and photonics. Holds a supervisory role at SJTU's Institute of Medical
     Robotics, a multi-disciplinary platform established in 2017.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. No dedicated personal lab
     page found -- linked to the Institute of Medical Robotics staff page instead,
     verify a better direct link exists.
@@ -3114,6 +3402,7 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'The Surgical Robotics Lab (SRL) is part of the Department of Biomechanical
     Engineering (Faculty of Engineering Technology) at the University of Twente, The
     Netherlands. SRL is led by Prof. Sarthak Misra, and is also part of the Department
@@ -3129,6 +3418,8 @@
     Contact for student projects: info@surgicalroboticslab.nl
 
     '
+  interesting_work: null
+  community_improvement: null
   notes: 'Strong clinical-imaging control stack. Externally actuated and instrument-scale
     rather than sub-mm autonomous, so the micro-robotics label is generous -- revisit
     once min_dim_um is filled in. The polygon on the original map was the Twente campus;
@@ -3154,11 +3445,14 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Designs ultrasonically-powered implantable medical devices, targeting
     the problem of delivering 100s of µW to a few mW to millimeter and sub-millimeter
     implants located more than 10 cm deep in the body. Applications include pressure
     sensing, electrical stimulation, drug delivery, imaging, and optogenetics; a recent
     fully packaged device measures 30.5 mm³.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Direct match for the project's own stated
     Energy roadmap ('photovoltaic harvesting now, ultrasound later') -- this lab is
     specifically the ultrasound half of that roadmap, at exactly the mm/sub-mm scale
@@ -3181,6 +3475,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Welcome to our laboratory! The Demirci Bio-Acoustic MEMS in Medicine\
     \ Labs (BAMM) laboratory specializes in applying micro- and nanoscale technologies\
     \ to problems in medicine at the interface between micro/nanoscale engineering\
@@ -3204,6 +3499,8 @@
     \ Please feel free to send your comments to utkan@stanford.edu\n\n. We are part\
     \ of the Canary Center at Stanford for Cancer Early Detection, a world-class research\
     \ facility dedicated to cancer early detection programs. \n\nhttps://canarycenter.stanford.edu/aboutus.html"
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/stanford-bamm.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3226,6 +3523,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Dr Juliane Simmchen at Hamlyn Symposium 2024\n\ncolloidal synthesis\
     \ and characterization\nactive matter\nphotocatalytic particles\n\n\n\n\nThe materials\
     \ and computational research group covers a diverse range of interests with an\
@@ -3238,6 +3536,8 @@
     \ facilities and pioneering research into structure-property relationships. Research\
     \ within this section also focuses on the structure and properties of molecules,\
     \ metal-containing compounds, materials and biological systems."
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/strath-materials.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3261,10 +3561,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Associate Professor working on magnetically/light-driven microrobots,
     BioMEMS for single-cell analysis, and magnetically-driven medical robots -- integrating
     microfluidic devices, micro-robotics, and MEMS tools for targeted therapy and
     drug delivery.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. Third mainland-China-adjacent
     entry after westlake-wang and the Fudan pair, though Shenzhen/SUSTech is a distinct
     institution and city.
@@ -3287,12 +3590,15 @@
   institution_type: company
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Developing the Stentrode, an implantable brain-computer interface delivered
     endovascularly (through blood vessels, no open-brain surgery) to a vein next to
     the motor cortex, connected to a subcutaneous antenna that transmits neural data
     out of the body wirelessly. Implanted in six US patients as of the referenced
     study; targeting a 2026 pivotal trial toward the first FDA-approved BCI. Backed
     by Bezos and Gates, among others.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Two separate reasons to track: (1) long-term
     organ-monitoring-horizon relevance as a wireless implant-to-external-device comms
     precedent, and (2) the endovascular, minimally-invasive delivery technique itself
@@ -3318,10 +3624,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Joined Shenzhen University (College of Chemistry and Environmental
     Engineering) in December 2019, working on magnetic-driven microrobots and microswimmers
     for targeted delivery and therapy in the digestive system, including photocatalytic
     helical swimmers and rotating soft-tail millimeter-scale swimmers.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Institution string set to Lihu
     campus for geocoding disambiguation (Shenzhen University is multi-campus).
 - id: tcd-florea
@@ -3342,6 +3651,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Our research comprises several distinct strands of research in the
     soft matter realm, including development of new stimuli-responsive polymers, 3D
     fabrication technologies, micro-fabrication of polymeric actuators & sensors,
@@ -3351,6 +3661,8 @@
     Led by Larisa Florea, our laboratory is hosted by the School of Chemistry, Trinity
     College Dublin, and AMBER, the SFI  Research Centre for Advanced Materials and
     BioEngineering Research, in Dublin (Ireland).'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tcd-florea.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3376,6 +3688,7 @@
   institution_type: university
   relevance: 2
   status: watch
+  human_reviewed: false
   description: 'The Discipline of Mechanical, Manufacturing and Biomedical Engineering
     at Trinity College Dublin. Research is characterised by interdisciplinary collaboration
     within the department and with life sciences, natural sciences, physics, computer
@@ -3389,6 +3702,8 @@
     Manufacturing).
 
     '
+  interesting_work: null
+  community_improvement: null
   notes: 'You flagged this as possibly miscategorised. Agreed that biomedical-lab
     fits better than micro-robotics -- it is a broad mechanical/biomedical department
     with a robotics area, not a microrobotics group. If a specific PI there turns
@@ -3415,12 +3730,15 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Develops artificial olfactory systems based on nanosensor arrays --
     the NA-NOSE (Nano Artificial NOSE) -- that detect volatile organic compound biomarkers
     in breath at single-parts-per-billion sensitivity. An AI-paired nanoarray version
     can distinguish 17+ diseases from breath samples, including several cancers, kidney
     disease, Parkinson's, and Alzheimer's, at up to 86% accuracy. Commercialized via
     spinout NaNose Medical.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. No microrobotics link, but a real, working
     example of non-invasive, continuous-monitoring-adjacent diagnostic sensing detecting
     multiple conditions at once -- directly on the long-term organ-monitoring horizon.
@@ -3445,9 +3763,12 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: Professorship at TU Chemnitz's Faculty of Electrical Engineering and
     Information Technology, working on microelectronic circuit design, microsystem
     electronics, and the function principles of electronic devices.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Same university as the project itself
     and as tuc-schmidt (already on this map) -- a different professorship specifically
     doing circuit design, literally on-campus. About as close and actionable a contact
@@ -3468,16 +3789,19 @@
   application:
   - medical
   - fundamental
-  min_dim_um: null
-  onboard_power: false
+  min_dim_um: 100
+  onboard_power: true
   institution_type: university
   relevance: 5
-  status: watch
+  status: collaborate
+  human_reviewed: true
   description: 'Research areas: microrobotics and micromotors; biomedical applications;
     flexible and shapeable electronics; energy storage at the micro/nanoscale; magnetoelectronics;
     micro- and nanoelectronics; microfluidics; plasmonics.
 
     '
+  interesting_work: 'SMARTLET microrobot, MICMOS microrobot'
+  community_improvement: null
   notes: 'Local. One of the two groups that meet the whole-system criterion. Highest-value
     proximity on the map -- relevance 5 on access alone.
 
@@ -3500,6 +3824,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "B CUBE - Center for Molecular Bioengineering at TUD Dresden University\
     \ of Technology is part of the Center for Molecular and Cellular Bioengineering\
     \ (CMCB) and focuses on the investigation of natural phenomena across scales and\
@@ -3567,6 +3892,8 @@
     \ the focus of the collaboration: by networking across the boundaries of institutions\
     \ and subjects, DRESDEN-concept offers researchers an ideal place for science\
     \ and innovation.\nWeb: www.dresden-concept.de"
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tud-bcube.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3592,6 +3919,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Dr Anna C. Bakenecker has been awarded a LOEWE Start Professorship\
     \ at TU Darmstadt. The expert in medical physics is working on the development,\
     \ control and monitoring of nano- and microrobots that are designed to transport\
@@ -3615,6 +3943,8 @@
     \ Minister of Science Timon Gremmels. ‘I am very pleased that we have succeeded\
     \ in bringing Dr Bakenecker to Hesse with the LOEWE funding, thereby further expanding\
     \ our still young focus area in medical physics.’"
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tudarmstadt-bakenecker.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3639,12 +3969,15 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Develops bio-inspired, computationally efficient algorithms for autonomous
     lightweight flying robots, with an emphasis on onboard computer vision. Built
     DelFly Nimble, a fully autonomous, free-flying, agile flapping-wing robot (four
     flapping wings, ~17 beats/second) that helped explain how fruit flies execute
     aggressive escape maneuvers, and DelFly Explorer (20g, fully autonomous flight),
     plus swarms of 30g nano-copters that collaboratively localize gas leaks.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Flight rather than stick-slip crawling,
     and gram-scale rather than sub-mm, but a real precedent for fully autonomous onboard
     control (not just onboard actuation/energy/comms) at small scale, plus a genuine
@@ -3668,11 +4001,14 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: At MRBL, we develop novel diagnostic and therapeutic technologies by
     integrating nanorobotic tools and multifunctional micromachines with biomedicine.
     Our research group uses nanotechnology, biomaterials, and microfluidics to engineer
     the devices and we implement them in a variety of biological scales ranging from
     single cells to tissue level.
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tum-mrbl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3695,6 +4031,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Professorship of Neuroengineering Materials
 
     Prof. Dr. Kristen Kozielski
@@ -3706,6 +4043,8 @@
 
 
     https://www.ee.cit.tum.de/en/nen/home/'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tum-neuroengineering.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3733,6 +4072,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'The Department of Microelectronics and Electronic Systems (MiSE) was
     created in 2005 from the Microelectronics Unit: Design of Integrated Circuits
     of the Department of Computer Science and has the main objectives of teaching
@@ -3758,6 +4098,8 @@
     At the level of research and innovation, the Department participates in European,
     national, regional and regional projects, and collaborates with other administrations
     and companies, both national and foreign.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
@@ -3779,6 +4121,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Notable Paper:
 
 
@@ -3795,6 +4138,8 @@
     processes by silicon surface/bulk micromachining; micro moulding process; mechanical
     issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid
     mechanics and dynamics.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/ucb-lin.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3818,10 +4163,13 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Associate Professor of Physics studying biofluid dynamics, transport
     of microorganisms in complex environments, mechanics of biological media, and
     mechanical metamaterials, with a hands-on microfluidics focus (students build
     their own microfluidic pumps and channels via 3D printing).
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. Transport of microorganisms
     through complex environments is a real conceptual parallel to how a microrobot
     would need to navigate tissue/fluid, though the lab's own focus is fundamental
@@ -3845,9 +4193,12 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Develops soft and origami-inspired robots, including print-and-fold
     electromechanical machines fabricated as a flat sheet with embedded electronics
     that self-fold into a functional, autonomously-operating machine.
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Typical demos are cm-scale, not sub-mm,
     so filed under milli-robotics rather than micro-robotics -- but the flat-fabrication-then-self-fold
     methodology is a real conceptual parallel to the Wafer-Level Processes workstream
@@ -3871,6 +4222,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'SFB 1270/2 ELAINE - Elektrisch Aktive Implantate
 
 
@@ -3878,6 +4230,8 @@
     auf neuartige, elektrisch aktive Implantate. Konkret geht es um Implantate, die
     zur Regeneration von Knochen und Knorpel eingesetzt werden, sowie um Implantate
     zur Tiefenhirnstimulation zur Behandlung von Bewegungsstörungen.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/uks-elaine.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3904,12 +4258,15 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: 'Studies how robot collectives -- from micron-scale to macro-scale
     -- achieve sophisticated emergent behavior through simple local rules, minimal
     communication, and environmentally-mediated interaction: design, fabrication,
     and control of micron-scale robot swarms for biomedical applications, and self-reconfigurable
     modular robot swarms. PhD Cornell (mechanical engineering), postdoc MIT, joined
     Michigan Robotics as Assistant Professor January 2025.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via alumni-snowballing from mit-smrl (Kevin Chen''s lab). A near-exact
     double match: micron-scale + swarm behavior in one person, brand new faculty (Jan
     2025) and actively recruiting -- genuinely worth reaching out to, not just watching.'
@@ -3932,11 +4289,14 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: 'Studies fluid dynamics, biophysics, and soft matter physics: swimming
     microorganisms in complex environments, collective dynamics of dense bacterial
     suspensions, rheology of colloidal suspensions, and emergent collective phenomena
     of granular robotic systems -- including directed transport of swimming bacteria
     through funnel-shaped obstacles as a model for rectifying living active matter.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. The granular-robotic-swarm
     and active-matter-rectification work is a real, if unusual-angle, parallel to
     the System-Level-Behavior workstream -- using physics of collective motion rather
@@ -3960,11 +4320,14 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Works on advanced 2D materials -- semiconductor nanomembranes, rolled-up
     tubes, graphene, and transition metal dichalcogenides (TMDs) -- using molecular
     beam epitaxy and scanning probe techniques. Previously headed the surface science
     group at LNNano, Brazil's national nanotechnology laboratory, before moving to
     Unicamp in 2017.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt. First South American entry
     on the map. Same rolled-up-nanomembrane technique family as fudan-huang and Schmidt's
     own group -- materials/fabrication level rather than whole-device.
@@ -3986,6 +4349,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Über uns
 
 
@@ -4007,6 +4371,8 @@
     Assistenzsysteme. Voraussetzung hierfür ist eine interdisziplinäre Forschung,
     die auf Erkenntnissen aus Medizin, Geisteswissenschaften und Ingenieurwissenschaften
     aufbaut.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unirostock-agis.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4029,6 +4395,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Vision des Departments LL&M
 
 
@@ -4100,6 +4467,8 @@
     Volumina entwickelt. Grundvoraussetzung hierfür ist die Kenntnis der verwendeten
     Materie auf der Nanoebene, wofür Licht-, Elektronen- und Quantentechniken eingesetzt
     werden.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unirostock-llm.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4122,6 +4491,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Small-scale innovations for big problems.
 
     We are inventing small (micro and nano)-scale devices and systems (e.g., microfluidic
@@ -4133,6 +4503,8 @@
     Our diverse team includes mechanical/electrical/biomedical engineers, material
     scientists, and chemists.  We closely collaborate with >16 research/clinical laboratories
     at U of T, other Canadian/international institutions, and affiliated hospitals.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unitoronto-liu.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4156,10 +4528,13 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: 'Studies fundamental properties and applications of inorganic sheets
     from sub-nanometer to a few micrometers thick: sheet science and technology, nano-origami,
     integration of highly mismatched materials, flexible electronics, and strain engineering.
     PI received her doctorate from TU Chemnitz.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt. Nano-origami and strain-engineered
     sheet folding is a real technique parallel to cornell-cohen/upenn-miskin/jhu-gracias's
     self-folding approach, at a materials-science level rather than whole-device.
@@ -4181,6 +4556,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Old Projects:\n- Micro/Nano Robotics for Single Cancer Cells\n- Fast\
     \ Broadband Scanning Microwave Microscopy\n- On-Chip kalibrierender Biosensor\
     \ für kleine Analyten im Bereich POCT und Umweltanalytik\n- Kraftsensitive Biomaterialien\
@@ -4213,6 +4589,8 @@
     \ Studienschwerpunktes “Eingebettete Systeme und Mikrorobotik”, der ein anwendungsorientiertes\
     \ Studium der Informatik an der Schnittstelle zu den Ingenieurwissenschaften zum\
     \ Ziel hat"
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/uol-amir.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4235,6 +4613,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Legend of Legends
 
 
@@ -4242,6 +4621,8 @@
 
 
     https://miskinlab.seas.upenn.edu/home'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/upenn-miskin.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4265,10 +4646,13 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: 'Develops new materials systems to increase robot mobility and autonomy:
     shape-transforming soft robotic surfaces, synthetic vascular systems for robots,
     air-breathing power sources, and room-temperature self-healing metallic parts,
     drawing on electrochemistry, soft matter physics, and manufacturing.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. Same institution as upenn-miskin.
     Materials/power-systems focus rather than microrobotics specifically -- air-breathing
     power sources in particular are a real Energy-workstream parallel, though at a
@@ -4293,11 +4677,14 @@
   institution_type: institute
   relevance: 2
   status: watch
+  human_reviewed: false
   description: 'Integrated multidisciplinary research institute (500+ researchers/staff)
     spanning bioengineering and nanotechnology across five research pillars: stem
     cell ageing and regenerative engineering, precision nanomedicine, advanced materials,
     agriculture nanotechnology, and advanced biomanufacturing. Hosts BASE, Australia''s
     largest mRNA vaccine/therapy manufacturing facility.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via web search, not migrated. Institute-level rather than a specific
     PI/technology match -- added for geographic diversity (first Australian entry)
     and because precision nanomedicine is one of its named pillars. Worth drilling
@@ -4322,10 +4709,13 @@
   institution_type: university
   relevance: 3
   status: watch
+  human_reviewed: false
   description: Tenure-track professor at the Department of Modern Mechanics researching
     smart materials -- liquid crystal polymers and magnetic polymers -- their deformation
     mechanisms, interfacial interactions, and control strategies under external field
     stimulation.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Responsive/field-actuated smart
     materials rather than whole-device microrobotics -- an actuator-materials match,
     similar level to purdue-oxidemems.
@@ -4349,11 +4739,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Department of Precision Machinery and Precision Instrumentation researcher
     combining femtosecond-laser fabrication with magnetic actuation of microrobots
     -- magnetically-encoded 3D mesostructures with shape morphing, magnetic tubular
     micromotors for targeted single-cell therapeutics, and 4D laser writing of submerged
     structural colors.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Second USTC entry alongside
     ustc-feng -- both combine advanced fabrication with field-actuated microdevices,
     worth noting as a real cluster. Coordinates reused directly from ustc-feng (same
@@ -4378,11 +4771,14 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Develops robotic systems that manipulate remote environments, with
     a primary focus on medical telerobotics -- wireless, magnetically-controlled microrobots
     that navigate inside the human body -- plus telerobotic retinal surgery with the
     Moran Eye Center. PI Jake Abbott directs the lab, joined Utah in 2008, NSF CAREER
     awardee.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. Externally magnetically actuated,
     same conflation flag as other magnetic-microrobot entries.
 - id: utoronto-crl
@@ -4403,6 +4799,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Continuum Robotics Lab\nhttps://crl.utm.utoronto.ca/team/\n\n\n Continuum\
     \ robots differ fundamentally from traditional robots. They are biologically inspired\
     \ and instead of relying on a rigid joint-link composition, continuum robots are\
@@ -4414,6 +4811,8 @@
     \ level and facilitate the development of continuum robots for various areas of\
     \ our lives. This includes but is not limited to health care, maintenance, repair,\
     \ and operations"
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/utoronto-crl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4436,6 +4835,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: 'Diller Microrobotic Lab
 
     https://microrobotics.mie.utoronto.ca/contact/
@@ -4474,6 +4874,8 @@
     Dr. Diller has received the MIE Early Career Teaching Award, the UofT Connaught
     New Researcher Award, the Ontario Early Researcher Award, and the I.W. Smith Award
     from the Canadian Society for Mechanical Engineers.'
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/utoronto-diller.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4498,10 +4900,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Develops technologies and instruments for manipulating and characterizing
     cells, molecules, and nanomaterials. Cross-appointed across Mechanical & Industrial
     Engineering, the Institute of Biomaterials and Biomedical Engineering, Electrical
     & Computer Engineering, and Computer Science.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from ethz-msrl. Fourth University of Toronto
     entry alongside utoronto-crl, utoronto-diller, and unitoronto-liu -- a genuinely
     distinct PI/lab, not a duplicate; worth noting Toronto as a real cluster on this
@@ -4526,12 +4931,15 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: MilliMobile is an autonomous, battery-free wireless microrobot with
     a 10x10 mm chassis weighing under 1.1 g, powered entirely by harvested solar and
     RF energy. It uses onboard photodiodes to seek light and keep moving indefinitely,
     can carry payloads up to 3x its own weight, and transmits sensor data wirelessly
     over 200 m. Built on 'intermittent computing' techniques that let it operate incrementally
     as harvested energy becomes available.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search (MANIFEST.md relevance pass), not migrated from the
     old map. Strong fit for the Energy and Computing workstreams even at milli-scale:
     fully onboard energy harvesting, autonomous operation, and an intermittent-computing
@@ -4556,12 +4964,15 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: 'Develops biohybrid and bioinspired microrobots for localized medical
     interventions, including sperm-based microrobots (IRONSperm: deactivated bovine
     sperm coated with magnetic nanoparticles, serving as a flexible drug-carrying
     template steered by external magnetic fields), sperm-nanoparticle interaction
     studies, and flexible microrobots for removing obstructions. PhD from TU Dresden
     (2016) on sperm-driven microrobots, Assistant Professor at Waterloo since 2022.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from tuc-schmidt (Dresden-area PhD, matches
     the same regional micro/nanomotor community as ibec-sanchez and Oliver Schmidt's
     own group). Externally magnetically actuated, same conflation flag as other magnetic-microrobot
@@ -4586,10 +4997,13 @@
   institution_type: university
   relevance: 5
   status: watch
+  human_reviewed: false
   description: 'Designs and fabricates CMOS-circuit-compatible intelligent microrobotics:
     CMOS circuit design for microrobotics, structure design for micro machines, and
     nanofabrication for building them. Research interests include micro-robotics,
     origami, MEMS, and cilia-based actuation.'
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cornell-cohen. Extremely close match to
     the project's own core approach -- CMOS-circuit-compatible microrobotics is close
     to a direct description of the project's own reference design strategy, just pursued
@@ -4614,12 +5028,15 @@
   institution_type: company
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Spun out of the University of Washington in 2015, WiBotic builds adaptive
     resonant inductive wireless charging systems that let autonomous robots, drones,
     and marine vehicles recharge without manual plug-in. Founded by Ben Waters (UW
     EE PhD) and Professor Joshua Smith; the underlying wireless power technology was
     originally developed to power an LVAD (left ventricular assist device) heart pump
     without transcutaneous cables.
+  interesting_work: null
+  community_improvement: null
   notes: 'Found via web search, not migrated. Direct fit for the Mothership workstream
     (a local station powering a fleet/swarm). Also worth noting: co-founder Joshua
     Smith is a senior UW EE/Allen School professor and the historical root of the
@@ -4645,6 +5062,7 @@
   institution_type: university
   relevance: 1
   status: watch
+  human_reviewed: false
   description: "Mission Statement\nStrategic positioning:\n\n    Orientating towards\
     \ National Strategy intents and frontiers of disciplines\n\n    Keeping a foothold\
     \ on the fundamental research and its application of fluid power\n\n    Exploiting\
@@ -4698,6 +5116,8 @@
     \ the First Prize in Technical Achievement of ASRM (American Society for Reproductive\
     \ Medicine); an NSERC E.W.R. Steacie Memorial Fellowship; and the IEEE C.C. Gotlieb\
     \ Computer Award."
+  interesting_work: null
+  community_improvement: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/zju-fpms.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4721,10 +5141,13 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Assistant Professor of Mechanical Engineering working on soft electronics,
     hybrid manufacturing, soft robotics, and biomedical applications -- including
     a modularized magnetic microrobot with lock-and-detachable modules for targeted
     cell delivery in the bile duct.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Third distinct Zhejiang University
     entry alongside zju-fpms/zju-cheng/zju-xia.
 - id: zju-xia
@@ -4747,9 +5170,12 @@
   institution_type: university
   relevance: 4
   status: watch
+  human_reviewed: false
   description: Affiliated with the State Key Laboratory of Fluid Power and Mechatronic
     Systems, College of Mechanical Engineering, working on untethered miniature soft
     robots -- materials, fabrication, and applications.
+  interesting_work: null
+  community_improvement: null
   notes: Found via alumni-snowballing from cuhk-zhang. Same university as zju-fpms
     and zju-cheng, though a distinct group -- Zhejiang is emerging as a real cluster
     on this map.
