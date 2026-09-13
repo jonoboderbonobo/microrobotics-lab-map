@@ -367,6 +367,39 @@
     but this is infrastructure news, not just a watch entry. lat/lon is downtown San
     Jose as an approximate Bay Area stand-in -- no specific office address found,
     verify.'
+- id: chula-nanosci
+  name: Graduate Program in Nanoscience and Technology
+  pi: null
+  institution: Chulalongkorn University
+  city: Bangkok
+  country: TH
+  lat: 13.74309
+  lon: 100.53287
+  osm: null
+  url: http://www.nanosci.grad.chula.ac.th/
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 2
+  status: watch
+  human_reviewed: false
+  description: 'Joint PhD program between the Faculty of Science and the Metallurgy
+    and Materials Research Institute, spanning three main areas: nanomaterials, nanodevices,
+    and nanobiotechnology. Partners with Thailand''s National Nanotechnology Center
+    (NANOTEC).'
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search for Southeast Asia coverage. First Thailand entry. Weakest
+    sourcing of the three Southeast Asia entries this round -- a graduate program
+    rather than a named, PI-led research lab; a separate 'Center of Innovative Nanotechnology'
+    at Chulalongkorn was mentioned in search results but only via a third-party directory
+    (nanoorbit.com), not the university's own site, so this program page was used
+    instead. Verify before raising relevance.
 - id: cityu-dong
   name: NanoRobotic Systems Lab
   pi: Lixin Dong
@@ -2810,6 +2843,37 @@
     defaulted to false -- verify. Per the old map''s own description: ''Metin Sitti
     gone, no replacement yet'' -- pi left null rather than crediting Sitti. Verify
     current leadership. See also ku-sitti for his current affiliation.'
+- id: nagoya-arai
+  name: Arai Laboratory — Micro-Nano Mechanical Science and Engineering
+  pi: Fumihito Arai
+  institution: Nagoya University
+  city: Nagoya
+  country: JP
+  lat: 35.15331
+  lon: 136.96778
+  osm: null
+  url: http://www.biorobotics.mech.nagoya-u.ac.jp/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  human_reviewed: false
+  description: Develops magnetically-driven microtools, optical/acoustic tweezers,
+    and MEMS/NEMS devices for biomedicine -- including high-precision magnetically
+    driven microtools with ultrasonic vibration for oocyte enucleation and single-cell
+    manipulation. Fumihito Arai is one of the field's most established figures, with
+    decades of micro-nano robotics work spanning Nagoya University and earlier posts.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search for Japan-region coverage (Japan had zero entries despite
+    being a robotics powerhouse). High-confidence, prominent lab -- comparable stature
+    to ethz-msrl/cmu-mrl in the field. First Japan entry.
 - id: nanobiotec-uba
   name: Instituto de Nanobiotecnología (NANOBIOTEC)
   pi: null
@@ -3218,6 +3282,38 @@
     material named in the project's own reference design -- strong material/fabrication
     match for the Actuation workstream, even though this lab's own applications (LIDAR,
     frequency standards) aren't microrobotics.
+- id: pwr-nanometrology
+  name: Department of Nanometrology
+  pi: null
+  institution: Wrocław University of Science and Technology
+  city: Wrocław
+  country: PL
+  lat: 51.10895
+  lon: 17.05899
+  osm: null
+  url: https://www.nanometrology.pwr.edu.pl/index.php/ludzie/?lang=en
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 2
+  status: watch
+  human_reviewed: false
+  description: Works on nanotechnology and nanometrology -- scanning probe microscopy
+    (SPM), scanning electron microscopy (SEM), focused ion beam (FIB) techniques,
+    and MEMS -- as a characterization and fabrication-support capability rather than
+    a robot-building group.
+  interesting_work: null
+  community_improvement: null
+  notes: 'Found via web search for Eastern-Europe coverage. First Poland entry. Left
+    pi null deliberately: long-time department head Teodor Gotszalk died 2025-11-21
+    (per Wikipedia), and no current head was identified in search results -- verify
+    current leadership and whether the department''s research direction has changed
+    before treating this as more than a placeholder watch entry.'
 - id: rice-robinson
   name: Robinson Lab — Nano-neurotechnology
   pi: Jacob T. Robinson
@@ -4503,6 +4599,69 @@
     defaulted to false -- verify. Filed under Micro-Robotics Lab and Medicine Lab;
     content is implant devices (bone/cartilage regen, deep brain stimulation), so
     recategorized to medicine-lab.'
+- id: um-nanocat
+  name: Nanotechnology & Catalysis Research Centre (NANOCAT)
+  pi: null
+  institution: Universiti Malaya
+  city: Kuala Lumpur
+  country: MY
+  lat: 3.12576
+  lon: 101.65588
+  osm: null
+  url: https://nanocat.um.edu.my/
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 2
+  status: watch
+  human_reviewed: false
+  description: Nanotechnology and catalysis research centre at Universiti Malaya's
+    Institute for Advanced Studies, with dedicated academic staff and materials-characterization
+    facilities.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search for Southeast Asia coverage (previously only Singapore
+    represented in the region). No microrobotics-specific work identified -- general
+    nanotech/catalysis centre, filed as a material-lab watch entry. First Malaysia
+    entry.
+- id: um6p-msn
+  name: Materials Science and Nanoengineering (MSN) Department
+  pi: null
+  institution: Mohammed VI Polytechnic University (UM6P)
+  city: Ben Guerir
+  country: MA
+  lat: 32.21865
+  lon: -7.93633
+  osm: null
+  url: https://um6p.ma/en/materials-science-and-nanoengineering-msn
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 2
+  status: watch
+  human_reviewed: false
+  description: Research, education, and innovation department spanning five divisions
+    -- energy efficiency, surface technology, polymers and composites, phosphates
+    and sustainability, and metallurgy -- with 45+ active researchers and PhD students,
+    and international internship partnerships (USA, Sweden, Germany, France).
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search -- fourth Africa entry, first in Morocco/North Africa
+    proper (Egypt/South Africa/Nigeria already covered). No microrobotics-specific
+    work identified; general materials/nanoengineering department at Morocco's most
+    prominent and best-funded research university (OCP Group-backed). An earlier,
+    separate Moroccan initiative (INANOTECH, directed 2008-2011) looked defunct/stale
+    on searching, so this UM6P department was used instead as a currently-active alternative.
 - id: umich-ceron
   name: Synergetic Adaptive Machinas Lab
   pi: Steven Ceron
@@ -5244,6 +5403,76 @@
     fully onboard energy harvesting, autonomous operation, and an intermittent-computing
     approach directly relevant to a sub-nW power budget. Category is milli-robotics
     (10mm chassis, well above the 1mm micro-robotics cutoff), not micro-robotics.'
+- id: vnu-micronano
+  name: Key Laboratory for Micro-Nano Technology (Micro-Nano Lab)
+  pi: null
+  institution: VNU University of Engineering and Technology (VNU-UET)
+  city: Hanoi
+  country: VN
+  lat: 21.03881
+  lon: 105.78189
+  osm: null
+  url: https://uet.vnu.edu.vn/en/key-laboratory-micro-nano-technology-micro-nano-lab/
+  people_url: null
+  category: material-lab
+  application:
+  - fundamental
+  - industrial
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Government-designated 'key laboratory' (founded 2008) for advanced
+    research in micro- and nanotechnology, drawing on VNU-UET's Faculty of Engineering
+    Physics and Nanotechnology and Faculty of Electronics and Telecommunications.
+    Research spans nano magnetic materials, nano semiconductors, nano biotechnology,
+    and nanophotonics.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search for Southeast Asia coverage. First Vietnam entry --
+    a real, government-funded national-key-lab designation, not just a department
+    webpage, which is more concrete sourcing than the Malaysia/Thailand entries found
+    the same round.
+- id: vsbtuo-pumera
+  name: Advanced Nanorobots and Multiscale Robotics Laboratory
+  pi: Martin Pumera
+  institution: VSB - Technical University of Ostrava
+  city: Ostrava
+  country: CZ
+  lat: 49.83458
+  lon: 18.16788
+  osm: null
+  url: https://nanorobots.vsb.cz/en/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  human_reviewed: false
+  description: Works toward independent, mobile, intelligent nanorobots, spanning
+    micro/nanomachines, 2D-material nanorobots, and machine-intelligence-guided robot
+    design. Martin Pumera is among the most cited scientists in his field worldwide
+    (an ERC awardee); he also founded the Centre for Advanced Functional Nanorobots
+    at UCT Prague and leads a nanorobotics group at CEITEC Brno -- this Ostrava lab
+    is his current primary nanorobotics affiliation.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search for Eastern-Europe coverage (previously zero entries
+    east of Germany/Switzerland/Austria). Extremely high-confidence, prominent figure
+    -- arguably the single best Eastern-European fit found. Pumera has multiple institutional
+    affiliations (also CEITEC Brno, UCT Prague as founding director emeritus 2017-2023);
+    picked the Ostrava lab as primary since its own dedicated site names it his current
+    lab, but worth confirming which affiliation is most active today. First Czech
+    Republic entry.
 - id: waterloo-magdanz
   name: Medical Microrobotics Lab
   pi: Veronika Magdanz
@@ -5343,6 +5572,37 @@
     there''s a live collaboration angle here, not just two separate UW entries. The
     LVAD origin story is also a direct precedent for wireless-powering something implanted
     in a body, not just a robot on a table.'
+- id: ynu-fuchiwaki
+  name: Fuchiwaki Laboratory — Micromanipulation Robotics
+  pi: Ohmi Fuchiwaki
+  institution: Yokohama National University
+  city: Yokohama
+  country: JP
+  lat: 35.4738
+  lon: 139.59005
+  osm: null
+  url: https://er-web.ynu.ac.jp/html/FUCHIWAKI_Ohmi/en.html
+  people_url: null
+  category: micro-robotics
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Builds miniature piezoelectric-driven robots for micromanipulation,
+    including inchworm-type robots (four piezoelectric stacks, ~20 mm/s, 1.6 nm resolution)
+    originally developed for flexible micro-processing by multiple miniature robots
+    inside an SEM vacuum chamber, and more recent quadruped/holonomic micromanipulation
+    platforms.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search for Japan-region coverage. Second Japan entry -- moved
+    from University of Electro-Communications to Yokohama National University at some
+    point; verify current lab page/affiliation is up to date.
 - id: zewailcity-elsherbiny
   name: El-Sherbiny Nanomedicine Lab — Center for Materials Science
   pi: Ibrahim M. El-Sherbiny

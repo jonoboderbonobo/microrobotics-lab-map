@@ -1362,6 +1362,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Arai Laboratory — Micro-Nano Mechanical Science and Engineering",
+        "description": "**Fumihito Arai** — Nagoya University, Nagoya (JP)<br><br>Develops magnetically-driven microtools, optical/acoustic tweezers, and MEMS/NEMS devices for biomedicine -- including high-precision magnetically driven microtools with ultrasonic vibration for oocyte enucleation and single-cell manipulation. Fumihito Arai is one of the field's most established figures, with decades of micro-nano robotics work spanning Nagoya University and earlier posts.<br><br>[[http://www.biorobotics.mech.nagoya-u.ac.jp/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "nagoya-arai",
+        "pi": "Fumihito Arai",
+        "institution": "Nagoya University",
+        "country": "JP",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.96778,
+          35.15331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Alexander Solovev Nanotechnology Group",
         "description": "**Alexander A. Solovev** — NanoTRIZ Innovation Institute, Brisbane (AU)<br><br>Works on microrobotics, nanomaterials, nanodevices, microfluidics, and AI-assisted inventive problem solving. Alexander Solovev is Professor and Founding Director of the NanoTRIZ Innovation Institute in Australia, after prior professorships/appointments at Fudan University, TU Munich, University of Toronto, Harvard, and Columbia.<br><br>[[https://www.solovevlab.com/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "nanotriz-solovev",
@@ -3140,6 +3170,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Advanced Nanorobots and Multiscale Robotics Laboratory",
+        "description": "**Martin Pumera** — VSB - Technical University of Ostrava, Ostrava (CZ)<br><br>Works toward independent, mobile, intelligent nanorobots, spanning micro/nanomachines, 2D-material nanorobots, and machine-intelligence-guided robot design. Martin Pumera is among the most cited scientists in his field worldwide (an ERC awardee); he also founded the Centre for Advanced Functional Nanorobots at UCT Prague and leads a nanorobotics group at CEITEC Brno -- this Ostrava lab is his current primary nanorobotics affiliation.<br><br>[[https://nanorobots.vsb.cz/en/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "vsbtuo-pumera",
+        "pi": "Martin Pumera",
+        "institution": "VSB - Technical University of Ostrava",
+        "country": "CZ",
+        "category": "micro-robotics",
+        "application": "medical,fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.16788,
+          49.83458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Medical Microrobotics Lab",
         "description": "**Veronika Magdanz** — University of Waterloo, Waterloo, ON (CA)<br><br>Develops biohybrid and bioinspired microrobots for localized medical interventions, including sperm-based microrobots (IRONSperm: deactivated bovine sperm coated with magnetic nanoparticles, serving as a flexible drug-carrying template steered by external magnetic fields), sperm-nanoparticle interaction studies, and flexible microrobots for removing obstructions. PhD from TU Dresden (2016) on sperm-driven microrobots, Assistant Professor at Waterloo since 2022.<br><br>[[https://magdanzlab.com/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "waterloo-magdanz",
@@ -3194,6 +3254,36 @@
         "coordinates": [
           120.03197,
           30.33598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuchiwaki Laboratory — Micromanipulation Robotics",
+        "description": "**Ohmi Fuchiwaki** — Yokohama National University, Yokohama (JP)<br><br>Builds miniature piezoelectric-driven robots for micromanipulation, including inchworm-type robots (four piezoelectric stacks, ~20 mm/s, 1.6 nm resolution) originally developed for flexible micro-processing by multiple miniature robots inside an SEM vacuum chamber, and more recent quadruped/holonomic micromanipulation platforms.<br><br>[[https://er-web.ynu.ac.jp/html/FUCHIWAKI_Ohmi/en.html|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "ynu-fuchiwaki",
+        "pi": "Ohmi Fuchiwaki",
+        "institution": "Yokohama National University",
+        "country": "JP",
+        "category": "micro-robotics",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.59005,
+          35.4738
         ]
       }
     },

@@ -63,6 +63,10 @@
     "lat": 22.41372,
     "lon": 114.2099
   },
+  "Chulalongkorn University, Bangkok, TH": {
+    "lat": 13.74309,
+    "lon": 100.53287
+  },
   "Colorado School of Mines, Golden, CO, US": {
     "lat": 39.73863,
     "lon": -105.22464
@@ -183,6 +187,14 @@
     "lat": 51.1256,
     "lon": 13.78449
   },
+  "Mohammed VI Polytechnic University, Ben Guerir, MA": {
+    "lat": 32.21865,
+    "lon": -7.93633
+  },
+  "Nagoya University, Nagoya, JP": {
+    "lat": 35.15331,
+    "lon": 136.96778
+  },
   "National University of Singapore, Singapore, SG": {
     "lat": 1.29598,
     "lon": 103.77662
@@ -267,6 +279,10 @@
     "lat": -22.82266,
     "lon": -47.0628
   },
+  "Universiti Malaya, Kuala Lumpur, MY": {
+    "lat": 3.12576,
+    "lon": 101.65588
+  },
   "University of Arizona, Tucson, AZ, US": {
     "lat": 32.2357,
     "lon": -110.95174
@@ -323,9 +339,21 @@
     "lat": 43.4702,
     "lon": -80.54524
   },
+  "VSB-TUO, Ostrava, CZ": {
+    "lat": 49.83458,
+    "lon": 18.16788
+  },
   "Westlake University Yungu Campus, Hangzhou, CN": {
     "lat": 30.33598,
     "lon": 120.03197
+  },
+  "Wroclaw University of Science and Technology, Wroclaw, PL": {
+    "lat": 51.10895,
+    "lon": 17.05899
+  },
+  "Yokohama National University, Yokohama, JP": {
+    "lat": 35.4738,
+    "lon": 139.59005
   },
   "imec, Leuven, BE": {
     "lat": 50.86539,

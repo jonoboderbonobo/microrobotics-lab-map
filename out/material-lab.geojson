@@ -34,6 +34,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Graduate Program in Nanoscience and Technology",
+        "description": "**Graduate Program in Nanoscience and Technology** — Chulalongkorn University, Bangkok (TH)<br><br>Joint PhD program between the Faculty of Science and the Metallurgy and Materials Research Institute, spanning three main areas: nanomaterials, nanodevices, and nanobiotechnology. Partners with Thailand's National Nanotechnology Center (NANOTEC).<br><br>[[http://www.nanosci.grad.chula.ac.th/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "chula-nanosci",
+        "pi": "",
+        "institution": "Chulalongkorn University",
+        "country": "TH",
+        "category": "material-lab",
+        "application": "industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.53287,
+          13.74309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "National Centre for Nano-Structured Materials (NCNSM)",
         "description": "**National Centre for Nano-Structured Materials (NCNSM)** — Council for Scientific and Industrial Research (CSIR), Pretoria (ZA)<br><br>South African national nanotechnology centre (launched 2007 under the government's National Nanotechnology Strategy) working on design, modelling, and synthesis of nanomaterials -- carbon nanotubes, silicon nanoparticles, and nanolayer deposition -- with characterisation facilities (XRD, SAXS, AFM, BET) and industrial-scale nanomaterial production capability.<br><br>[[https://www.csir.co.za/national-centre-nano-structured-materials|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "csir-ncnsm",
@@ -590,6 +620,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Department of Nanometrology",
+        "description": "**Department of Nanometrology** — Wrocław University of Science and Technology, Wrocław (PL)<br><br>Works on nanotechnology and nanometrology -- scanning probe microscopy (SPM), scanning electron microscopy (SEM), focused ion beam (FIB) techniques, and MEMS -- as a characterization and fabrication-support capability rather than a robot-building group.<br><br>[[https://www.nanometrology.pwr.edu.pl/index.php/ludzie/?lang=en|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "pwr-nanometrology",
+        "pi": "",
+        "institution": "Wrocław University of Science and Technology",
+        "country": "PL",
+        "category": "material-lab",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.05899,
+          51.10895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Specialty Coating Systems (SCS)",
         "description": "**Specialty Coating Systems (SCS)** — Specialty Coating Systems, Indianapolis, IN (US)<br><br>55+ year old company (founded as part of a longer conformal-coating lineage) providing Parylene, liquid, plasma-polymerized, atomic-layer-deposition, and multilayer conformal coating services. Parylene C in particular has a decades-long track record as a biocompatible, pinhole-free hermetic encapsulation for implants -- pacemakers, stents, cochlear implants, neural interfaces -- meeting USP Class VI and ISO 10993 standards.<br><br>[[https://scscoatings.com/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "scs-coatings",
@@ -834,6 +894,66 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Nanotechnology & Catalysis Research Centre (NANOCAT)",
+        "description": "**Nanotechnology & Catalysis Research Centre (NANOCAT)** — Universiti Malaya, Kuala Lumpur (MY)<br><br>Nanotechnology and catalysis research centre at Universiti Malaya's Institute for Advanced Studies, with dedicated academic staff and materials-characterization facilities.<br><br>[[https://nanocat.um.edu.my/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "um-nanocat",
+        "pi": "",
+        "institution": "Universiti Malaya",
+        "country": "MY",
+        "category": "material-lab",
+        "application": "industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.65588,
+          3.12576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Materials Science and Nanoengineering (MSN) Department",
+        "description": "**Materials Science and Nanoengineering (MSN) Department** — Mohammed VI Polytechnic University (UM6P), Ben Guerir (MA)<br><br>Research, education, and innovation department spanning five divisions -- energy efficiency, surface technology, polymers and composites, phosphates and sustainability, and metallurgy -- with 45+ active researchers and PhD students, and international internship partnerships (USA, Sweden, Germany, France).<br><br>[[https://um6p.ma/en/materials-science-and-nanoengineering-msn|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "um6p-msn",
+        "pi": "",
+        "institution": "Mohammed VI Polytechnic University (UM6P)",
+        "country": "MA",
+        "category": "material-lab",
+        "application": "industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.93633,
+          32.21865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Deneke Group",
         "description": "**Christoph Deneke** — Universidade Estadual de Campinas (Unicamp), Campinas (BR)<br><br>Works on advanced 2D materials -- semiconductor nanomembranes, rolled-up tubes, graphene, and transition metal dichalcogenides (TMDs) -- using molecular beam epitaxy and scanning probe techniques. Previously headed the surface science group at LNNano, Brazil's national nanotechnology laboratory, before moving to Unicamp in 2017.<br><br>[[https://sites.ifi.unicamp.br/cdeneke/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "unicamp-deneke",
@@ -978,6 +1098,36 @@
         "coordinates": [
           117.2731,
           31.8414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Key Laboratory for Micro-Nano Technology (Micro-Nano Lab)",
+        "description": "**Key Laboratory for Micro-Nano Technology (Micro-Nano Lab)** — VNU University of Engineering and Technology (VNU-UET), Hanoi (VN)<br><br>Government-designated 'key laboratory' (founded 2008) for advanced research in micro- and nanotechnology, drawing on VNU-UET's Faculty of Engineering Physics and Nanotechnology and Faculty of Electronics and Telecommunications. Research spans nano magnetic materials, nano semiconductors, nano biotechnology, and nanophotonics.<br><br>[[https://uet.vnu.edu.vn/en/key-laboratory-micro-nano-technology-micro-nano-lab/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "vnu-micronano",
+        "pi": "",
+        "institution": "VNU University of Engineering and Technology (VNU-UET)",
+        "country": "VN",
+        "category": "material-lab",
+        "application": "fundamental,industrial,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78189,
+          21.03881
         ]
       }
     }
