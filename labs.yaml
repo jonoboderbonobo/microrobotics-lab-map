@@ -3793,7 +3793,7 @@
   onboard_power: true
   institution_type: university
   relevance: 5
-  status: collaborate
+  status: collaborating
   human_reviewed: true
   description: 'Research areas: microrobotics and micromotors; biomedical applications;
     flexible and shapeable electronics; energy storage at the micro/nanoscale; magnetoelectronics;
