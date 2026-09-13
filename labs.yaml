@@ -27,6 +27,7 @@
     SoC.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Closest thing found so far to a commercial
     proof that a subthreshold design strategy scales to real shipped products at volume
     -- directly relevant to the project's own sub-threshold reference/MICMOS work,
@@ -57,6 +58,7 @@
     sensors, and actuators -- including micro-robotic drug delivery.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found;
     linked to faculty profile instead.
 - id: berkeley-conboy
@@ -87,6 +89,7 @@
     change and treatment response.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. No microrobotics link whatsoever today
     -- added purely for the 10+ year organ-control/aging horizon in MANIFEST.md: this
     is exactly the kind of longitudinal, real-time aging-biomarker work that a future
@@ -120,6 +123,7 @@
     multilegged robots. PI Robert Full is Editor-in-Chief of Bioinspiration & Biomimetics.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. This is the actual research the project's
     own Miteskeeping workstream is aiming at -- locomotion biomechanics of small,
     fast, many-legged animals as direct design input, not mites specifically but the
@@ -155,6 +159,7 @@
     known for the earlier radio-controlled cyborg beetle work.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Same ultrasonic power+comms approach
     as stanford-arbabian, applied specifically to neural interfaces -- strong double
     match for both the Energy and Communication workstreams, and squarely on the long-term
@@ -188,6 +193,7 @@
     Institute in Germany.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Textbook case of the conflation this
     project explicitly tracks: externally magnetically actuated, no onboard power
     source, so it doesn''t meet the strict autonomous micro-robotics definition despite
@@ -225,6 +231,7 @@
     Chair Professor and Head of Semiconductor Research at BITS Pilani Hyderabad.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search for India-region coverage. A real, broad MEMS/microfluidics
     fabrication capability with in-house tooling -- component-level (transducers,
     sensors, energy harvesters) rather than whole microrobots, hence material-lab.
@@ -258,6 +265,7 @@
     and Robohub.org communities.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. About as precise a match as this search
     process has found: swarm engineering explicitly spanning nanoscale medical applications
     and larger robots is exactly the System-Level-Behavior workstream plus the biomedical-application
@@ -292,6 +300,7 @@
     Paul Rothemund) for demonstrating DNA computing.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. A completely different computational
     and fabrication substrate from the project''s own CMOS approach -- included as
     a genuine alternative-paradigm reference for the Computing workstream, not because
@@ -326,6 +335,7 @@
     286+ patents granted per year.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. A major European microelectronics research
     institute with real MEMS and 3D-integration capability at both 200mm and 300mm
     -- likely enterprise-scale rather than startup-cheap access, but worth knowing
@@ -360,6 +370,7 @@
     on.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Time-sensitive and directly actionable:
     Efabless -- the project''s own stated Plan A tapeout route via SkyWater 130/Tiny
     Tapeout -- shut down in early 2025. ChipFoundry is the direct successor for that
@@ -394,6 +405,7 @@
     (NANOTEC).'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search for Southeast Asia coverage. First Thailand entry. Weakest
     sourcing of the three Southeast Asia entries this round -- a graduate program
     rather than a named, PI-led research lab; a separate 'Center of Innovative Nanotechnology'
@@ -427,6 +439,7 @@
     previously built the NanoRobotic Systems Lab at Michigan State University.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. The alumni page still listed
     his old MSU affiliation -- verified and corrected to his current CityU position.
 - id: cityu-song
@@ -456,6 +469,7 @@
     Professor at CUHK under Li Zhang; PhD from Imperial College London (Molly Stevens).
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Third CUHK-lineage Hong Kong
     entry alongside cuhk-chan and cityu-dong. Categorized biomedical-lab rather than
     micro-robotics since the current focus is blood-contacting materials/devices broadly,
@@ -490,6 +504,7 @@
     \ Biomedical Engineering, \nMedical Devices & Robotics, and \nNeural Engineering."
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cmu-bme.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -524,6 +539,7 @@
     via a competitive facility-use proposal process, the same access model as europractice/ihp-cleanroom.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search -- second Brazil entry alongside unicamp-deneke, and
     the only national-scale open-access fabrication infrastructure found in South
     America this round. Directly analogous to europractice/ihp-cleanroom's role for
@@ -592,6 +608,7 @@
     \ crevicular fluid collection and analysis"
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/coche-hk.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -623,6 +640,7 @@
     per silicon wafer.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Itai Cohen co-leads this work with Paul
     McEuen (already on the map as cornell-mceuen, filed under medicine-lab per the
     old map''s own categorization) and their former postdoc Marc Miskin (upenn-miskin)
@@ -673,6 +691,7 @@
     materials, and micro and nanomachines.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cornell-mceuen.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -716,6 +735,7 @@
     We are often confused, but rarely bored.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cornell-molnar.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -748,6 +768,7 @@
     implant battery life while maintaining precise biomedical signal acquisition.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Direct fit for the Basic Chip workstream
     -- exactly the kind of ultra-low-power analog IC design (implantable-grade, sub-microwatt-class)
     that's otherwise scarce and expensive to hire for. Worth a real look as a potential
@@ -781,6 +802,7 @@
     nanomaterial production capability.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search -- second Africa entry, and the only national-lab-scale
     nanotech fabrication capability found on the continent so far. Component/materials-supply
     role, not microrobotics-specific, filed under material-lab on the same logic as
@@ -810,6 +832,7 @@
     for translational medicine.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Second CUHK entry alongside
     cuhk-zhang itself, a distinct research assistant professor with his own lab and
     dedicated site.
@@ -839,6 +862,7 @@
     high-speed, cross-scale, non-contact locomotion.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Co-authored with Neng Xia and
     Chengfeng Pan, both already on this map (zju-xia, zju-pan) -- confirms this is
     a real, connected extended network, not an isolated hit.
@@ -871,6 +895,7 @@
     2012 as the 'Most Advanced Mini Robot for Medical Use.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. One of the most prominent, prolific
     microrobotics groups found this whole session -- high-confidence relevance 5.
 - id: dgist-demrc
@@ -941,6 +966,7 @@
     \ MEMS-based artificial auditory systems and ultrasound transducers."
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/dgist-demrc.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -975,6 +1001,7 @@
     into the right atrium.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Embedded directly in a hospital's cardiac
     surgery department, not just adjacent to one -- real clinical-integration precedent,
     and continuum-robot autonomous navigation is a genuine technique overlap even
@@ -1005,6 +1032,7 @@
     for precise physical stimulation of cells and intracellular structures.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. First Dalian entry on the map.
 - id: epfl-microbs
   name: EPFL — Microbiorobotic Systems Laboratory (MICROBS)
@@ -1028,6 +1056,7 @@
   description: null
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/epfl-microbs.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1059,6 +1088,7 @@
     part of the Institute of Robotics and Intelligent Systems (IRIS).
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. The alumni page listed her old
     MIT affiliation -- she has since returned to ETH as independent faculty, in the
     same institute as her original advisor (Bradley Nelson).
@@ -1099,6 +1129,7 @@
     '
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Largest and most visible group in the field, and the main source of the
     "microrobot" terminology this map is trying to be precise about. Most systems
     are externally actuated, so by the strict criterion this is closer to a material
@@ -1135,6 +1166,7 @@
     universities annually and training programs.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Directly matches the project''s own
     stated cost strategy (Plan B: startup/academic discounts from commercial vendors
     via a shared-run consortium) -- this is infrastructure that would actually get
@@ -1164,6 +1196,7 @@
   description: null
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
@@ -1195,6 +1228,7 @@
     markets. Acquired by Oxford Instruments in 2024.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl (Famin Qiu, listed alumnus).
     A real, acquirable component supplier for micromanipulation/microgripping -- not
     just a watch entry, worth checking their catalog directly for anything the reference
@@ -1229,6 +1263,7 @@
     and cooperates with the university''s Center for Microtechnologies (ZfM).'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Physically next door -- this is a real,
     walkable networking target, not a distant reference. Directly relevant to system-integration
     and sensor fabrication needs, and an obvious first stop for local collaboration
@@ -1279,6 +1314,7 @@
     with agility and competence in line with our concept of Circular Health.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/fraunhofer-imte-cellmed.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1309,6 +1345,7 @@
   description: null
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
@@ -1343,6 +1380,7 @@
     -- alongside Fraunhofer IZM-ASSID -- with 300 mm wafer capability.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Real, in-region cleanroom access (Dresden,
     same Silicon Saxony ecosystem as fraunhofer-enas and silicon-saxony, already on
     this map) for MEMS/microsystems prototyping -- a plausible route for the reference
@@ -1374,6 +1412,7 @@
     Nanosystems.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt (same Fudan group as fudan-mei
     -- Schmidt's own lab pioneered rolled-up nanomembrane fabrication, and both alumni
     continued that exact technique family independently in China). Micromotor work
@@ -1404,6 +1443,7 @@
     and micro/nanoscale robotics. Group has been operating since 2010.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt. 'Micro/nanoscale robotics'
     is an explicit named research area -- direct fit, not an inferred one.
 - id: gatech-bakir
@@ -1434,6 +1474,7 @@
     Part of Georgia Tech's broader 3D Systems Packaging Research Center.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Direct fit for the Wafer-Level Processes
     workstream -- 2.5D/3D heterogeneous integration is exactly the kind of packaging
     technique a multi-chiplet µBot (actuator die + sensor die + comms die) would need
@@ -1464,6 +1505,7 @@
     microneedle patches for painless, minimally-invasive skin vaccine delivery.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Not a microrobotics lab, but a real
     concrete problem-statement source: physical (not just chemical) methods of getting
     something small into a precise location in the body, several of which (ultrasound,
@@ -1496,6 +1538,7 @@
     and Nanosystems, Chinese Academy of Sciences.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. A third distinct micro-scale energy harvesting
     mechanism alongside the project's own PV-now/ultrasound-later roadmap -- mechanical/vibrational
     harvesting via triboelectricity, potentially relevant if a crawling robot's own
@@ -1525,6 +1568,7 @@
     molecular markers of biological aging and disease risk.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Same rationale as berkeley-conboy (its
     academic counterpart): long-term-horizon watch entry for the aging/organ-monitoring
     vision, not a near-term microrobotics connection. Included as a business-model
@@ -1561,6 +1605,7 @@
     conceptualized at Stanford.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Licensed backscatter IP from the University
     of Washington's CoMotion tech transfer office in 2024 -- plausibly connected to
     uw-netlab (Vikram Iyer's group, already on this map), which does exactly this
@@ -1602,6 +1647,7 @@
     the roles of physical forces in embryonic development.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-cohen.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1638,6 +1684,7 @@
     NIH, NSF, and ONR.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-microrobotics.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1670,6 +1717,7 @@
     \ about positive near-term impact in the world."
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-wyss.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1704,6 +1752,7 @@
     since 2008.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. German, mixed-signal analog chip design
     group -- close to home and close to the project's own specialty. Neuromorphic/spiking
     hardware is explicitly named in the project's System-Level-Behavior workstream
@@ -1807,6 +1856,7 @@
     ERC PoC in 2019-2020.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/helsinki-santos.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -1844,6 +1894,7 @@
     sensors with hierarchical microhair arrays.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Fabrication-technique-level
     match (laser micromachining relevant to Wafer-Level Processes) rather than a device/robotics
     group itself.
@@ -1874,6 +1925,7 @@
     single-cell mechanotransduction studies.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. First named Harbin Institute
     of Technology entry -- earlier in this session a general HIT search couldn't find
     one clean citable PI, this closes that gap. No dedicated lab site found; linked
@@ -1905,6 +1957,7 @@
     HIT Shenzhen 2022.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Second HIT Shenzhen entry alongside
     hitsz-dong -- a real cluster there, and notably in the School of Integrated Circuits
     specifically, not just mechanical engineering.
@@ -1934,6 +1987,7 @@
     Howard Critchell Associate Professor of Physics.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. The adaptive-biomaterials/tissue-actuation
     side is a genuine biomimicry parallel to the Actuation workstream, distinct from
     the colloidal self-assembly side which is more purely fundamental.
@@ -1963,6 +2017,7 @@
     non-equilibrium dynamics of microfluidic droplets.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. A dedicated insect-flight
     biomimicry lab -- a sharper, more specific version of what tudelft-mavlab and
     berkeley-full each cover part of. Second Israeli entry after technion-haick.
@@ -1992,6 +2047,7 @@
     inactive components.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. 'Micro-swimmer' as an explicit
     named research interest -- direct fit.
 - id: hzdr-makarov
@@ -2022,6 +2078,7 @@
     Grant (MagnetoFLEX).
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt. Flexible magnetic sensors
     are a plausible fit for onboard localization/field-sensing on a small robot, though
     the group's own applications target wearables/industrial sensing, not microrobots
@@ -2054,6 +2111,7 @@
     h-index 83, 8 patents.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt (Oliver Schmidt's group alumni
     page lists 'Prof. Dr. Samuel Sanchez'). One of the most prolific and cited researchers
     in the whole self-powered micro/nanomotor space -- high-confidence relevance 5.
@@ -2114,6 +2172,7 @@
     technology transfer to commercial foundries.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/ihp-cleanroom.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2148,6 +2207,7 @@
     cells and ex vivo tissue.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search for India-region coverage. One of the most credible
     micro-robotics fits found outside the usual US/EU/CN cluster -- real magnetic-helical-swimmer
     fabrication and in vivo mechanical probing, not just a component supplier. Confidence
@@ -2182,6 +2242,7 @@
     engineering and micro-machining.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search for India-region coverage. Filed under material-lab
     rather than micro-robotics: the group''s own stated core strength is laser micro-fabrication
     and smart-material actuators (a component/process capability), with micro-robotic
@@ -2216,6 +2277,7 @@
     commercial solid-state batteries.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. A real onboard-power alternative/supplement
     to the project's own harvesting-only strategy (PV now, ultrasound later) -- worth
     understanding whether a Stereax-class cell could fit the reference design's power
@@ -2287,6 +2349,7 @@
     \ of intelligent surgical robots to assist human operators in robotic surgery."
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/imperial-zhang.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2319,6 +2382,7 @@
     facility in semiconductor device physics.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search -- first Mexico entry on the map. National-scale IC/MEMS
     fab capability, same cleanroom-service role as ihp-cleanroom/europractice/cnpem-lnnano,
     just filling the Mexico gap specifically.
@@ -2350,6 +2414,7 @@
     for an early feasibility study in underactive bladder treatment.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Direct commercial continuation of berkeley-maharbiz
     (already on this map) -- real pharma-backed validation with active FDA trials,
     worth understanding as the actual regulatory/commercial path this kind of technology
@@ -2379,6 +2444,7 @@
     memristive devices.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt. Memristive neuromorphic computing
     is the same family of alternative computing substrate as heidelberg-schemmel,
     already on the map -- a second entry in that specific niche.
@@ -2411,6 +2477,7 @@
     as femto-st-mn2s).'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Externally actuated (optical tweezers,
     magnetic fields) rather than onboard-powered, so this is a material/technique
     match rather than a whole-system micro-robotics match by the strict definition
@@ -2445,6 +2512,7 @@
     in Medicine and Arts & Sciences.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt. Self-folding microstructures
     is directly adjacent to cornell-cohen/upenn-miskin's own approach (flat-fabricate
     then fold), but an independent, highly-patented group -- untethered microgrippers
@@ -2475,6 +2543,7 @@
     award.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. First Indian entry on the
     map. Soft matter physics is a broad field-level match, not a specific component/technology
     match -- relevance kept moderate accordingly.
@@ -2505,6 +2574,7 @@
     King's.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. Alumni page listed his outdated
     Harvard affiliation -- corrected to current KCL position.
 - id: khu-lee
@@ -2532,6 +2602,7 @@
     and Micro Robotics Laboratory before joining Kyung Hee University.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from mit-smrl. No dedicated lab website found,
     linked to his university Pure profile instead -- verify a better link exists before
     treating this as a primary contact page. Tribotronics ties to the same triboelectric
@@ -2563,6 +2634,7 @@
     as liver cancer chemoembolization therapy.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. A whole institute dedicated specifically
     to medical microrobotics is rare -- worth real attention, not just a watch entry,
     and adds South Korea to a map that otherwise skews heavily US/EU. Magnetically
@@ -2594,6 +2666,7 @@
   description: null
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
@@ -2644,6 +2717,7 @@
     \ biomaterials.\n​"
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mainz-walther.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2675,6 +2749,7 @@
     '
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'TODO: description is a placeholder. Replace with text from his Mayo group
     page or a recent paper abstract -- the original pin had only a Scholar link. Also
     replace `url` with the lab page once found; a Scholar profile is a weak primary
@@ -2709,6 +2784,7 @@
     funded by NIH, NSF, and NASA.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. Second Colorado School of Mines
     entry this session alongside mines-petruska -- two independent microrobotics-adjacent
     groups at the same institution, worth noting as a cluster.
@@ -2739,6 +2815,7 @@
     Colorado School of Mines, joined 2016.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. Magnetic manipulation applied
     to both medical and (unusually) mining robotics -- a genuinely different application
     domain for the same underlying actuation approach.
@@ -2791,6 +2868,7 @@
     group member.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mit-smrl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2837,6 +2915,7 @@
     of Koç University and a Guest Scientists at MPI-IS.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mpi-physical-intelligence.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -2871,6 +2950,7 @@
     decades of micro-nano robotics work spanning Nagoya University and earlier posts.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search for Japan-region coverage (Japan had zero entries despite
     being a robotics powerhouse). High-confidence, prominent lab -- comparable stature
     to ethz-msrl/cmu-mrl in the field. First Japan entry.
@@ -2901,6 +2981,7 @@
     program studying extremophiles for biotech applications.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search -- first Argentina entry, and second South/Central America
     entry alongside uchile-soto. Institute-wide scope is broader than nanomedicine
     (general applied biotech), but the dedicated nanobiointerfaces/biopharma-nanotech
@@ -2932,6 +3013,7 @@
     in Paris.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Not a microrobotics match at all, but
     one of the few nanoscale-therapeutic companies with an actual approved, marketed
     product -- worth understanding purely as a regulatory-pathway precedent for how
@@ -2965,6 +3047,7 @@
     targeting FDA submission for neuro-interventional stroke treatment.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl (Simone Gervasoni, listed alumna,
     works here). Direct commercial spin-out of an already-tracked lab's own PI --
     a real, funded, near-clinical company built on exactly the magnetic-microrobotics
@@ -2996,6 +3079,7 @@
     speeds up printing of smooth high-precision structures.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. This is the actual 3D printer isir-rpibio
     (already on this map) used, via FEMTO-ST, to fabricate their optical-tweezers-driven
     microrobots -- real, already-in-use fabrication infrastructure for sub-mm mechanical
@@ -3029,6 +3113,7 @@
     Harvard, and Columbia.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt. Second Australian entry after
     uq-aibn. City confirmed as Brisbane via NanoTRIZ's own site (nanotriz.com) --
     lat/lon is Brisbane CBD as an approximate point, not a specific street address.
@@ -3059,6 +3144,7 @@
     John A. Rogers directs Northwestern's Querrey-Simpson Institute for Bioelectronics.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. One of the most prominent groups in implantable
     electronics worldwide -- bioresorbable materials are a genuinely distinct materials
     strategy from the project's own (permanent CMOS), but directly relevant if any
@@ -3091,6 +3177,7 @@
     magnetic solid-droplet systems.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. First Singapore entry on the
     map.
 - id: penn-msma
@@ -3119,6 +3206,7 @@
     '
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'High relevance on the chip-design-scarcity argument: fabrication and actuator
     routes for devices that an actual microrobot could carry. The McEuen/Miskin collaboration
     is the reason to watch this one closely -- it is the bridge from this group to
@@ -3152,6 +3240,7 @@
     semiconductor fabrication and atomic-force-microscopy markets among others.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. An established commercial reference for
     piezo actuator performance and reliability, but their products are precision macro-scale
     stages, not monolithically microfabricated on-chip actuators -- a scale/integration
@@ -3185,6 +3274,7 @@
     and bioengineering in complex microenvironments. PhD from ETH MSRL.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found
     -- linked to ResearchGate lab page instead.
 - id: polyu-yang
@@ -3214,6 +3304,7 @@
     (2020), B.Eng from Harbin Institute of Technology (2014).
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Strong publication record in
     top venues -- high-confidence relevance 5. Second PolyU-adjacent entry on the
     map.
@@ -3245,6 +3336,7 @@
     Princeton (Mechanical & Aerospace Engineering + Computer Science) in 2023.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Textbook match for the System-Level-Behavior
     workstream -- swarm behavior is named explicitly in the information-technology
     category's own taxonomy.py rationale. Kilobots are cm-scale, not sub-mm, but the
@@ -3278,6 +3370,7 @@
     niobate.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. PMN-PT is the exact single-crystal piezoelectric
     material named in the project's own reference design -- strong material/fabrication
     match for the Actuation workstream, even though this lab's own applications (LIDAR,
@@ -3309,6 +3402,7 @@
     a robot-building group.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search for Eastern-Europe coverage. First Poland entry. Left
     pi null deliberately: long-time department head Teodor Gotszalk died 2025-11-21
     (per Wikipedia), and no current head was identified in search results -- verify
@@ -3343,6 +3437,7 @@
     for mental health disorders).
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Direct fit for the Communication workstream
     (µBot<->mothership link) -- the pJ/bit-class power budget for passive backscatter
     is exactly the order of magnitude a sub-mm onboard radio would need. Motif Neurotech
@@ -3374,6 +3469,7 @@
     in Paris, raised ~EUR27M as of January 2025.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Rice-grain scale is well above 1mm, and
     the site doesn't state whether locomotion is externally guided or self-contained
     -- flagging per the manifest's conflation warning rather than assuming either
@@ -3409,6 +3505,7 @@
     Award for small-scale robotics research.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Second Sant'Anna Pisa entry
     alongside santanna-palagi -- a real cluster of implantable-microrobot expertise
     there. ERC-funded, high-confidence relevance 5.
@@ -3456,6 +3553,7 @@
     \ project, GA: 948590)."
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/santanna-palagi.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3492,6 +3590,7 @@
     VI and ISO 10993 standards.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. A real, practical gap this fills: nothing
     else on the map addresses how a chip survives being inside a body at all. Worth
     an actual quote/conversation for prototype encapsulation, not just a watch entry
@@ -3523,6 +3622,7 @@
     365 lasts a full year per implant, the longest duration in the CGM market.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. A real, FDA-cleared, commercially available
     precedent for 'constant observation' of a physiological parameter via a fully
     implanted device lasting a full year -- exactly the kind of proof point the long-term
@@ -3555,6 +3655,7 @@
     ionogel microrobots for periodontitis therapy.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. First Southeast University
     entry. Institution string set to the Sipailou campus for geocoding disambiguation
     (Southeast University is multi-campus).
@@ -3583,6 +3684,7 @@
     formed from millions of nanoscale Fe3O4 particles as the robot agents.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. First Shenyang Institute of
     Automation entry -- verified via a Google Scholar URL fetch (WebFetch) rather
     than WebSearch, after this session's WebSearch budget ran out. Institution taken
@@ -3615,6 +3717,7 @@
     control for automated manipulation in large workspaces.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Same institute (SIAT/CAS) as
     siat-xu -- a real cluster.
 - id: siat-xu
@@ -3644,6 +3747,7 @@
     microalgae-based magnetic microrobots for cancer therapy.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Prolific, diverse microrobot
     portfolio -- high-confidence relevance 5. Same institute (SIAT/CAS) as siat-cai.
 - id: silicon-saxony
@@ -3673,6 +3777,7 @@
     efficiency, and neuromorphic/edge computing.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Not a lab or company -- an industry
     network association -- so it''s a genuine categorization stretch under this taxonomy
     (filed as electronic-engineering for lack of a better fit). Added anyway because
@@ -3705,6 +3810,7 @@
     Robotics, a multi-disciplinary platform established in 2017.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. No dedicated personal lab
     page found -- linked to the Institute of Medical Robotics staff page instead,
     verify a better direct link exists.
@@ -3745,6 +3851,7 @@
     '
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Strong clinical-imaging control stack. Externally actuated and instrument-scale
     rather than sub-mm autonomous, so the micro-robotics label is generous -- revisit
     once min_dim_um is filled in. The polygon on the original map was the Twente campus;
@@ -3778,6 +3885,7 @@
     fully packaged device measures 30.5 mm³.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Direct match for the project's own stated
     Energy roadmap ('photovoltaic harvesting now, ultrasound later') -- this lab is
     specifically the ultrasound half of that roadmap, at exactly the mm/sub-mm scale
@@ -3826,6 +3934,7 @@
     \ facility dedicated to cancer early detection programs. \n\nhttps://canarycenter.stanford.edu/aboutus.html"
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/stanford-bamm.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3863,6 +3972,7 @@
     \ metal-containing compounds, materials and biological systems."
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/strath-materials.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -3893,6 +4003,7 @@
     drug delivery.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. Third mainland-China-adjacent
     entry after westlake-wang and the Fudan pair, though Shenzhen/SUSTech is a distinct
     institution and city.
@@ -3924,6 +4035,7 @@
     by Bezos and Gates, among others.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Two separate reasons to track: (1) long-term
     organ-monitoring-horizon relevance as a wireless implant-to-external-device comms
     precedent, and (2) the endovascular, minimally-invasive delivery technique itself
@@ -3956,6 +4068,7 @@
     helical swimmers and rotating soft-tail millimeter-scale swimmers.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Institution string set to Lihu
     campus for geocoding disambiguation (Shenzhen University is multi-campus).
 - id: tcd-florea
@@ -3988,6 +4101,7 @@
     BioEngineering Research, in Dublin (Ireland).'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tcd-florea.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4029,6 +4143,7 @@
     '
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'You flagged this as possibly miscategorised. Agreed that biomedical-lab
     fits better than micro-robotics -- it is a broad mechanical/biomedical department
     with a robotics area, not a microrobotics group. If a specific PI there turns
@@ -4064,6 +4179,7 @@
     spinout NaNose Medical.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. No microrobotics link, but a real, working
     example of non-invasive, continuous-monitoring-adjacent diagnostic sensing detecting
     multiple conditions at once -- directly on the long-term organ-monitoring horizon.
@@ -4094,6 +4210,7 @@
     electronics, and the function principles of electronic devices.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Same university as the project itself
     and as tuc-schmidt (already on this map) -- a different professorship specifically
     doing circuit design, literally on-campus. About as close and actionable a contact
@@ -4127,6 +4244,7 @@
     '
   interesting_work: SMARTLET microrobot, MICMOS microrobot
   community_improvement: null
+  mission_fit: null
   notes: 'Local. One of the two groups that meet the whole-system criterion. Highest-value
     proximity on the map -- relevance 5 on access alone.
 
@@ -4219,6 +4337,7 @@
     \ and innovation.\nWeb: www.dresden-concept.de"
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tud-bcube.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4270,6 +4389,7 @@
     \ our still young focus area in medical physics.’"
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tudarmstadt-bakenecker.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4303,6 +4423,7 @@
     plus swarms of 30g nano-copters that collaboratively localize gas leaks.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Flight rather than stick-slip crawling,
     and gram-scale rather than sub-mm, but a real precedent for fully autonomous onboard
     control (not just onboard actuation/energy/comms) at small scale, plus a genuine
@@ -4334,6 +4455,7 @@
     single cells to tissue level.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tum-mrbl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4370,6 +4492,7 @@
     https://www.ee.cit.tum.de/en/nen/home/'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tum-neuroengineering.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4425,6 +4548,7 @@
     and companies, both national and foreign.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
@@ -4465,6 +4589,7 @@
     mechanics and dynamics.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/ucb-lin.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4497,6 +4622,7 @@
     Nucleus Physics of Active Matter at Universidad de Chile's Physics Department.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search -- first South/Central America entry beyond the pre-existing
     single Brazil point (unicamp-deneke). Primarily a theory/simulation group, not
     a physical-fabrication lab, so treat min_dim_um and onboard_power as genuinely
@@ -4531,6 +4657,7 @@
     their own microfluidic pumps and channels via 3D printing).
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. Transport of microorganisms
     through complex environments is a real conceptual parallel to how a microrobot
     would need to navigate tissue/fluid, though the lab's own focus is fundamental
@@ -4560,6 +4687,7 @@
     that self-fold into a functional, autonomously-operating machine.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Typical demos are cm-scale, not sub-mm,
     so filed under milli-robotics rather than micro-robotics -- but the flat-fabrication-then-self-fold
     methodology is a real conceptual parallel to the Wafer-Level Processes workstream
@@ -4593,6 +4721,7 @@
     zur Tiefenhirnstimulation zur Behandlung von Bewegungsstörungen.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/uks-elaine.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4625,6 +4754,7 @@
     facilities.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search for Southeast Asia coverage (previously only Singapore
     represented in the region). No microrobotics-specific work identified -- general
     nanotech/catalysis centre, filed as a material-lab watch entry. First Malaysia
@@ -4656,6 +4786,7 @@
     and international internship partnerships (USA, Sweden, Germany, France).
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search -- fourth Africa entry, first in Morocco/North Africa
     proper (Egypt/South Africa/Nigeria already covered). No microrobotics-specific
     work identified; general materials/nanoengineering department at Morocco's most
@@ -4691,6 +4822,7 @@
     Michigan Robotics as Assistant Professor January 2025.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via alumni-snowballing from mit-smrl (Kevin Chen''s lab). A near-exact
     double match: micron-scale + swarm behavior in one person, brand new faculty (Jan
     2025) and actively recruiting -- genuinely worth reaching out to, not just watching.'
@@ -4721,6 +4853,7 @@
     through funnel-shaped obstacles as a model for rectifying living active matter.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. The granular-robotic-swarm
     and active-matter-rectification work is a real, if unusual-angle, parallel to
     the System-Level-Behavior workstream -- using physics of collective motion rather
@@ -4752,6 +4885,7 @@
     Unicamp in 2017.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt. First South American entry
     on the map. Same rolled-up-nanomembrane technique family as fudan-huang and Schmidt's
     own group -- materials/fabrication level rather than whole-device.
@@ -4797,6 +4931,7 @@
     aufbaut.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unirostock-agis.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4893,6 +5028,7 @@
     werden.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unirostock-llm.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4929,6 +5065,7 @@
     at U of T, other Canadian/international institutions, and affiliated hospitals.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unitoronto-liu.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -4959,6 +5096,7 @@
     PI received her doctorate from TU Chemnitz.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt. Nano-origami and strain-engineered
     sheet folding is a real technique parallel to cornell-cohen/upenn-miskin/jhu-gracias's
     self-folding approach, at a materials-science level rather than whole-device.
@@ -4991,6 +5129,7 @@
     African Centre for Nanosciences and Nanotechnology Research and Application.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search -- third Africa entry, first in West Africa (Nigeria).
     Weakest sourcing of the three African entries found this round: broad applied-nanotech
     scope, no microrobotics-specific work identified, and the planned ''African Centre''
@@ -5049,6 +5188,7 @@
     \ Ziel hat"
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/uol-amir.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -5081,6 +5221,7 @@
     https://miskinlab.seas.upenn.edu/home'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/upenn-miskin.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -5111,6 +5252,7 @@
     drawing on electrochemistry, soft matter physics, and manufacturing.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. Same institution as upenn-miskin.
     Materials/power-systems focus rather than microrobotics specifically -- air-breathing
     power sources in particular are a real Energy-workstream parallel, though at a
@@ -5143,6 +5285,7 @@
     largest mRNA vaccine/therapy manufacturing facility.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search, not migrated. Institute-level rather than a specific
     PI/technology match -- added for geographic diversity (first Australian entry)
     and because precision nanomedicine is one of its named pillars. Worth drilling
@@ -5174,6 +5317,7 @@
     stimulation.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Responsive/field-actuated smart
     materials rather than whole-device microrobotics -- an actuator-materials match,
     similar level to purdue-oxidemems.
@@ -5205,6 +5349,7 @@
     structural colors.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Second USTC entry alongside
     ustc-feng -- both combine advanced fabrication with field-actuated microdevices,
     worth noting as a real cluster. Coordinates reused directly from ustc-feng (same
@@ -5237,6 +5382,7 @@
     awardee.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. Externally magnetically actuated,
     same conflation flag as other magnetic-microrobot entries.
 - id: utoronto-crl
@@ -5271,6 +5417,7 @@
     \ and operations"
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/utoronto-crl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -5334,6 +5481,7 @@
     from the Canadian Society for Mechanical Engineers.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/utoronto-diller.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -5365,6 +5513,7 @@
     & Computer Engineering, and Computer Science.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from ethz-msrl. Fourth University of Toronto
     entry alongside utoronto-crl, utoronto-diller, and unitoronto-liu -- a genuinely
     distinct PI/lab, not a duplicate; worth noting Toronto as a real cluster on this
@@ -5398,6 +5547,7 @@
     as harvested energy becomes available.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search (MANIFEST.md relevance pass), not migrated from the
     old map. Strong fit for the Energy and Computing workstreams even at milli-scale:
     fully onboard energy harvesting, autonomous operation, and an intermittent-computing
@@ -5432,6 +5582,7 @@
     and nanophotonics.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search for Southeast Asia coverage. First Vietnam entry --
     a real, government-funded national-key-lab designation, not just a department
     webpage, which is more concrete sourcing than the Malaysia/Thailand entries found
@@ -5466,6 +5617,7 @@
     is his current primary nanorobotics affiliation.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search for Eastern-Europe coverage (previously zero entries
     east of Germany/Switzerland/Austria). Extremely high-confidence, prominent figure
     -- arguably the single best Eastern-European fit found. Pumera has multiple institutional
@@ -5501,6 +5653,7 @@
     (2016) on sperm-driven microrobots, Assistant Professor at Waterloo since 2022.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from tuc-schmidt (Dresden-area PhD, matches
     the same regional micro/nanomotor community as ibec-sanchez and Oliver Schmidt's
     own group). Externally magnetically actuated, same conflation flag as other magnetic-microrobot
@@ -5532,6 +5685,7 @@
     origami, MEMS, and cilia-based actuation.'
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cornell-cohen. Extremely close match to
     the project's own core approach -- CMOS-circuit-compatible microrobotics is close
     to a direct description of the project's own reference design strategy, just pursued
@@ -5565,6 +5719,7 @@
     without transcutaneous cables.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Found via web search, not migrated. Direct fit for the Mothership workstream
     (a local station powering a fleet/swarm). Also worth noting: co-founder Joshua
     Smith is a senior UW EE/Allen School professor and the historical root of the
@@ -5600,6 +5755,7 @@
     platforms.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search for Japan-region coverage. Second Japan entry -- moved
     from University of Electro-Communications to Yokohama National University at some
     point; verify current lab page/affiliation is up to date.
@@ -5630,6 +5786,7 @@
     and ~25 patents; elected Fellow of the African Academy of Sciences.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via web search -- Africa is otherwise completely unrepresented on this
     map, and this is the most credible, well-documented nanomedicine research group
     found on the continent (African Academy of Sciences fellow, prolific publication
@@ -5711,6 +5868,7 @@
     \ Computer Award."
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/zju-fpms.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
@@ -5741,6 +5899,7 @@
     cell delivery in the bile duct.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Third distinct Zhejiang University
     entry alongside zju-fpms/zju-cheng/zju-xia.
 - id: zju-xia
@@ -5769,6 +5928,7 @@
     robots -- materials, fabrication, and applications.
   interesting_work: null
   community_improvement: null
+  mission_fit: null
   notes: Found via alumni-snowballing from cuhk-zhang. Same university as zju-fpms
     and zju-cheng, though a distinct group -- Zhejiang is emerging as a real cluster
     on this map.

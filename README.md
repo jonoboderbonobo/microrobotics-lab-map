@@ -21,12 +21,17 @@ for the shape). Several fields are worth calling out:
 
 - `description` is the group's own public blurb and **is** rendered into the
   uMap popup.
-- `interesting_work` and `community_improvement` are *your* public commentary
-  — respectively, latest research/products you find interesting, and ways
-  this lab/institute could improve the microrobotics community. Both **are**
-  rendered into the uMap popup (as extra bolded sections after `description`,
-  only when non-null) — unlike `notes`, treat these as public the moment you
-  write them.
+- `interesting_work`, `community_improvement`, and `mission_fit` are *your*
+  public commentary — respectively, latest research/products you find
+  interesting, ways this lab/institute could improve the microrobotics
+  community, and why/how this entry could plausibly contribute to your
+  longer-term goals. All three **are** rendered into the uMap popup (as extra
+  bolded sections after `description`, only when non-null) — unlike `notes`,
+  treat these as public the moment you write them. `mission_fit` in
+  particular should stay at the level of general technical/strategic
+  categories (a workstream, a customer type, a long-horizon vision) rather
+  than quoting specific private-strategy details — this field is public,
+  `MANIFEST.md` (gitignored) is not.
 - `notes` is your private assessment (why it's categorized the way it is, what
   to fix, etc.) and is **never** rendered or emitted anywhere in `out/` — it
   never leaves `labs.yaml`. `out/*.geojson` is published to a public repo, so
@@ -147,17 +152,17 @@ discarded on reload — that's intended; `labs.yaml` is the only source of truth
 
 ## Popup markup
 
-`description`, `interesting_work`, and `community_improvement` all use
-uMap's own lightweight markup, verified against uMap's current source
-(`umap/static/umap/js/modules/utils.js`, `toHTML`): `**bold**`, `*italic*`,
-and `[[https://url]]` / `[[https://url|label]]` for links. Bare `https://...`
-in text is auto-linked too.
+`description`, `interesting_work`, `community_improvement`, and
+`mission_fit` all use uMap's own lightweight markup, verified against
+uMap's current source (`umap/static/umap/js/modules/utils.js`, `toHTML`):
+`**bold**`, `*italic*`, and `[[https://url]]` / `[[https://url|label]]` for
+links. Bare `https://...` in text is auto-linked too.
 
 uMap's popup renderer only supports one blob of markup text per feature —
 there's no native way to give a feature multiple separate popup panels.
-`build.py` fakes the structure by appending `interesting_work` and
-`community_improvement` (when set) as their own `**bolded**` sections after
-`description`, inside the same popup.
+`build.py` fakes the structure by appending `interesting_work`,
+`community_improvement`, and `mission_fit` (when set) as their own
+`**bolded**` sections after `description`, inside the same popup.
 
 One thing that is **not** true despite looking like it should be: a plain
 newline is not rendered as a line break. `toHTML` has no rule that turns `\n`

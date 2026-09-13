@@ -16,7 +16,7 @@ ALL_FIELDS = {
     "url", "people_url", "category", "application", "min_dim_um",
     "onboard_power", "institution_type", "relevance", "status",
     "human_reviewed", "description", "interesting_work",
-    "community_improvement", "notes",
+    "community_improvement", "mission_fit", "notes",
 }
 
 
@@ -112,7 +112,7 @@ def validate(labs) -> None:
         if not isinstance(lab["human_reviewed"], bool):
             _fail(lab_id, "human_reviewed must be a boolean")
 
-        for field in ("description", "interesting_work", "community_improvement", "notes"):
+        for field in ("description", "interesting_work", "community_improvement", "mission_fit", "notes"):
             if lab[field] is not None and not isinstance(lab[field], str):
                 _fail(lab_id, f"{field} must be a string or null")
 

@@ -45,8 +45,9 @@ def resolve_missing_coordinates(labs: list) -> bool:
 def build_description(lab: dict, category_label: str) -> str:
     """Builds the public uMap popup text. `lab['notes']` is a private
     assessment and must never be read here -- only `lab['description']`,
-    `lab['interesting_work']`, and `lab['community_improvement']` (both
-    public commentary, unlike `notes`) are rendered into the popup."""
+    `lab['interesting_work']`, `lab['community_improvement']`, and
+    `lab['mission_fit']` (all public commentary, unlike `notes`) are
+    rendered into the popup."""
     header = f"**{lab['pi']}**" if lab["pi"] else f"**{lab['name']}**"
     header += f" — {lab['institution']}, {lab['city']} ({lab['country']})"
     lines = [header]
@@ -59,6 +60,9 @@ def build_description(lab: dict, category_label: str) -> str:
 
     if lab.get("community_improvement"):
         lines += ["", f"**How this could improve the microrobotics community:** {lab['community_improvement'].strip()}"]
+
+    if lab.get("mission_fit"):
+        lines += ["", f"**Why it's on this map:** {lab['mission_fit'].strip()}"]
 
     links = [f"[[{lab['url']}|Group website]]"]
     if lab.get("people_url"):
