@@ -196,6 +196,39 @@
     company and as a source for what clinical/regulatory path a robotic-therapeutics
     company actually walks. lat/lon from their LA corporate office address (3767 Overland
     Ave), since geocoding the company name alone found nothing.'
+- id: bits-goel
+  name: MEMS, Microfluidics and Nanoelectronics (MMNE) Lab
+  pi: Sanket Goel
+  institution: Birla Institute of Technology and Science (BITS Pilani), Hyderabad
+    Campus
+  city: Hyderabad
+  country: IN
+  lat: 17.54547
+  lon: 78.57051
+  osm: null
+  url: https://sites.google.com/hyderabad.bits-pilani.ac.in/mmnelab/home
+  people_url: null
+  category: material-lab
+  application:
+  - medical
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Develops miniaturized sensing and energy-harvesting devices spanning
+    micro/nanoelectronics, 3D-printed sensors/actuators, microfluidics, bio-MEMS,
+    and printed/flexible/implantable devices, with in-house soft-lithography, inkjet/3D
+    printing, and direct laser-writing fabrication capability. PI Sanket Goel is Birla
+    Chair Professor and Head of Semiconductor Research at BITS Pilani Hyderabad.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search for India-region coverage. A real, broad MEMS/microfluidics
+    fabrication capability with in-house tooling -- component-level (transducers,
+    sensors, energy harvesters) rather than whole microrobots, hence material-lab.
+    Third India entry.
 - id: bristol-hauert
   name: Hauert Lab — Swarm Engineering
   pi: Sabine Hauert
@@ -430,6 +463,38 @@
     defaulted to false -- verify. Filed under Micro-Robotics Lab and Biomedical Lab
     in the old map; content is a general BME department, not microrobotics-specific,
     so recategorized to biomedical-lab (same pattern as tcd-mmbe).'
+- id: cnpem-lnnano
+  name: Brazilian Nanotechnology National Laboratory (LNNano)
+  pi: null
+  institution: Centro Nacional de Pesquisa em Energia e Materiais (CNPEM)
+  city: Campinas
+  country: BR
+  lat: -22.80587
+  lon: -47.05298
+  osm: null
+  url: https://lnnano.cnpem.br/en/home-en/
+  people_url: null
+  category: cleanroom-service
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  human_reviewed: false
+  description: Brazilian national nanotechnology laboratory operating open-access
+    cleanroom facilities (ISO 6/7-class) for micro- and nanofabrication -- photolithography,
+    e-beam lithography, PVD/sputtering -- supporting MEMS, microfluidic lab-on-a-chip
+    devices, optical/chemical sensors, and RF devices. Open to external researchers
+    via a competitive facility-use proposal process, the same access model as europractice/ihp-cleanroom.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search -- second Brazil entry alongside unicamp-deneke, and
+    the only national-scale open-access fabrication infrastructure found in South
+    America this round. Directly analogous to europractice/ihp-cleanroom's role for
+    the reference project's own fab-access strategy, just in a new region.
 - id: coche-hk
   name: COCHE
   pi: null
@@ -655,6 +720,38 @@
     that's otherwise scarce and expensive to hire for. Worth a real look as a potential
     collaborator or comparable-process reference, not just a watch entry, if the power
     budgets line up. lat/lon resolved from 'CSEM, Neuchâtel' as a known point of interest.
+- id: csir-ncnsm
+  name: National Centre for Nano-Structured Materials (NCNSM)
+  pi: null
+  institution: Council for Scientific and Industrial Research (CSIR)
+  city: Pretoria
+  country: ZA
+  lat: -25.75086
+  lon: 28.27913
+  osm: null
+  url: https://www.csir.co.za/national-centre-nano-structured-materials
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: South African national nanotechnology centre (launched 2007 under the
+    government's National Nanotechnology Strategy) working on design, modelling, and
+    synthesis of nanomaterials -- carbon nanotubes, silicon nanoparticles, and nanolayer
+    deposition -- with characterisation facilities (XRD, SAXS, AFM, BET) and industrial-scale
+    nanomaterial production capability.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search -- second Africa entry, and the only national-lab-scale
+    nanotech fabrication capability found on the continent so far. Component/materials-supply
+    role, not microrobotics-specific, filed under material-lab on the same logic as
+    femtotools/fraunhofer-enas.
 - id: cuhk-chan
   name: KF-Chan Lab
   pi: Kai Fung Chan
@@ -1988,6 +2085,76 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: iisc-ghosh
+  name: Ghosh Lab — Nanorobotics
+  pi: Ambarish Ghosh
+  institution: Centre for Nano Science and Engineering (CeNSE), Indian Institute of
+    Science
+  city: Bengaluru
+  country: IN
+  lat: 13.02223
+  lon: 77.56718
+  osm: null
+  url: https://www.cense.iisc.ac.in/ambarish/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  human_reviewed: false
+  description: Pioneered magnetic helical nanorobots (with Peer Fischer, 2009) fabricated
+    via glancing-angle deposition, and works out the physics of their independent
+    multi-robot control. Group has demonstrated mobile nanotweezers combining plasmonic
+    trapping with magnetically-driven helical microswimmers to manipulate objects
+    down to ~100 nm, and used helical nanorobots as mechanical probes inside living
+    cells and ex vivo tissue.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search for India-region coverage. One of the most credible
+    micro-robotics fits found outside the usual US/EU/CN cluster -- real magnetic-helical-swimmer
+    fabrication and in vivo mechanical probing, not just a component supplier. Confidence
+    high (Wikipedia, ResearchGate, IISc's own site, and a US patent all corroborate);
+    lab URL is his CeNSE faculty page, no separate dedicated lab domain found. Second
+    India entry alongside jncasr-ganapathy.
+- id: iiti-palani
+  name: Mechatronics and Instrumentation Laboratory
+  pi: I. A. Palani
+  institution: Indian Institute of Technology Indore
+  city: Indore
+  country: IN
+  lat: 22.52693
+  lon: 75.92621
+  osm: null
+  url: https://people.iiti.ac.in/~palaniia/
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Works on laser-assisted micro-processing, opto-mechatronic system design,
+    and synthesis of nanostructures for functional devices, with a particular focus
+    on shape-memory-alloy and smart-material actuators. Research interests explicitly
+    include micro-robotic systems and microrobotics fabrication alongside surface
+    engineering and micro-machining.
+  interesting_work: null
+  community_improvement: null
+  notes: 'Found via web search for India-region coverage. Filed under material-lab
+    rather than micro-robotics: the group''s own stated core strength is laser micro-fabrication
+    and smart-material actuators (a component/process capability), with micro-robotic
+    systems named as one downstream application rather than the lab building whole
+    autonomous robots -- borderline call, revisit if a specific microrobot system
+    publication turns up.'
 - id: ilika
   name: Ilika — Stereax Solid-State Batteries
   pi: null
@@ -2091,6 +2258,37 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: inaoe-lnn
+  name: Laboratorio Nacional de Nanoelectrónica — Microelectronics Laboratory
+  pi: null
+  institution: Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE)
+  city: Puebla
+  country: MX
+  lat: 19.03221
+  lon: -98.31435
+  osm: null
+  url: https://www-elec.inaoep.mx/laboratorios/microelectronica
+  people_url: null
+  category: cleanroom-service
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Mexico's only laboratory capable of fabricating integrated circuits
+    from silicon wafers, using CMOS/NMOS/bipolar processes plus PECVD and sol-gel
+    deposition to build MEMS, sensors, bolometers, and solar cells. Operating since
+    1974, it serves as both a national fabrication resource and a graduate training
+    facility in semiconductor device physics.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search -- first Mexico entry on the map. National-scale IC/MEMS
+    fab capability, same cleanroom-service role as ihp-cleanroom/europractice/cnpem-lnnano,
+    just filling the Mexico gap specifically.
 - id: iota-bio
   name: iota Biosciences
   pi: null
@@ -2612,6 +2810,37 @@
     defaulted to false -- verify. Per the old map''s own description: ''Metin Sitti
     gone, no replacement yet'' -- pi left null rather than crediting Sitti. Verify
     current leadership. See also ku-sitti for his current affiliation.'
+- id: nanobiotec-uba
+  name: Instituto de Nanobiotecnología (NANOBIOTEC)
+  pi: null
+  institution: Universidad de Buenos Aires (UBA) / CONICET
+  city: Buenos Aires
+  country: AR
+  lat: -34.59771
+  lon: -58.39769
+  osm: null
+  url: https://nanobiotec.conicet.gov.ar/home/
+  people_url: null
+  category: nano-medicine
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Joint UBA-CONICET institute for applied biotechnology, with a laboratory
+    dedicated to 'Nanobiointerfaces and Biopharmaceutical Nanotechnology' addressing
+    nanomedicine applications, alongside protein engineering, biofabrication, and
+    biocatalytic-process research. Also runs a specialized Antarctic-microbiology
+    program studying extremophiles for biotech applications.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search -- first Argentina entry, and second South/Central America
+    entry alongside uchile-soto. Institute-wide scope is broader than nanomedicine
+    (general applied biotech), but the dedicated nanobiointerfaces/biopharma-nanotech
+    lab within it is a genuine, specific nano-medicine fit.
 - id: nanobiotix
   name: Nanobiotix
   pi: null
@@ -3800,7 +4029,7 @@
     micro- and nanoelectronics; microfluidics; plasmonics.
 
     '
-  interesting_work: 'SMARTLET microrobot, MICMOS microrobot'
+  interesting_work: SMARTLET microrobot, MICMOS microrobot
   community_improvement: null
   notes: 'Local. One of the two groups that meet the whole-system criterion. Highest-value
     proximity on the map -- relevance 5 on access alone.
@@ -4144,6 +4373,42 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: uchile-soto
+  name: Núcleo Milenio Física de la Materia Activa
+  pi: Rodrigo Soto
+  institution: Universidad de Chile
+  city: Santiago
+  country: CL
+  lat: -33.45841
+  lon: -70.66324
+  osm: null
+  url: https://activematter.dfi.uchile.cl/
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Theoretical/computational active-matter physics group that designed
+    three distinct microrobot models and a self-assembling 'microrobot factory' --
+    particles entering through channels and self-organizing into functional micro-scale
+    devices (published in New Journal of Physics). PI Rodrigo Soto directs the Millennium
+    Nucleus Physics of Active Matter at Universidad de Chile's Physics Department.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search -- first South/Central America entry beyond the pre-existing
+    single Brazil point (unicamp-deneke). Primarily a theory/simulation group, not
+    a physical-fabrication lab, so treat min_dim_um and onboard_power as genuinely
+    unknown rather than defaulted; filed under micro-robotics since they explicitly
+    design whole microrobot systems (design + self-assembly principles), similar reasoning
+    to caltech-winfree being filed under a contribution-type category despite being
+    a different substrate. Lab URL had a certificate/hostname mismatch when fetched
+    -- likely fine in a normal browser, but verify before relying on it for uMap link-following.
 - id: ucmerced-liu
   name: Liu Lab
   pi: Bin Liu
@@ -4538,6 +4803,40 @@
   notes: Found via alumni-snowballing from tuc-schmidt. Nano-origami and strain-engineered
     sheet folding is a real technique parallel to cornell-cohen/upenn-miskin/jhu-gracias's
     self-folding approach, at a materials-science level rather than whole-device.
+- id: unn-osuji
+  name: Nano Research Group, University of Nigeria
+  pi: Rose U. Osuji
+  institution: University of Nigeria, Nsukka
+  city: Nsukka
+  country: NG
+  lat: 6.8641
+  lon: 7.40974
+  osm: null
+  url: https://nanotechunn.com
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - environmental
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 2
+  status: watch
+  human_reviewed: false
+  description: Physics-department nanotechnology research group applying nanomaterials
+    to energy, environment, agriculture, and health, including drug formulation and
+    environmental remediation. Organizes the biennial African Nano Conference. Founded
+    by Prof. Rose U. Osuji, who also led a 2018 partnership with Oilserv toward an
+    African Centre for Nanosciences and Nanotechnology Research and Application.
+  interesting_work: null
+  community_improvement: null
+  notes: 'Found via web search -- third Africa entry, first in West Africa (Nigeria).
+    Weakest sourcing of the three African entries found this round: broad applied-nanotech
+    scope, no microrobotics-specific work identified, and the planned ''African Centre''
+    partnership announced in 2018 may or may not have materialized -- relevance kept
+    low (2), verify current activity before treating as more than a watch entry.'
 - id: uol-amir
   name: AMiR — Abteilung für Mikrorobotik und Regelungstechnik
   pi: Sergej Fatikow
@@ -5044,6 +5343,40 @@
     there''s a live collaboration angle here, not just two separate UW entries. The
     LVAD origin story is also a direct precedent for wireless-powering something implanted
     in a body, not just a robot on a table.'
+- id: zewailcity-elsherbiny
+  name: El-Sherbiny Nanomedicine Lab — Center for Materials Science
+  pi: Ibrahim M. El-Sherbiny
+  institution: Zewail City of Science and Technology
+  city: 6th of October City
+  country: EG
+  lat: 29.97235
+  lon: 30.94092
+  osm: null
+  url: https://www.zewailcity.edu.eg/main/content.php?lang=en&alias=ibrahim_m._el-sherbiny
+  people_url: null
+  category: nano-medicine
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  human_reviewed: false
+  description: Designs and develops smart nanomaterials -- polymeric, metal-organic-framework,
+    and core-shell nanostructures -- for controlled drug delivery, tissue engineering,
+    and biosensing. El-Sherbiny is Founding Chairman of the Nanoscience Program and
+    Director of the Center for Materials Science at Zewail City, with 260+ papers
+    and ~25 patents; elected Fellow of the African Academy of Sciences.
+  interesting_work: null
+  community_improvement: null
+  notes: Found via web search -- Africa is otherwise completely unrepresented on this
+    map, and this is the most credible, well-documented nanomedicine research group
+    found on the continent (African Academy of Sciences fellow, prolific publication
+    record, named institutional center director, not a speculative or planned facility).
+    No dedicated lab-group site found separate from his Zewail City faculty page.
+    First Africa entry. lat/lon is 6th of October City center as an approximate stand-in
+    -- geocoding the specific Zewail City campus by name found nothing, verify.
 - id: zju-fpms
   name: Fluid-Power and Mechatronic Systems
   pi: Sun Yu

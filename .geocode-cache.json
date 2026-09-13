@@ -43,9 +43,17 @@
     "lat": 45.19525,
     "lon": 5.70615
   },
+  "CNPEM, Campinas, BR": {
+    "lat": -22.80587,
+    "lon": -47.05298
+  },
   "CSEM, Neuch\u00e2tel, CH": {
     "lat": 46.99769,
     "lon": 6.94747
+  },
+  "CSIR, Pretoria, ZA": {
+    "lat": -25.75086,
+    "lon": 28.27913
   },
   "California Institute of Technology, Pasadena, US": {
     "lat": 34.13701,
@@ -70,6 +78,10 @@
   "Delft University of Technology, Delft, NL": {
     "lat": 51.99883,
     "lon": 4.37396
+  },
+  "Facultad de Farmacia y Bioquimica, Universidad de Buenos Aires, Buenos Aires, AR": {
+    "lat": -34.59771,
+    "lon": -58.39769
   },
   "Fraunhofer ENAS, Chemnitz, DE": {
     "lat": 50.81581,
@@ -126,6 +138,18 @@
   "H\u00f4tel-Dieu, Paris, FR": {
     "lat": 48.85468,
     "lon": 2.34886
+  },
+  "IISc, CV Raman Road, Bengaluru, IN": {
+    "lat": 13.02223,
+    "lon": 77.56718
+  },
+  "INAOE, Tonantzintla, Puebla, MX": {
+    "lat": 19.03221,
+    "lon": -98.31435
+  },
+  "Indian Institute of Technology Indore, Simrol, Indore, IN": {
+    "lat": 22.52693,
+    "lon": 75.92621
   },
   "Institut des Syst\u00e8mes Intelligents et de Robotique, Paris, FR": {
     "lat": 48.84569,
@@ -274,6 +298,10 @@
   "University of New Mexico, Albuquerque, NM, US": {
     "lat": 35.08663,
     "lon": -106.62021
+  },
+  "University of Nigeria, Nsukka, NG": {
+    "lat": 6.8641,
+    "lon": 7.40974
   },
   "University of Pennsylvania, Philadelphia, PA, US": {
     "lat": 39.95221,

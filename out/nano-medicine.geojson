@@ -34,6 +34,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Instituto de Nanobiotecnología (NANOBIOTEC)",
+        "description": "**Instituto de Nanobiotecnología (NANOBIOTEC)** — Universidad de Buenos Aires (UBA) / CONICET, Buenos Aires (AR)<br><br>Joint UBA-CONICET institute for applied biotechnology, with a laboratory dedicated to 'Nanobiointerfaces and Biopharmaceutical Nanotechnology' addressing nanomedicine applications, alongside protein engineering, biofabrication, and biocatalytic-process research. Also runs a specialized Antarctic-microbiology program studying extremophiles for biotech applications.<br><br>[[https://nanobiotec.conicet.gov.ar/home/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "id": "nanobiotec-uba",
+        "pi": "",
+        "institution": "Universidad de Buenos Aires (UBA) / CONICET",
+        "country": "AR",
+        "category": "nano-medicine",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "MediumSeaGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39769,
+          -34.59771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Nanobiotix",
         "description": "**Nanobiotix** — Nanobiotix, Paris (FR)<br><br>Publicly traded (Euronext: NANO, Nasdaq: NBTX) nanomedicine company developing NBTXR3, a nanoparticle radioenhancer -- CE-marked since 2019 for locally advanced soft tissue sarcoma across 27 European countries under the brand Hensify, with an ongoing Phase 3 head and neck cancer program. Incorporated 2003, headquartered in Paris.<br><br>[[https://nanobiotix.com/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
         "id": "nanobiotix",
@@ -148,6 +178,36 @@
         "coordinates": [
           153.01253,
           -27.50063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El-Sherbiny Nanomedicine Lab — Center for Materials Science",
+        "description": "**Ibrahim M. El-Sherbiny** — Zewail City of Science and Technology, 6th of October City (EG)<br><br>Designs and develops smart nanomaterials -- polymeric, metal-organic-framework, and core-shell nanostructures -- for controlled drug delivery, tissue engineering, and biosensing. El-Sherbiny is Founding Chairman of the Nanoscience Program and Director of the Center for Materials Science at Zewail City, with 260+ papers and ~25 patents; elected Fellow of the African Academy of Sciences.<br><br>[[https://www.zewailcity.edu.eg/main/content.php?lang=en&alias=ibrahim_m._el-sherbiny|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "id": "zewailcity-elsherbiny",
+        "pi": "Ibrahim M. El-Sherbiny",
+        "institution": "Zewail City of Science and Technology",
+        "country": "EG",
+        "category": "nano-medicine",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "MediumSeaGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.94092,
+          29.97235
         ]
       }
     }

@@ -962,6 +962,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Ghosh Lab — Nanorobotics",
+        "description": "**Ambarish Ghosh** — Centre for Nano Science and Engineering (CeNSE), Indian Institute of Science, Bengaluru (IN)<br><br>Pioneered magnetic helical nanorobots (with Peer Fischer, 2009) fabricated via glancing-angle deposition, and works out the physics of their independent multi-robot control. Group has demonstrated mobile nanotweezers combining plasmonic trapping with magnetically-driven helical microswimmers to manipulate objects down to ~100 nm, and used helical nanorobots as mechanical probes inside living cells and ex vivo tissue.<br><br>[[https://www.cense.iisc.ac.in/ambarish/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "iisc-ghosh",
+        "pi": "Ambarish Ghosh",
+        "institution": "Centre for Nano Science and Engineering (CeNSE), Indian Institute of Science",
+        "country": "IN",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.56718,
+          13.02223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Multi-Scale Embodied Intelligence Lab",
         "description": "**Dandan Zhang** — Imperial College London, London (GB)<br><br>Dandan Zhang<br>The Multi-Scale Embodied Intelligence Lab focuses on developing embodied intelligence across multiple scales, ranging from micro/nanobots to large-scale robotic systems, primarily targeting healthcare applications.<br><br>Research Themes<br><br>​<br><br>    Multimodal Perception (Sensing)<br><br>    Interactive Learning (Decision-Making)<br><br>    Dexterous Manipulation（Execution)<br><br><br><br>Research Objectives<br><br> <br><br>We aim to embed embodied intelligence in large-scale robots, including medical robotics for surgeries to assistive robotics for homecare applications. We also explore micro-robotic innovations at the cellular scale, including developing microsurgical tools for precise micro-manipulation. Beyond individual scales, we also explore how these multi-scale robotic systems can integrate and interface with each other, ensuring seamless operations across dimensions.<br><br><br>The ultimate goal is to develop the next-generation robots empowered by artificial intelligence with super-human capabilities. We envision that intelligent robots will reshape our world by providing tangible benefits in our daily life, contributing to the healthcare system or assisting humans in hazardous environments. <br><br><br>Research Vision<br><br>​<br><br>Embodied intelligence is a crucial concept for the autonomy and adaptivity of systems operating in a physical world that is evidently uncertain and complex. Although advancements in Artificial Intelligence (AI) have given rise to general-purpose intelligent agents, the intricate and unpredictable nature of the real world demands robots that do more than just ‘think’ based on computational intelligence. Robots must be able to precisely 'perceive' and dynamically ‘act’ to adapt to different scenarios through direct interactions with their environments. To this end, our work focuses on creating and manipulating intelligent robots that can function efficiently in varied environments.<br><br><br>Targets<br><br>    Enable seamlessly human-robot shared control<br><br>    Enhance the level of autonomy for multi-scale robotics systems<br><br>Applications<br><br>    Medical Robotics<br><br>    Homecare Robotics<br><br>    Assistive Robotics<br><br><br>My major research interests lie at the intersection of robotics and machine learning. I envision that intelligent robots will reshape our world by providing tangible benefits in our daily life, contributing to the healthcare system, or assisting humans in hazardous environments. In addition, I also work on micro-robotics, teleoperation, and human-robot shared control.  <br><br>​<br><br>Medical robots and instruments are expected to be smaller, and smarter for wider clinical uptake. Intelligent robotic platforms and accurate micromanipulation techniques are worth developing since they can empower operators with superhuman capabilities as well as reduce their physical workload during repetitive and tedious micro-surgical tasks. Despite continuous technical evolution in this research area, many challenges remain. For micromanipulation platforms that can conduct surgery in the microscale, it’s challenging to enable precise perception of the micro-tools and dexterous manipulation in 3D space. Therefore, new control strategies and vision techniques are worth exploring. To develop smarter robotic platforms, machine learning techniques can be incorporated into the control scheme. Therefore, it’s worthwhile to combine control commands generated by human operators and machine learning-based autonomous control to enable efficient human-robot shared control for surgical operations. This leads to the development of intelligent surgical robots to assist human operators in robotic surgery.<br><br>[[https://www.intelligentrobotics-acrossscales.com/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "imperial-zhang",
@@ -2366,6 +2396,36 @@
         "coordinates": [
           2.11234,
           41.50024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Núcleo Milenio Física de la Materia Activa",
+        "description": "**Rodrigo Soto** — Universidad de Chile, Santiago (CL)<br><br>Theoretical/computational active-matter physics group that designed three distinct microrobot models and a self-assembling 'microrobot factory' -- particles entering through channels and self-organizing into functional micro-scale devices (published in New Journal of Physics). PI Rodrigo Soto directs the Millennium Nucleus Physics of Active Matter at Universidad de Chile's Physics Department.<br><br>[[https://activematter.dfi.uchile.cl/|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "uchile-soto",
+        "pi": "Rodrigo Soto",
+        "institution": "Universidad de Chile",
+        "country": "CL",
+        "category": "micro-robotics",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.66324,
+          -33.45841
         ]
       }
     },

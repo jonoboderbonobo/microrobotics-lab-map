@@ -64,6 +64,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Brazilian Nanotechnology National Laboratory (LNNano)",
+        "description": "**Brazilian Nanotechnology National Laboratory (LNNano)** — Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), Campinas (BR)<br><br>Brazilian national nanotechnology laboratory operating open-access cleanroom facilities (ISO 6/7-class) for micro- and nanofabrication -- photolithography, e-beam lithography, PVD/sputtering -- supporting MEMS, microfluidic lab-on-a-chip devices, optical/chemical sensors, and RF devices. Open to external researchers via a competitive facility-use proposal process, the same access model as europractice/ihp-cleanroom.<br><br>[[https://lnnano.cnpem.br/en/home-en/|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
+        "id": "cnpem-lnnano",
+        "pi": "",
+        "institution": "Centro Nacional de Pesquisa em Energia e Materiais (CNPEM)",
+        "country": "BR",
+        "category": "cleanroom-service",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "SlateGray",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.05298,
+          -22.80587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "EUROPRACTICE",
         "description": "**EUROPRACTICE** — EUROPRACTICE (imec-coordinated consortium), Leuven (BE)<br><br>European Commission-launched consortium (since 1995) of five research organizations, led by imec, providing academia and industry with affordable Multi-Project-Wafer (MPW) prototyping across a wide range of processes -- digital, RF, mixed-signal, high-voltage ASICs, MEMS, photonics, microfluidics, flexible electronics, compound semiconductors -- plus ~65,000 concurrent EDA tool licenses distributed to European universities annually and training programs.<br><br>[[https://europractice-ic.com/|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
         "id": "europractice",
@@ -213,6 +243,36 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laboratorio Nacional de Nanoelectrónica — Microelectronics Laboratory",
+        "description": "**Laboratorio Nacional de Nanoelectrónica — Microelectronics Laboratory** — Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE), Puebla (MX)<br><br>Mexico's only laboratory capable of fabricating integrated circuits from silicon wafers, using CMOS/NMOS/bipolar processes plus PECVD and sol-gel deposition to build MEMS, sensors, bolometers, and solar cells. Operating since 1974, it serves as both a national fabrication resource and a graduate training facility in semiconductor device physics.<br><br>[[https://www-elec.inaoep.mx/laboratorios/microelectronica|Group website]]<br><br>Category: Clean Room Service · Smallest demonstrated: unknown",
+        "id": "inaoe-lnn",
+        "pi": "",
+        "institution": "Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE)",
+        "country": "MX",
+        "category": "cleanroom-service",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "SlateGray",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.31435,
+          19.03221
+        ]
       }
     }
   ]

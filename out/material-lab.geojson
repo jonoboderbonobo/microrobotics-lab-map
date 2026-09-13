@@ -4,6 +4,66 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "MEMS, Microfluidics and Nanoelectronics (MMNE) Lab",
+        "description": "**Sanket Goel** — Birla Institute of Technology and Science (BITS Pilani), Hyderabad Campus, Hyderabad (IN)<br><br>Develops miniaturized sensing and energy-harvesting devices spanning micro/nanoelectronics, 3D-printed sensors/actuators, microfluidics, bio-MEMS, and printed/flexible/implantable devices, with in-house soft-lithography, inkjet/3D printing, and direct laser-writing fabrication capability. PI Sanket Goel is Birla Chair Professor and Head of Semiconductor Research at BITS Pilani Hyderabad.<br><br>[[https://sites.google.com/hyderabad.bits-pilani.ac.in/mmnelab/home|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "bits-goel",
+        "pi": "Sanket Goel",
+        "institution": "Birla Institute of Technology and Science (BITS Pilani), Hyderabad Campus",
+        "country": "IN",
+        "category": "material-lab",
+        "application": "medical,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.57051,
+          17.54547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "National Centre for Nano-Structured Materials (NCNSM)",
+        "description": "**National Centre for Nano-Structured Materials (NCNSM)** — Council for Scientific and Industrial Research (CSIR), Pretoria (ZA)<br><br>South African national nanotechnology centre (launched 2007 under the government's National Nanotechnology Strategy) working on design, modelling, and synthesis of nanomaterials -- carbon nanotubes, silicon nanoparticles, and nanolayer deposition -- with characterisation facilities (XRD, SAXS, AFM, BET) and industrial-scale nanomaterial production capability.<br><br>[[https://www.csir.co.za/national-centre-nano-structured-materials|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "csir-ncnsm",
+        "pi": "",
+        "institution": "Council for Scientific and Industrial Research (CSIR)",
+        "country": "ZA",
+        "category": "material-lab",
+        "application": "industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.27913,
+          -25.75086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "FemtoTools",
         "description": "**FemtoTools** — FemtoTools AG (part of Oxford Instruments since 2024), Buchs (Zürich) (CH)<br><br>Swiss company (ETH Zurich MSRL spin-off) making ultra-high-precision instruments for mechanical testing and robotic handling at the micro- and nanoscale: microforce sensing probes and force-sensing microgrippers, fabricated via a custom MEMS process, serving semiconductor, microsystem, materials science, and micromedicine markets. Acquired by Oxford Instruments in 2024.<br><br>[[https://www.femtotools.com/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "femtotools",
@@ -148,6 +208,36 @@
         "coordinates": [
           13.95321,
           51.0577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mechatronics and Instrumentation Laboratory",
+        "description": "**I. A. Palani** — Indian Institute of Technology Indore, Indore (IN)<br><br>Works on laser-assisted micro-processing, opto-mechatronic system design, and synthesis of nanostructures for functional devices, with a particular focus on shape-memory-alloy and smart-material actuators. Research interests explicitly include micro-robotic systems and microrobotics fabrication alongside surface engineering and micro-machining.<br><br>[[https://people.iiti.ac.in/~palaniia/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "iiti-palani",
+        "pi": "I. A. Palani",
+        "institution": "Indian Institute of Technology Indore",
+        "country": "IN",
+        "category": "material-lab",
+        "application": "industrial,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.92621,
+          22.52693
         ]
       }
     },
@@ -798,6 +888,36 @@
         "coordinates": [
           -106.62021,
           35.08663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nano Research Group, University of Nigeria",
+        "description": "**Rose U. Osuji** — University of Nigeria, Nsukka, Nsukka (NG)<br><br>Physics-department nanotechnology research group applying nanomaterials to energy, environment, agriculture, and health, including drug formulation and environmental remediation. Organizes the biennial African Nano Conference. Founded by Prof. Rose U. Osuji, who also led a 2018 partnership with Oilserv toward an African Centre for Nanosciences and Nanotechnology Research and Application.<br><br>[[https://nanotechunn.com|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "unn-osuji",
+        "pi": "Rose U. Osuji",
+        "institution": "University of Nigeria, Nsukka",
+        "country": "NG",
+        "category": "material-lab",
+        "application": "industrial,environmental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.40974,
+          6.8641
         ]
       }
     },
