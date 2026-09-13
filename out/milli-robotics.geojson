@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Poly-PEDAL Lab",
-        "description": "**Robert J. Full** — University of California, Berkeley, Berkeley, CA (US)<br><br>Studies the Performance, Energetics and Dynamics of Animal Locomotion (P.E.D.A.L.) in many-legged creatures -- cost of locomotion, musculoskeletal mechanics, and whole-animal exercise physiology -- using biomechanical, computational, and physical modeling. Findings have directly informed the design of insect-inspired search-and-rescue robots, gecko-inspired dry adhesives, and other bio-inspired multilegged robots. PI Robert Full is Editor-in-Chief of Bioinspiration & Biomimetics.<br><br>[[https://polypedal.berkeley.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Robert J. Full** — University of California, Berkeley, Berkeley, CA (US)<br><br>Studies the Performance, Energetics and Dynamics of Animal Locomotion (P.E.D.A.L.) in many-legged creatures -- cost of locomotion, musculoskeletal mechanics, and whole-animal exercise physiology -- using biomechanical, computational, and physical modeling. Findings have directly informed the design of insect-inspired search-and-rescue robots, gecko-inspired dry adhesives, and other bio-inspired multilegged robots. PI Robert Full is Editor-in-Chief of Bioinspiration & Biomimetics.<br><br>**Why it's on this map:** Studies the biomechanics of fast, many-legged animal locomotion -- fundamental research that could inform how small legged or crawling robots are designed, even though the lab does not build sub-millimeter robots itself.<br><br>[[https://polypedal.berkeley.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "berkeley-full",
         "pi": "Robert J. Full",
         "institution": "University of California, Berkeley",
@@ -35,7 +35,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bionaut Labs",
-        "description": "**Bionaut Labs** — Bionaut Labs, Los Angeles, CA (US)<br><br>Bionaut Labs develops magnetically-guided microscale robots (rice-grain-scale overall, with some features under 1mm) that are remote-controlled from outside the body to deliver biologics, nucleic acids, or small-molecule therapies to precise targets in the central nervous system, including deep brain structures. Founded 2016, headquartered in Los Angeles with R&D sites in Israel and at the Max Planck Institute in Germany.<br><br>[[https://bionautlabs.com|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Bionaut Labs** — Bionaut Labs, Los Angeles, CA (US)<br><br>Bionaut Labs develops magnetically-guided microscale robots (rice-grain-scale overall, with some features under 1mm) that are remote-controlled from outside the body to deliver biologics, nucleic acids, or small-molecule therapies to precise targets in the central nervous system, including deep brain structures. Founded 2016, headquartered in Los Angeles with R&D sites in Israel and at the Max Planck Institute in Germany.<br><br>**Why it's on this map:** A well-funded example of magnetically-guided medical microdevices, though externally actuated rather than carrying its own onboard power -- useful mainly as a comparison point for what a robotic-therapeutics company's clinical and regulatory path actually looks like.<br><br>[[https://bionautlabs.com|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "bionaut-labs",
         "pi": "",
         "institution": "Bionaut Labs",
@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dupont Lab",
-        "description": "**Pierre E. Dupont** — Boston Children's Hospital / Harvard Medical School, Boston, MA (US)<br><br>Develops technologies for image-guided minimally invasive surgery: catheter-like continuum robots that navigate the branching curves of blood vessels and other biological structures, tool-tissue interaction modeling, multi-probe/multi-modal imaging for surgical guidance, and teleoperated or autonomous instrument motion. PI Pierre Dupont is Chief of Pediatric Cardiac Bioengineering at Boston Children's Hospital and Professor of Surgery at Harvard Medical School; the group demonstrated a first-of-its-kind autonomous robotic catheter navigating from the jugular vein into the right atrium.<br><br>[[https://robotics.tch.harvard.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Pierre E. Dupont** — Boston Children's Hospital / Harvard Medical School, Boston, MA (US)<br><br>Develops technologies for image-guided minimally invasive surgery: catheter-like continuum robots that navigate the branching curves of blood vessels and other biological structures, tool-tissue interaction modeling, multi-probe/multi-modal imaging for surgical guidance, and teleoperated or autonomous instrument motion. PI Pierre Dupont is Chief of Pediatric Cardiac Bioengineering at Boston Children's Hospital and Professor of Surgery at Harvard Medical School; the group demonstrated a first-of-its-kind autonomous robotic catheter navigating from the jugular vein into the right atrium.<br><br>**Why it's on this map:** Develops autonomous continuum robots for image-guided cardiac surgery, embedded directly within a hospital's own surgical department -- a real precedent for clinical integration of small robotic devices, even though the scale and actuation approach differ from a sub-millimeter autonomous robot.<br><br>[[https://robotics.tch.harvard.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "dupont-lab",
         "pi": "Pierre E. Dupont",
         "institution": "Boston Children's Hospital / Harvard Medical School",
@@ -95,7 +95,7 @@
       "type": "Feature",
       "properties": {
         "name": "Micro-Flight Laboratory",
-        "description": "**Tsevi Beatus** — Hebrew University of Jerusalem, Jerusalem (IL)<br><br>Studies the mechanisms of insect flight control and implements them in biomimetic flying robots. PI Tsevi Beatus did his postdoc in Cornell's Physics department on insect flight control, and his PhD (Weizmann Institute) on collective non-equilibrium dynamics of microfluidic droplets.<br><br>[[https://www.beatus-lab.org/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Tsevi Beatus** — Hebrew University of Jerusalem, Jerusalem (IL)<br><br>Studies the mechanisms of insect flight control and implements them in biomimetic flying robots. PI Tsevi Beatus did his postdoc in Cornell's Physics department on insect flight control, and his PhD (Weizmann Institute) on collective non-equilibrium dynamics of microfluidic droplets.<br><br>**Why it's on this map:** A dedicated insect-flight biomechanics lab -- fundamental biomimicry research that could inform small-scale flight or locomotion strategies, without building autonomous robots itself.<br><br>[[https://www.beatus-lab.org/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "huji-beatus",
         "pi": "Tsevi Beatus",
         "institution": "Hebrew University of Jerusalem",
@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "name": "Korea Institute of Medical Micro-robotics (KIMIRo)",
-        "description": "**Jong Oh Park** — KIMIRo, Gwangju (KR)<br><br>A dedicated South Korean research institute (established 2019, president Jong Oh Park) focused on medical microrobots, including magnetically-actuated multifunctional robots with real-time MRI visualization for applications such as liver cancer chemoembolization therapy.<br><br>[[https://www.kimiro.re.kr/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Jong Oh Park** — KIMIRo, Gwangju (KR)<br><br>A dedicated South Korean research institute (established 2019, president Jong Oh Park) focused on medical microrobots, including magnetically-actuated multifunctional robots with real-time MRI visualization for applications such as liver cancer chemoembolization therapy.<br><br>**Why it's on this map:** A rare example of an entire research institute dedicated specifically to medical microrobotics -- a substantial, focused capability worth real attention rather than a passing watch entry.<br><br>[[https://www.kimiro.re.kr/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "kimiro",
         "pi": "Jong Oh Park",
         "institution": "KIMIRo",
@@ -155,7 +155,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nanoflex Robotics",
-        "description": "**Bradley J. Nelson** — Nanoflex Robotics AG, Glattbrugg (CH)<br><br>ETH Zurich spin-out (2021) developing a magnetically-controlled soft robotic catheter system for endovascular navigation -- a mobile electromagnetic control system that can be wheeled into a standard operating room, no special shielding required. Founded by Bradley Nelson (ethz-msrl's own PI, already on this map) with Christophe Chautems and Matt Curran. Raised $12M+ as of Feb 2023, targeting FDA submission for neuro-interventional stroke treatment.<br><br>[[https://nanoflexrobotics.com/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Bradley J. Nelson** — Nanoflex Robotics AG, Glattbrugg (CH)<br><br>ETH Zurich spin-out (2021) developing a magnetically-controlled soft robotic catheter system for endovascular navigation -- a mobile electromagnetic control system that can be wheeled into a standard operating room, no special shielding required. Founded by Bradley Nelson (ethz-msrl's own PI, already on this map) with Christophe Chautems and Matt Curran. Raised $12M+ as of Feb 2023, targeting FDA submission for neuro-interventional stroke treatment.<br><br>**Why it's on this map:** A funded, near-clinical commercial spin-out built on magnetically-actuated small-scale robotics -- a real example of this technology moving from an academic lab toward an actual medical product.<br><br>[[https://nanoflexrobotics.com/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "nanoflex-robotics",
         "pi": "Bradley J. Nelson",
         "institution": "Nanoflex Robotics AG",
@@ -185,7 +185,7 @@
       "type": "Feature",
       "properties": {
         "name": "Robeauté",
-        "description": "**Robeauté** — Robeauté, Paris (FR)<br><br>Robeauté is developing rice-grain-sized therapeutic microrobots for neurosurgery, designed to move along curved routes through brain tissue's extracellular matrix to reach multiple targets, deliver molecules, implant electrodes, or collect live tissue samples. Founded 2017 by Joana Cartocci and Bertrand Duplat, based in Paris, raised ~EUR27M as of January 2025.<br><br>[[https://robeaute.com/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Robeauté** — Robeauté, Paris (FR)<br><br>Robeauté is developing rice-grain-sized therapeutic microrobots for neurosurgery, designed to move along curved routes through brain tissue's extracellular matrix to reach multiple targets, deliver molecules, implant electrodes, or collect live tissue samples. Founded 2017 by Joana Cartocci and Bertrand Duplat, based in Paris, raised ~EUR27M as of January 2025.<br><br>**Why it's on this map:** A rice-grain-scale medical microdevice company -- above the sub-millimeter threshold used elsewhere on this map, and it's unclear from public material whether its locomotion is externally guided or self-contained; flagged as a possible case of the field's common terminology conflation rather than a confirmed autonomous-robot match.<br><br>[[https://robeaute.com/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "robeaute",
         "pi": "",
         "institution": "Robeauté",
@@ -215,7 +215,7 @@
       "type": "Feature",
       "properties": {
         "name": "MAVLab — Micro Air Vehicle Laboratory",
-        "description": "**Guido de Croon** — Delft University of Technology, Delft (NL)<br><br>Develops bio-inspired, computationally efficient algorithms for autonomous lightweight flying robots, with an emphasis on onboard computer vision. Built DelFly Nimble, a fully autonomous, free-flying, agile flapping-wing robot (four flapping wings, ~17 beats/second) that helped explain how fruit flies execute aggressive escape maneuvers, and DelFly Explorer (20g, fully autonomous flight), plus swarms of 30g nano-copters that collaboratively localize gas leaks.<br><br>[[https://mavlab.tudelft.nl/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Guido de Croon** — Delft University of Technology, Delft (NL)<br><br>Develops bio-inspired, computationally efficient algorithms for autonomous lightweight flying robots, with an emphasis on onboard computer vision. Built DelFly Nimble, a fully autonomous, free-flying, agile flapping-wing robot (four flapping wings, ~17 beats/second) that helped explain how fruit flies execute aggressive escape maneuvers, and DelFly Explorer (20g, fully autonomous flight), plus swarms of 30g nano-copters that collaboratively localize gas leaks.<br><br>**Why it's on this map:** Demonstrates fully autonomous onboard flight control at gram scale -- a real precedent for onboard autonomy (not just onboard actuation/power) at small scale, even though flight and gram-scale mass differ from sub-millimeter crawling robots.<br><br>[[https://mavlab.tudelft.nl/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "tudelft-mavlab",
         "pi": "Guido de Croon",
         "institution": "Delft University of Technology",
@@ -245,7 +245,7 @@
       "type": "Feature",
       "properties": {
         "name": "Liwei Lin Lab",
-        "description": "**Liwei Lin** — University of California, Berkeley, Berkeley (US)<br><br>Notable Paper:<br><br>Insect-scale fast moving and ultrarobust soft robot<br>10.1126/scirobotics.aax1594<br><br><br>Research Interests<br>MEMS (Microelectromechanical Systems); NEMS (Nanoelectromechanical Systems); Nanotechnology; design and manufacturing of microsensors and microactuators; development of micromachining processes by silicon surface/bulk micromachining; micro moulding process; mechanical issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid mechanics and dynamics.<br><br>[[https://vcresearch.berkeley.edu/faculty/liwei-lin|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Liwei Lin** — University of California, Berkeley, Berkeley (US)<br><br>Notable Paper:<br><br>Insect-scale fast moving and ultrarobust soft robot<br>10.1126/scirobotics.aax1594<br><br><br>Research Interests<br>MEMS (Microelectromechanical Systems); NEMS (Nanoelectromechanical Systems); Nanotechnology; design and manufacturing of microsensors and microactuators; development of micromachining processes by silicon surface/bulk micromachining; micro moulding process; mechanical issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid mechanics and dynamics.<br><br>**Why it's on this map:** Milli-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://vcresearch.berkeley.edu/faculty/liwei-lin|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "ucb-lin",
         "pi": "Liwei Lin",
         "institution": "University of California, Berkeley",
@@ -275,7 +275,7 @@
       "type": "Feature",
       "properties": {
         "name": "Liwei Lin Lab",
-        "description": "**Liwei Lin** — University of California, Berkeley, Berkeley (US)<br><br>Notable Paper:<br><br>Insect-scale fast moving and ultrarobust soft robot<br>10.1126/scirobotics.aax1594<br><br><br>Research Interests<br>MEMS (Microelectromechanical Systems); NEMS (Nanoelectromechanical Systems); Nanotechnology; design and manufacturing of microsensors and microactuators; development of micromachining processes by silicon surface/bulk micromachining; micro moulding process; mechanical issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid mechanics and dynamics.<br><br>[[https://vcresearch.berkeley.edu/faculty/liwei-lin|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Liwei Lin** — University of California, Berkeley, Berkeley (US)<br><br>Notable Paper:<br><br>Insect-scale fast moving and ultrarobust soft robot<br>10.1126/scirobotics.aax1594<br><br><br>Research Interests<br>MEMS (Microelectromechanical Systems); NEMS (Nanoelectromechanical Systems); Nanotechnology; design and manufacturing of microsensors and microactuators; development of micromachining processes by silicon surface/bulk micromachining; micro moulding process; mechanical issues in microelectromechanical systems (MEMS) including heat transfer, solid/fluid mechanics and dynamics.<br><br>**Why it's on this map:** Milli-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://vcresearch.berkeley.edu/faculty/liwei-lin|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "ucb-lin",
         "pi": "Liwei Lin",
         "institution": "University of California, Berkeley",
@@ -327,7 +327,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bioinspired Robotics and Design Lab",
-        "description": "**Michael T. Tolley** — University of California, San Diego, San Diego, CA (US)<br><br>Develops soft and origami-inspired robots, including print-and-fold electromechanical machines fabricated as a flat sheet with embedded electronics that self-fold into a functional, autonomously-operating machine.<br><br>[[https://bioinspired.eng.ucsd.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Michael T. Tolley** — University of California, San Diego, San Diego, CA (US)<br><br>Develops soft and origami-inspired robots, including print-and-fold electromechanical machines fabricated as a flat sheet with embedded electronics that self-fold into a functional, autonomously-operating machine.<br><br>**Why it's on this map:** Uses a flat-fabricate-then-self-fold methodology (at centimeter rather than sub-millimeter scale) -- a real conceptual parallel to other self-folding approaches already tracked on this map.<br><br>[[https://bioinspired.eng.ucsd.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "ucsd-tolley",
         "pi": "Michael T. Tolley",
         "institution": "University of California, San Diego",
@@ -357,7 +357,7 @@
       "type": "Feature",
       "properties": {
         "name": "Networks & Mobile Systems Lab (MilliMobile)",
-        "description": "**Vikram Iyer** — University of Washington, Seattle, WA (US)<br><br>MilliMobile is an autonomous, battery-free wireless microrobot with a 10x10 mm chassis weighing under 1.1 g, powered entirely by harvested solar and RF energy. It uses onboard photodiodes to seek light and keep moving indefinitely, can carry payloads up to 3x its own weight, and transmits sensor data wirelessly over 200 m. Built on 'intermittent computing' techniques that let it operate incrementally as harvested energy becomes available.<br><br>[[https://netlab.cs.washington.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "description": "**Vikram Iyer** — University of Washington, Seattle, WA (US)<br><br>MilliMobile is an autonomous, battery-free wireless microrobot with a 10x10 mm chassis weighing under 1.1 g, powered entirely by harvested solar and RF energy. It uses onboard photodiodes to seek light and keep moving indefinitely, can carry payloads up to 3x its own weight, and transmits sensor data wirelessly over 200 m. Built on 'intermittent computing' techniques that let it operate incrementally as harvested energy becomes available.<br><br>**Why it's on this map:** Combines fully onboard energy harvesting with autonomous operation at millimeter scale -- a strong fit for energy and onboard-computing approaches relevant to small autonomous devices, even above the sub-millimeter threshold used elsewhere on this map.<br><br>[[https://netlab.cs.washington.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "uw-netlab",
         "pi": "Vikram Iyer",
         "institution": "University of Washington",

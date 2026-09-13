@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Generation Lab",
-        "description": "**Irina Conboy** — Generation Lab, Berkeley, CA (US)<br><br>Longevity diagnostics company co-founded by Irina Conboy (UC Berkeley bioengineering), combining a cheek-swab test with proprietary techniques to measure molecular markers of biological aging and disease risk.<br><br>[[https://www.generationlab.com/about|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "description": "**Irina Conboy** — Generation Lab, Berkeley, CA (US)<br><br>Longevity diagnostics company co-founded by Irina Conboy (UC Berkeley bioengineering), combining a cheek-swab test with proprietary techniques to measure molecular markers of biological aging and disease risk.<br><br>**Why it's on this map:** No near-term microrobotics connection, but its work sits squarely in the long-horizon space of continuous biological monitoring relevant to aging and organ health -- kept as a speculative watch entry for that reason alone.<br><br>[[https://www.generationlab.com/about|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
         "id": "generation-lab",
         "pi": "Irina Conboy",
         "institution": "Generation Lab",
@@ -35,7 +35,7 @@
       "type": "Feature",
       "properties": {
         "name": "Instituto de Nanobiotecnología (NANOBIOTEC)",
-        "description": "**Instituto de Nanobiotecnología (NANOBIOTEC)** — Universidad de Buenos Aires (UBA) / CONICET, Buenos Aires (AR)<br><br>Joint UBA-CONICET institute for applied biotechnology, with a laboratory dedicated to 'Nanobiointerfaces and Biopharmaceutical Nanotechnology' addressing nanomedicine applications, alongside protein engineering, biofabrication, and biocatalytic-process research. Also runs a specialized Antarctic-microbiology program studying extremophiles for biotech applications.<br><br>[[https://nanobiotec.conicet.gov.ar/home/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "description": "**Instituto de Nanobiotecnología (NANOBIOTEC)** — Universidad de Buenos Aires (UBA) / CONICET, Buenos Aires (AR)<br><br>Joint UBA-CONICET institute for applied biotechnology, with a laboratory dedicated to 'Nanobiointerfaces and Biopharmaceutical Nanotechnology' addressing nanomedicine applications, alongside protein engineering, biofabrication, and biocatalytic-process research. Also runs a specialized Antarctic-microbiology program studying extremophiles for biotech applications.<br><br>**Why it's on this map:** Runs a dedicated laboratory on biopharmaceutical nanotechnology within a broader applied-biotech institute -- a genuine, if institute-wide-broad, nanomedicine fit.<br><br>[[https://nanobiotec.conicet.gov.ar/home/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
         "id": "nanobiotec-uba",
         "pi": "",
         "institution": "Universidad de Buenos Aires (UBA) / CONICET",
@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "name": "Nanobiotix",
-        "description": "**Nanobiotix** — Nanobiotix, Paris (FR)<br><br>Publicly traded (Euronext: NANO, Nasdaq: NBTX) nanomedicine company developing NBTXR3, a nanoparticle radioenhancer -- CE-marked since 2019 for locally advanced soft tissue sarcoma across 27 European countries under the brand Hensify, with an ongoing Phase 3 head and neck cancer program. Incorporated 2003, headquartered in Paris.<br><br>[[https://nanobiotix.com/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "description": "**Nanobiotix** — Nanobiotix, Paris (FR)<br><br>Publicly traded (Euronext: NANO, Nasdaq: NBTX) nanomedicine company developing NBTXR3, a nanoparticle radioenhancer -- CE-marked since 2019 for locally advanced soft tissue sarcoma across 27 European countries under the brand Hensify, with an ongoing Phase 3 head and neck cancer program. Incorporated 2003, headquartered in Paris.<br><br>**Why it's on this map:** Not a microrobotics match, but one of the few nanoscale-therapeutic companies with an actual approved, marketed product -- useful purely as a precedent for what a real regulatory path to market for nanoscale medical technology looks like.<br><br>[[https://nanobiotix.com/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
         "id": "nanobiotix",
         "pi": "",
         "institution": "Nanobiotix",
@@ -95,7 +95,7 @@
       "type": "Feature",
       "properties": {
         "name": "Senseonics — Eversense",
-        "description": "**Senseonics — Eversense** — Senseonics, Incorporated, Germantown, MD (US)<br><br>Makes Eversense, a fully implantable continuous glucose monitor -- the sensor itself sits under the skin (not just a shallow patch like most CGMs) paired with a rechargeable Bluetooth transmitter and smartphone app. Eversense 365 lasts a full year per implant, the longest duration in the CGM market.<br><br>[[https://www.senseonics.com/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "description": "**Senseonics — Eversense** — Senseonics, Incorporated, Germantown, MD (US)<br><br>Makes Eversense, a fully implantable continuous glucose monitor -- the sensor itself sits under the skin (not just a shallow patch like most CGMs) paired with a rechargeable Bluetooth transmitter and smartphone app. Eversense 365 lasts a full year per implant, the longest duration in the CGM market.<br><br>**Why it's on this map:** An FDA-cleared, commercially available, fully-implanted sensor providing a full year of continuous physiological monitoring -- a real precedent for exactly the kind of long-duration 'constant observation' a future in-body monitoring system would aim for.<br><br>[[https://www.senseonics.com/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
         "id": "senseonics",
         "pi": "",
         "institution": "Senseonics, Incorporated",
@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "name": "Laboratory for Nanomaterial-Based Devices (LNBD)",
-        "description": "**Hossam Haick** — Technion – Israel Institute of Technology, Haifa (IL)<br><br>Develops artificial olfactory systems based on nanosensor arrays -- the NA-NOSE (Nano Artificial NOSE) -- that detect volatile organic compound biomarkers in breath at single-parts-per-billion sensitivity. An AI-paired nanoarray version can distinguish 17+ diseases from breath samples, including several cancers, kidney disease, Parkinson's, and Alzheimer's, at up to 86% accuracy. Commercialized via spinout NaNose Medical.<br><br>[[https://lnbd.technion.ac.il/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "description": "**Hossam Haick** — Technion – Israel Institute of Technology, Haifa (IL)<br><br>Develops artificial olfactory systems based on nanosensor arrays -- the NA-NOSE (Nano Artificial NOSE) -- that detect volatile organic compound biomarkers in breath at single-parts-per-billion sensitivity. An AI-paired nanoarray version can distinguish 17+ diseases from breath samples, including several cancers, kidney disease, Parkinson's, and Alzheimer's, at up to 86% accuracy. Commercialized via spinout NaNose Medical.<br><br>**Why it's on this map:** Developed non-invasive sensing technology that continuously screens for multiple health conditions at once -- directly on the long-horizon path toward continuous, automated health monitoring, even without any microrobotics link itself.<br><br>[[https://lnbd.technion.ac.il/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
         "id": "technion-haick",
         "pi": "Hossam Haick",
         "institution": "Technion – Israel Institute of Technology",
@@ -155,7 +155,7 @@
       "type": "Feature",
       "properties": {
         "name": "Australian Institute for Bioengineering and Nanotechnology",
-        "description": "**Australian Institute for Bioengineering and Nanotechnology** — University of Queensland, Brisbane (AU)<br><br>Integrated multidisciplinary research institute (500+ researchers/staff) spanning bioengineering and nanotechnology across five research pillars: stem cell ageing and regenerative engineering, precision nanomedicine, advanced materials, agriculture nanotechnology, and advanced biomanufacturing. Hosts BASE, Australia's largest mRNA vaccine/therapy manufacturing facility.<br><br>[[https://aibn.uq.edu.au/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "description": "**Australian Institute for Bioengineering and Nanotechnology** — University of Queensland, Brisbane (AU)<br><br>Integrated multidisciplinary research institute (500+ researchers/staff) spanning bioengineering and nanotechnology across five research pillars: stem cell ageing and regenerative engineering, precision nanomedicine, advanced materials, agriculture nanotechnology, and advanced biomanufacturing. Hosts BASE, Australia's largest mRNA vaccine/therapy manufacturing facility.<br><br>**Why it's on this map:** A broad bionanotechnology institute with precision nanomedicine as one of its named research pillars -- institute-level rather than a specific technology match; added partly for geographic diversity.<br><br>[[https://aibn.uq.edu.au/|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
         "id": "uq-aibn",
         "pi": "",
         "institution": "University of Queensland",
@@ -185,7 +185,7 @@
       "type": "Feature",
       "properties": {
         "name": "El-Sherbiny Nanomedicine Lab — Center for Materials Science",
-        "description": "**Ibrahim M. El-Sherbiny** — Zewail City of Science and Technology, 6th of October City (EG)<br><br>Designs and develops smart nanomaterials -- polymeric, metal-organic-framework, and core-shell nanostructures -- for controlled drug delivery, tissue engineering, and biosensing. El-Sherbiny is Founding Chairman of the Nanoscience Program and Director of the Center for Materials Science at Zewail City, with 260+ papers and ~25 patents; elected Fellow of the African Academy of Sciences.<br><br>[[https://www.zewailcity.edu.eg/main/content.php?lang=en&alias=ibrahim_m._el-sherbiny|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
+        "description": "**Ibrahim M. El-Sherbiny** — Zewail City of Science and Technology, 6th of October City (EG)<br><br>Designs and develops smart nanomaterials -- polymeric, metal-organic-framework, and core-shell nanostructures -- for controlled drug delivery, tissue engineering, and biosensing. El-Sherbiny is Founding Chairman of the Nanoscience Program and Director of the Center for Materials Science at Zewail City, with 260+ papers and ~25 patents; elected Fellow of the African Academy of Sciences.<br><br>**Why it's on this map:** Designs smart nanomaterials for drug delivery, tissue engineering, and biosensing -- a well-documented, prolific nanomedicine research program and the most credible entry of its kind identified on the African continent so far.<br><br>[[https://www.zewailcity.edu.eg/main/content.php?lang=en&alias=ibrahim_m._el-sherbiny|Group website]]<br><br>Category: Nano-Medicine · Smallest demonstrated: unknown",
         "id": "zewailcity-elsherbiny",
         "pi": "Ibrahim M. El-Sherbiny",
         "institution": "Zewail City of Science and Technology",

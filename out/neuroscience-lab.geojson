@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Maharbiz Lab — Neural Dust",
-        "description": "**Michel Maharbiz** — University of California, Berkeley, Berkeley, CA (US)<br><br>Co-inventor (with Jose Carmena, Elad Alon, Jan Rabaey) of 'neural dust' -- an ultrasonic power and communication platform for vanishingly small, batteryless, tetherless implants that record and transmit neural activity. Group works broadly on extreme miniaturization of synthetic interfaces to cells and organisms; also known for the earlier radio-controlled cyborg beetle work.<br><br>[[https://people.eecs.berkeley.edu/~maharbiz/index.html|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "description": "**Michel Maharbiz** — University of California, Berkeley, Berkeley, CA (US)<br><br>Co-inventor (with Jose Carmena, Elad Alon, Jan Rabaey) of 'neural dust' -- an ultrasonic power and communication platform for vanishingly small, batteryless, tetherless implants that record and transmit neural activity. Group works broadly on extreme miniaturization of synthetic interfaces to cells and organisms; also known for the earlier radio-controlled cyborg beetle work.<br><br>**Why it's on this map:** Pioneered ultrasonic wireless power and communication for tiny, batteryless neural implants -- a strong technical parallel to how a sub-millimeter autonomous robot might be powered and read out wirelessly from outside the body.<br><br>[[https://people.eecs.berkeley.edu/~maharbiz/index.html|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "berkeley-maharbiz",
         "pi": "Michel Maharbiz",
         "institution": "University of California, Berkeley",
@@ -35,7 +35,7 @@
       "type": "Feature",
       "properties": {
         "name": "iota Biosciences",
-        "description": "**iota Biosciences** — iota Biosciences, Inc., Alameda, CA (US)<br><br>Commercializing neural dust: millimeter-sized bioelectronic implants wirelessly powered and read out via ultrasound, able to record and stimulate nerve activity and communicate with other devices via ultrasound backscatter. Founded 2017 by Jose Carmena and Michel Maharbiz out of their UC Berkeley research; acquired by Astellas Pharma in 2020. As of 2024, has an FDA investigational device exemption for an early feasibility study in underactive bladder treatment.<br><br>[[https://iota.bio/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "description": "**iota Biosciences** — iota Biosciences, Inc., Alameda, CA (US)<br><br>Commercializing neural dust: millimeter-sized bioelectronic implants wirelessly powered and read out via ultrasound, able to record and stimulate nerve activity and communicate with other devices via ultrasound backscatter. Founded 2017 by Jose Carmena and Michel Maharbiz out of their UC Berkeley research; acquired by Astellas Pharma in 2020. As of 2024, has an FDA investigational device exemption for an early feasibility study in underactive bladder treatment.<br><br>**Why it's on this map:** A pharma-backed commercial continuation of earlier academic work on wireless, batteryless implant power and communication, now in active clinical trials -- a real look at the regulatory and commercial path such technology actually takes.<br><br>[[https://iota.bio/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "iota-bio",
         "pi": "",
         "institution": "iota Biosciences, Inc.",
@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "name": "Metin Sitti — KUTTAM",
-        "description": "**Metin Sitti** — Koç University, Istanbul (TR)<br><br>[[https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "description": "**Metin Sitti** — Koç University, Istanbul (TR)<br><br>**Why it's on this map:** Entry migrated from an earlier map version -- specific current research focus not yet documented; kept as a general watch entry.<br><br>[[https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "ku-sitti",
         "pi": "Metin Sitti",
         "institution": "Koç University",
@@ -95,7 +95,7 @@
       "type": "Feature",
       "properties": {
         "name": "Robinson Lab — Nano-neurotechnology",
-        "description": "**Jacob T. Robinson** — Rice University, Houston, TX (US)<br><br>Uses semiconductor nanofabrication and genetic engineering to build electronic, photonic, and magnetic interfaces to the brain. Co-authored a magnetoelectric backscatter communication system for bioelectronic implants achieving <0.3 pJ/bit and <1e-6 bit error rate at 55 mm range with 10 mm misalignment tolerance, demonstrated transmitting cardiac signals from a beating heart in a porcine model. PI Jacob T. Robinson is also co-founder/CEO of Motif Neurotech (brain-computer interface for mental health disorders).<br><br>[[https://www.robinsonlab.com/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "description": "**Jacob T. Robinson** — Rice University, Houston, TX (US)<br><br>Uses semiconductor nanofabrication and genetic engineering to build electronic, photonic, and magnetic interfaces to the brain. Co-authored a magnetoelectric backscatter communication system for bioelectronic implants achieving <0.3 pJ/bit and <1e-6 bit error rate at 55 mm range with 10 mm misalignment tolerance, demonstrated transmitting cardiac signals from a beating heart in a porcine model. PI Jacob T. Robinson is also co-founder/CEO of Motif Neurotech (brain-computer interface for mental health disorders).<br><br>**Why it's on this map:** Works on ultra-low-power passive backscatter wireless communication -- exactly the order-of-magnitude power budget a tiny onboard radio on a power-constrained autonomous device would need to hit.<br><br>[[https://www.robinsonlab.com/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "rice-robinson",
         "pi": "Jacob T. Robinson",
         "institution": "Rice University",
@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "name": "Synchron",
-        "description": "**Synchron** — Synchron, Brooklyn, NY (US)<br><br>Developing the Stentrode, an implantable brain-computer interface delivered endovascularly (through blood vessels, no open-brain surgery) to a vein next to the motor cortex, connected to a subcutaneous antenna that transmits neural data out of the body wirelessly. Implanted in six US patients as of the referenced study; targeting a 2026 pivotal trial toward the first FDA-approved BCI. Backed by Bezos and Gates, among others.<br><br>[[https://synchron.com/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "description": "**Synchron** — Synchron, Brooklyn, NY (US)<br><br>Developing the Stentrode, an implantable brain-computer interface delivered endovascularly (through blood vessels, no open-brain surgery) to a vein next to the motor cortex, connected to a subcutaneous antenna that transmits neural data out of the body wirelessly. Implanted in six US patients as of the referenced study; targeting a 2026 pivotal trial toward the first FDA-approved BCI. Backed by Bezos and Gates, among others.<br><br>**Why it's on this map:** Commercializes a minimally-invasive, endovascularly-delivered wireless brain implant -- relevant both as a long-horizon continuous-monitoring precedent and as a real example of implant-to-external wireless communication and minimally-invasive delivery.<br><br>[[https://synchron.com/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "synchron",
         "pi": "",
         "institution": "Synchron",
@@ -155,7 +155,7 @@
       "type": "Feature",
       "properties": {
         "name": "Neuroengineering Materials",
-        "description": "**Kristen Kozielski** — Technical University of Munich, Munich (DE)<br><br>Professorship of Neuroengineering Materials<br>Prof. Dr. Kristen Kozielski<br><br>Worked under Metin Sitti<br>Now does Sensors for Brains<br><br>https://www.ee.cit.tum.de/en/nen/home/<br><br>[[https://www.ee.cit.tum.de/en/nen/home/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "description": "**Kristen Kozielski** — Technical University of Munich, Munich (DE)<br><br>Professorship of Neuroengineering Materials<br>Prof. Dr. Kristen Kozielski<br><br>Worked under Metin Sitti<br>Now does Sensors for Brains<br><br>https://www.ee.cit.tum.de/en/nen/home/<br><br>**Why it's on this map:** Neuroscience-lab entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.ee.cit.tum.de/en/nen/home/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "tum-neuroengineering",
         "pi": "Kristen Kozielski",
         "institution": "Technical University of Munich",
@@ -185,7 +185,7 @@
       "type": "Feature",
       "properties": {
         "name": "Neuroengineering Materials",
-        "description": "**Kristen Kozielski** — Technical University of Munich, Munich (DE)<br><br>Professorship of Neuroengineering Materials<br>Prof. Dr. Kristen Kozielski<br><br>Worked under Metin Sitti<br>Now does Sensors for Brains<br><br>https://www.ee.cit.tum.de/en/nen/home/<br><br>[[https://www.ee.cit.tum.de/en/nen/home/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
+        "description": "**Kristen Kozielski** — Technical University of Munich, Munich (DE)<br><br>Professorship of Neuroengineering Materials<br>Prof. Dr. Kristen Kozielski<br><br>Worked under Metin Sitti<br>Now does Sensors for Brains<br><br>https://www.ee.cit.tum.de/en/nen/home/<br><br>**Why it's on this map:** Neuroscience-lab entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.ee.cit.tum.de/en/nen/home/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "tum-neuroengineering",
         "pi": "Kristen Kozielski",
         "institution": "Technical University of Munich",
