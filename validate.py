@@ -13,7 +13,7 @@ OSM_RE = re.compile(r"^(way|relation)/\d+$")
 # per-field below rather than via a separate optional-fields set.
 ALL_FIELDS = {
     "id", "name", "pi", "institution", "city", "country", "lat", "lon", "osm",
-    "url", "people_url", "category", "application", "min_dim_um",
+    "url", "people_url", "image", "category", "application", "min_dim_um",
     "onboard_power", "institution_type", "relevance", "status",
     "human_reviewed", "description", "interesting_work",
     "community_improvement", "mission_fit", "notes",
@@ -81,6 +81,7 @@ def validate(labs) -> None:
 
         _check_url(lab_id, "url", lab["url"], required=True)
         _check_url(lab_id, "people_url", lab.get("people_url"), required=False)
+        _check_url(lab_id, "image", lab.get("image"), required=False)
 
         if lab["category"] not in CATEGORIES:
             _fail(lab_id, f"category must be one of {sorted(CATEGORIES)}, got {lab['category']!r}")

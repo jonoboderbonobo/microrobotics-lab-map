@@ -52,6 +52,12 @@ def build_description(lab: dict, category_label: str) -> str:
     header += f" — {lab['institution']}, {lab['city']} ({lab['country']})"
     lines = [header]
 
+    if lab.get("image"):
+        # uMap's toHTML (umap/static/umap/js/modules/utils.js) turns a bare
+        # {{https://...}} into <img src="...">; img/src/style are on its
+        # DOMPurify allow-list, so this survives sanitization and renders.
+        lines += ["", f"{{{{{lab['image']}}}}}"]
+
     if lab.get("description"):
         lines += ["", lab["description"].strip()]
 

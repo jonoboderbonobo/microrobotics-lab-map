@@ -38,6 +38,16 @@ for the shape). Several fields are worth calling out:
   nothing in `notes` should be written as if it might leak; it currently won't,
   but don't rely on that as your only safeguard against saying something there
   you wouldn't want public.
+- `image` (a full `http(s)://` URL, or `null`) is an optional public image
+  shown at the top of the popup, before `description`. Any public image URL
+  works — a lab's own team/equipment photo, a paper figure, etc. To
+  self-host one in this repo instead: drop the file in `images/`, commit
+  and push, then set `image` to
+  `https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/images/<filename>`
+  (same raw.githubusercontent.com mechanism `out/*.geojson` already uses —
+  see "Why `out/` is committed" below). Verify you have the right to
+  publish an image before adding it — this repo and everything in `images/`
+  is public.
 - `human_reviewed` (`true`/`false`) marks whether you've personally checked
   and, if needed, corrected an entry. New/migrated entries default to
   `false`; flip to `true` once you've verified it by hand. Emitted as a
@@ -163,6 +173,25 @@ there's no native way to give a feature multiple separate popup panels.
 `build.py` fakes the structure by appending `interesting_work`,
 `community_improvement`, and `mission_fit` (when set) as their own
 `**bolded**` sections after `description`, inside the same popup.
+
+**Images**: `{{https://url/to/image.jpg}}` renders as an embedded `<img>`
+(optionally `{{https://url|300}}` for a 300px width) — verified directly
+against uMap's current source (`toHTML` in the same `utils.js`; `img`,
+`src`, and `style` are all on its DOMPurify allow-list, so the tag survives
+sanitization). `build.py` uses this for the `image` field, placed right
+after the header, before `description`.
+
+**Popup on hover instead of click is not possible.** Checked directly
+against uMap's current schema (`umap/static/umap/js/modules/schema.js`):
+there is a `showLabel` layer option with an `on hover` choice, but that
+only shows a single plain-text field (`labelKey`, default `name`) as a
+lightweight tooltip — not the full rendered popup (description, links,
+image). There is no configuration that puts the full popup content on
+hover; that would require modifying uMap's own client-side code, which
+isn't practical for a hosted instance. The closest available improvement
+is turning on `showLabel` (`always` or `on hover`) at the map level so a
+marker's name is visible without any click at all, even though the full
+details still need one.
 
 One thing that is **not** true despite looking like it should be: a plain
 newline is not rendered as a line break. `toHTML` has no rule that turns `\n`
