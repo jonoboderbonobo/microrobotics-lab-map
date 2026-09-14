@@ -178,6 +178,57 @@
     match for both the Energy and Communication workstreams, and squarely on the long-term
     organ-monitoring vision (this is literally 'constant observation' hardware, just
     for the brain specifically so far).
+- id: berkeley-pister
+  name: Berkeley Autonomous Microsystems Lab (BAM Lab)
+  pi: Kristofer S. J. Pister
+  institution: University of California, Berkeley
+  city: Berkeley, CA
+  country: US
+  lat: 37.87078
+  lon: -122.26568
+  osm: null
+  url: https://bamlab.berkeley.edu/
+  people_url: null
+  category: milli-robotics
+  application:
+  - fundamental
+  - industrial
+  min_dim_um: 6000
+  onboard_power: true
+  institution_type: university
+  relevance: 5
+  status: watch
+  human_reviewed: false
+  description: Originated the "Smart Dust" concept (sub-mm wireless sensor network
+    nodes) and has since built a series of insect-scale autonomous microrobots that
+    walk, roll, jump, and fly -- "smart dust with legs." The untethered jumping microrobot
+    (17mm x 6mm x 14mm, 75mg) carries onboard photovoltaic cells illuminated by an
+    external infrared laser, onboard power electronics, and an electrostatic inchworm-motor
+    actuator -- reported as the lightest untethered jumping microrobot with onboard
+    power yet demonstrated. PI Kristofer Pister is Faculty Director of the Marvell
+    Nanofabrication Laboratory and co-directs the Berkeley Sensor & Actuator Center
+    and the Ubiquitous Swarm Lab.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: A direct precedent for genuinely autonomous, onboard-powered small-scale
+    robots built with integrated low-power CMOS electronics -- both the underlying
+    "smart dust" chip-design lineage and the specific externally-illuminated-onboard-photovoltaic
+    power strategy are close analogs to the same approach used elsewhere on this map's
+    strict autonomous-robot entries, just at millimeter rather than sub-millimeter
+    scale.
+  notes: Found via the targeted high-value-workstream search (Method 11), this time
+    searching the Actuation/Locomotion workstream ("electrostatic MEMS micro-actuator
+    lab... locomotion walking microrobot"). Not a duplicate of the other Berkeley
+    entries already on the map (berkeley-conboy, berkeley-full, berkeley-maharbiz,
+    ucb-lin -- all different PIs/departments, checked before adding). Confirmed dimensions
+    (17mm x 6mm x 14mm) put this at milli- not micro-scale despite "microrobot" in
+    every source's own naming -- another instance of the field's scale-terminology
+    looseness, filed under milli-robotics rather than micro-robotics or micro-nano-end-effectors
+    since onboard photovoltaic power + onboard actuation genuinely make this an autonomous
+    whole system, just above the 1mm cutoff. Some earlier/other versions in the same
+    lab (walking, rolling) are still wire-tethered for power -- this entry reflects
+    the lab's overall trajectory and its most autonomous demonstrated result, not
+    every project.
 - id: binghamton-yu
   name: Automated Control Systems and Robotics (ACSR) Lab
   pi: Kaiyan Yu
@@ -5206,11 +5257,18 @@
     -- a real precedent for onboard autonomy (not just onboard actuation/power) at
     small scale, even though flight and gram-scale mass differ from sub-millimeter
     crawling robots.
-  notes: Found via web search, not migrated. Flight rather than stick-slip crawling,
+  notes: 'Found via web search, not migrated. Flight rather than stick-slip crawling,
     and gram-scale rather than sub-mm, but a real precedent for fully autonomous onboard
     control (not just onboard actuation/energy/comms) at small scale, plus a genuine
     swarm-coordination demonstration -- touches both the Locomotion and System-Level-Behavior
-    workstreams from an unusual angle.
+    workstreams from an unusual angle. Re-surfaced during a Method-11 targeted search
+    on the Computing workstream (neuromorphic edge AI) -- already tracked, confirming
+    the duplicate-check discipline works both ways. Worth noting for a future description
+    update: the group has since demonstrated a fully neuromorphic drone (spiking neural
+    network on an Intel Loihi chip, onboard, ~7mW running cost) for vision-based flight
+    control -- a genuine Computing-workstream data point (what runs where, on very
+    little power) not reflected in the current description text above, which predates
+    it.'
 - id: tugraz-winkler
   name: PRINTBOT — Multi-Material 3D-Printing for Nano-Engineered Microbots
   pi: Robert Winkler

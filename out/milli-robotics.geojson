@@ -34,6 +34,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Berkeley Autonomous Microsystems Lab (BAM Lab)",
+        "description": "**Kristofer S. J. Pister** — University of California, Berkeley, Berkeley, CA (US)<br><br>Originated the \"Smart Dust\" concept (sub-mm wireless sensor network nodes) and has since built a series of insect-scale autonomous microrobots that walk, roll, jump, and fly -- \"smart dust with legs.\" The untethered jumping microrobot (17mm x 6mm x 14mm, 75mg) carries onboard photovoltaic cells illuminated by an external infrared laser, onboard power electronics, and an electrostatic inchworm-motor actuator -- reported as the lightest untethered jumping microrobot with onboard power yet demonstrated. PI Kristofer Pister is Faculty Director of the Marvell Nanofabrication Laboratory and co-directs the Berkeley Sensor & Actuator Center and the Ubiquitous Swarm Lab.<br><br>**Why it's on this map:** A direct precedent for genuinely autonomous, onboard-powered small-scale robots built with integrated low-power CMOS electronics -- both the underlying \"smart dust\" chip-design lineage and the specific externally-illuminated-onboard-photovoltaic power strategy are close analogs to the same approach used elsewhere on this map's strict autonomous-robot entries, just at millimeter rather than sub-millimeter scale.<br><br>[[https://bamlab.berkeley.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: 6000 µm",
+        "id": "berkeley-pister",
+        "pi": "Kristofer S. J. Pister",
+        "institution": "University of California, Berkeley",
+        "country": "US",
+        "category": "milli-robotics",
+        "application": "fundamental,industrial",
+        "onboard_power": "yes",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "6000",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26568,
+          37.87078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Bionaut Labs",
         "description": "**Bionaut Labs** — Bionaut Labs, Los Angeles, CA (US)<br><br>Bionaut Labs develops magnetically-guided microscale robots (rice-grain-scale overall, with some features under 1mm) that are remote-controlled from outside the body to deliver biologics, nucleic acids, or small-molecule therapies to precise targets in the central nervous system, including deep brain structures. Founded 2016, headquartered in Los Angeles with R&D sites in Israel and at the Max Planck Institute in Germany.<br><br>**Why it's on this map:** A well-funded example of magnetically-guided medical microdevices, though externally actuated rather than carrying its own onboard power -- useful mainly as a comparison point for what a robotic-therapeutics company's clinical and regulatory path actually looks like.<br><br>[[https://bionautlabs.com|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "bionaut-labs",
