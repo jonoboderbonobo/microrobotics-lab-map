@@ -1009,7 +1009,7 @@
   osm: null
   url: https://www.csem.ch/en/technical-focus/asics-for-the-edge/analog-front-ends/
   people_url: null
-  image: null
+  image: https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/images/csem-neuchatel.jpg
   category: electronic-engineering
   application:
   - medical
