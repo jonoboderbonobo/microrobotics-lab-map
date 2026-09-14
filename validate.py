@@ -8,12 +8,17 @@ from taxonomy import APPLICATIONS, CATEGORIES, INSTITUTION_TYPES, STATUSES
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
 OSM_RE = re.compile(r"^(way|relation)/\d+$")
+ROR_RE = re.compile(r"^https://ror\.org/[a-z0-9]+$")
+ORCID_RE = re.compile(r"^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$")
+YOUTUBE_CHANNEL_RE = re.compile(r"^UC[A-Za-z0-9_-]{22}$")
 
 # Every field key is always present in a record; nullability is checked
 # per-field below rather than via a separate optional-fields set.
 ALL_FIELDS = {
     "id", "name", "pi", "institution", "city", "country", "lat", "lon", "osm",
-    "url", "people_url", "image", "category", "application", "min_dim_um",
+    "url", "people_url", "openalex_id", "ror", "orcid", "arxiv_author", "rss",
+    "youtube_channel_id", "bluesky", "mastodon", "jobs_url", "image",
+    "category", "application", "min_dim_um",
     "onboard_power", "institution_type", "relevance", "status",
     "human_reviewed", "description", "interesting_work",
     "community_improvement", "mission_fit", "notes",
@@ -31,6 +36,27 @@ def _check_url(lab_id, field, value, required=True):
         return
     if not isinstance(value, str) or not (value.startswith("http://") or value.startswith("https://")):
         _fail(lab_id, f"{field} must start with http:// or https://, got {value!r}")
+
+
+def _check_string_list(lab_id, field, value, item_re=None):
+    if value is None:
+        return
+    if not isinstance(value, list) or not value:
+        _fail(lab_id, f"{field} must be null or a non-empty list of strings")
+    for item in value:
+        if not isinstance(item, str) or not item:
+            _fail(lab_id, f"{field} entries must be non-empty strings, got {item!r}")
+        if item_re is not None and not item_re.match(item):
+            _fail(lab_id, f"{field} entry {item!r} does not match expected format")
+
+
+def _check_string(lab_id, field, value, item_re=None):
+    if value is None:
+        return
+    if not isinstance(value, str) or not value:
+        _fail(lab_id, f"{field} must be null or a non-empty string")
+    if item_re is not None and not item_re.match(value):
+        _fail(lab_id, f"{field} value {value!r} does not match expected format")
 
 
 def validate(labs) -> None:
@@ -82,6 +108,21 @@ def validate(labs) -> None:
         _check_url(lab_id, "url", lab["url"], required=True)
         _check_url(lab_id, "people_url", lab.get("people_url"), required=False)
         _check_url(lab_id, "image", lab.get("image"), required=False)
+
+        # Handles for microrobotics-lab-radar. University groups anchor via a
+        # list of OpenAlex author IDs (an institution-ID filter would pull in
+        # the whole university); standalone institutes/companies anchor via
+        # ror instead. ORCID is the durable truth; openalex_id is a cache
+        # that drifts when OpenAlex reruns author disambiguation.
+        _check_string_list(lab_id, "openalex_id", lab["openalex_id"])
+        _check_string(lab_id, "ror", lab["ror"], item_re=ROR_RE)
+        _check_string_list(lab_id, "orcid", lab["orcid"], item_re=ORCID_RE)
+        _check_string_list(lab_id, "arxiv_author", lab["arxiv_author"])
+        _check_url(lab_id, "rss", lab["rss"], required=False)
+        _check_string(lab_id, "youtube_channel_id", lab["youtube_channel_id"], item_re=YOUTUBE_CHANNEL_RE)
+        _check_string(lab_id, "bluesky", lab["bluesky"])
+        _check_string(lab_id, "mastodon", lab["mastodon"])
+        _check_url(lab_id, "jobs_url", lab["jobs_url"], required=False)
 
         if lab["category"] not in CATEGORIES:
             _fail(lab_id, f"category must be one of {sorted(CATEGORIES)}, got {lab['category']!r}")

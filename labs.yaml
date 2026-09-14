@@ -9,6 +9,15 @@
   osm: null
   url: https://ambiq.com/technology/spot/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -47,6 +56,15 @@
   osm: null
   url: https://ame.engineering.arizona.edu/faculty-staff/faculty/eniko-t-enikov
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -80,6 +98,15 @@
   osm: null
   url: https://vcresearch.berkeley.edu/faculty/irina-conboy
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: medicine-lab
   application:
@@ -118,6 +145,15 @@
   osm: null
   url: https://polypedal.berkeley.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -158,6 +194,15 @@
   osm: null
   url: https://people.eecs.berkeley.edu/~maharbiz/index.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: neuroscience-lab
   application:
@@ -194,6 +239,15 @@
   osm: null
   url: https://bamlab.berkeley.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -246,6 +300,15 @@
   osm: null
   url: https://www.binghamton.edu/labs/acsrl/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -288,6 +351,15 @@
   osm: null
   url: https://bionautlabs.com
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -330,6 +402,15 @@
   osm: null
   url: https://sites.google.com/hyderabad.bits-pilani.ac.in/mmnelab/home
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -366,6 +447,15 @@
   osm: null
   url: https://brin.go.id/ornm/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -408,6 +498,15 @@
   osm: null
   url: https://hauertlab.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: information-technology
   application:
@@ -447,6 +546,15 @@
   osm: null
   url: https://www.dna.caltech.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: information-technology
   application:
@@ -486,6 +594,15 @@
   osm: null
   url: https://www.leti-cea.com/cea-tech/leti/english/Pages/Welcome.aspx
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: cleanroom-service
   application:
@@ -523,6 +640,15 @@
   osm: null
   url: https://www.researchgate.net/profile/Mario-Urso-3
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -566,6 +692,15 @@
   osm: null
   url: https://chipfoundry.io/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: cleanroom-service
   application:
@@ -607,6 +742,15 @@
   osm: null
   url: http://www.nanosci.grad.chula.ac.th/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -644,6 +788,15 @@
   osm: null
   url: https://www.cityu.edu.hk/bme/lixidong/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -680,6 +833,15 @@
   osm: null
   url: https://yusonglab.com/index.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biomedical-lab
   application:
@@ -715,6 +877,15 @@
   osm: null
   url: https://www.cmu.edu/bme/Research/index.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biomedical-lab
   application: []
@@ -755,6 +926,15 @@
   osm: null
   url: https://lnnano.cnpem.br/en/home-en/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: cleanroom-service
   application:
@@ -791,6 +971,15 @@
   osm: null
   url: https://www.hkcoche.org/about
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biomedical-lab
   application: []
@@ -867,6 +1056,15 @@
   osm: null
   url: https://cohengroup.lassp.cornell.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-robotics
   application:
@@ -907,6 +1105,15 @@
   osm: null
   url: https://physics.cornell.edu/paul-mceuen
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-robotics
   application: []
@@ -961,6 +1168,15 @@
   osm: null
   url: https://molnargroup.ece.cornell.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application: []
@@ -1009,6 +1225,15 @@
   osm: null
   url: https://www.csem.ch/en/technical-focus/asics-for-the-edge/analog-front-ends/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/images/csem-neuchatel.jpg
   category: electronic-engineering
   application:
@@ -1045,6 +1270,15 @@
   osm: null
   url: https://www.csir.co.za/national-centre-nano-structured-materials
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -1082,6 +1316,15 @@
   osm: null
   url: https://kfchanlab.com/
   people_url: https://kfchanlab.com/people/
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1114,6 +1357,15 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Chaoyu+Yang+hydrogel+catapult+microrobot
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1149,6 +1401,15 @@
   osm: null
   url: https://microbot.mae.cuhk.edu.hk/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1191,6 +1452,15 @@
   osm: null
   url: https://dgistbmr.cafe24.com/about-us/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -1269,6 +1539,15 @@
   osm: null
   url: https://www.dkfz.de/en/smart-technologies-for-tumor-therapy
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1324,6 +1603,15 @@
   osm: null
   url: https://robotics.tch.harvard.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -1364,6 +1652,15 @@
   osm: null
   url: https://scholar.google.com.hk/citations?hl=en&user=X9Mzqb0AAAAJ
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1396,6 +1693,15 @@
   osm: null
   url: https://www.epfl.ch/labs/microbs/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -1433,6 +1739,15 @@
   osm: null
   url: https://www.iris.ethz.ch/the-institute/responsive_biomedical_systems_lab.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1468,6 +1783,15 @@
   osm: null
   url: https://arsl.ethz.ch/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1507,6 +1831,15 @@
   osm: null
   url: https://msrl.ethz.ch/the-lab.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1558,6 +1891,15 @@
   osm: null
   url: https://europractice-ic.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: cleanroom-service
   application:
@@ -1598,6 +1940,15 @@
   osm: null
   url: https://lsi.exeter.ac.uk/member/dr-bertram-daum/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biohybrid-robotics
   application:
@@ -1641,6 +1992,15 @@
   osm: null
   url: https://www.femto-st.fr/en/Research-departments/MN2S/Research-axes
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -1674,6 +2034,15 @@
   osm: null
   url: https://www.femtotools.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -1710,6 +2079,15 @@
   osm: null
   url: https://www.enas.fraunhofer.de/en.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -1748,6 +2126,15 @@
   osm: null
   url: https://www.imte.fraunhofer.de/en.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: medicine-lab
   application: []
@@ -1806,6 +2193,15 @@
   osm: null
   url: https://www.imte.fraunhofer.de/en.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -1840,6 +2236,15 @@
   osm: null
   url: https://www.ipms.fraunhofer.de/en.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: cleanroom-service
   application:
@@ -1877,6 +2282,15 @@
   osm: null
   url: https://nanomem.fudan.edu.cn/25605/list.htm
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -1913,6 +2327,15 @@
   osm: null
   url: http://nanomem.fudan.edu.cn
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -1948,6 +2371,15 @@
   osm: null
   url: https://bakirlab.gatech.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -1985,6 +2417,15 @@
   osm: null
   url: https://drugdelivery.chbe.gatech.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biomedical-lab
   application:
@@ -2020,6 +2461,15 @@
   osm: null
   url: https://www.mse.gatech.edu/people/zhong-lin-wang
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -2056,6 +2506,15 @@
   osm: null
   url: https://www.generationlab.com/about
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: nano-medicine
   application:
@@ -2092,6 +2551,15 @@
   osm: null
   url: https://www.haila.io/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -2132,6 +2600,15 @@
   osm: null
   url: https://cohenweb.rc.fas.harvard.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biomedical-lab
   application: []
@@ -2173,6 +2650,15 @@
   osm: null
   url: https://www.micro.seas.harvard.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -2218,6 +2704,15 @@
   osm: null
   url: https://wyss.harvard.edu/about/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: medicine-lab
   application: []
@@ -2254,6 +2749,15 @@
   osm: null
   url: https://www.kip.uni-heidelberg.de/vision/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: information-technology
   application:
@@ -2294,6 +2798,15 @@
   osm: null
   url: https://researchportal.helsinki.fi/en/persons/h%C3%A9lder-a-santos
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biomedical-lab
   application: []
@@ -2405,6 +2918,15 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Zhaoxin+Lao+femtosecond+laser
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -2438,6 +2960,15 @@
   osm: null
   url: https://www.researchgate.net/profile/Yue-Dong-60
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -2475,6 +3006,15 @@
   osm: null
   url: https://scholar.google.com/citations?user=dseZq_gAAAAJ
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -2510,6 +3050,15 @@
   osm: null
   url: https://www.hmc.edu/physics/faculty-staff/gerbode/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -2543,6 +3092,15 @@
   osm: null
   url: https://www.beatus-lab.org/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -2576,6 +3134,15 @@
   osm: null
   url: http://english.chem.hust.edu.cn/info/3862/1227.htm
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -2609,6 +3176,15 @@
   osm: null
   url: https://www.hzdr.de/db/Cms?pOid=45754&pNid=610
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -2645,6 +3221,15 @@
   osm: null
   url: https://ibecbarcelona.eu/member/936/Samuel+S%C3%A1nchez+Ord%C3%B3%C3%B1ez/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -2689,6 +3274,15 @@
   osm: null
   url: https://www.ihp-microelectronics.com/services/research-and-prototyping-service
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: cleanroom-service
   application: []
@@ -2755,6 +3349,15 @@
   osm: null
   url: https://www.cense.iisc.ac.in/ambarish/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -2796,6 +3399,15 @@
   osm: null
   url: https://people.iiti.ac.in/~palaniia/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -2834,6 +3446,15 @@
   osm: null
   url: https://www.ilika.com/micro-solid-state-batteries
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -2870,6 +3491,15 @@
   osm: null
   url: https://www.intelligentrobotics-acrossscales.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -2950,6 +3580,15 @@
   osm: null
   url: https://www-elec.inaoep.mx/laboratorios/microelectronica
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: cleanroom-service
   application:
@@ -2986,6 +3625,15 @@
   osm: null
   url: https://iota.bio/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: neuroscience-lab
   application:
@@ -3023,6 +3671,15 @@
   osm: null
   url: https://www.leibniz-ipht.de/en/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: information-technology
   application:
@@ -3054,6 +3711,15 @@
   osm: null
   url: https://www.isir.upmc.fr/teams/rpi-bio/?lang=en
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3095,6 +3761,15 @@
   osm: null
   url: https://itb.ac.id/research-center-for-nanoscience-and-nanotechnology
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -3138,6 +3813,15 @@
   osm: null
   url: https://graciaslab.johnshopkins.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3178,6 +3862,15 @@
   osm: null
   url: https://www.jncasr.ac.in/faculty/rajeshg
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -3211,6 +3904,15 @@
   osm: null
   url: https://www.bergeles.net/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3245,6 +3947,15 @@
   osm: null
   url: https://khu.elsevierpure.com/en/persons/younghoon-lee
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -3279,6 +3990,15 @@
   osm: null
   url: https://www.kimiro.re.kr/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -3318,6 +4038,15 @@
   osm: null
   url: https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3369,6 +4098,15 @@
   osm: null
   url: https://www.walther-group.com/research-mission
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -3425,6 +4163,15 @@
   osm: null
   url: https://scholar.google.com/citations?user=5LU13U8AAAAJ&hl=tr
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: hospital
   application:
@@ -3461,6 +4208,15 @@
   osm: null
   url: https://moabc.org/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3496,6 +4252,15 @@
   osm: null
   url: https://m3robotics.mines.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3531,6 +4296,15 @@
   osm: null
   url: https://smrl.mit.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -3594,6 +4368,15 @@
   osm: null
   url: https://pi.is.mpg.de/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -3647,6 +4430,15 @@
   osm: null
   url: http://www.biorobotics.mech.nagoya-u.ac.jp/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3684,6 +4476,15 @@
   osm: null
   url: https://nanobiotec.conicet.gov.ar/home/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: nano-medicine
   application:
@@ -3719,6 +4520,15 @@
   osm: null
   url: https://nanobiotix.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: nano-medicine
   application:
@@ -3756,6 +4566,15 @@
   osm: null
   url: https://nanoflexrobotics.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -3792,6 +4611,15 @@
   osm: null
   url: https://www.nanoscribe.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -3829,6 +4657,15 @@
   osm: null
   url: https://www.solovevlab.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3866,6 +4703,15 @@
   osm: null
   url: https://rogersgroup.northwestern.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -3904,6 +4750,15 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Mengmeng+Sun+microrobot+NUS
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -3937,6 +4792,15 @@
   osm: null
   url: https://mems.seas.upenn.edu/
   people_url: https://mems.seas.upenn.edu/members/
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -3974,6 +4838,15 @@
   osm: null
   url: https://www.physikinstrumente.com/en/products/linear-actuators/nanopositioning-piezo-actuators
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -4012,6 +4885,15 @@
   osm: null
   url: https://www.researchgate.net/lab/Laboratory-for-Micromachine-Intelligence-m-MIL-Tian-Yun-Huang
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4046,6 +4928,15 @@
   osm: null
   url: https://lidongyang22.github.io/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4080,6 +4971,15 @@
   osm: null
   url: https://ssr.princeton.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: information-technology
   application:
@@ -4117,6 +5017,15 @@
   osm: null
   url: https://engineering.purdue.edu/oxidemems/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -4153,6 +5062,15 @@
   osm: null
   url: https://www.nanometrology.pwr.edu.pl/index.php/ludzie/?lang=en
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -4190,6 +5108,15 @@
   osm: null
   url: https://www.robinsonlab.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: neuroscience-lab
   application:
@@ -4227,6 +5154,15 @@
   osm: null
   url: https://robeaute.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -4267,6 +5203,15 @@
   osm: null
   url: https://www.santannapisa.it/en/veronica-iacovacci
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4303,6 +5248,15 @@
   osm: null
   url: https://www.santannapisa.it/it/istituto/biorobotica/microscale-robotics-laboratory
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -4362,6 +5316,15 @@
   osm: null
   url: https://scscoatings.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -4400,6 +5363,15 @@
   osm: null
   url: https://www.senseonics.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: nano-medicine
   application:
@@ -4437,6 +5409,15 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Qianqian+Wang+microrobot+Southeast+University
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4470,6 +5451,15 @@
   osm: null
   url: https://scholar.google.com/citations?hl=zh-CN&q=Jialin+Jiang+microswarm
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: information-technology
   application:
@@ -4508,6 +5498,15 @@
   osm: null
   url: https://people.ucas.ac.cn/~caimingxue?language=en
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4540,6 +5539,15 @@
   osm: null
   url: https://scholar.google.com/citations?user=jSv44msAAAAJ&hl=zh-CN
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biohybrid-robotics
   application:
@@ -4576,6 +5584,15 @@
   osm: null
   url: https://silicon-saxony.de/en/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -4613,6 +5630,15 @@
   osm: null
   url: https://imr.sjtu.edu.cn/en/Po_staff.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4647,6 +5673,15 @@
   osm: null
   url: https://surgicalroboticslab.nl/about/introduction/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4696,6 +5731,15 @@
   osm: null
   url: https://arbabianlab.stanford.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -4731,6 +5775,15 @@
   osm: null
   url: https://bammlab.stanford.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -4784,6 +5837,15 @@
   osm: null
   url: https://www.strath.ac.uk/research/subjects/chemistry/materialscomputationalchemistry/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -4824,6 +5886,15 @@
   osm: null
   url: https://www.sustech.edu.cn/en/faculties/huchengzhi.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4857,6 +5928,15 @@
   osm: null
   url: https://synchron.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: neuroscience-lab
   application:
@@ -4896,6 +5976,15 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Ben+Wang+microrobot+Shenzhen+University
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -4929,6 +6018,15 @@
   osm: null
   url: https://www.florealab.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -4966,6 +6064,15 @@
   osm: null
   url: https://www.tcd.ie/mecheng/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biomedical-lab
   application:
@@ -5014,6 +6121,15 @@
   osm: null
   url: https://lnbd.technion.ac.il/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: nano-medicine
   application:
@@ -5051,6 +6167,15 @@
   osm: null
   url: https://www.depts.ttu.edu/ece/faculty/donald_lie/index.php
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -5093,6 +6218,15 @@
   osm: null
   url: https://www.tu-chemnitz.de/etit/leb/index.php.en
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -5126,6 +6260,15 @@
   osm: null
   url: https://homepage.ruhr-uni-bochum.de/john.mccaskill/index.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: information-technology
   application:
@@ -5174,6 +6317,15 @@
   osm: null
   url: https://www.tu-chemnitz.de/etit/nano/OliverGSchmidt.php
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-robotics
   application:
@@ -5211,6 +6363,15 @@
   osm: null
   url: https://tu-dresden.de/cmcb
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -5312,6 +6473,15 @@
   osm: null
   url: https://www.etit.tu-darmstadt.de/fachbereich/professuren_etit/etit_prof_details_141248.en.jsp
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -5366,6 +6536,15 @@
   osm: null
   url: https://mavlab.tudelft.nl/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -5411,6 +6590,15 @@
   osm: null
   url: https://cordis.europa.eu/project/id/101221652
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -5453,6 +6641,15 @@
   osm: null
   url: https://www.ee.cit.tum.de/en/rmn/research/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -5488,6 +6685,15 @@
   osm: null
   url: https://www.ee.cit.tum.de/en/nen/home/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: neuroscience-lab
   application: []
@@ -5532,6 +6738,15 @@
   osm: null
   url: https://www.uab.cat/ca/microelectronica-sistemes-electronics/departament
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application: []
@@ -5588,6 +6803,15 @@
   osm: null
   url: https://vcresearch.berkeley.edu/faculty/liwei-lin
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application: []
@@ -5632,6 +6856,15 @@
   osm: null
   url: https://activematter.dfi.uchile.cl/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -5677,6 +6910,15 @@
   osm: null
   url: https://naturalsciences.ucmerced.edu/people/bin-liu-0
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -5711,6 +6953,15 @@
   osm: null
   url: https://bioinspired.eng.ucsd.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -5745,6 +6996,15 @@
   osm: null
   url: https://www.elaine.uni-rostock.de/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: medicine-lab
   application: []
@@ -5782,6 +7042,15 @@
   osm: null
   url: https://nanocat.um.edu.my/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -5816,6 +7085,15 @@
   osm: null
   url: https://um6p.ma/en/materials-science-and-nanoengineering-msn
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -5853,6 +7131,15 @@
   osm: null
   url: https://blaauw.engin.umich.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -5899,6 +7186,15 @@
   osm: null
   url: https://samlab.robotics.umich.edu/
   people_url: https://robotics.umich.edu/people/faculty/steven-ceron/
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -5939,6 +7235,15 @@
   osm: null
   url: https://cse.umn.edu/cems/xiang-cheng
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: information-technology
   application:
@@ -5973,6 +7278,15 @@
   osm: null
   url: https://sites.ifi.unicamp.br/cdeneke/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -6007,6 +7321,15 @@
   osm: null
   url: https://www.inf.uni-rostock.de/altern-des-individuums-und-der-gesellschaft/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: medicine-lab
   application: []
@@ -6056,6 +7379,15 @@
   osm: null
   url: https://www.inf.uni-rostock.de/llm/ueber-uns/department/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -6158,6 +7490,15 @@
   osm: null
   url: https://liulab.mie.utoronto.ca/research/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -6200,6 +7541,15 @@
   osm: null
   url: https://sites.google.com/view/cavallo-research-group/home
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -6233,6 +7583,15 @@
   osm: null
   url: https://nanotechunn.com
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -6271,6 +7630,15 @@
   osm: null
   url: https://uol.de/informatik/amir/ueber-uns
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -6334,6 +7702,15 @@
   osm: null
   url: https://miskinlab.seas.upenn.edu/home
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-robotics
   application: []
@@ -6375,6 +7752,15 @@
   osm: null
   url: https://pikul-lab.seas.upenn.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -6408,6 +7794,15 @@
   osm: null
   url: https://aibn.uq.edu.au/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: nano-medicine
   application:
@@ -6445,6 +7840,15 @@
   osm: null
   url: https://faculty.ustc.edu.cn/fengw/en/index.htm
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -6477,6 +7881,15 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Xin+Chen+microrobot+USTC+femtosecond
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -6514,6 +7927,15 @@
   osm: null
   url: https://www.telerobotics.utah.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -6549,6 +7971,15 @@
   osm: null
   url: https://crl.utm.utoronto.ca/team/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application: []
@@ -6591,6 +8022,15 @@
   osm: null
   url: https://microrobotics.mie.utoronto.ca/people/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application: []
@@ -6659,6 +8099,15 @@
   osm: null
   url: https://amnl.mie.utoronto.ca/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -6695,6 +8144,15 @@
   osm: null
   url: https://netlab.cs.washington.edu/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: milli-robotics
   application:
@@ -6734,6 +8192,15 @@
   osm: null
   url: https://uet.vnu.edu.vn/en/key-laboratory-micro-nano-technology-micro-nano-lab/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application:
@@ -6771,6 +8238,15 @@
   osm: null
   url: https://nanorobots.vsb.cz/en/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -6815,6 +8291,15 @@
   osm: null
   url: https://magdanzlab.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: biohybrid-robotics
   application:
@@ -6854,6 +8339,15 @@
   osm: null
   url: https://wangwei.lab.westlake.edu.cn/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-robotics
   application:
@@ -6896,6 +8390,15 @@
   osm: null
   url: https://www.wibotic.com/
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: electronic-engineering
   application:
@@ -6936,6 +8439,15 @@
   osm: null
   url: https://er-web.ynu.ac.jp/html/FUCHIWAKI_Ohmi/en.html
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -6973,6 +8485,15 @@
   osm: null
   url: https://www.zewailcity.edu.eg/main/content.php?lang=en&alias=ibrahim_m._el-sherbiny
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: nano-medicine
   application:
@@ -7011,6 +8532,15 @@
   osm: null
   url: http://sklofp.zju.edu.cn/sklen/29506/list.htm
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: material-lab
   application: []
@@ -7095,6 +8625,15 @@
   osm: null
   url: https://www.researchgate.net/profile/Chengfeng-Pan
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
@@ -7127,6 +8666,15 @@
   osm: null
   url: https://www.researchgate.net/profile/Neng-Xia
   people_url: null
+  openalex_id: null
+  ror: null
+  orcid: null
+  arxiv_author: null
+  rss: null
+  youtube_channel_id: null
+  bluesky: null
+  mastodon: null
+  jobs_url: null
   image: null
   category: micro-nano-end-effectors
   application:
