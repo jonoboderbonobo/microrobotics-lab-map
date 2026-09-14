@@ -8,7 +8,7 @@
   lon: -97.84834
   osm: null
   url: https://ambiq.com/technology/spot/
-  people_url: null
+  people_url: https://ambiq.com/about-us/
   openalex_id: null
   ror: null
   orcid: null
@@ -497,7 +497,7 @@
   lon: -2.6031
   osm: null
   url: https://hauertlab.com/
-  people_url: null
+  people_url: https://hauertlab.com/people/
   openalex_id: [A5046286041]
   ror: null
   orcid: [0000-0003-0341-7306]
@@ -691,7 +691,7 @@
   lon: -121.8863
   osm: null
   url: https://chipfoundry.io/
-  people_url: null
+  people_url: https://chipfoundry.io/about
   openalex_id: null
   ror: null
   orcid: null
@@ -1055,7 +1055,7 @@
   lon: -76.48006
   osm: null
   url: https://cohengroup.lassp.cornell.edu/
-  people_url: null
+  people_url: https://cohengroup.lassp.cornell.edu/people
   openalex_id: [A5066126591]
   ror: null
   orcid: [0000-0001-9218-043X]
@@ -1400,7 +1400,7 @@
   lon: 114.2099
   osm: null
   url: https://microbot.mae.cuhk.edu.hk/
-  people_url: null
+  people_url: http://microbot.mae.cuhk.edu.hk/people/
   openalex_id: [A5100425709]
   ror: null
   orcid: [0000-0003-1152-8962]
@@ -1738,7 +1738,7 @@
   lon: 8.546639
   osm: null
   url: https://www.iris.ethz.ch/the-institute/responsive_biomedical_systems_lab.html
-  people_url: null
+  people_url: https://mml.ethz.ch/team/
   openalex_id: [A5110801576]
   ror: null
   orcid: null
@@ -2078,7 +2078,7 @@
   lon: 12.92442
   osm: null
   url: https://www.enas.fraunhofer.de/en.html
-  people_url: null
+  people_url: https://www.enas.fraunhofer.de/en/contact.html
   openalex_id: null
   ror: https://ror.org/02h12bg79
   orcid: null
@@ -3220,7 +3220,7 @@
   lon: 2.11789
   osm: null
   url: https://ibecbarcelona.eu/member/936/Samuel+S%C3%A1nchez+Ord%C3%B3%C3%B1ez/
-  people_url: null
+  people_url: https://ibecbarcelona.eu/research-groups/smart-nano-bio-devices/
   openalex_id: [A5053731459]
   ror: null
   orcid: [0000-0001-9713-9997]
@@ -3348,7 +3348,7 @@
   lon: 77.56718
   osm: null
   url: https://www.cense.iisc.ac.in/ambarish/
-  people_url: null
+  people_url: https://www.cense.iisc.ac.in/ambarish/group/
   openalex_id: [A5044844484]
   ror: null
   orcid: [0000-0002-2524-0014]
@@ -5583,7 +5583,7 @@
   lon: 13.77114
   osm: null
   url: https://silicon-saxony.de/en/
-  people_url: null
+  people_url: https://silicon-saxony.de/en/about-us/team/
   openalex_id: null
   ror: null
   orcid: null
@@ -5730,7 +5730,7 @@
   lon: -122.16937
   osm: null
   url: https://arbabianlab.stanford.edu/
-  people_url: null
+  people_url: https://arbabianlab.stanford.edu/people
   openalex_id: [A5064429773]
   ror: null
   orcid: [0000-0001-7357-4759]
@@ -6217,7 +6217,7 @@
   lon: 12.92936
   osm: null
   url: https://www.tu-chemnitz.de/etit/leb/index.php.en
-  people_url: null
+  people_url: https://www.tu-chemnitz.de/etit/leb/staff/index.php.en
   openalex_id: [A5110537841]
   ror: null
   orcid: null
@@ -6316,7 +6316,7 @@
   lon: 12.927099
   osm: null
   url: https://www.tu-chemnitz.de/etit/nano/OliverGSchmidt.php
-  people_url: null
+  people_url: https://www.tu-chemnitz.de/etit/nano/members.php
   openalex_id: [A5061652666]
   ror: null
   orcid: [0000-0001-9503-8367]
@@ -7185,7 +7185,7 @@
   lon: -83.71004
   osm: null
   url: https://samlab.robotics.umich.edu/
-  people_url: https://robotics.umich.edu/people/faculty/steven-ceron/
+  people_url: https://samlab.robotics.umich.edu/team
   openalex_id: [A5014730162]
   ror: null
   orcid: [0000-0002-5903-9802]
@@ -8237,7 +8237,7 @@
   lon: 18.16788
   osm: null
   url: https://nanorobots.vsb.cz/en/
-  people_url: null
+  people_url: https://nanorobots.vsb.cz/en/people/
   openalex_id: [A5027346868]
   ror: null
   orcid: [0000-0001-5846-2951]
@@ -8338,7 +8338,7 @@
   lon: 120.03197
   osm: null
   url: https://wangwei.lab.westlake.edu.cn/
-  people_url: null
+  people_url: https://wangwei.lab.westlake.edu.cn/Group.htm
   openalex_id: null
   ror: null
   orcid: null
