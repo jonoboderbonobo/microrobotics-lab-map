@@ -4865,6 +4865,47 @@
     multiple conditions at once -- directly on the long-term organ-monitoring horizon.
     Adds Israel to the map's geography, notable since Bionaut Labs (already tracked)
     also has R&D there.
+- id: ttu-lie
+  name: RF/Analog System-on-a-Chip (SoC) Design Lab
+  pi: Donald Y. C. Lie
+  institution: Texas Tech University
+  city: Lubbock, TX
+  country: US
+  lat: 33.59375
+  lon: -101.8996
+  osm: null
+  url: https://www.depts.ttu.edu/ece/faculty/donald_lie/index.php
+  people_url: null
+  category: electronic-engineering
+  application:
+  - medical
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  human_reviewed: false
+  description: Designs low-power RF and analog integrated circuits and systems-on-chip,
+    with a significant focus on implantable medical devices -- ultra-low-power analog
+    front-end ICs for implantable cardioverter defibrillators (ICDs) that must run
+    continuously for the device's entire lifetime, plus instrumentation amplifiers,
+    band-pass filters, variable-gain amplifiers, and ADCs for biosensor applications.
+    PI Donald Y.C. Lie is the Keh-Shew Lu Regents Chair Professor at Texas Tech; ~140
+    peer-reviewed papers, 5 US patents.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: Exactly the kind of ultra-low-power analog IC design skill that is
+    scarce and expensive to hire for -- direct fit for anyone needing sub-microwatt-class
+    analog front-end circuits for a small implantable or battery-constrained device,
+    with a long track record specifically in getting such designs into real medical
+    devices rather than only lab demonstrations.
+  notes: Found via the same targeted ultra-low-power-analog-IC search as umich-blaauw.
+    A genuine relevance-4 fit per the rubric's own example ("an analog IC group willing
+    to design sub-nW blocks for a sub-mm implant") -- this is precisely that kind
+    of group, just not yet confirmed as sub-nW specifically (their public material
+    discusses microwatt-to-nanowatt-class designs across different projects, not one
+    single power figure).
 - id: tuc-horstmann
   name: Electronic Devices of Micro and Nano Technique
   pi: John Thomas Horstmann
@@ -5601,6 +5642,51 @@
     prominent and best-funded research university (OCP Group-backed). An earlier,
     separate Moroccan initiative (INANOTECH, directed 2008-2011) looked defunct/stale
     on searching, so this UM6P department was used instead as a currently-active alternative.
+- id: umich-blaauw
+  name: Michigan Micro Mote (M3) / mm-Scale Computing Systems
+  pi: David Blaauw
+  institution: University of Michigan
+  city: Ann Arbor, MI
+  country: US
+  lat: 42.29421
+  lon: -83.71004
+  osm: null
+  url: https://blaauw.engin.umich.edu/
+  people_url: null
+  category: electronic-engineering
+  application:
+  - industrial
+  - fundamental
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 5
+  status: watch
+  human_reviewed: false
+  description: Created the Michigan Micro Mote (M3), the first complete, fully autonomous
+    computer system as small as 2mm across -- integrating sensing, processing, wireless
+    communication, and its own power supply on-chip, operating on a few nanowatts.
+    Work led jointly by David Blaauw and Dennis Sylvester (with David Wentzloff and
+    Prabal Dutta), spun out into the company CubeWorks to manufacture the devices
+    commercially. Blaauw holds the Kensall D. Wise Collegiate Professorship in Electrical
+    Engineering and Computer Science.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: About as direct a match as exists for combining ultra-low-power chip
+    design, on-chip energy management, and integrated sensing/computation into a single
+    millimeter-scale autonomous package -- a real, shipped demonstration (not just
+    a concept) that the onboard-power-and-intelligence problem at this scale is solvable
+    with a chip-design approach, even without locomotion.
+  notes: Found this round via a deliberately targeted search for the highest-value
+    workstream (ultra-low-power analog/mixed-signal IC design) rather than a generic
+    "microrobotics" keyword sweep, per the user's instruction to track relevance quality
+    per approach, not just hit count. Confirmed not already on the map (umich-ceron
+    is a different PI/lab). No locomotion/actuation -- a stationary sensor node, not
+    a robot -- but the closest thing found to a real answer for the mm-scale onboard-power-and-compute
+    problem specifically. CubeWorks (the commercial spinout) could be added as a separate
+    company entry in a future pass if it is still operating -- not independently verified
+    this round.
 - id: umich-ceron
   name: Synergetic Adaptive Machinas Lab
   pi: Steven Ceron

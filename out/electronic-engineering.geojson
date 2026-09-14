@@ -498,6 +498,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "RF/Analog System-on-a-Chip (SoC) Design Lab",
+        "description": "**Donald Y. C. Lie** — Texas Tech University, Lubbock, TX (US)<br><br>Designs low-power RF and analog integrated circuits and systems-on-chip, with a significant focus on implantable medical devices -- ultra-low-power analog front-end ICs for implantable cardioverter defibrillators (ICDs) that must run continuously for the device's entire lifetime, plus instrumentation amplifiers, band-pass filters, variable-gain amplifiers, and ADCs for biosensor applications. PI Donald Y.C. Lie is the Keh-Shew Lu Regents Chair Professor at Texas Tech; ~140 peer-reviewed papers, 5 US patents.<br><br>**Why it's on this map:** Exactly the kind of ultra-low-power analog IC design skill that is scarce and expensive to hire for -- direct fit for anyone needing sub-microwatt-class analog front-end circuits for a small implantable or battery-constrained device, with a long track record specifically in getting such designs into real medical devices rather than only lab demonstrations.<br><br>[[https://www.depts.ttu.edu/ece/faculty/donald_lie/index.php|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "ttu-lie",
+        "pi": "Donald Y. C. Lie",
+        "institution": "Texas Tech University",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "medical,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8996,
+          33.59375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Electronic Devices of Micro and Nano Technique",
         "description": "**John Thomas Horstmann** — TU Chemnitz, Chemnitz (DE)<br><br>Professorship at TU Chemnitz's Faculty of Electrical Engineering and Information Technology, working on microelectronic circuit design, microsystem electronics, and the function principles of electronic devices.<br><br>**Why it's on this map:** A circuit-design professorship at the same university as another already-tracked group here -- close, practical proximity for potential chip-design collaboration.<br><br>[[https://www.tu-chemnitz.de/etit/leb/index.php.en|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
         "id": "tuc-horstmann",
@@ -552,6 +582,36 @@
         "coordinates": [
           2.11234,
           41.50024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michigan Micro Mote (M3) / mm-Scale Computing Systems",
+        "description": "**David Blaauw** — University of Michigan, Ann Arbor, MI (US)<br><br>Created the Michigan Micro Mote (M3), the first complete, fully autonomous computer system as small as 2mm across -- integrating sensing, processing, wireless communication, and its own power supply on-chip, operating on a few nanowatts. Work led jointly by David Blaauw and Dennis Sylvester (with David Wentzloff and Prabal Dutta), spun out into the company CubeWorks to manufacture the devices commercially. Blaauw holds the Kensall D. Wise Collegiate Professorship in Electrical Engineering and Computer Science.<br><br>**Why it's on this map:** About as direct a match as exists for combining ultra-low-power chip design, on-chip energy management, and integrated sensing/computation into a single millimeter-scale autonomous package -- a real, shipped demonstration (not just a concept) that the onboard-power-and-intelligence problem at this scale is solvable with a chip-design approach, even without locomotion.<br><br>[[https://blaauw.engin.umich.edu/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "umich-blaauw",
+        "pi": "David Blaauw",
+        "institution": "University of Michigan",
+        "country": "US",
+        "category": "electronic-engineering",
+        "application": "industrial,fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.71004,
+          42.29421
         ]
       }
     },
