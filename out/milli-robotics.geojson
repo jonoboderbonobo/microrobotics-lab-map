@@ -356,6 +356,88 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Continuum Robotics Lab",
+        "description": "**Jessica Burgner-Kahrs** — University of Toronto Mississauga, Mississauga, ON (CA)<br><br>Continuum Robotics Lab<br>https://crl.utm.utoronto.ca/team/<br><br><br> Continuum robots differ fundamentally from traditional robots. They are biologically inspired and instead of relying on a rigid joint-link composition, continuum robots are organic compliant structures.<br>Their appearance is evocative of animals and organs such as trunks, tongues, worms, jellyfish, and snakes. Continuum robots are composed of flexible, elastic, or soft materials such that they can exhibit complex bending motions and appear with curvilinear shapes.<br>Our scientific methods contribute to the general understanding of continuum robots at the system level and facilitate the development of continuum robots for various areas of our lives. This includes but is not limited to health care, maintenance, repair, and operations<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://crl.utm.utoronto.ca/team/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "utoronto-crl",
+        "pi": "Jessica Burgner-Kahrs",
+        "institution": "University of Toronto Mississauga",
+        "country": "CA",
+        "category": "milli-robotics",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39656,
+          43.66066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Continuum Robotics Lab",
+        "description": "**Jessica Burgner-Kahrs** — University of Toronto Mississauga, Mississauga, ON (CA)<br><br>Continuum Robotics Lab<br>https://crl.utm.utoronto.ca/team/<br><br><br> Continuum robots differ fundamentally from traditional robots. They are biologically inspired and instead of relying on a rigid joint-link composition, continuum robots are organic compliant structures.<br>Their appearance is evocative of animals and organs such as trunks, tongues, worms, jellyfish, and snakes. Continuum robots are composed of flexible, elastic, or soft materials such that they can exhibit complex bending motions and appear with curvilinear shapes.<br>Our scientific methods contribute to the general understanding of continuum robots at the system level and facilitate the development of continuum robots for various areas of our lives. This includes but is not limited to health care, maintenance, repair, and operations<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://crl.utm.utoronto.ca/team/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "utoronto-crl",
+        "pi": "Jessica Burgner-Kahrs",
+        "institution": "University of Toronto Mississauga",
+        "country": "CA",
+        "category": "milli-robotics",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "RoyalBlue",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.396729,
+              43.66045
+            ],
+            [
+              -79.396209,
+              43.660565
+            ],
+            [
+              -79.396364,
+              43.660999
+            ],
+            [
+              -79.396911,
+              43.660898
+            ],
+            [
+              -79.396729,
+              43.66045
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Networks & Mobile Systems Lab (MilliMobile)",
         "description": "**Vikram Iyer** — University of Washington, Seattle, WA (US)<br><br>MilliMobile is an autonomous, battery-free wireless microrobot with a 10x10 mm chassis weighing under 1.1 g, powered entirely by harvested solar and RF energy. It uses onboard photodiodes to seek light and keep moving indefinitely, can carry payloads up to 3x its own weight, and transmits sensor data wirelessly over 200 m. Built on 'intermittent computing' techniques that let it operate incrementally as harvested energy becomes available.<br><br>**Why it's on this map:** Combines fully onboard energy harvesting with autonomous operation at millimeter scale -- a strong fit for energy and onboard-computing approaches relevant to small autonomous devices, even above the sub-millimeter threshold used elsewhere on this map.<br><br>[[https://netlab.cs.washington.edu/|Group website]]<br><br>Category: Milli-Robotics Lab · Smallest demonstrated: unknown",
         "id": "uw-netlab",

@@ -528,6 +528,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Department of Microelectronics and Electronic Systems (MiSE)",
+        "description": "**Department of Microelectronics and Electronic Systems (MiSE)** — Universitat Autònoma de Barcelona, Barcelona (ES)<br><br>The Department of Microelectronics and Electronic Systems (MiSE) was created in 2005 from the Microelectronics Unit: Design of Integrated Circuits of the Department of Computer Science and has the main objectives of teaching and development of research and innovation in the fields in which it is competent.<br><br>The Department is affiliated with the School of Engineering, in which it carries out its main teaching activity in the field of Microelectronics and Electronic Systems. The main teaching activity is taught in the Bachelor's Degree in Computer Engineering, Telecommunication Engineering, Telecommunication Systems Engineering, Data Engineering, Intelligent and Sustainable City Management and Aeronautics Management and the Official Master's Degree in Telecommunications Engineering. However, the Department participates in the PhD program in Electronics and Telecommunications Engineering (accredited in progress towards excellence).<br><br>The Department consists of about 40 members of academic staff, postgraduate students and administrative and service staff. The Board of Directors of the Department stipulates that the Board of Directors is the highest decision-making body, which delegates the ordinary management to the Executive Committee of the Department.<br><br>At the level of research and innovation, the Department participates in European, national, regional and regional projects, and collaborates with other administrations and companies, both national and foreign.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.uab.cat/ca/microelectronica-sistemes-electronics/departament|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
+        "id": "uab-mise",
+        "pi": "",
+        "institution": "Universitat Autònoma de Barcelona",
+        "country": "ES",
+        "category": "electronic-engineering",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "White",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.11234,
+          41.50024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "WiBotic",
         "description": "**Ben Waters** — WiBotic Inc., Seattle, WA (US)<br><br>Spun out of the University of Washington in 2015, WiBotic builds adaptive resonant inductive wireless charging systems that let autonomous robots, drones, and marine vehicles recharge without manual plug-in. Founded by Ben Waters (UW EE PhD) and Professor Joshua Smith; the underlying wireless power technology was originally developed to power an LVAD (left ventricular assist device) heart pump without transcutaneous cables.<br><br>**Why it's on this map:** Builds wireless charging stations for fleets of robots -- a direct fit for how a local base station might power and coordinate a group of small robots, founded in part by a senior wireless-communications academic.<br><br>[[https://www.wibotic.com/|Group website]]<br><br>Category: Electronic Engineering (Chip) Lab · Smallest demonstrated: unknown",
         "id": "wibotic",

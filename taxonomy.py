@@ -19,6 +19,42 @@ micro-robotics
     and the computer are counted, those are meter-scale robots. This category
     is genuinely small.
 
+    Actually enforced (2026-09): re-audited every prior micro-robotics entry
+    against this rule specifically, since the category had accumulated many
+    externally-actuated systems the literature calls "microrobots" but which
+    don't carry their own actuation/energy/memory. Confirmed genuinely
+    autonomous as of this audit: cornell-cohen, cornell-mceuen, tuc-schmidt,
+    upenn-miskin, westlake-wang -- all onboard-photovoltaic-or-equivalent,
+    onboard-actuation whole systems. Two more (harvard-microrobotics /
+    RoboBee, mit-smrl) are *aiming* at power autonomy but, per their own PIs'
+    public statements, aren't there yet (still tethered/beamed power) --
+    filed under micro-nano-end-effectors until that changes, not here on the
+    strength of the goal alone.
+
+micro-nano-end-effectors
+    Externally-actuated micro/nanoscale tools, particles, grippers, and
+    swimmers -- magnetic, acoustic, optical, or chemically self-propelled --
+    that the literature very commonly calls "microrobots" or "nanorobots"
+    but which do not carry their own actuation, energy, or memory onboard.
+    This is most of what search turns up under that term; the category
+    exists specifically to stop that literature conflation from collapsing
+    into the strict `micro-robotics` bucket above. Includes nanoparticle-
+    based systems (drug-carrying particles, catalytic Janus motors) under
+    the same logic -- a nanoparticle steered/propelled externally is the
+    same kind of thing as a magnetically-steered microgripper, just smaller.
+
+biohybrid-robotics
+    Robots whose actuating body is (or is derived from) a living organism or
+    genetically/chemically modified living cells -- magnetotactic bacteria,
+    engineered immune cells, sperm cells, algae -- rather than a wholly
+    synthetic structure. Kept separate from micro-nano-end-effectors even
+    though most current examples are also externally steered (e.g.
+    magnetically), because the biological-chassis angle is a distinct axis
+    from actuation method: a synthetic magnetic microgripper and a
+    magnetically-steered living-sperm-cell carrier raise very different
+    fabrication, biocompatibility, and ethical questions despite both being
+    externally driven.
+
 milli-robotics
     Millimeter- and centimeter-scale autonomous robots. Forces and fabrication
     differ completely from microscale, but communication, path planning and
@@ -80,6 +116,8 @@ cleanroom-service
 
 CATEGORIES = {
     "micro-robotics":        ("Micro-Robotics Lab",             "DarkBlue",       "micro-robotics.geojson"),
+    "micro-nano-end-effectors": ("Micro/Nano End-Effector",     "Indigo",         "micro-nano-end-effectors.geojson"),
+    "biohybrid-robotics":    ("Biohybrid Robot",                "SaddleBrown",    "biohybrid-robotics.geojson"),
     "milli-robotics":        ("Milli-Robotics Lab",             "RoyalBlue",      "milli-robotics.geojson"),
     "electronic-engineering": ("Electronic Engineering (Chip) Lab", "White",      "electronic-engineering.geojson"),
     "material-lab":          ("Material Lab",                   "DarkViolet",     "material-lab.geojson"),

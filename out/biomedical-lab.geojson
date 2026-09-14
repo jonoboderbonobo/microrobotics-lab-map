@@ -136,6 +136,108 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "COCHE",
+        "description": "**COCHE** — Hong Kong Centre for Cerebro-cardiovascular Health Engineering, Hong Kong (HK)<br><br>Hong Kong Centre for Cerebro-cardiovascular Health Engineering<br><br>\\Be global hub for interdisciplinary cerebro-cardiovascular health engineering research collaboration<br><br>Converging global experts in engineering, science, medicine, and law for impactful research in human health<br><br><br>MISSION FOR HEALTH ;  PASSION FOR INNOVATION<br><br>Cardiovascular disease (CVD) is the world’s leading cause of morbidity and mortality as well as the health industry’s most costly disease for treatment. Yet, despite recent advances in its treatment, more effective and accessible ways to tackle CVDs remain to be discovered. Hong Kong Centre for Cerebro-cardiovascular Health Engineering (COCHE) is taking on the challenge to develop new ways to treat CVD with innovative technologies allowing early prediction and intervention, so people can stay a step ahead of the disease. These technologies can also reduce the human cost, as well as alleviate both the financial and social burden, on the healthcare system.<br><br>​<br><br>In collaboration with the University of Oxford and the Karolinska Institutet, Hong Kong Center for Cerebro-cardiovascular Health Engineering (COCHE) was established under City University of Hong Kong in 2020. The COCHE, supported financially by Innovation and Technology Commission (ITC), was admitted to Inno-Health cluster of InnoHK Programme which is a major R&D initiative of the Hong Kong Special Administrative Region Government. We are developing flexible sensing, biomedical and molecular imaging, nano-biosensing, and AI in health with the focus on innovative wearables that collect key vital signs, including but not limited to continuous blood pressure and electrocardiogram signals on an unobtrusive and real-time basis. The collected data is transmitted for further analysis and integration with other biomarkers, paving the way for the early detection and diagnosis of possible acute cerebro-cardiovascular diseases.<br><br><br>1 \tUncovering rare inherent resistant single cells through an automatic microfluidic cell shower device to investigate intratumor heterogeneity \tProf CHEN Chia-Hung*<br>2 \tHopping Aerial Robots: Reaching New Heights across Size Scales through Thrust-based and Parallel Elastic Actuation \tProf CHIRARATTANANON Pakpong*<br>3 \tFixed-time cooperative control of multi-agent systems under denial-of-service attacks and its application \tProf FENG Gang*<br>4 \tInterplay between Microbial Metal Regulation and Chemotaxis at the Host-Pathogen Interface Studied by Single-molecule Super-resolution Fluorescence Microscopy \tProf FU Bing<br>5 \tLabel-free and high-throughput flow cytometry for single-cell surface protein biosensing using multi-stage constriction microchannels \tProf LAM Raymond Hiu-Wai<br>6 \tDistributed Event-Triggered Cooperative Control of Nonlinear Multiple Dynamic Systems and Its Applications \tProf LIU Lu*<br>7 \tSingle-cell Encoded Photoporation for High-throughput Combinatorial siRNA Screening \tProf SHI Peng<br>8 \tInvestigation of neuromodulation effect of cerebellum-targeted low intensity transcranial pulsed ultrasound stimulation \tProf TIN Chung<br>9 \tCharacterization and mechanism study of an articular cartilage repair material for space medicine: influence by microgravity and cosmic radiation \tProf WANG Dongan<br>10 \tPorous metallic microneedle array-based test trip for gingival crevicular fluid collection and analysis<br><br>**Why it's on this map:** A cross-disciplinary cardiovascular-health engineering centre with wearable sensing and biomedical imaging work -- broadly medical-technology-adjacent rather than a microrobotics-specific match; kept as a general watch entry.<br><br>[[https://www.hkcoche.org/about|Group website]]<br><br>Category: Biomedical Lab · Smallest demonstrated: unknown",
+        "id": "coche-hk",
+        "pi": "",
+        "institution": "Hong Kong Centre for Cerebro-cardiovascular Health Engineering",
+        "country": "HK",
+        "category": "biomedical-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkGreen",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20811,
+          22.42726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COCHE",
+        "description": "**COCHE** — Hong Kong Centre for Cerebro-cardiovascular Health Engineering, Hong Kong (HK)<br><br>Hong Kong Centre for Cerebro-cardiovascular Health Engineering<br><br>\\Be global hub for interdisciplinary cerebro-cardiovascular health engineering research collaboration<br><br>Converging global experts in engineering, science, medicine, and law for impactful research in human health<br><br><br>MISSION FOR HEALTH ;  PASSION FOR INNOVATION<br><br>Cardiovascular disease (CVD) is the world’s leading cause of morbidity and mortality as well as the health industry’s most costly disease for treatment. Yet, despite recent advances in its treatment, more effective and accessible ways to tackle CVDs remain to be discovered. Hong Kong Centre for Cerebro-cardiovascular Health Engineering (COCHE) is taking on the challenge to develop new ways to treat CVD with innovative technologies allowing early prediction and intervention, so people can stay a step ahead of the disease. These technologies can also reduce the human cost, as well as alleviate both the financial and social burden, on the healthcare system.<br><br>​<br><br>In collaboration with the University of Oxford and the Karolinska Institutet, Hong Kong Center for Cerebro-cardiovascular Health Engineering (COCHE) was established under City University of Hong Kong in 2020. The COCHE, supported financially by Innovation and Technology Commission (ITC), was admitted to Inno-Health cluster of InnoHK Programme which is a major R&D initiative of the Hong Kong Special Administrative Region Government. We are developing flexible sensing, biomedical and molecular imaging, nano-biosensing, and AI in health with the focus on innovative wearables that collect key vital signs, including but not limited to continuous blood pressure and electrocardiogram signals on an unobtrusive and real-time basis. The collected data is transmitted for further analysis and integration with other biomarkers, paving the way for the early detection and diagnosis of possible acute cerebro-cardiovascular diseases.<br><br><br>1 \tUncovering rare inherent resistant single cells through an automatic microfluidic cell shower device to investigate intratumor heterogeneity \tProf CHEN Chia-Hung*<br>2 \tHopping Aerial Robots: Reaching New Heights across Size Scales through Thrust-based and Parallel Elastic Actuation \tProf CHIRARATTANANON Pakpong*<br>3 \tFixed-time cooperative control of multi-agent systems under denial-of-service attacks and its application \tProf FENG Gang*<br>4 \tInterplay between Microbial Metal Regulation and Chemotaxis at the Host-Pathogen Interface Studied by Single-molecule Super-resolution Fluorescence Microscopy \tProf FU Bing<br>5 \tLabel-free and high-throughput flow cytometry for single-cell surface protein biosensing using multi-stage constriction microchannels \tProf LAM Raymond Hiu-Wai<br>6 \tDistributed Event-Triggered Cooperative Control of Nonlinear Multiple Dynamic Systems and Its Applications \tProf LIU Lu*<br>7 \tSingle-cell Encoded Photoporation for High-throughput Combinatorial siRNA Screening \tProf SHI Peng<br>8 \tInvestigation of neuromodulation effect of cerebellum-targeted low intensity transcranial pulsed ultrasound stimulation \tProf TIN Chung<br>9 \tCharacterization and mechanism study of an articular cartilage repair material for space medicine: influence by microgravity and cosmic radiation \tProf WANG Dongan<br>10 \tPorous metallic microneedle array-based test trip for gingival crevicular fluid collection and analysis<br><br>**Why it's on this map:** A cross-disciplinary cardiovascular-health engineering centre with wearable sensing and biomedical imaging work -- broadly medical-technology-adjacent rather than a microrobotics-specific match; kept as a general watch entry.<br><br>[[https://www.hkcoche.org/about|Group website]]<br><br>Category: Biomedical Lab · Smallest demonstrated: unknown",
+        "id": "coche-hk",
+        "pi": "",
+        "institution": "Hong Kong Centre for Cerebro-cardiovascular Health Engineering",
+        "country": "HK",
+        "category": "biomedical-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkGreen",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              114.20783,
+              22.427081
+            ],
+            [
+              114.208165,
+              22.426867
+            ],
+            [
+              114.208559,
+              22.427383
+            ],
+            [
+              114.208302,
+              22.427549
+            ],
+            [
+              114.208358,
+              22.427629
+            ],
+            [
+              114.208216,
+              22.427738
+            ],
+            [
+              114.207811,
+              22.427217
+            ],
+            [
+              114.207803,
+              22.427165
+            ],
+            [
+              114.207803,
+              22.427123
+            ],
+            [
+              114.20783,
+              22.427081
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Laboratory for Drug Delivery",
         "description": "**Mark R. Prausnitz** — Georgia Institute of Technology, Atlanta, GA (US)<br><br>Researches biophysical methods of drug delivery -- microneedles, ultrasound, lasers, electric fields, heat, and convective forces -- to control transport of drugs, proteins, genes, and vaccines into and within the body. A major focus is microneedle patches for painless, minimally-invasive skin vaccine delivery.<br><br>**Why it's on this map:** Researches physical (not just chemical) methods -- microneedles, ultrasound, electric fields -- for getting therapeutics precisely into the body, several of which use the same physical principles (ultrasound, EM fields) a small robotic device might also rely on.<br><br>[[https://drugdelivery.chbe.gatech.edu/|Group website]]<br><br>Category: Biomedical Lab · Smallest demonstrated: unknown",
         "id": "gatech-prausnitz",

@@ -46,7 +46,7 @@
   osm: null
   url: https://ame.engineering.arizona.edu/faculty-staff/faculty/eniko-t-enikov
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -63,8 +63,10 @@
   mission_fit: Works on MEMS-based miniature mechatronic systems and micro-robotic
     drug delivery -- directly in the same technical space as sub-millimeter autonomous
     robotics for medical use.
-  notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found;
-    linked to faculty profile instead.
+  notes: 'Found via alumni-snowballing from ethz-msrl. No dedicated lab website found;
+    linked to faculty profile instead. Recategorized from micro-robotics: MEMS/actuator-component
+    work aimed at drug delivery, no autonomous whole-system claim -- fits the new
+    micro-nano-end-effectors bucket, not strict micro-robotics.'
 - id: berkeley-conboy
   name: Conboy Lab
   pi: Irina Conboy
@@ -451,7 +453,7 @@
   osm: null
   url: https://www.cityu.edu.hk/bme/lixidong/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -470,8 +472,11 @@
   mission_fit: Works on shape-morphing microrobotic end-effectors for environmentally
     adaptive targeting and sampling -- a direct fit for small-scale robotic manipulation
     and actuation.
-  notes: Found via alumni-snowballing from ethz-msrl. The alumni page still listed
+  notes: 'Found via alumni-snowballing from ethz-msrl. The alumni page still listed
     his old MSU affiliation -- verified and corrected to his current CityU position.
+    Recategorized from micro-robotics: the lab''s own description literally says ''microrobotic
+    end-effectors'' -- textbook fit for the new micro-nano-end-effectors category,
+    not the strict autonomous-robot bucket.'
 - id: cityu-song
   name: Song Lab
   pi: Xin Song
@@ -591,7 +596,7 @@
   osm: null
   url: https://www.hkcoche.org/about
   people_url: null
-  category: micro-robotics
+  category: biomedical-lab
   application: []
   min_dim_um: null
   onboard_power: false
@@ -650,7 +655,11 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/coche-hk.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics to biomedical-lab:
+    this is a broad cerebro-cardiovascular health engineering research centre (wearables,
+    imaging, biosensing across many PIs), not a robotics group specifically -- was
+    miscategorized from the original hand-drawn-map migration, not a case for either
+    new end-effector/biohybrid bucket.'
 - id: cornell-cohen
   name: Itai Cohen Group
   pi: Itai Cohen
@@ -688,7 +697,8 @@
     a genuinely distinct entry, not a duplicate. Arguably the single best fit on the
     whole map for the strict micro-robotics definition: whole autonomous system, sub-100-micron,
     onboard photovoltaic harvesting + actuation, exactly the reference design''s own
-    energy strategy.'
+    energy strategy. Re-confirmed in the 2026-09 micro-robotics audit: genuinely autonomous
+    (onboard photovoltaic + onboard actuation), stays in the strict category.'
 - id: cornell-mceuen
   name: Paul McEuen Group
   pi: Paul McEuen
@@ -700,10 +710,10 @@
   osm: null
   url: https://physics.cornell.edu/paul-mceuen
   people_url: null
-  category: medicine-lab
+  category: micro-robotics
   application: []
   min_dim_um: null
-  onboard_power: false
+  onboard_power: true
   institution_type: university
   relevance: 1
   status: watch
@@ -737,7 +747,11 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/cornell-mceuen.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from medicine-lab to micro-robotics
+    (onboard_power corrected to True): McEuen co-leads, with Itai Cohen (cornell-cohen),
+    the exact same genuinely autonomous sub-100-micron walking-robot work -- same
+    underlying system, was simply filed under the wrong category from the original
+    hand-drawn-map migration and never corrected until this audit.'
 - id: cornell-molnar
   name: Molnar Group
   pi: Alyosha Molnar
@@ -867,7 +881,7 @@
   osm: null
   url: https://kfchanlab.com/
   people_url: https://kfchanlab.com/people/
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -883,9 +897,10 @@
   community_improvement: null
   mission_fit: Works on medical miniature devices, micro/nanorobotics, and flexible
     electronic implants for translational medicine -- a close, direct fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. Second CUHK entry alongside
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Second CUHK entry alongside
     cuhk-zhang itself, a distinct research assistant professor with his own lab and
-    dedicated site.
+    dedicated site. Recategorized from micro-robotics: medical miniature devices/surgical
+    tools/implants -- device/tool work, no autonomous whole-system claim.'
 - id: cuhk-yang-c
   name: Chaoyu Yang Group
   pi: Chaoyu Yang
@@ -897,7 +912,7 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Chaoyu+Yang+hydrogel+catapult+microrobot
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   min_dim_um: null
@@ -915,9 +930,11 @@
   mission_fit: Co-developed a dynamic-coupling ejection mechanism giving miniature
     robots high-speed, non-contact locomotion -- a specific novel locomotion strategy
     relevant to how very small robots could move.
-  notes: Found via alumni-snowballing from cuhk-zhang. Co-authored with Neng Xia and
-    Chengfeng Pan, both already on this map (zju-xia, zju-pan) -- confirms this is
-    a real, connected extended network, not an isolated hit.
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Co-authored with Neng Xia
+    and Chengfeng Pan, both already on this map (zju-xia, zju-pan) -- confirms this
+    is a real, connected extended network, not an isolated hit. Recategorized from
+    micro-robotics: a mechanical ejection mechanism (hydrogel catapult) for miniature
+    robots -- a locomotion component/technique, not an autonomous whole robot.'
 - id: cuhk-zhang
   name: Zhang Research Lab
   pi: Li Zhang
@@ -929,7 +946,7 @@
   osm: null
   url: https://microbot.mae.cuhk.edu.hk/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -950,8 +967,15 @@
   mission_fit: One of the most prolific and highly-published microrobotics groups
     worldwide, spanning swarm navigation in blood vessels to biohybrid microrobots
     -- a top-tier reference point for the whole field.
-  notes: Found via alumni-snowballing from ethz-msrl. One of the most prominent, prolific
-    microrobotics groups found this whole session -- high-confidence relevance 5.
+  notes: 'Found via alumni-snowballing from ethz-msrl. One of the most prominent,
+    prolific microrobotics groups found this whole session -- high-confidence relevance
+    5. Recategorized from micro-robotics: the dominant, most prolific body of work
+    here is externally magnetically-actuated microrobotic swarm navigation (not autonomous,
+    no onboard power) -- fits micro-nano-end-effectors. Note for whoever reviews this:
+    one specific project (a biohybrid microbot built from Spirulina algae) would individually
+    fit the new biohybrid-robotics category instead, but it''s one project among hundreds
+    of papers, not the lab''s overall identity -- flagging rather than splitting,
+    since one entry can only carry one category.'
 - id: dgist-demrc
   name: DGIST-ETH Microrobotics Research Center
   pi: null
@@ -963,7 +987,7 @@
   osm: null
   url: https://dgistbmr.cafe24.com/about-us/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -1026,7 +1050,9 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/dgist-demrc.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: magnetic-field-controlled
+    medical microrobots for arterial-occlusion treatment -- externally actuated, no
+    onboard-power claim.'
 - id: dkfz-qiu
   name: Smart Technologies for Tumor Therapy
   pi: Tian Qiu
@@ -1038,7 +1064,7 @@
   osm: null
   url: https://www.dkfz.de/en/smart-technologies-for-tumor-therapy
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -1077,7 +1103,10 @@
     on this map, so this was a within-country miss, not a geographic-gap miss), and
     one of the clearer examples found of academia-to-clinic translation for tiny actuated
     tools specifically inside the brain. See SOURCING.md for the search-pattern gap
-    this exposed and the countermeasure adopted.'
+    this exposed and the countermeasure adopted. Recategorized from micro-robotics:
+    externally magnetically-actuated micro/millirobots (already noted onboard_power=false
+    at add time) -- belongs in the new micro-nano-end-effectors bucket now that it
+    exists, same logic as ethz-msrl.'
 - id: dupont-lab
   name: Dupont Lab
   pi: Pierre E. Dupont
@@ -1128,7 +1157,7 @@
   osm: null
   url: https://scholar.google.com.hk/citations?hl=en&user=X9Mzqb0AAAAJ
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -1145,7 +1174,9 @@
   mission_fit: Works on magnetic micro/nanorobots for precise physical stimulation
     of cells -- a direct fit for small-scale robotic manipulation in a biomedical
     context.
-  notes: Found via alumni-snowballing from cuhk-zhang. First Dalian entry on the map.
+  notes: 'Found via alumni-snowballing from cuhk-zhang. First Dalian entry on the
+    map. Recategorized from micro-robotics: magnetic micro/nanorobots for cell stimulation
+    -- externally actuated tool, not an autonomous whole robot.'
 - id: epfl-microbs
   name: EPFL — Microbiorobotic Systems Laboratory (MICROBS)
   pi: null
@@ -1157,7 +1188,7 @@
   osm: null
   url: https://www.epfl.ch/labs/microbs/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -1175,7 +1206,11 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify. Two raw entries differ only by a typo (BioRobotic
-    vs BioRobotics); merged.'
+    vs BioRobotics); merged. Recategorized from micro-robotics: this is Selman Sakar''s
+    Microbiorobotic Systems Laboratory (MICROBS) -- primarily externally-actuated
+    soft/magnetic microrobots. The lab name itself (''biorobotic'') suggests a possible
+    biohybrid angle in some specific work; not independently verified in this pass,
+    worth a closer look before assuming it''s purely synthetic.'
 - id: eth-schurle
   name: Responsive Biomedical Systems Lab
   pi: Simone Schürle
@@ -1187,7 +1222,7 @@
   osm: null
   url: https://www.iris.ethz.ch/the-institute/responsive_biomedical_systems_lab.html
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -1205,9 +1240,11 @@
   mission_fit: Develops diagnostic and therapeutic systems at the nano- and microscale
     for cancer and musculoskeletal conditions -- a strong, direct biomedical-microrobotics
     fit, and part of a well-known lineage of small-scale robotics researchers.
-  notes: Found via alumni-snowballing from ethz-msrl. The alumni page listed her old
-    MIT affiliation -- she has since returned to ETH as independent faculty, in the
-    same institute as her original advisor (Bradley Nelson).
+  notes: 'Found via alumni-snowballing from ethz-msrl. The alumni page listed her
+    old MIT affiliation -- she has since returned to ETH as independent faculty, in
+    the same institute as her original advisor (Bradley Nelson). Recategorized from
+    micro-robotics: diagnostic/therapeutic nano- and microscale systems -- device/systems
+    framing, no autonomous whole-robot claim.'
 - id: ethz-msrl
   name: Multi-Scale Robotics Lab (MSRL)
   pi: Bradley J. Nelson
@@ -1219,7 +1256,7 @@
   osm: null
   url: https://msrl.ethz.ch/the-lab.html
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -1254,8 +1291,10 @@
     are externally actuated, so by the strict criterion this is closer to a material
     lab -- but the systems-level ambition and the startup track record justify micro-robotics.
     Worth pinning down min_dim_um for their smallest genuinely untethered device.
-
-    '
+    Recategorized from micro-robotics: taxonomy.py''s own original rationale already
+    flagged this -- ''most systems are externally actuated... closer to a material
+    lab'' -- the 2026-09 audit is just actually enforcing that instead of leaving
+    it in the strict bucket on reputation alone.'
 - id: europractice
   name: EUROPRACTICE
   pi: null
@@ -1306,7 +1345,7 @@
   osm: null
   url: https://www.femto-st.fr/en/Research-departments/MN2S/Research-axes
   people_url: null
-  category: micro-robotics
+  category: material-lab
   application: []
   min_dim_um: null
   onboard_power: false
@@ -1322,7 +1361,11 @@
     look.
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
-    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
+    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
+    Recategorized from micro-robotics to material-lab: a broad microsystems/MEMS institute
+    department (MN2S), no specific robot or end-effector claim in the (largely empty)
+    description -- was a placeholder from the original migration, not a robotics-specific
+    fit for either new bucket.'
 - id: femtotools
   name: FemtoTools
   pi: null
@@ -1463,7 +1506,7 @@
   osm: null
   url: https://www.imte.fraunhofer.de/en.html
   people_url: null
-  category: micro-robotics
+  category: material-lab
   application: []
   min_dim_um: null
   onboard_power: false
@@ -1481,7 +1524,10 @@
     relevance=1, status=watch, application=[] (empty). institution_type set from general
     knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
     Same ''LL&M'' department name as unirostock-llm but a different site/coordinates
-    in the export -- kept as a separate entry.'
+    in the export -- kept as a separate entry. Recategorized from micro-robotics to
+    material-lab: ''Life, Light and Matter'' is a broad Fraunhofer IMTE department
+    with an empty/generic description and no specific robot claim -- a placeholder
+    from the original migration, not a robotics-specific fit.'
 - id: fraunhofer-ipms
   name: Fraunhofer IPMS
   pi: null
@@ -1529,7 +1575,7 @@
   osm: null
   url: https://nanomem.fudan.edu.cn/25605/list.htm
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   min_dim_um: null
@@ -1548,10 +1594,11 @@
   mission_fit: Works on rolled-up nanomembrane micromotors and related nanofabrication
     techniques -- a specific, hands-on fabrication approach directly relevant to building
     small-scale actuated devices.
-  notes: Found via alumni-snowballing from tuc-schmidt (same Fudan group as fudan-mei
-    -- Schmidt's own lab pioneered rolled-up nanomembrane fabrication, and both alumni
+  notes: 'Found via alumni-snowballing from tuc-schmidt (same Fudan group as fudan-mei
+    -- Schmidt''s own lab pioneered rolled-up nanomembrane fabrication, and both alumni
     continued that exact technique family independently in China). Micromotor work
-    is a direct fit.
+    is a direct fit. Recategorized from micro-robotics: rolled-up-nanomembrane catalytic/magnetic
+    micromotors -- externally driven, component/particle-level work.'
 - id: fudan-mei
   name: NanoMem Group / Smart Materials and Micro/Nanoscale Robotics
   pi: Yongfeng Mei
@@ -1563,7 +1610,7 @@
   osm: null
   url: http://nanomem.fudan.edu.cn
   people_url: null
-  category: micro-robotics
+  category: material-lab
   application:
   - fundamental
   - industrial
@@ -1580,8 +1627,12 @@
   community_improvement: null
   mission_fit: Has an explicitly named research program in smart materials and micro/nanoscale
     robotics -- a direct, longstanding fit rather than an inferred one.
-  notes: Found via alumni-snowballing from tuc-schmidt. 'Micro/nanoscale robotics'
-    is an explicit named research area -- direct fit, not an inferred one.
+  notes: 'Found via alumni-snowballing from tuc-schmidt. ''Micro/nanoscale robotics''
+    is an explicit named research area -- direct fit, not an inferred one. Recategorized
+    from micro-robotics to material-lab: PI''s own identity is ''Professor of Materials
+    Science'' working broadly on thin films/semiconductor materials/flexible electronics,
+    with ''micro/nanoscale robotics'' as one named area among several -- materials-scientist
+    framing fits better than either new robotics-specific bucket.'
 - id: gatech-bakir
   name: Integrated 3D Systems Group
   pi: Muhannad Bakir
@@ -1812,7 +1863,7 @@
   osm: null
   url: https://www.micro.seas.harvard.edu/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -1840,7 +1891,11 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/harvard-microrobotics.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: verified directly
+    -- RoboBee still relies on a tether or laser/solar beaming for power as of the
+    most recent public reporting; the team''s own stated goal is *future* full autonomy,
+    not yet achieved. Filed under micro-nano-end-effectors until that changes, per
+    the tightened micro-robotics rule (see taxonomy.py).'
 - id: harvard-wyss
   name: Wyss Institute
   pi: null
@@ -2068,7 +2123,7 @@
   osm: null
   url: https://www.researchgate.net/profile/Yue-Dong-60
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   - medical
@@ -2087,10 +2142,12 @@
   mission_fit: A microrobotics group at a major Chinese technical university -- direct
     categorical fit, though limited public material was found to characterize the
     specific research angle in more detail.
-  notes: Found via alumni-snowballing from cuhk-zhang. First named Harbin Institute
-    of Technology entry -- earlier in this session a general HIT search couldn't find
-    one clean citable PI, this closes that gap. No dedicated lab site found; linked
-    to ResearchGate profile.
+  notes: 'Found via alumni-snowballing from cuhk-zhang. First named Harbin Institute
+    of Technology entry -- earlier in this session a general HIT search couldn''t
+    find one clean citable PI, this closes that gap. No dedicated lab site found;
+    linked to ResearchGate profile. Recategorized from micro-robotics: gear-like MOF
+    microrobots for single-cell mechanotransduction -- externally driven tool, not
+    an autonomous system.'
 - id: hitsz-jin
   name: Sauvage Laboratory for Smart Materials
   pi: Dongdong Jin
@@ -2102,7 +2159,7 @@
   osm: null
   url: https://scholar.google.com/citations?user=dseZq_gAAAAJ
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -2121,9 +2178,10 @@
   mission_fit: Based in a School of Integrated Circuits rather than a general mechanical-engineering
     department -- an unusually direct combination of chip design and microrobotics
     in one group, relevant to both fabrication and control-electronics angles.
-  notes: Found via alumni-snowballing from cuhk-zhang. Second HIT Shenzhen entry alongside
-    hitsz-dong -- a real cluster there, and notably in the School of Integrated Circuits
-    specifically, not just mechanical engineering.
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Second HIT Shenzhen entry
+    alongside hitsz-dong -- a real cluster there, and notably in the School of Integrated
+    Circuits specifically, not just mechanical engineering. Recategorized from micro-robotics:
+    magnetically-driven microrobots for cell manipulation -- externally actuated.'
 - id: hmc-gerbode
   name: Gerbode Lab
   pi: Sharon Gerbode
@@ -2199,7 +2257,7 @@
   osm: null
   url: http://english.chem.hust.edu.cn/info/3862/1227.htm
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   min_dim_um: null
@@ -2216,8 +2274,10 @@
   community_improvement: null
   mission_fit: Has an explicit research interest in micro-swimmers -- a direct fit
     for small-scale robotic locomotion in fluid environments.
-  notes: Found via alumni-snowballing from cornell-cohen. 'Micro-swimmer' as an explicit
-    named research interest -- direct fit.
+  notes: 'Found via alumni-snowballing from cornell-cohen. ''Micro-swimmer'' as an
+    explicit named research interest -- direct fit. Recategorized from micro-robotics:
+    colloidal self-assembly/micro-swimmer physics -- externally/chemically driven
+    particle systems, not autonomous whole robots.'
 - id: hzdr-makarov
   name: Intelligent Materials and Systems
   pi: Denys Makarov
@@ -2264,7 +2324,7 @@
   osm: null
   url: https://ibecbarcelona.eu/member/936/Samuel+S%C3%A1nchez+Ord%C3%B3%C3%B1ez/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -2284,9 +2344,18 @@
   mission_fit: One of the most prolific and highly-cited researchers in the self-powered
     micro/nanomotor space -- a top-tier reference point for autonomous small-scale
     propulsion and power.
-  notes: Found via alumni-snowballing from tuc-schmidt (Oliver Schmidt's group alumni
-    page lists 'Prof. Dr. Samuel Sanchez'). One of the most prolific and cited researchers
+  notes: 'Found via alumni-snowballing from tuc-schmidt (Oliver Schmidt''s group alumni
+    page lists ''Prof. Dr. Samuel Sanchez''). One of the most prolific and cited researchers
     in the whole self-powered micro/nanomotor space -- high-confidence relevance 5.
+    Recategorized from micro-robotics: chemically self-propelled (enzyme-catalyzed)
+    synthetic particles -- genuinely self-powered in a narrow sense (ambient chemical
+    fuel, not a stored/onboard energy source or memory/computation), so still doesn''t
+    meet the strict autonomous-robot bar. Worth flagging: the PI''s own description
+    uses ''biohybrid robotics,'' but that refers to combining biological molecules
+    (enzymes) with synthetic particles, not a living-organism chassis -- doesn''t
+    belong in the new biohybrid-robotics category, which is reserved for living/engineered-cell
+    bodies. A second, independent instance of the field''s own terminology conflation,
+    this time on ''biohybrid'' rather than ''microrobot.'''
 - id: ihp-cleanroom
   name: IHP Research & Prototyping Service
   pi: René Scholz
@@ -2363,7 +2432,7 @@
   osm: null
   url: https://www.cense.iisc.ac.in/ambarish/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -2384,12 +2453,14 @@
   mission_fit: Pioneered magnetic helical nanorobots and demonstrated their use as
     mobile nanotweezers and in vivo mechanical probes -- one of the more credible
     whole-system micro-robotics fits found outside the field's usual geographic cluster.
-  notes: Found via web search for India-region coverage. One of the most credible
+  notes: 'Found via web search for India-region coverage. One of the most credible
     micro-robotics fits found outside the usual US/EU/CN cluster -- real magnetic-helical-swimmer
     fabrication and in vivo mechanical probing, not just a component supplier. Confidence
-    high (Wikipedia, ResearchGate, IISc's own site, and a US patent all corroborate);
+    high (Wikipedia, ResearchGate, IISc''s own site, and a US patent all corroborate);
     lab URL is his CeNSE faculty page, no separate dedicated lab domain found. Second
-    India entry alongside jncasr-ganapathy.
+    India entry alongside jncasr-ganapathy. Recategorized from micro-robotics: magnetic
+    helical nanorobots and nanotweezers -- externally driven by rotating magnetic
+    fields, no onboard power/memory.'
 - id: iiti-palani
   name: Mechatronics and Instrumentation Laboratory
   pi: I. A. Palani
@@ -2473,7 +2544,7 @@
   osm: null
   url: https://www.intelligentrobotics-acrossscales.com/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -2535,7 +2606,12 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/imperial-zhang.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: ''Multi-Scale
+    Embodied Intelligence Lab'' spans micro/nanobots to large-scale systems with a
+    healthcare focus; no onboard-power claim identified at the micro end, so defaults
+    to the end-effector bucket -- the embodied-intelligence/decision-making angle
+    is closer to information-technology in spirit, worth a second look if a more specific
+    micro-scale hardware claim turns up.'
 - id: inaoe-lnn
   name: Laboratorio Nacional de Nanoelectrónica — Microelectronics Laboratory
   pi: null
@@ -2648,7 +2724,7 @@
   osm: null
   url: https://www.isir.upmc.fr/teams/rpi-bio/?lang=en
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   - medical
@@ -2670,11 +2746,13 @@
     for actuation -- externally actuated rather than carrying onboard power, so more
     of a materials/technique match than a whole-autonomous-system match, but directly
     relevant to small-scale manipulation methods.
-  notes: Found via web search, not migrated. Externally actuated (optical tweezers,
+  notes: 'Found via web search, not migrated. Externally actuated (optical tweezers,
     magnetic fields) rather than onboard-powered, so this is a material/technique
     match rather than a whole-system micro-robotics match by the strict definition
     -- filed here anyway since the group itself frames its output as microrobots and
-    single-cell manipulation is the reference design's own first application.
+    single-cell manipulation is the reference design''s own first application. Recategorized
+    from micro-robotics: magnetic micro-swimmers, optical-tweezers micromanipulation,
+    automated AFM -- externally actuated tools.'
 - id: jhu-gracias
   name: Gracias Laboratory
   pi: David Gracias
@@ -2686,7 +2764,7 @@
   osm: null
   url: https://graciaslab.johnshopkins.edu/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -2707,10 +2785,13 @@
   mission_fit: A highly-patented, independent group working on self-folding microstructures
     -- a flat-fabricate-then-fold approach that is one of a small number of genuinely
     credible routes to building whole autonomous devices at sub-millimeter scale.
-  notes: Found via alumni-snowballing from tuc-schmidt. Self-folding microstructures
-    is directly adjacent to cornell-cohen/upenn-miskin's own approach (flat-fabricate
+  notes: 'Found via alumni-snowballing from tuc-schmidt. Self-folding microstructures
+    is directly adjacent to cornell-cohen/upenn-miskin''s own approach (flat-fabricate
     then fold), but an independent, highly-patented group -- untethered microgrippers
     in particular are a real whole-device match, not just a materials/technique overlap.
+    Recategorized from micro-robotics: self-folding untethered microgrippers/microinjectors
+    -- literally end-effectors by name, externally triggered (thermoresponsive/chemical),
+    no onboard power.'
 - id: jncasr-ganapathy
   name: Soft Matter Lab
   pi: Rajesh Ganapathy
@@ -2754,7 +2835,7 @@
   osm: null
   url: https://www.bergeles.net/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -2772,8 +2853,10 @@
   community_improvement: null
   mission_fit: Works on magnetically-actuated medical microrobotics -- a direct categorical
     fit for small-scale robotic medical devices.
-  notes: Found via alumni-snowballing from ethz-msrl. Alumni page listed his outdated
-    Harvard affiliation -- corrected to current KCL position.
+  notes: 'Found via alumni-snowballing from ethz-msrl. Alumni page listed his outdated
+    Harvard affiliation -- corrected to current KCL position. Recategorized from micro-robotics:
+    micro-surgical robots/tools delivering regenerative therapy -- device framing,
+    no autonomous whole-system claim.'
 - id: khu-lee
   name: Younghoon Lee Group
   pi: Younghoon Lee
@@ -2973,7 +3056,7 @@
   osm: null
   url: https://moabc.org/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -2991,9 +3074,11 @@
   community_improvement: null
   mission_fit: Works on magnetically-actuated microrobotics -- part of a small cluster
     of independent microrobotics-adjacent groups at the same institution.
-  notes: Found via alumni-snowballing from ethz-msrl. Second Colorado School of Mines
+  notes: 'Found via alumni-snowballing from ethz-msrl. Second Colorado School of Mines
     entry this session alongside mines-petruska -- two independent microrobotics-adjacent
-    groups at the same institution, worth noting as a cluster.
+    groups at the same institution, worth noting as a cluster. Recategorized from
+    micro-robotics: colloidal particle assembly via external electromagnetic/electric/magnetic
+    fields -- explicitly externally driven.'
 - id: mines-petruska
   name: M3Robotics Lab
   pi: Andrew J. Petruska
@@ -3005,7 +3090,7 @@
   osm: null
   url: https://m3robotics.mines.edu/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - industrial
@@ -3024,9 +3109,10 @@
   mission_fit: Applies magnetic microrobot manipulation to both medical and mining
     applications -- an unusual second application domain for the same underlying actuation
     approach used elsewhere on this map.
-  notes: Found via alumni-snowballing from ethz-msrl. Magnetic manipulation applied
+  notes: 'Found via alumni-snowballing from ethz-msrl. Magnetic manipulation applied
     to both medical and (unusually) mining robotics -- a genuinely different application
-    domain for the same underlying actuation approach.
+    domain for the same underlying actuation approach. Recategorized from micro-robotics:
+    magnetic manipulation for medical applications -- externally actuated, component/control-focused.'
 - id: mit-smrl
   name: Soft and Micro Robotics Laboratory
   pi: Kevin Chen
@@ -3038,7 +3124,7 @@
   osm: null
   url: https://smrl.mit.edu/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -3083,7 +3169,12 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/mit-smrl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: verified directly
+    -- PI Kevin Chen has stated onboard power autonomy is still unsolved (''incorporating
+    onboard computation is relatively easy, but developing onboard energy sources
+    is extremely challenging''), current robots rely on external power. A genuine
+    whole-robot-shaped system, unlike most other entries in this bucket, but not yet
+    power-autonomous -- filed here per the tightened rule until that changes.'
 - id: mpi-physical-intelligence
   name: Physical Intelligence Department
   pi: null
@@ -3147,7 +3238,7 @@
   osm: null
   url: http://www.biorobotics.mech.nagoya-u.ac.jp/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -3167,9 +3258,11 @@
   mission_fit: Develops magnetically-driven microtools and MEMS/NEMS devices for biomedical
     cell manipulation -- a prominent, established group comparable in stature to the
     field's other leading labs.
-  notes: Found via web search for Japan-region coverage (Japan had zero entries despite
+  notes: 'Found via web search for Japan-region coverage (Japan had zero entries despite
     being a robotics powerhouse). High-confidence, prominent lab -- comparable stature
-    to ethz-msrl/cmu-mrl in the field. First Japan entry.
+    to ethz-msrl/cmu-mrl in the field. First Japan entry. Recategorized from micro-robotics:
+    magnetically-driven microtools and optical/acoustic tweezers -- externally actuated,
+    no onboard power.'
 - id: nanobiotec-uba
   name: Instituto de Nanobiotecnología (NANOBIOTEC)
   pi: null
@@ -3322,7 +3415,7 @@
   osm: null
   url: https://www.solovevlab.com/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   - industrial
@@ -3341,9 +3434,12 @@
   community_improvement: null
   mission_fit: A microrobotics-focused group -- direct categorical fit; added partly
     for the geographic diversity of a second Australian entry.
-  notes: Found via alumni-snowballing from tuc-schmidt. Second Australian entry after
-    uq-aibn. City confirmed as Brisbane via NanoTRIZ's own site (nanotriz.com) --
+  notes: 'Found via alumni-snowballing from tuc-schmidt. Second Australian entry after
+    uq-aibn. City confirmed as Brisbane via NanoTRIZ''s own site (nanotriz.com) --
     lat/lon is Brisbane CBD as an approximate point, not a specific street address.
+    Recategorized from micro-robotics: broad microrobotics/nanomaterials portfolio,
+    no specific autonomous-whole-system claim identified -- defaults to the end-effector
+    bucket.'
 - id: northwestern-rogers
   name: Rogers Research Group
   pi: John A. Rogers
@@ -3392,7 +3488,7 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Mengmeng+Sun+microrobot+NUS
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -3409,8 +3505,10 @@
   community_improvement: null
   mission_fit: A microrobotics group -- direct categorical fit; the first Singapore
     entry identified on this map.
-  notes: Found via alumni-snowballing from cuhk-zhang. First Singapore entry on the
-    map.
+  notes: 'Found via alumni-snowballing from cuhk-zhang. First Singapore entry on the
+    map. Recategorized from micro-robotics: micro/nanorobots for targeted therapy
+    including capsule robots and magnetic droplet systems -- externally actuated/ingested
+    devices, not autonomous.'
 - id: penn-msma
   name: MSMA Group — MicroSensors and MicroActuators
   pi: Mark G. Allen
@@ -3495,7 +3593,7 @@
   osm: null
   url: https://www.researchgate.net/lab/Laboratory-for-Micromachine-Intelligence-m-MIL-Tian-Yun-Huang
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -3513,8 +3611,10 @@
   community_improvement: null
   mission_fit: A microrobotics group at a major Chinese university -- direct categorical
     fit; limited independent public material was found beyond a research-network profile.
-  notes: Found via alumni-snowballing from ethz-msrl. No dedicated lab website found
-    -- linked to ResearchGate lab page instead.
+  notes: 'Found via alumni-snowballing from ethz-msrl. No dedicated lab website found
+    -- linked to ResearchGate lab page instead. Recategorized from micro-robotics:
+    micromachine intelligence and micro-/nanorobotics fabrication -- device/fabrication
+    focus, no onboard-power claim.'
 - id: polyu-yang
   name: Lidong Yang Group
   pi: Lidong Yang
@@ -3526,7 +3626,7 @@
   osm: null
   url: https://lidongyang22.github.io/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -3544,9 +3644,10 @@
   community_improvement: null
   mission_fit: A microrobotics group with a strong publication record in top venues
     -- high-confidence direct fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. Strong publication record in
-    top venues -- high-confidence relevance 5. Second PolyU-adjacent entry on the
-    map.
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Strong publication record
+    in top venues -- high-confidence relevance 5. Second PolyU-adjacent entry on the
+    map. Recategorized from micro-robotics: micro-/nanorobot design, fabrication,
+    and control -- no autonomous whole-system claim identified.'
 - id: princeton-nagpal
   name: Self-Organizing Systems Research Group
   pi: Radhika Nagpal
@@ -3740,7 +3841,7 @@
   osm: null
   url: https://www.santannapisa.it/en/veronica-iacovacci
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -3759,9 +3860,11 @@
   community_improvement: null
   mission_fit: ERC-funded implantable-microrobot research, part of a real cluster
     of expertise at the same institution -- high-confidence direct fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. Second Sant'Anna Pisa entry
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Second Sant''Anna Pisa entry
     alongside santanna-palagi -- a real cluster of implantable-microrobot expertise
-    there. ERC-funded, high-confidence relevance 5.
+    there. ERC-funded, high-confidence relevance 5. Recategorized from micro-robotics:
+    ERC I-BOT implantable navigable microrobots and the Mambo magnetic project --
+    explicitly magnetically actuated, not autonomous.'
 - id: santanna-palagi
   name: Microscale Robotics Laboratory
   pi: Stefano Palagi
@@ -3773,7 +3876,7 @@
   osm: null
   url: https://www.santannapisa.it/it/istituto/biorobotica/microscale-robotics-laboratory
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -3815,7 +3918,11 @@
     defaulted to false -- verify. ''Stefano Palagi – SantAnna Pisa'' was a near-duplicate
     of the same lab with near-identical description text but a point ~230km away (near
     Padova, not Pisa) -- looks like a stray pin placement in the old map. Merged into
-    one entry using the Pontedera/Pisa coordinates.'
+    one entry using the Pontedera/Pisa coordinates. Recategorized from micro-robotics:
+    ''living cells are our source of inspiration for the design of microrobots'' --
+    this is bio-*inspired* design (a synthetic robot mimicking cellular locomotion
+    mechanisms), not a biohybrid living-cell chassis, so it belongs in the end-effector
+    bucket, not the new biohybrid-robotics one. No onboard-power claim identified.'
 - id: scs-coatings
   name: Specialty Coating Systems (SCS)
   pi: null
@@ -3900,7 +4007,7 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Qianqian+Wang+microrobot+Southeast+University
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -3917,9 +4024,10 @@
   community_improvement: null
   mission_fit: A microrobotics group at a major Chinese technical university -- direct
     categorical fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. First Southeast University
+  notes: 'Found via alumni-snowballing from cuhk-zhang. First Southeast University
     entry. Institution string set to the Sipailou campus for geocoding disambiguation
-    (Southeast University is multi-campus).
+    (Southeast University is multi-campus). Recategorized from micro-robotics: magnetically
+    actuated microrobot swarms -- externally driven.'
 - id: sia-jiang
   name: Jialin Jiang Group
   pi: Jialin Jiang
@@ -3931,7 +4039,7 @@
   osm: null
   url: https://scholar.google.com/citations?hl=zh-CN&q=Jialin+Jiang+microswarm
   people_url: null
-  category: micro-robotics
+  category: information-technology
   application:
   - fundamental
   min_dim_um: null
@@ -3947,12 +4055,16 @@
   community_improvement: null
   mission_fit: A microrobotics group at a major Chinese automation research institute
     -- direct categorical fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. First Shenyang Institute of
+  notes: 'Found via alumni-snowballing from cuhk-zhang. First Shenyang Institute of
     Automation entry -- verified via a Google Scholar URL fetch (WebFetch) rather
-    than WebSearch, after this session's WebSearch budget ran out. Institution taken
+    than WebSearch, after this session''s WebSearch budget ran out. Institution taken
     from the source alumni page, not independently re-confirmed in this specific search.
     Institution string set to Chinese-language form for geocoding (English form returned
-    zero results).
+    zero results). Recategorized from micro-robotics to information-technology: the
+    actual contribution here is RRT*-based path-planning algorithms for microswarm
+    navigation -- an algorithmic/control contribution using nanoparticle swarms as
+    the physical substrate, closer to the existing information-technology category
+    (path planning, swarm behavior) than to either new hardware-focused bucket.'
 - id: siat-cai
   name: Mingxue Cai Group
   pi: Mingxue Cai
@@ -3964,7 +4076,7 @@
   osm: null
   url: https://people.ucas.ac.cn/~caimingxue?language=en
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -3981,8 +4093,9 @@
   community_improvement: null
   mission_fit: Part of a real cluster of microrobotics researchers at the same Chinese
     research institute -- direct categorical fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. Same institute (SIAT/CAS) as
-    siat-xu -- a real cluster.
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Same institute (SIAT/CAS)
+    as siat-xu -- a real cluster. Recategorized from micro-robotics: rotating-magnetic-field-controlled
+    soft magnetic robots -- externally actuated.'
 - id: siat-xu
   name: Tiantian Xu Group
   pi: Tiantian Xu
@@ -3994,7 +4107,7 @@
   osm: null
   url: https://scholar.google.com/citations?user=jSv44msAAAAJ&hl=zh-CN
   people_url: null
-  category: micro-robotics
+  category: biohybrid-robotics
   application:
   - medical
   min_dim_um: null
@@ -4012,8 +4125,12 @@
   community_improvement: null
   mission_fit: A prolific, diverse microrobotics research portfolio -- high-confidence
     direct fit, part of a real cluster of researchers at the same institute.
-  notes: Found via alumni-snowballing from cuhk-zhang. Prolific, diverse microrobot
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Prolific, diverse microrobot
     portfolio -- high-confidence relevance 5. Same institute (SIAT/CAS) as siat-cai.
+    Recategorized from micro-robotics to the new biohybrid-robotics category: CAR-T
+    cell microrobots and living-microalgae-based magnetic microrobots -- the robot
+    chassis in both flagship projects is a living, engineered cell, not a synthetic
+    structure, which is exactly what the new category is for.'
 - id: silicon-saxony
   name: Silicon Saxony
   pi: null
@@ -4061,7 +4178,7 @@
   osm: null
   url: https://imr.sjtu.edu.cn/en/Po_staff.html
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   - medical
@@ -4078,9 +4195,11 @@
   community_improvement: null
   mission_fit: Affiliated with a dedicated Institute of Medical Robotics at a major
     Chinese university -- direct categorical fit for small-scale medical robotics.
-  notes: Found via alumni-snowballing from cornell-cohen. No dedicated personal lab
+  notes: 'Found via alumni-snowballing from cornell-cohen. No dedicated personal lab
     page found -- linked to the Institute of Medical Robotics staff page instead,
-    verify a better direct link exists.
+    verify a better direct link exists. Recategorized from micro-robotics: broad microrobotics/metamaterials/nanomaterials/photonics
+    portfolio, no specific autonomous-whole-system claim -- defaults to the end-effector
+    bucket.'
 - id: srl-twente
   name: Surgical Robotics Lab (SRL)
   pi: Sarthak Misra
@@ -4092,7 +4211,7 @@
   osm: null
   url: https://surgicalroboticslab.nl/about/introduction/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -4125,9 +4244,10 @@
   notes: 'Strong clinical-imaging control stack. Externally actuated and instrument-scale
     rather than sub-mm autonomous, so the micro-robotics label is generous -- revisit
     once min_dim_um is filled in. The polygon on the original map was the Twente campus;
-    find the OSM way and set `osm`.
-
-    '
+    find the OSM way and set `osm`. Recategorized from micro-robotics: Surgical Robotics
+    Lab''s well-known work includes wireless magnetic capsule/microrobots -- externally
+    actuated, no onboard-power claim; the lab''s broader surgical-robotics scope also
+    extends beyond strictly micro-scale, but this is the closest existing fit.'
 - id: stanford-arbabian
   name: Arbabian Lab
   pi: Amin Arbabian
@@ -4173,7 +4293,7 @@
   osm: null
   url: https://bammlab.stanford.edu/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -4211,7 +4331,9 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/stanford-bamm.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: Bio-Acoustic
+    MEMS in Medicine -- device/MEMS framing at micro/nanoscale, no autonomous whole-system
+    claim.'
 - id: strath-materials
   name: Materials & Computational Chemistry
   pi: Juliane Simmchen
@@ -4262,7 +4384,7 @@
   osm: null
   url: https://www.sustech.edu.cn/en/faculties/huchengzhi.html
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -4279,9 +4401,10 @@
   community_improvement: null
   mission_fit: A microrobotics group at a fast-growing Chinese research university
     -- direct categorical fit.
-  notes: Found via alumni-snowballing from ethz-msrl. Third mainland-China-adjacent
+  notes: 'Found via alumni-snowballing from ethz-msrl. Third mainland-China-adjacent
     entry after westlake-wang and the Fudan pair, though Shenzhen/SUSTech is a distinct
-    institution and city.
+    institution and city. Recategorized from micro-robotics: magnetically/light-driven
+    microrobots and BioMEMS -- externally actuated.'
 - id: synchron
   name: Synchron
   pi: null
@@ -4331,7 +4454,7 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Ben+Wang+microrobot+Shenzhen+University
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -4348,8 +4471,10 @@
   community_improvement: null
   mission_fit: A microrobotics group at a major Chinese university -- direct categorical
     fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. Institution string set to Lihu
-    campus for geocoding disambiguation (Shenzhen University is multi-campus).
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Institution string set to
+    Lihu campus for geocoding disambiguation (Shenzhen University is multi-campus).
+    Recategorized from micro-robotics: magnetic-driven microrobots/microswimmers for
+    digestive-tract delivery -- externally actuated.'
 - id: tcd-florea
   name: Florea Lab
   pi: Larisa Florea
@@ -4533,9 +4658,10 @@
     autonomous sub-millimeter robotic systems -- a top-tier reference point, and unusually
     close geographically.
   notes: 'Local. One of the two groups that meet the whole-system criterion. Highest-value
-    proximity on the map -- relevance 5 on access alone.
-
-    '
+    proximity on the map -- relevance 5 on access alone. Re-confirmed in the 2026-09
+    micro-robotics audit: one of the two labs the user specifically named as doing
+    genuinely autonomous work -- stays in the strict category (onboard_power was already
+    True).'
 - id: tud-bcube
   name: B CUBE — Center for Molecular Bioengineering
   pi: null
@@ -4547,7 +4673,7 @@
   osm: null
   url: https://tu-dresden.de/cmcb
   people_url: null
-  category: micro-robotics
+  category: material-lab
   application: []
   min_dim_um: null
   onboard_power: false
@@ -4632,7 +4758,10 @@
     defaulted to false -- verify. No point/link in the export, so no url -- fill in
     by hand. url defaulted to the parent CMCB center''s homepage (B CUBE''s own description
     says it''s part of CMCB) -- the export had no link at all for this entry, replace
-    with B CUBE''s own page if it has one.'
+    with B CUBE''s own page if it has one. Recategorized from micro-robotics to material-lab:
+    B CUBE is a broad molecular bioengineering center (''translate natural phenomena
+    into innovative materials and technologies'') with no specific robot claim --
+    a generic materials/bioengineering fit, not a robotics-specific one.'
 - id: tudarmstadt-bakenecker
   name: Microrobot Drug Transport — Bakenecker Group
   pi: Anna C. Bakenecker
@@ -4644,7 +4773,7 @@
   osm: null
   url: https://www.etit.tu-darmstadt.de/fachbereich/professuren_etit/etit_prof_details_141248.en.jsp
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -4683,7 +4812,9 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify. Old map''s layer title misspells the PI''s name
-    as ''Backenecker''; the linked description spells it ''Bakenecker'', used here.'
+    as ''Backenecker''; the linked description spells it ''Bakenecker'', used here.
+    Recategorized from micro-robotics: nano/microrobots for targeted drug transport
+    -- no onboard-power claim, externally actuated by the standard logic of this subfield.'
 - id: tudelft-mavlab
   name: MAVLab — Micro Air Vehicle Laboratory
   pi: Guido de Croon
@@ -4732,7 +4863,7 @@
   osm: null
   url: https://www.ee.cit.tum.de/en/rmn/research/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -4752,7 +4883,9 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/tum-mrbl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: ''nanorobotic
+    tools and multifunctional micromachines'' integrated with biomedicine -- tool/device
+    framing, no autonomous whole-system claim.'
 - id: tum-neuroengineering
   name: Neuroengineering Materials
   pi: Kristen Kozielski
@@ -4807,7 +4940,7 @@
   osm: null
   url: https://www.uab.cat/ca/microelectronica-sistemes-electronics/departament
   people_url: null
-  category: micro-robotics
+  category: electronic-engineering
   application: []
   min_dim_um: null
   onboard_power: false
@@ -4846,7 +4979,11 @@
     current research focus not yet reassessed.
   notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
     relevance=1, status=watch, application=[] (empty). institution_type set from general
-    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
+    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.
+    Recategorized from micro-robotics to electronic-engineering: this is literally
+    a Department of Microelectronics and Electronic Systems (integrated-circuit design
+    teaching/research) -- a chip-design department with no robotics content at all,
+    clearly miscategorized from the original migration.'
 - id: ucb-lin
   name: Liwei Lin Lab
   pi: Liwei Lin
@@ -4901,7 +5038,7 @@
   osm: null
   url: https://activematter.dfi.uchile.cl/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -4921,7 +5058,7 @@
   mission_fit: Theoretical and computational work designing microrobot models and
     a self-assembling 'microrobot factory' -- relevant at the level of design and
     self-assembly principles rather than physical fabrication.
-  notes: Found via web search -- first South/Central America entry beyond the pre-existing
+  notes: 'Found via web search -- first South/Central America entry beyond the pre-existing
     single Brazil point (unicamp-deneke). Primarily a theory/simulation group, not
     a physical-fabrication lab, so treat min_dim_um and onboard_power as genuinely
     unknown rather than defaulted; filed under micro-robotics since they explicitly
@@ -4929,6 +5066,11 @@
     to caltech-winfree being filed under a contribution-type category despite being
     a different substrate. Lab URL had a certificate/hostname mismatch when fetched
     -- likely fine in a normal browser, but verify before relying on it for uMap link-following.
+    Recategorized from micro-robotics: this is a theoretical/computational active-matter
+    physics group -- simulated/modeled microrobot designs and self-assembly, not a
+    physically fabricated autonomous system. Filed with the end-effector/particle-systems
+    bucket rather than the strict autonomous-robot one, since nothing here has actually
+    been built and powered yet.'
 - id: ucmerced-liu
   name: Liu Lab
   pi: Bin Liu
@@ -5111,7 +5253,7 @@
   osm: null
   url: https://samlab.robotics.umich.edu/
   people_url: https://robotics.umich.edu/people/faculty/steven-ceron/
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -5134,7 +5276,11 @@
     match and a genuinely promising point of contact.
   notes: 'Found via alumni-snowballing from mit-smrl (Kevin Chen''s lab). A near-exact
     double match: micron-scale + swarm behavior in one person, brand new faculty (Jan
-    2025) and actively recruiting -- genuinely worth reaching out to, not just watching.'
+    2025) and actively recruiting -- genuinely worth reaching out to, not just watching.
+    Recategorized from micro-robotics: design/fabrication/control of micron-scale
+    robot swarms -- no onboard-power claim identified; the swarm-behavior angle also
+    has something in common with information-technology, but the explicit fabrication
+    focus keeps it in the hardware-facing bucket.'
 - id: umn-cheng
   name: Xiang Cheng Group
   pi: Xiang Cheng
@@ -5260,7 +5406,7 @@
   osm: null
   url: https://www.inf.uni-rostock.de/llm/ueber-uns/department/
   people_url: null
-  category: micro-robotics
+  category: material-lab
   application: []
   min_dim_um: null
   onboard_power: false
@@ -5346,7 +5492,10 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unirostock-llm.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics to material-lab:
+    ''Light on Matter, Matter at the Nanoscale, Cells in Contact'' is a broad nanoscience
+    department, no specific robot claim -- a placeholder from the original migration,
+    not a robotics-specific fit.'
 - id: unitoronto-liu
   name: Microfluidics and BioMEMS Laboratory (MBL)
   pi: Xinyu Liu
@@ -5358,7 +5507,7 @@
   osm: null
   url: https://liulab.mie.utoronto.ca/research/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -5384,7 +5533,10 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/unitoronto-liu.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: microfluidic
+    biosensors, stretchable sensors, and micro/nano/soft robotic systems -- broad
+    device portfolio; kept in the end-effector bucket since robotic systems are explicitly
+    named, though it borders on material-lab given the sensor breadth.'
 - id: unm-cavallo
   name: Cavallo Research Group
   pi: Francesca Cavallo
@@ -5465,7 +5617,7 @@
   osm: null
   url: https://uol.de/informatik/amir/ueber-uns
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -5512,7 +5664,10 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/uol-amir.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: AMiR''s own description
+    is literally about ''automatisierte Nanohandhabung'' (automated nanomanipulation)
+    via SEM/AFM-based systems -- externally operated manipulation tools, not autonomous
+    robots.'
 - id: upenn-miskin
   name: Miskin Lab
   pi: Marc Miskin
@@ -5527,7 +5682,7 @@
   category: micro-robotics
   application: []
   min_dim_um: null
-  onboard_power: false
+  onboard_power: true
   institution_type: university
   relevance: 1
   status: watch
@@ -5548,7 +5703,11 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/upenn-miskin.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Re-confirmed and corrected in the 2026-09 micro-robotics
+    audit: the entry''s own (pre-existing) description already called this ''the first
+    and only real Microrobotic Lab'' -- self-folding sub-100-micron robots with onboard
+    photovoltaic power, genuinely autonomous. onboard_power was incorrectly left False
+    from the original migration; corrected to True here.'
 - id: upenn-pikul
   name: Pikul Research Group
   pi: James Pikul
@@ -5659,7 +5818,7 @@
   osm: null
   url: https://scholar.google.com/citations?hl=en&q=Xin+Chen+microrobot+USTC+femtosecond
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -5678,11 +5837,12 @@
   community_improvement: null
   mission_fit: Combines advanced fabrication with field-actuated microdevices, part
     of a real cluster at the same Chinese university -- direct categorical fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. Second USTC entry alongside
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Second USTC entry alongside
     ustc-feng -- both combine advanced fabrication with field-actuated microdevices,
     worth noting as a real cluster. Coordinates reused directly from ustc-feng (same
     institution, main USTC campus) since a fresh geocode of the identical institution
-    string returned zero results this round.
+    string returned zero results this round. Recategorized from micro-robotics: femtosecond-laser-fabricated,
+    magnetically-actuated microrobots -- externally driven.'
 - id: utah-abbott
   name: Telerobotics Lab
   pi: Jake J. Abbott
@@ -5694,7 +5854,7 @@
   osm: null
   url: https://www.telerobotics.utah.edu/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -5713,8 +5873,10 @@
   mission_fit: Works on externally magnetically-actuated microrobots -- a materials/actuation-technique
     match rather than a fully autonomous onboard-powered system, following the same
     common field-terminology pattern seen elsewhere.
-  notes: Found via alumni-snowballing from ethz-msrl. Externally magnetically actuated,
-    same conflation flag as other magnetic-microrobot entries.
+  notes: 'Found via alumni-snowballing from ethz-msrl. Externally magnetically actuated,
+    same conflation flag as other magnetic-microrobot entries. Recategorized from
+    micro-robotics: wireless magnetically-controlled microrobots for medical telerobotics
+    -- externally actuated by definition.'
 - id: utoronto-crl
   name: Continuum Robotics Lab
   pi: Jessica Burgner-Kahrs
@@ -5726,7 +5888,7 @@
   osm: null
   url: https://crl.utm.utoronto.ca/team/
   people_url: null
-  category: micro-robotics
+  category: milli-robotics
   application: []
   min_dim_um: null
   onboard_power: false
@@ -5752,7 +5914,10 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/utoronto-crl.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics to milli-robotics:
+    continuum robots (tendon/fluid-driven, catheter-like organic structures) are typically
+    mm-cm scale, not sub-mm -- a scale mismatch with the strict micro-robotics/micro-nano-end-effectors
+    distinction, milli-robotics is the more accurate existing fit.'
 - id: utoronto-diller
   name: Diller Microrobotics Lab
   pi: Eric Diller
@@ -5764,7 +5929,7 @@
   osm: null
   url: https://microrobotics.mie.utoronto.ca/people/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application: []
   min_dim_um: null
   onboard_power: false
@@ -5818,7 +5983,8 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/utoronto-diller.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics: magnetic actuation,
+    no onboard-power claim -- textbook end-effector fit despite the lab''s own name.'
 - id: utoronto-sun
   name: Advanced Micro and Nanosystems Laboratory (AMNL)
   pi: Yu Sun
@@ -5830,7 +5996,7 @@
   osm: null
   url: https://amnl.mie.utoronto.ca/
   people_url: null
-  category: micro-robotics
+  category: material-lab
   application:
   - medical
   - fundamental
@@ -5848,10 +6014,12 @@
   community_improvement: null
   mission_fit: A distinct microrobotics group, part of a real cluster of independent
     labs at the same university -- direct categorical fit.
-  notes: Found via alumni-snowballing from ethz-msrl. Fourth University of Toronto
+  notes: 'Found via alumni-snowballing from ethz-msrl. Fourth University of Toronto
     entry alongside utoronto-crl, utoronto-diller, and unitoronto-liu -- a genuinely
     distinct PI/lab, not a duplicate; worth noting Toronto as a real cluster on this
-    map.
+    map. Recategorized from micro-robotics to material-lab: general instrumentation
+    for manipulating/characterizing cells, molecules, and nanomaterials -- a characterization/tooling
+    capability, not a robot or end-effector claim specifically.'
 - id: uw-netlab
   name: Networks & Mobile Systems Lab (MilliMobile)
   pi: Vikram Iyer
@@ -5937,7 +6105,7 @@
   osm: null
   url: https://nanorobots.vsb.cz/en/
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   - fundamental
@@ -5959,13 +6127,16 @@
   mission_fit: Led by one of the most highly-cited researchers in nanorobotics worldwide,
     working toward independent, intelligent nanorobots -- a top-tier reference point
     for the field.
-  notes: Found via web search for Eastern-Europe coverage (previously zero entries
+  notes: 'Found via web search for Eastern-Europe coverage (previously zero entries
     east of Germany/Switzerland/Austria). Extremely high-confidence, prominent figure
     -- arguably the single best Eastern-European fit found. Pumera has multiple institutional
     affiliations (also CEITEC Brno, UCT Prague as founding director emeritus 2017-2023);
     picked the Ostrava lab as primary since its own dedicated site names it his current
     lab, but worth confirming which affiliation is most active today. First Czech
-    Republic entry.
+    Republic entry. Recategorized from micro-robotics: explicitly aspirational (''works
+    toward independent, mobile, intelligent nanorobots'') -- no confirmed onboard-power/autonomy
+    achieved yet, so filed with the end-effector bucket alongside harvard-microrobotics/mit-smrl
+    until that changes, per the tightened micro-robotics rule.'
 - id: waterloo-magdanz
   name: Medical Microrobotics Lab
   pi: Veronika Magdanz
@@ -5977,7 +6148,7 @@
   osm: null
   url: https://magdanzlab.com/
   people_url: null
-  category: micro-robotics
+  category: biohybrid-robotics
   application:
   - medical
   min_dim_um: null
@@ -5997,10 +6168,13 @@
   mission_fit: Works on externally magnetically-actuated micro/nanomotors -- a materials/actuation-technique
     match, part of the same broader regional research community as other magnetic-microrobot
     entries on this map.
-  notes: Found via alumni-snowballing from tuc-schmidt (Dresden-area PhD, matches
-    the same regional micro/nanomotor community as ibec-sanchez and Oliver Schmidt's
+  notes: 'Found via alumni-snowballing from tuc-schmidt (Dresden-area PhD, matches
+    the same regional micro/nanomotor community as ibec-sanchez and Oliver Schmidt''s
     own group). Externally magnetically actuated, same conflation flag as other magnetic-microrobot
-    entries -- onboard_power=false.
+    entries -- onboard_power=false. Recategorized from micro-robotics to the new biohybrid-robotics
+    category: IRONSperm and related work use deactivated bovine sperm cells (a living-derived
+    biological chassis) coated with magnetic nanoparticles -- exactly the living/biological-chassis
+    case the new category exists for, even though actuation itself is external (magnetic).'
 - id: westlake-wang
   name: Intelligent Microrobotics Laboratory (IML)
   pi: Wei Wang
@@ -6017,7 +6191,7 @@
   - fundamental
   - industrial
   min_dim_um: null
-  onboard_power: false
+  onboard_power: true
   institution_type: university
   relevance: 5
   status: watch
@@ -6031,10 +6205,17 @@
   mission_fit: Works on microrobotics designed to be compatible with standard CMOS
     circuit fabrication -- an unusually close match for anyone pursuing a chip-fabrication-based
     approach to building small autonomous robots.
-  notes: Found via alumni-snowballing from cornell-cohen. Extremely close match to
-    the project's own core approach -- CMOS-circuit-compatible microrobotics is close
-    to a direct description of the project's own reference design strategy, just pursued
-    independently in China. Worth a real look, not just a watch entry.
+  notes: 'Found via alumni-snowballing from cornell-cohen. Extremely close match to
+    the project''s own core approach -- CMOS-circuit-compatible microrobotics is close
+    to a direct description of the project''s own reference design strategy, just
+    pursued independently in China. Worth a real look, not just a watch entry. Newly
+    confirmed in the 2026-09 micro-robotics audit -- verified directly: Wei Wang''s
+    CMOS-based microrobots (Science Robotics 2022, ''Smart microrobots walk autonomously
+    with electronic brains'') carry onboard photovoltaic cells, an onboard processor,
+    onboard sensors, and onboard actuation -- a third (fourth, counting cornell-mceuen)
+    genuinely autonomous entry, previously mis-set to onboard_power=false. Wang is
+    affiliated with both Cornell and Westlake, plausibly connected to the same Cohen/McEuen
+    lineage -- worth checking co-authorship directly in a future pass.'
 - id: wibotic
   name: WiBotic
   pi: Ben Waters
@@ -6085,7 +6266,7 @@
   osm: null
   url: https://er-web.ynu.ac.jp/html/FUCHIWAKI_Ohmi/en.html
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   - industrial
@@ -6105,9 +6286,11 @@
   mission_fit: Builds miniature piezoelectric-driven robots for micromanipulation,
     including work inside SEM vacuum chambers -- a direct fit for small-scale robotic
     actuation and manipulation techniques.
-  notes: Found via web search for Japan-region coverage. Second Japan entry -- moved
+  notes: 'Found via web search for Japan-region coverage. Second Japan entry -- moved
     from University of Electro-Communications to Yokohama National University at some
-    point; verify current lab page/affiliation is up to date.
+    point; verify current lab page/affiliation is up to date. Recategorized from micro-robotics:
+    piezoelectric micromanipulation robots, externally wired/powered (not onboard
+    battery) -- end-effector/tool fit.'
 - id: zewailcity-elsherbiny
   name: El-Sherbiny Nanomedicine Lab — Center for Materials Science
   pi: Ibrahim M. El-Sherbiny
@@ -6156,7 +6339,7 @@
   osm: null
   url: http://sklofp.zju.edu.cn/sklen/29506/list.htm
   people_url: null
-  category: micro-robotics
+  category: material-lab
   application: []
   min_dim_um: null
   onboard_power: false
@@ -6224,7 +6407,10 @@
   notes: 'Migrated from the old hand-drawn uMap export. Campus outline in polygons/zju-fpms.geojson.
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
-    defaulted to false -- verify.'
+    defaulted to false -- verify. Recategorized from micro-robotics to material-lab:
+    ''State Key Laboratory of Fluid Power and Mechatronic Systems'' is a broad fluid-power/mechatronics
+    institute, no specific robot or end-effector claim -- a placeholder from the original
+    migration.'
 - id: zju-pan
   name: Chengfeng Pan Group
   pi: Chengfeng Pan
@@ -6236,7 +6422,7 @@
   osm: null
   url: https://www.researchgate.net/profile/Chengfeng-Pan
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - medical
   min_dim_um: null
@@ -6253,8 +6439,9 @@
   community_improvement: null
   mission_fit: A microrobotics group, part of a real emerging cluster of independent
     labs at the same Chinese university -- direct categorical fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. Third distinct Zhejiang University
-    entry alongside zju-fpms/zju-cheng/zju-xia.
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Third distinct Zhejiang University
+    entry alongside zju-fpms/zju-cheng/zju-xia. Recategorized from micro-robotics:
+    modularized magnetic microrobot for targeted cell delivery -- externally actuated.'
 - id: zju-xia
   name: Xia Neng Group
   pi: Neng Xia
@@ -6266,7 +6453,7 @@
   osm: null
   url: https://www.researchgate.net/profile/Neng-Xia
   people_url: null
-  category: micro-robotics
+  category: micro-nano-end-effectors
   application:
   - fundamental
   - medical
@@ -6283,6 +6470,7 @@
   community_improvement: null
   mission_fit: A microrobotics group, part of a real emerging cluster of independent
     labs at the same Chinese university -- direct categorical fit.
-  notes: Found via alumni-snowballing from cuhk-zhang. Same university as zju-fpms
+  notes: 'Found via alumni-snowballing from cuhk-zhang. Same university as zju-fpms
     and zju-cheng, though a distinct group -- Zhejiang is emerging as a real cluster
-    on this map.
+    on this map. Recategorized from micro-robotics: untethered miniature soft robots
+    -- no onboard-power claim identified, defaults to the end-effector bucket.'

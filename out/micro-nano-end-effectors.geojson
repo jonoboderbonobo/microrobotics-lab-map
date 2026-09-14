@@ -1,0 +1,2513 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Advanced Micro and Nanosystems Laboratory",
+        "description": "**Eniko T. Enikov** — University of Arizona, Tucson, AZ (US)<br><br>Professor of Aerospace and Mechanical Engineering working on system identification, design and fabrication of MEMS, miniature mechatronic systems, sensors, and actuators -- including micro-robotic drug delivery.<br><br>**Why it's on this map:** Works on MEMS-based miniature mechatronic systems and micro-robotic drug delivery -- directly in the same technical space as sub-millimeter autonomous robotics for medical use.<br><br>[[https://ame.engineering.arizona.edu/faculty-staff/faculty/eniko-t-enikov|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "arizona-enikov",
+        "pi": "Eniko T. Enikov",
+        "institution": "University of Arizona",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.95174,
+          32.2357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NanoRobotic Systems Lab",
+        "description": "**Lixin Dong** — City University of Hong Kong, Hong Kong (HK)<br><br>Nanorobotics research, including ionic shape-morphing microrobotic end-effectors for environmentally adaptive targeting, releasing, and sampling. Now Professor of Biomedical Engineering at City University of Hong Kong, having previously built the NanoRobotic Systems Lab at Michigan State University.<br><br>**Why it's on this map:** Works on shape-morphing microrobotic end-effectors for environmentally adaptive targeting and sampling -- a direct fit for small-scale robotic manipulation and actuation.<br><br>[[https://www.cityu.edu.hk/bme/lixidong/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "cityu-dong",
+        "pi": "Lixin Dong",
+        "institution": "City University of Hong Kong",
+        "country": "HK",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17264,
+          22.33682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KF-Chan Lab",
+        "description": "**Kai Fung Chan** — Chow Yuk Ho Technology Centre for Innovative Medicine, CUHK, Hong Kong (HK)<br><br>Research Assistant Professor working on medical miniature devices, robotic surgical tools, micro-/nanorobotics, and flexible electronic implants for translational medicine.<br><br>**Why it's on this map:** Works on medical miniature devices, micro/nanorobotics, and flexible electronic implants for translational medicine -- a close, direct fit.<br><br>[[https://kfchanlab.com/|Group website]]<br>[[https://kfchanlab.com/people/|People]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "cuhk-chan",
+        "pi": "Kai Fung Chan",
+        "institution": "Chow Yuk Ho Technology Centre for Innovative Medicine, CUHK",
+        "country": "HK",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2099,
+          22.41372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chaoyu Yang Group",
+        "description": "**Chaoyu Yang** — Chinese University of Hong Kong, Hong Kong (HK)<br><br>Department of Mechanical and Automation Engineering researcher, co-author of 'Dynamic coupling enables impulsive ejection in a hydrogel catapult' (Nature Communications), a dynamic-coupling ejection strategy giving miniature robots high-speed, cross-scale, non-contact locomotion.<br><br>**Why it's on this map:** Co-developed a dynamic-coupling ejection mechanism giving miniature robots high-speed, non-contact locomotion -- a specific novel locomotion strategy relevant to how very small robots could move.<br><br>[[https://scholar.google.com/citations?hl=en&q=Chaoyu+Yang+hydrogel+catapult+microrobot|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "cuhk-yang-c",
+        "pi": "Chaoyu Yang",
+        "institution": "Chinese University of Hong Kong",
+        "country": "HK",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2099,
+          22.41372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhang Research Lab",
+        "description": "**Li Zhang** — Chinese University of Hong Kong, Hong Kong (HK)<br><br>Works on microrobotics, medical robotics, biorobotics, and soft materials -- including navigation and localization of microrobotic swarms in blood vessels, and a biohybrid microbot built from Spirulina algae with in-vivo tracking and programmable biodegradability. Author/co-author of 400+ publications including Science Robotics, Nature Materials, and Nature Biomedical Engineering; earlier artificial-bacterial-flagella work was indexed in the Guinness Book of World Records 2012 as the 'Most Advanced Mini Robot for Medical Use.'<br><br>**Why it's on this map:** One of the most prolific and highly-published microrobotics groups worldwide, spanning swarm navigation in blood vessels to biohybrid microrobots -- a top-tier reference point for the whole field.<br><br>[[https://microbot.mae.cuhk.edu.hk/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "cuhk-zhang",
+        "pi": "Li Zhang",
+        "institution": "Chinese University of Hong Kong",
+        "country": "HK",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2099,
+          22.41372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DGIST-ETH Microrobotics Research Center",
+        "description": "**DGIST-ETH Microrobotics Research Center** — DGIST, Daegu (KR)<br><br>DGIST-ETH Microrobotics Research Center<br><br>DGIST-ETH Microrobotics Research Center (DEMRC) was initially established for global collaboration on microrobot research between DGIST and ETH Zurich. DEMRC plans to expand collaborations with other domestic and international institutes. DEMRC has several government-funded research projects including a major robotics project on industrial core technology development funded by the Korea Evaluation Institute of Industrial Technologies (KEIT) and the Ministry of Trade, Industry and Energy (MOTIE), Korea. The center will pursue the project by developing new medical microrobots and minimally invasive treatment technologies to cure chronic arterial occlusion with blocked arteries. Furthermore, the center plans to develop core technology of microrobots such as two and three-dimensional medical imaging, remote robot control for minimal exposure to radiation and efficient chronic arterial occlusion treatment.<br><br><br><br><br><br>Research Areas<br><br>    Micro/nano-robots<br>    Micro/nano manipulation & control<br>    Magnetic control systems<br>    Piezoelectric micro-electro-mechanical system (MEMS)<br>    Materials for biomedical applications<br>    Medical imaging and surgical navigation<br>    Microfluidics<br><br><br>Bio-Micro Robotics Lab. in Department of Robotics Engineering<br><br>Our research focus is on Micro-Electromechanical Systems (MEMS) and Nano- Electromechanical Systems (NEMS) for robotics and biomedicine. Current research activities in our group include micro-robots, micro/nano manipulation, acoustic MEMS transducers, brain-machine interfaces, and microfluidics devices. Potential applications for those research areas include minimally-invasive surgery, drug/cell transportation within the human body, neural prostheses for artificial sensory systems, medical communication, and ultrasonic medical imaging.<br><br>Research Areas<br>DGIST-ETH Microrobotics Research Center and Biomicrorobotics Lab is aiming to Micro/nano-robots, magnetic control systems and Piezoelectric micro-electro-mechanical system for multidisciplinary research between biomedical and micro/nano technologies<br><br><br><br><br><br>    Creating a conducive research environment for interdisciplinary micro-robotics studies and overcoming technological barriers in the field through the advancement of related foundational research and securing fundamental patents.<br>    Training globally competitive researchers in the field of micro-robotics convergence.<br>    Establishing partnerships with industry for technology transfer related to micro-robotics and fostering collaboration between academia and industry in research and development.<br>    Building cooperative networks with leading micro-robotics research institutions worldwide, ensuring international agility and collaboration.<br><br><br><br><br><br>    Development of applied technologies for medical micro/nano robots<br>        Development of biocompatible and highly efficient micro/nano robots using MEMS technology<br>        Development of precise magnetic field control systems<br>        Development of micro medical robots for targeted precision therapies such as drug delivery, cell delivery, treatment of heart diseases, brain disorders, etc.<br>        Ensuring efficacy and safety of disease treatment with micro/nano robots and advancing commercialization through joint research with clinical physicians<br>    Development of imaging technologies for micro robots:<br>        Bi-planar X-ray system and CTA & X-ray image fusion<br>        Development of 3D shape models and navigation, interpretation, and compensation of cardiac motion<br>        Development of image-based surgical planning and conducting animal experiments<br>    Applications of engineering using piezoelectric MEMS-based artificial auditory systems and ultrasound transducers.<br><br>**Why it's on this map:** A dedicated international microrobotics research center with government-funded medical microrobot projects -- broadly aligned, though the specific current research focus and any collaboration angle haven't been assessed closely yet.<br><br>[[https://dgistbmr.cafe24.com/about-us/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "dgist-demrc",
+        "pi": "",
+        "institution": "DGIST",
+        "country": "KR",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.59279,
+          35.86621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DGIST-ETH Microrobotics Research Center",
+        "description": "**DGIST-ETH Microrobotics Research Center** — DGIST, Daegu (KR)<br><br>DGIST-ETH Microrobotics Research Center<br><br>DGIST-ETH Microrobotics Research Center (DEMRC) was initially established for global collaboration on microrobot research between DGIST and ETH Zurich. DEMRC plans to expand collaborations with other domestic and international institutes. DEMRC has several government-funded research projects including a major robotics project on industrial core technology development funded by the Korea Evaluation Institute of Industrial Technologies (KEIT) and the Ministry of Trade, Industry and Energy (MOTIE), Korea. The center will pursue the project by developing new medical microrobots and minimally invasive treatment technologies to cure chronic arterial occlusion with blocked arteries. Furthermore, the center plans to develop core technology of microrobots such as two and three-dimensional medical imaging, remote robot control for minimal exposure to radiation and efficient chronic arterial occlusion treatment.<br><br><br><br><br><br>Research Areas<br><br>    Micro/nano-robots<br>    Micro/nano manipulation & control<br>    Magnetic control systems<br>    Piezoelectric micro-electro-mechanical system (MEMS)<br>    Materials for biomedical applications<br>    Medical imaging and surgical navigation<br>    Microfluidics<br><br><br>Bio-Micro Robotics Lab. in Department of Robotics Engineering<br><br>Our research focus is on Micro-Electromechanical Systems (MEMS) and Nano- Electromechanical Systems (NEMS) for robotics and biomedicine. Current research activities in our group include micro-robots, micro/nano manipulation, acoustic MEMS transducers, brain-machine interfaces, and microfluidics devices. Potential applications for those research areas include minimally-invasive surgery, drug/cell transportation within the human body, neural prostheses for artificial sensory systems, medical communication, and ultrasonic medical imaging.<br><br>Research Areas<br>DGIST-ETH Microrobotics Research Center and Biomicrorobotics Lab is aiming to Micro/nano-robots, magnetic control systems and Piezoelectric micro-electro-mechanical system for multidisciplinary research between biomedical and micro/nano technologies<br><br><br><br><br><br>    Creating a conducive research environment for interdisciplinary micro-robotics studies and overcoming technological barriers in the field through the advancement of related foundational research and securing fundamental patents.<br>    Training globally competitive researchers in the field of micro-robotics convergence.<br>    Establishing partnerships with industry for technology transfer related to micro-robotics and fostering collaboration between academia and industry in research and development.<br>    Building cooperative networks with leading micro-robotics research institutions worldwide, ensuring international agility and collaboration.<br><br><br><br><br><br>    Development of applied technologies for medical micro/nano robots<br>        Development of biocompatible and highly efficient micro/nano robots using MEMS technology<br>        Development of precise magnetic field control systems<br>        Development of micro medical robots for targeted precision therapies such as drug delivery, cell delivery, treatment of heart diseases, brain disorders, etc.<br>        Ensuring efficacy and safety of disease treatment with micro/nano robots and advancing commercialization through joint research with clinical physicians<br>    Development of imaging technologies for micro robots:<br>        Bi-planar X-ray system and CTA & X-ray image fusion<br>        Development of 3D shape models and navigation, interpretation, and compensation of cardiac motion<br>        Development of image-based surgical planning and conducting animal experiments<br>    Applications of engineering using piezoelectric MEMS-based artificial auditory systems and ultrasound transducers.<br><br>**Why it's on this map:** A dedicated international microrobotics research center with government-funded medical microrobot projects -- broadly aligned, though the specific current research focus and any collaboration angle haven't been assessed closely yet.<br><br>[[https://dgistbmr.cafe24.com/about-us/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "dgist-demrc",
+        "pi": "",
+        "institution": "DGIST",
+        "country": "KR",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              128.592415,
+              35.865987
+            ],
+            [
+              128.592903,
+              35.865989
+            ],
+            [
+              128.593163,
+              35.866124
+            ],
+            [
+              128.593179,
+              35.866482
+            ],
+            [
+              128.592423,
+              35.866491
+            ],
+            [
+              128.592415,
+              35.865987
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smart Technologies for Tumor Therapy",
+        "description": "**Tian Qiu** — German Cancer Research Center (DKFZ), Dresden site, Dresden (DE)<br><br>Develops magnetically-actuated micro- and millirobots for minimally invasive medicine: helical microrobots that drill through viscoelastic tissue (liver, brain) toward targeted drug delivery, tissue-penetrating nanorobots that propel through the eye toward the retina, and \"TrainBot\" -- a convoy of magnetically-linked millimeter-scale robots that jointly transport an endoscopic instrument (cannula, camera, or surgical tool) for minimally invasive surgery. Runs an ERC project (VIBEBOT) specifically targeting deep-brain navigation for hard-to-reach tumors. PI Tian Qiu holds a joint professorship in TU Dresden's Faculty of Medicine and Faculty of Electrical and Computer Engineering, and the group explicitly works with clinical partners to translate the technology toward real procedures.<br><br>**Why it's on this map:** Combines magnetic actuation, wireless power/control, and integrated sensing in tiny devices navigating soft tissue -- a close technical parallel to the locomotion, energy, and communication problems any small autonomous medical robot faces, even though these particular devices are externally driven rather than self-powered. The explicit clinical-translation angle (built with hospital/surgical partners, aimed at real brain-tumor procedures) also makes it a concrete example of what a credible path from lab demo to actual medical use looks like for very small robotic tools.<br><br>[[https://www.dkfz.de/en/smart-technologies-for-tumor-therapy|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "dkfz-qiu",
+        "pi": "Tian Qiu",
+        "institution": "German Cancer Research Center (DKFZ), Dresden site",
+        "country": "DE",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.78432,
+          51.05564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xingzhou Du Group",
+        "description": "**Xingzhou Du** — Dalian University of Technology, Dalian (CN)<br><br>Associate Professor at the Institute of Robotics and Intelligent Systems, working on microrobotics and magnetic actuation systems, including magnetic micro/nanorobots for precise physical stimulation of cells and intracellular structures.<br><br>**Why it's on this map:** Works on magnetic micro/nanorobots for precise physical stimulation of cells -- a direct fit for small-scale robotic manipulation in a biomedical context.<br><br>[[https://scholar.google.com.hk/citations?hl=en&user=X9Mzqb0AAAAJ|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "dut-du",
+        "pi": "Xingzhou Du",
+        "institution": "Dalian University of Technology",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52016,
+          38.88126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EPFL — Microbiorobotic Systems Laboratory (MICROBS)",
+        "description": "**EPFL — Microbiorobotic Systems Laboratory (MICROBS)** — École Polytechnique Fédérale de Lausanne, Lausanne (CH)<br><br>**Why it's on this map:** A dedicated microbiorobotic systems laboratory -- the name and category suggest a strong potential fit, though the specific current research focus hasn't been documented yet and is worth a closer look.<br><br>[[https://www.epfl.ch/labs/microbs/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "epfl-microbs",
+        "pi": "",
+        "institution": "École Polytechnique Fédérale de Lausanne",
+        "country": "CH",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.56736,
+          46.51969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EPFL — Microbiorobotic Systems Laboratory (MICROBS)",
+        "description": "**EPFL — Microbiorobotic Systems Laboratory (MICROBS)** — École Polytechnique Fédérale de Lausanne, Lausanne (CH)<br><br>**Why it's on this map:** A dedicated microbiorobotic systems laboratory -- the name and category suggest a strong potential fit, though the specific current research focus hasn't been documented yet and is worth a closer look.<br><br>[[https://www.epfl.ch/labs/microbs/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "epfl-microbs",
+        "pi": "",
+        "institution": "École Polytechnique Fédérale de Lausanne",
+        "country": "CH",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              6.56733,
+              46.519717
+            ],
+            [
+              6.567327,
+              46.519671
+            ],
+            [
+              6.567421,
+              46.519671
+            ],
+            [
+              6.567424,
+              46.519717
+            ],
+            [
+              6.56733,
+              46.519717
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Responsive Biomedical Systems Lab",
+        "description": "**Simone Schürle** — ETH Zurich, Zürich (CH)<br><br>Develops diagnostic and therapeutic systems at the nano- and microscale to address challenges in cancer and musculoskeletal conditions. Simone Schürle is Assistant Professor at ETH Zurich's Department of Health Sciences and Technology, part of the Institute of Robotics and Intelligent Systems (IRIS).<br><br>**Why it's on this map:** Develops diagnostic and therapeutic systems at the nano- and microscale for cancer and musculoskeletal conditions -- a strong, direct biomedical-microrobotics fit, and part of a well-known lineage of small-scale robotics researchers.<br><br>[[https://www.iris.ethz.ch/the-institute/responsive_biomedical_systems_lab.html|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "eth-schurle",
+        "pi": "Simone Schürle",
+        "institution": "ETH Zurich",
+        "country": "CH",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.546639,
+          47.377731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Multi-Scale Robotics Lab (MSRL)",
+        "description": "**Bradley J. Nelson** — ETH Zürich, Zürich (CH)<br><br>The Multi-Scale Robotics Lab (MSRL) pursues a dynamic research program that maintains a strong robotics research focus on several emerging areas of science and technology. A major component of the MSRL research leverages advanced robotics for creating intelligent machines that operate at micron and nanometer scales. MSRL research develops the tools and processes required to fabricate and assemble micron sized robots and nanometer scale robotic components. Many of these systems are used for robotic exploration within biomedical and biological domains.<br>The MSRL pursues a balanced agenda between fundamental and applied research. The lab consistently publishes highly cited papers in top journals while also driving significant industrial interactions. The ground breaking technologies developed at MSRL have also led to the formation of several startup companies.<br><br>**Why it's on this map:** The largest and most visible group in the micro-robotics field, and effectively the source of the field's own terminology -- most of its systems are externally actuated rather than fully autonomous, but its scale, publication record, and startup track record make it a central reference point.<br><br>[[https://msrl.ethz.ch/the-lab.html|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "ethz-msrl",
+        "pi": "Bradley J. Nelson",
+        "institution": "ETH Zürich",
+        "country": "CH",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.546639,
+          47.377731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Multi-Scale Robotics Lab (MSRL)",
+        "description": "**Bradley J. Nelson** — ETH Zürich, Zürich (CH)<br><br>The Multi-Scale Robotics Lab (MSRL) pursues a dynamic research program that maintains a strong robotics research focus on several emerging areas of science and technology. A major component of the MSRL research leverages advanced robotics for creating intelligent machines that operate at micron and nanometer scales. MSRL research develops the tools and processes required to fabricate and assemble micron sized robots and nanometer scale robotic components. Many of these systems are used for robotic exploration within biomedical and biological domains.<br>The MSRL pursues a balanced agenda between fundamental and applied research. The lab consistently publishes highly cited papers in top journals while also driving significant industrial interactions. The ground breaking technologies developed at MSRL have also led to the formation of several startup companies.<br><br>**Why it's on this map:** The largest and most visible group in the micro-robotics field, and effectively the source of the field's own terminology -- most of its systems are externally actuated rather than fully autonomous, but its scale, publication record, and startup track record make it a central reference point.<br><br>[[https://msrl.ethz.ch/the-lab.html|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "ethz-msrl",
+        "pi": "Bradley J. Nelson",
+        "institution": "ETH Zürich",
+        "country": "CH",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.54651,
+              47.378231
+            ],
+            [
+              8.547194,
+              47.377203
+            ],
+            [
+              8.546934,
+              47.377135
+            ],
+            [
+              8.54625,
+              47.378149
+            ],
+            [
+              8.54651,
+              47.378231
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nanomembrane Group",
+        "description": "**Gaoshan Huang** — Fudan University, Shanghai (CN)<br><br>Works on rolled-up nanomembrane technology: catalytic/magnetic assemblies of rolled-up tubular nanomembrane-based micromotors, self-rolled-up single-crystalline silicon nanomembranes for on-chip photodetectors, and rolled-up optical microcavities. Affiliated with Fudan's International Institute of Intelligent Nanorobots and Nanosystems.<br><br>**Why it's on this map:** Works on rolled-up nanomembrane micromotors and related nanofabrication techniques -- a specific, hands-on fabrication approach directly relevant to building small-scale actuated devices.<br><br>[[https://nanomem.fudan.edu.cn/25605/list.htm|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "fudan-huang",
+        "pi": "Gaoshan Huang",
+        "institution": "Fudan University",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49747,
+          31.30117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microrobotics Lab (Harvard)",
+        "description": "**Robert Wood** — Harvard John A. Paulson School of Engineering and Applied Sciences, Cambridge, MA (US)<br><br>Works together with \"The Wyss Institute\"<br><br>The lab was founded within the Harvard John A. Paulson School of Engineering and Applied Sciences by Prof. Robert Wood. It houses all the necessary tools to design, create, and evaluate robots with unique sizes, shapes, and material compositions. The lab employs a highly experimental approach to developing robots and we use these robots as tools to explore fundamental questions in micromechanics, actuation, fluid mechanics, controls, and microelectronics. We are grateful for sponsorship, past and present, from AFOSR, ARO, DARPA, Draper Labs, National Geographic, NASA, NIH, NSF, and ONR.<br><br>**Why it's on this map:** One of the most established insect-scale flying-robot research groups in the world -- a foundational reference point for small-scale autonomous robotics, even though its relevance score here hasn't been reassessed since migration from an earlier map version.<br><br>[[https://www.micro.seas.harvard.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "harvard-microrobotics",
+        "pi": "Robert Wood",
+        "institution": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12701,
+          42.36298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microrobotics Lab (Harvard)",
+        "description": "**Robert Wood** — Harvard John A. Paulson School of Engineering and Applied Sciences, Cambridge, MA (US)<br><br>Works together with \"The Wyss Institute\"<br><br>The lab was founded within the Harvard John A. Paulson School of Engineering and Applied Sciences by Prof. Robert Wood. It houses all the necessary tools to design, create, and evaluate robots with unique sizes, shapes, and material compositions. The lab employs a highly experimental approach to developing robots and we use these robots as tools to explore fundamental questions in micromechanics, actuation, fluid mechanics, controls, and microelectronics. We are grateful for sponsorship, past and present, from AFOSR, ARO, DARPA, Draper Labs, National Geographic, NASA, NIH, NSF, and ONR.<br><br>**Why it's on this map:** One of the most established insect-scale flying-robot research groups in the world -- a foundational reference point for small-scale autonomous robotics, even though its relevance score here hasn't been reassessed since migration from an earlier map version.<br><br>[[https://www.micro.seas.harvard.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "harvard-microrobotics",
+        "pi": "Robert Wood",
+        "institution": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -71.127385,
+              42.363106
+            ],
+            [
+              -71.127328,
+              42.362761
+            ],
+            [
+              -71.127259,
+              42.362787
+            ],
+            [
+              -71.127248,
+              42.362761
+            ],
+            [
+              -71.127017,
+              42.362773
+            ],
+            [
+              -71.126864,
+              42.362803
+            ],
+            [
+              -71.126698,
+              42.362823
+            ],
+            [
+              -71.126601,
+              42.362849
+            ],
+            [
+              -71.12658,
+              42.362918
+            ],
+            [
+              -71.126671,
+              42.363328
+            ],
+            [
+              -71.127186,
+              42.363267
+            ],
+            [
+              -71.127178,
+              42.363237
+            ],
+            [
+              -71.127197,
+              42.363188
+            ],
+            [
+              -71.127229,
+              42.363164
+            ],
+            [
+              -71.127224,
+              42.36313
+            ],
+            [
+              -71.127385,
+              42.363106
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yue Dong Group",
+        "description": "**Yue Dong** — Harbin Institute of Technology, Shenzhen, Shenzhen (CN)<br><br>Professor at the Guangdong Provincial Key Laboratory of Intelligent Morphing Mechanisms and Adaptive Robotics, School of Mechanical Engineering and Automation, working on micro/nanorobots including gear-like MOF microrobots for single-cell mechanotransduction studies.<br><br>**Why it's on this map:** A microrobotics group at a major Chinese technical university -- direct categorical fit, though limited public material was found to characterize the specific research angle in more detail.<br><br>[[https://www.researchgate.net/profile/Yue-Dong-60|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "hitsz-dong",
+        "pi": "Yue Dong",
+        "institution": "Harbin Institute of Technology, Shenzhen",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96571,
+          22.5895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sauvage Laboratory for Smart Materials",
+        "description": "**Dongdong Jin** — Harbin Institute of Technology, Shenzhen, Shenzhen (CN)<br><br>Associate Professor in the School of Integrated Circuits, working on reconfigurable soft-matter robotics at small scale: microrobotics, smart hydrogels, 3D printing, and medical robots, including magnetically-driven microrobots for cell manipulation and targeted medical interventions. PhD from CUHK (2020), joined HIT Shenzhen 2022.<br><br>**Why it's on this map:** Based in a School of Integrated Circuits rather than a general mechanical-engineering department -- an unusually direct combination of chip design and microrobotics in one group, relevant to both fabrication and control-electronics angles.<br><br>[[https://scholar.google.com/citations?user=dseZq_gAAAAJ|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "hitsz-jin",
+        "pi": "Dongdong Jin",
+        "institution": "Harbin Institute of Technology, Shenzhen",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96571,
+          22.5895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ran Niu Group",
+        "description": "**Ran Niu** — Huazhong University of Science and Technology, Wuhan (CN)<br><br>Professor of Polymer Physics and Chemistry researching self-assembly, micro-swimmers, colloidal phase transitions, rheology, and nanoparticle-polymer composites -- including autonomous assembly and self-propulsion of active and inactive components.<br><br>**Why it's on this map:** Has an explicit research interest in micro-swimmers -- a direct fit for small-scale robotic locomotion in fluid environments.<br><br>[[http://english.chem.hust.edu.cn/info/3862/1227.htm|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "hust-niu",
+        "pi": "Ran Niu",
+        "institution": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4126,
+          30.5137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smart Nano-Bio-Devices",
+        "description": "**Samuel Sánchez** — Institute for Bioengineering of Catalonia (IBEC), Barcelona (ES)<br><br>ICREA Professor and group leader at IBEC, leading the Smart Nano-Bio-Devices group with a focus on self-powered nanorobots, nanomedicine, and biohybrid robotics -- chemically-powered micro- and nanomotors, including fully biocompatible self-propelling particles powered by enzymes consuming biological fuels like glucose. ~200 publications, h-index 83, 8 patents.<br><br>**Why it's on this map:** One of the most prolific and highly-cited researchers in the self-powered micro/nanomotor space -- a top-tier reference point for autonomous small-scale propulsion and power.<br><br>[[https://ibecbarcelona.eu/member/936/Samuel+S%C3%A1nchez+Ord%C3%B3%C3%B1ez/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "ibec-sanchez",
+        "pi": "Samuel Sánchez",
+        "institution": "Institute for Bioengineering of Catalonia (IBEC)",
+        "country": "ES",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.11789,
+          41.38204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ghosh Lab — Nanorobotics",
+        "description": "**Ambarish Ghosh** — Centre for Nano Science and Engineering (CeNSE), Indian Institute of Science, Bengaluru (IN)<br><br>Pioneered magnetic helical nanorobots (with Peer Fischer, 2009) fabricated via glancing-angle deposition, and works out the physics of their independent multi-robot control. Group has demonstrated mobile nanotweezers combining plasmonic trapping with magnetically-driven helical microswimmers to manipulate objects down to ~100 nm, and used helical nanorobots as mechanical probes inside living cells and ex vivo tissue.<br><br>**Why it's on this map:** Pioneered magnetic helical nanorobots and demonstrated their use as mobile nanotweezers and in vivo mechanical probes -- one of the more credible whole-system micro-robotics fits found outside the field's usual geographic cluster.<br><br>[[https://www.cense.iisc.ac.in/ambarish/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "iisc-ghosh",
+        "pi": "Ambarish Ghosh",
+        "institution": "Centre for Nano Science and Engineering (CeNSE), Indian Institute of Science",
+        "country": "IN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.56718,
+          13.02223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Multi-Scale Embodied Intelligence Lab",
+        "description": "**Dandan Zhang** — Imperial College London, London (GB)<br><br>Dandan Zhang<br>The Multi-Scale Embodied Intelligence Lab focuses on developing embodied intelligence across multiple scales, ranging from micro/nanobots to large-scale robotic systems, primarily targeting healthcare applications.<br><br>Research Themes<br><br>​<br><br>    Multimodal Perception (Sensing)<br><br>    Interactive Learning (Decision-Making)<br><br>    Dexterous Manipulation（Execution)<br><br><br><br>Research Objectives<br><br> <br><br>We aim to embed embodied intelligence in large-scale robots, including medical robotics for surgeries to assistive robotics for homecare applications. We also explore micro-robotic innovations at the cellular scale, including developing microsurgical tools for precise micro-manipulation. Beyond individual scales, we also explore how these multi-scale robotic systems can integrate and interface with each other, ensuring seamless operations across dimensions.<br><br><br>The ultimate goal is to develop the next-generation robots empowered by artificial intelligence with super-human capabilities. We envision that intelligent robots will reshape our world by providing tangible benefits in our daily life, contributing to the healthcare system or assisting humans in hazardous environments. <br><br><br>Research Vision<br><br>​<br><br>Embodied intelligence is a crucial concept for the autonomy and adaptivity of systems operating in a physical world that is evidently uncertain and complex. Although advancements in Artificial Intelligence (AI) have given rise to general-purpose intelligent agents, the intricate and unpredictable nature of the real world demands robots that do more than just ‘think’ based on computational intelligence. Robots must be able to precisely 'perceive' and dynamically ‘act’ to adapt to different scenarios through direct interactions with their environments. To this end, our work focuses on creating and manipulating intelligent robots that can function efficiently in varied environments.<br><br><br>Targets<br><br>    Enable seamlessly human-robot shared control<br><br>    Enhance the level of autonomy for multi-scale robotics systems<br><br>Applications<br><br>    Medical Robotics<br><br>    Homecare Robotics<br><br>    Assistive Robotics<br><br><br>My major research interests lie at the intersection of robotics and machine learning. I envision that intelligent robots will reshape our world by providing tangible benefits in our daily life, contributing to the healthcare system, or assisting humans in hazardous environments. In addition, I also work on micro-robotics, teleoperation, and human-robot shared control.  <br><br>​<br><br>Medical robots and instruments are expected to be smaller, and smarter for wider clinical uptake. Intelligent robotic platforms and accurate micromanipulation techniques are worth developing since they can empower operators with superhuman capabilities as well as reduce their physical workload during repetitive and tedious micro-surgical tasks. Despite continuous technical evolution in this research area, many challenges remain. For micromanipulation platforms that can conduct surgery in the microscale, it’s challenging to enable precise perception of the micro-tools and dexterous manipulation in 3D space. Therefore, new control strategies and vision techniques are worth exploring. To develop smarter robotic platforms, machine learning techniques can be incorporated into the control scheme. Therefore, it’s worthwhile to combine control commands generated by human operators and machine learning-based autonomous control to enable efficient human-robot shared control for surgical operations. This leads to the development of intelligent surgical robots to assist human operators in robotic surgery.<br><br>**Why it's on this map:** An established micro-robotics group at a major UK technical university -- a foundational reference point in the field, migrated from an earlier map version without yet being individually rescored.<br><br>[[https://www.intelligentrobotics-acrossscales.com/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "imperial-zhang",
+        "pi": "Dandan Zhang",
+        "institution": "Imperial College London",
+        "country": "GB",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.179,
+          51.499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Multi-Scale Embodied Intelligence Lab",
+        "description": "**Dandan Zhang** — Imperial College London, London (GB)<br><br>Dandan Zhang<br>The Multi-Scale Embodied Intelligence Lab focuses on developing embodied intelligence across multiple scales, ranging from micro/nanobots to large-scale robotic systems, primarily targeting healthcare applications.<br><br>Research Themes<br><br>​<br><br>    Multimodal Perception (Sensing)<br><br>    Interactive Learning (Decision-Making)<br><br>    Dexterous Manipulation（Execution)<br><br><br><br>Research Objectives<br><br> <br><br>We aim to embed embodied intelligence in large-scale robots, including medical robotics for surgeries to assistive robotics for homecare applications. We also explore micro-robotic innovations at the cellular scale, including developing microsurgical tools for precise micro-manipulation. Beyond individual scales, we also explore how these multi-scale robotic systems can integrate and interface with each other, ensuring seamless operations across dimensions.<br><br><br>The ultimate goal is to develop the next-generation robots empowered by artificial intelligence with super-human capabilities. We envision that intelligent robots will reshape our world by providing tangible benefits in our daily life, contributing to the healthcare system or assisting humans in hazardous environments. <br><br><br>Research Vision<br><br>​<br><br>Embodied intelligence is a crucial concept for the autonomy and adaptivity of systems operating in a physical world that is evidently uncertain and complex. Although advancements in Artificial Intelligence (AI) have given rise to general-purpose intelligent agents, the intricate and unpredictable nature of the real world demands robots that do more than just ‘think’ based on computational intelligence. Robots must be able to precisely 'perceive' and dynamically ‘act’ to adapt to different scenarios through direct interactions with their environments. To this end, our work focuses on creating and manipulating intelligent robots that can function efficiently in varied environments.<br><br><br>Targets<br><br>    Enable seamlessly human-robot shared control<br><br>    Enhance the level of autonomy for multi-scale robotics systems<br><br>Applications<br><br>    Medical Robotics<br><br>    Homecare Robotics<br><br>    Assistive Robotics<br><br><br>My major research interests lie at the intersection of robotics and machine learning. I envision that intelligent robots will reshape our world by providing tangible benefits in our daily life, contributing to the healthcare system, or assisting humans in hazardous environments. In addition, I also work on micro-robotics, teleoperation, and human-robot shared control.  <br><br>​<br><br>Medical robots and instruments are expected to be smaller, and smarter for wider clinical uptake. Intelligent robotic platforms and accurate micromanipulation techniques are worth developing since they can empower operators with superhuman capabilities as well as reduce their physical workload during repetitive and tedious micro-surgical tasks. Despite continuous technical evolution in this research area, many challenges remain. For micromanipulation platforms that can conduct surgery in the microscale, it’s challenging to enable precise perception of the micro-tools and dexterous manipulation in 3D space. Therefore, new control strategies and vision techniques are worth exploring. To develop smarter robotic platforms, machine learning techniques can be incorporated into the control scheme. Therefore, it’s worthwhile to combine control commands generated by human operators and machine learning-based autonomous control to enable efficient human-robot shared control for surgical operations. This leads to the development of intelligent surgical robots to assist human operators in robotic surgery.<br><br>**Why it's on this map:** An established micro-robotics group at a major UK technical university -- a foundational reference point in the field, migrated from an earlier map version without yet being individually rescored.<br><br>[[https://www.intelligentrobotics-acrossscales.com/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "imperial-zhang",
+        "pi": "Dandan Zhang",
+        "institution": "Imperial College London",
+        "country": "GB",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -0.17944,
+              51.498493
+            ],
+            [
+              -0.179059,
+              51.498518
+            ],
+            [
+              -0.179062,
+              51.498673
+            ],
+            [
+              -0.178673,
+              51.498705
+            ],
+            [
+              -0.178699,
+              51.498945
+            ],
+            [
+              -0.178606,
+              51.498957
+            ],
+            [
+              -0.178651,
+              51.499176
+            ],
+            [
+              -0.179491,
+              51.499129
+            ],
+            [
+              -0.179501,
+              51.499167
+            ],
+            [
+              -0.179585,
+              51.499159
+            ],
+            [
+              -0.17944,
+              51.498493
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RPI-Bio — Robotics and Micro-Bio-Robotics",
+        "description": "**Stéphane Régnier** — ISIR, Sorbonne Université, Paris (FR)<br><br>Develops microrobotic systems for biological applications: magnetic micro-swimmers, optical-tweezers-driven micromanipulators, automated atomic force microscopy, and haptic teleoperation for robotic micro-assembly. Work spans nanoscale characterization, single-cell manipulation, and force-feedback control. Fabricates some devices in collaboration with the FEMTO-ST Institute (already on this map as femto-st-mn2s).<br><br>**Why it's on this map:** Builds small robotic systems using optical tweezers and magnetic fields for actuation -- externally actuated rather than carrying onboard power, so more of a materials/technique match than a whole-autonomous-system match, but directly relevant to small-scale manipulation methods.<br><br>[[https://www.isir.upmc.fr/teams/rpi-bio/?lang=en|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "isir-rpibio",
+        "pi": "Stéphane Régnier",
+        "institution": "ISIR, Sorbonne Université",
+        "country": "FR",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.35673,
+          48.84569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gracias Laboratory",
+        "description": "**David Gracias** — Johns Hopkins University, Baltimore, MD (US)<br><br>Pioneers self-folding micro- and nanoscale 3D metamaterials and devices: thermoresponsive and DNA-programmable soft robots, untethered microgrippers and microinjectors, curved/folded/integrated biosensors, and microphysiological systems. 36 issued patents on self-assembly and self-folding polyhedra. PI David Gracias is a Professor of Chemical and Biomolecular Engineering with secondary appointments in Medicine and Arts & Sciences.<br><br>**Why it's on this map:** A highly-patented, independent group working on self-folding microstructures -- a flat-fabricate-then-fold approach that is one of a small number of genuinely credible routes to building whole autonomous devices at sub-millimeter scale.<br><br>[[https://graciaslab.johnshopkins.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "jhu-gracias",
+        "pi": "David Gracias",
+        "institution": "Johns Hopkins University",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62185,
+          39.3302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Robotics and Vision in Medicine (RViM) Lab",
+        "description": "**Christos Bergeles** — King's College London, London (GB)<br><br>Develops micro-surgical robots to deliver regenerative therapies deep inside the human body, at the School of Biomedical Engineering & Imaging Sciences. PI Christos Bergeles was a postdoctoral fellow at Boston Children's Hospital/Harvard Medical School and the Hamlyn Centre for Robotic Surgery, Imperial College, before King's.<br><br>**Why it's on this map:** Works on magnetically-actuated medical microrobotics -- a direct categorical fit for small-scale robotic medical devices.<br><br>[[https://www.bergeles.net/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "kcl-bergeles",
+        "pi": "Christos Bergeles",
+        "institution": "King's College London",
+        "country": "GB",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09,
+          51.50309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marr Research Group",
+        "description": "**David W. M. Marr** — Colorado School of Mines, Golden, CO (US)<br><br>Studies controlled assembly of colloidal particles using external time-varying electromagnetic, electric, and magnetic fields, building toward micron-scale colloidal-based devices and microbots for biomedical treatment. David Marr is the Gaylord and Phyllis Weaver Distinguished Chair of Chemical and Biological Engineering; work funded by NIH, NSF, and NASA.<br><br>**Why it's on this map:** Works on magnetically-actuated microrobotics -- part of a small cluster of independent microrobotics-adjacent groups at the same institution.<br><br>[[https://moabc.org/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "mines-marr",
+        "pi": "David W. M. Marr",
+        "institution": "Colorado School of Mines",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.22464,
+          39.73863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "M3Robotics Lab",
+        "description": "**Andrew J. Petruska** — Colorado School of Mines, Golden, CO (US)<br><br>Studies control of complex dynamic systems, with emphasis on magnetic manipulation for medical applications and autonomous systems for mining. Andrew Petruska directs the lab and the Robotics Interdisciplinary Graduate Program at Colorado School of Mines, joined 2016.<br><br>**Why it's on this map:** Applies magnetic microrobot manipulation to both medical and mining applications -- an unusual second application domain for the same underlying actuation approach used elsewhere on this map.<br><br>[[https://m3robotics.mines.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "mines-petruska",
+        "pi": "Andrew J. Petruska",
+        "institution": "Colorado School of Mines",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.22464,
+          39.73863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soft and Micro Robotics Laboratory",
+        "description": "**Kevin Chen** — Massachusetts Institute of Technology, Cambridge, MA (US)<br><br>Welcome to the Soft and Micro Robotics Laboratory<br><br>We aim to develop micro-scale robotic systems that can demonstrate insect-like locomotive capabilities in aerial, aquatic, and terrestrial environments. To design highly agile, multifunctional, and robust micro-scale robots, we work on (1) develop high bandwidth and robust soft actuators and active materials for locomotion and manipulation, (2) investigate and apply physical phenomena (surface tension, fluid-structure interaction, friction, electrostatics) at the millimeter scale in designing multifunctional robots, and (3) develop design and fabrication tools suitable for rapid prototyping of hybrid soft-rigid robots. We envision our work will find applications such as inspection, surgical robots, and environmental monitoring.<br><br>Advising Statement<br><br>At the Soft-and-Micro-Robotics Lab, we are committed to foster creativity, collaboration, and academic excellence among our students and post-doctoral researchers. We highly encourage collaborations among group members and with external teams to develop novel microscale robotic systems and applications. There is no hierarchical structure and each group member will directly discuss his/her/their research ideas and progress with the PI. We will create an independent project/task for each incoming student. As a student develops expertise in the field, we expect the student will identify novel and exciting directions and create and lead his/her/their own projects. In addition to having a weekly group meeting that discusses research ideas and literature studies, we will also set up a weekly or biweekly meeting with each group member.<br><br>**Why it's on this map:** One of the most established insect-scale robotics groups worldwide, known for piezoelectric-actuated flying microrobots -- a foundational reference point for small-scale actuation and locomotion, migrated from an earlier map version without yet being individually rescored.<br><br>[[https://smrl.mit.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "mit-smrl",
+        "pi": "Kevin Chen",
+        "institution": "Massachusetts Institute of Technology",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.09198,
+          42.35968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soft and Micro Robotics Laboratory",
+        "description": "**Kevin Chen** — Massachusetts Institute of Technology, Cambridge, MA (US)<br><br>Welcome to the Soft and Micro Robotics Laboratory<br><br>We aim to develop micro-scale robotic systems that can demonstrate insect-like locomotive capabilities in aerial, aquatic, and terrestrial environments. To design highly agile, multifunctional, and robust micro-scale robots, we work on (1) develop high bandwidth and robust soft actuators and active materials for locomotion and manipulation, (2) investigate and apply physical phenomena (surface tension, fluid-structure interaction, friction, electrostatics) at the millimeter scale in designing multifunctional robots, and (3) develop design and fabrication tools suitable for rapid prototyping of hybrid soft-rigid robots. We envision our work will find applications such as inspection, surgical robots, and environmental monitoring.<br><br>Advising Statement<br><br>At the Soft-and-Micro-Robotics Lab, we are committed to foster creativity, collaboration, and academic excellence among our students and post-doctoral researchers. We highly encourage collaborations among group members and with external teams to develop novel microscale robotic systems and applications. There is no hierarchical structure and each group member will directly discuss his/her/their research ideas and progress with the PI. We will create an independent project/task for each incoming student. As a student develops expertise in the field, we expect the student will identify novel and exciting directions and create and lead his/her/their own projects. In addition to having a weekly group meeting that discusses research ideas and literature studies, we will also set up a weekly or biweekly meeting with each group member.<br><br>**Why it's on this map:** One of the most established insect-scale robotics groups worldwide, known for piezoelectric-actuated flying microrobots -- a foundational reference point for small-scale actuation and locomotion, migrated from an earlier map version without yet being individually rescored.<br><br>[[https://smrl.mit.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "mit-smrl",
+        "pi": "Kevin Chen",
+        "institution": "Massachusetts Institute of Technology",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -71.092189,
+              42.359412
+            ],
+            [
+              -71.092146,
+              42.359422
+            ],
+            [
+              -71.092135,
+              42.359398
+            ],
+            [
+              -71.09165,
+              42.359551
+            ],
+            [
+              -71.091676,
+              42.359573
+            ],
+            [
+              -71.091615,
+              42.359586
+            ],
+            [
+              -71.091695,
+              42.359713
+            ],
+            [
+              -71.091773,
+              42.35969
+            ],
+            [
+              -71.091945,
+              42.359987
+            ],
+            [
+              -71.092368,
+              42.359834
+            ],
+            [
+              -71.092199,
+              42.359553
+            ],
+            [
+              -71.092245,
+              42.359519
+            ],
+            [
+              -71.092189,
+              42.359412
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arai Laboratory — Micro-Nano Mechanical Science and Engineering",
+        "description": "**Fumihito Arai** — Nagoya University, Nagoya (JP)<br><br>Develops magnetically-driven microtools, optical/acoustic tweezers, and MEMS/NEMS devices for biomedicine -- including high-precision magnetically driven microtools with ultrasonic vibration for oocyte enucleation and single-cell manipulation. Fumihito Arai is one of the field's most established figures, with decades of micro-nano robotics work spanning Nagoya University and earlier posts.<br><br>**Why it's on this map:** Develops magnetically-driven microtools and MEMS/NEMS devices for biomedical cell manipulation -- a prominent, established group comparable in stature to the field's other leading labs.<br><br>[[http://www.biorobotics.mech.nagoya-u.ac.jp/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "nagoya-arai",
+        "pi": "Fumihito Arai",
+        "institution": "Nagoya University",
+        "country": "JP",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.96778,
+          35.15331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexander Solovev Nanotechnology Group",
+        "description": "**Alexander A. Solovev** — NanoTRIZ Innovation Institute, Brisbane (AU)<br><br>Works on microrobotics, nanomaterials, nanodevices, microfluidics, and AI-assisted inventive problem solving. Alexander Solovev is Professor and Founding Director of the NanoTRIZ Innovation Institute in Australia, after prior professorships/appointments at Fudan University, TU Munich, University of Toronto, Harvard, and Columbia.<br><br>**Why it's on this map:** A microrobotics-focused group -- direct categorical fit; added partly for the geographic diversity of a second Australian entry.<br><br>[[https://www.solovevlab.com/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "nanotriz-solovev",
+        "pi": "Alexander A. Solovev",
+        "institution": "NanoTRIZ Innovation Institute",
+        "country": "AU",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0251,
+          -27.4698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mengmeng Sun Group",
+        "description": "**Mengmeng Sun** — National University of Singapore, Singapore (SG)<br><br>Department of Biomedical Engineering researcher working on micro/nanorobots for targeted therapy and diagnostics, including a review of gastrointestinal capsule robots (materials, actuation, diagnostics, therapeutics) and versatile modular magnetic solid-droplet systems.<br><br>**Why it's on this map:** A microrobotics group -- direct categorical fit; the first Singapore entry identified on this map.<br><br>[[https://scholar.google.com/citations?hl=en&q=Mengmeng+Sun+microrobot+NUS|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "nus-sun",
+        "pi": "Mengmeng Sun",
+        "institution": "National University of Singapore",
+        "country": "SG",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.77662,
+          1.29598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laboratory for Micromachine Intelligence (μ-MIL)",
+        "description": "**Tian-Yun Huang** — Peking University, Beijing (CN)<br><br>Assistant Professor of Micromachine Intelligence (μ-AI) in the Department of Advanced Manufacturing and Robotics. Works on micromachine intelligence, micro-/nanorobotics, and advanced additive manufacturing -- an integrated platform for design, fabrication, characterization, and actuation of intelligent micromachines for precision medicine and bioengineering in complex microenvironments. PhD from ETH MSRL.<br><br>**Why it's on this map:** A microrobotics group at a major Chinese university -- direct categorical fit; limited independent public material was found beyond a research-network profile.<br><br>[[https://www.researchgate.net/lab/Laboratory-for-Micromachine-Intelligence-m-MIL-Tian-Yun-Huang|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "pku-huang",
+        "pi": "Tian-Yun Huang",
+        "institution": "Peking University",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.305,
+          39.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lidong Yang Group",
+        "description": "**Lidong Yang** — The Hong Kong Polytechnic University, Hong Kong (HK)<br><br>Assistant Professor in the Department of Industrial and Systems Engineering, working on micro-/nanorobot design and fabrication, microrobotic system development and control, and biomedical applications. 50+ publications including Nature Machine Intelligence, Science Robotics, and IEEE Transactions on Robotics. PhD from CUHK (2020), B.Eng from Harbin Institute of Technology (2014).<br><br>**Why it's on this map:** A microrobotics group with a strong publication record in top venues -- high-confidence direct fit.<br><br>[[https://lidongyang22.github.io/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "polyu-yang",
+        "pi": "Lidong Yang",
+        "institution": "The Hong Kong Polytechnic University",
+        "country": "HK",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17969,
+          22.30449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medical Microrobotics Lab — Iacovacci",
+        "description": "**Veronica Iacovacci** — Scuola Superiore Sant'Anna, Pisa (IT)<br><br>Assistant Professor at The BioRobotics Institute developing fully implantable medical microrobots that navigate inside the human body and release drugs in a controlled manner. Coordinates the ERC Starting Grant project I-BOT (first-generation implantable navigable microrobots) and was awarded a Marie Skłodowska-Curie Fellowship for Mambo (magnetic microrobots for localized therapy). Winner of the Big-on-Small Award for small-scale robotics research.<br><br>**Why it's on this map:** ERC-funded implantable-microrobot research, part of a real cluster of expertise at the same institution -- high-confidence direct fit.<br><br>[[https://www.santannapisa.it/en/veronica-iacovacci|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "santanna-iacovacci",
+        "pi": "Veronica Iacovacci",
+        "institution": "Scuola Superiore Sant'Anna",
+        "country": "IT",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.40264,
+          43.72061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microscale Robotics Laboratory",
+        "description": "**Stefano Palagi** — Scuola Superiore Sant'Anna, Pontedera, Pisa (IT)<br><br>Polo Sant'Anna Valdera<br><br>research centre of Sant'Anna School of Advanced Studies in Pisa <br><br><br><br><br><br>The Microscale Robotics Laboratory aims to create advanced robotic technologies of sub-millimeter dimensions. Our approach is based on bioinspire, and living cells are our source of inspiration for the design of microrobots with advanced mobility and navigation capabilities. In particular, we aim to translate the mechanisms of cellular mobility into new designs of mobile microrobots, and to create microrobotic models to test hypotheses on specific cellular behaviors (e.g. locomotion and migration of cells in body tissues).<br>By leveraging these bioinspired designs, we will address the main limitations of current microrobots and develop innovative microrobotic technologies with high potential impact on minimally invasive medicine. In particular, we want to equip microrobots with advanced robotic capabilities (e.g. autonomy), achieving a whole new level of functionality that will open the doors to currently unimaginable medical applications.<br>In an attempt to make advanced autonomous microrobots, we will also study the intelligent behaviors that emerge in microscopic physical systems. Our microrobots will have the ability to interact physically and chemically with their surroundings, and complex behaviors will emerge (predictably and programmable) from the complex interaction between the reactions of their constituents to the environment. This will lead to a new bottom-up approach to robotics and intelligent systems embodied.<br><br>The Microscale Robotics Laboratory was established thanks to a European Research Council Starting Grant (ERC) under the European Union’s Horizon 2020 research and innovation programme (CELLOIDS project, GA: 948590).<br><br>**Why it's on this map:** An established soft/micro-robotics group at a well-known Italian research institution -- a foundational reference point, migrated from an earlier map version without yet being individually rescored.<br><br>[[https://www.santannapisa.it/it/istituto/biorobotica/microscale-robotics-laboratory|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "santanna-palagi",
+        "pi": "Stefano Palagi",
+        "institution": "Scuola Superiore Sant'Anna",
+        "country": "IT",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6316,
+          43.66153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microscale Robotics Laboratory",
+        "description": "**Stefano Palagi** — Scuola Superiore Sant'Anna, Pontedera, Pisa (IT)<br><br>Polo Sant'Anna Valdera<br><br>research centre of Sant'Anna School of Advanced Studies in Pisa <br><br><br><br><br><br>The Microscale Robotics Laboratory aims to create advanced robotic technologies of sub-millimeter dimensions. Our approach is based on bioinspire, and living cells are our source of inspiration for the design of microrobots with advanced mobility and navigation capabilities. In particular, we aim to translate the mechanisms of cellular mobility into new designs of mobile microrobots, and to create microrobotic models to test hypotheses on specific cellular behaviors (e.g. locomotion and migration of cells in body tissues).<br>By leveraging these bioinspired designs, we will address the main limitations of current microrobots and develop innovative microrobotic technologies with high potential impact on minimally invasive medicine. In particular, we want to equip microrobots with advanced robotic capabilities (e.g. autonomy), achieving a whole new level of functionality that will open the doors to currently unimaginable medical applications.<br>In an attempt to make advanced autonomous microrobots, we will also study the intelligent behaviors that emerge in microscopic physical systems. Our microrobots will have the ability to interact physically and chemically with their surroundings, and complex behaviors will emerge (predictably and programmable) from the complex interaction between the reactions of their constituents to the environment. This will lead to a new bottom-up approach to robotics and intelligent systems embodied.<br><br>The Microscale Robotics Laboratory was established thanks to a European Research Council Starting Grant (ERC) under the European Union’s Horizon 2020 research and innovation programme (CELLOIDS project, GA: 948590).<br><br>**Why it's on this map:** An established soft/micro-robotics group at a well-known Italian research institution -- a foundational reference point, migrated from an earlier map version without yet being individually rescored.<br><br>[[https://www.santannapisa.it/it/istituto/biorobotica/microscale-robotics-laboratory|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "santanna-palagi",
+        "pi": "Stefano Palagi",
+        "institution": "Scuola Superiore Sant'Anna",
+        "country": "IT",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              10.631104,
+              43.66129
+            ],
+            [
+              10.63199,
+              43.661162
+            ],
+            [
+              10.632089,
+              43.661684
+            ],
+            [
+              10.631823,
+              43.661703
+            ],
+            [
+              10.631434,
+              43.661703
+            ],
+            [
+              10.631137,
+              43.661694
+            ],
+            [
+              10.631086,
+              43.661608
+            ],
+            [
+              10.631104,
+              43.66129
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qianqian Wang Group",
+        "description": "**Qianqian Wang** — Southeast University Sipailou Campus, Nanjing (CN)<br><br>School of Mechanical Engineering researcher working on micro/nanorobot swarms and magnetically actuated microrobots for medical applications -- on-demand pattern transformation of microrobotic swarms for targeted navigation, and nanothorn-equipped ionogel microrobots for periodontitis therapy.<br><br>**Why it's on this map:** A microrobotics group at a major Chinese technical university -- direct categorical fit.<br><br>[[https://scholar.google.com/citations?hl=en&q=Qianqian+Wang+microrobot+Southeast+University|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "seu-wang",
+        "pi": "Qianqian Wang",
+        "institution": "Southeast University Sipailou Campus",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78828,
+          32.05765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mingxue Cai Group",
+        "description": "**Mingxue Cai** — Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen (CN)<br><br>Associate Researcher working on magnetic robots, rotating magnetic field control, soft magnetic miniature robots, and magnetic field-priority force control for automated manipulation in large workspaces.<br><br>**Why it's on this map:** Part of a real cluster of microrobotics researchers at the same Chinese research institute -- direct categorical fit.<br><br>[[https://people.ucas.ac.cn/~caimingxue?language=en|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "siat-cai",
+        "pi": "Mingxue Cai",
+        "institution": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96437,
+          22.80974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Institute of Medical Robotics — Qingkun Liu",
+        "description": "**Qingkun Liu** — Shanghai Jiao Tong University, Shanghai (CN)<br><br>Research interests span microrobotics, metamaterials, nanomaterials, soft matter, and photonics. Holds a supervisory role at SJTU's Institute of Medical Robotics, a multi-disciplinary platform established in 2017.<br><br>**Why it's on this map:** Affiliated with a dedicated Institute of Medical Robotics at a major Chinese university -- direct categorical fit for small-scale medical robotics.<br><br>[[https://imr.sjtu.edu.cn/en/Po_staff.html|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "sjtu-liu",
+        "pi": "Qingkun Liu",
+        "institution": "Shanghai Jiao Tong University",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42839,
+          31.20089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surgical Robotics Lab (SRL)",
+        "description": "**Sarthak Misra** — University of Twente, Enschede (NL)<br><br>The Surgical Robotics Lab (SRL) is part of the Department of Biomechanical Engineering (Faculty of Engineering Technology) at the University of Twente, The Netherlands. SRL is led by Prof. Sarthak Misra, and is also part of the Department of Biomaterials and Biomedical Technology at the University of Groningen and University Medical Center Groningen. SRL is affiliated with the MESA+ Institute, Technical Medical (TechMed) Centre, and PRECISION Institute.<br>The lab designs a range of flexible minimally invasive surgical instruments and microrobotic systems, and robotically controls them using clinical imaging modalities such as ultrasound, computed tomography and magnetic resonance imaging. The team is multidisciplinary, spanning engineers, clinicians and industrial collaborators.<br>Contact for student projects: info@surgicalroboticslab.nl<br><br>**Why it's on this map:** A strong clinical-imaging and control software stack for guiding small medical devices -- externally actuated and closer to instrument-scale than a truly autonomous sub-millimeter robot, so the fit is more about control/imaging technique than a whole-robot match.<br><br>[[https://surgicalroboticslab.nl/about/introduction/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "srl-twente",
+        "pi": "Sarthak Misra",
+        "institution": "University of Twente",
+        "country": "NL",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.849866,
+          52.23989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surgical Robotics Lab (SRL)",
+        "description": "**Sarthak Misra** — University of Twente, Enschede (NL)<br><br>The Surgical Robotics Lab (SRL) is part of the Department of Biomechanical Engineering (Faculty of Engineering Technology) at the University of Twente, The Netherlands. SRL is led by Prof. Sarthak Misra, and is also part of the Department of Biomaterials and Biomedical Technology at the University of Groningen and University Medical Center Groningen. SRL is affiliated with the MESA+ Institute, Technical Medical (TechMed) Centre, and PRECISION Institute.<br>The lab designs a range of flexible minimally invasive surgical instruments and microrobotic systems, and robotically controls them using clinical imaging modalities such as ultrasound, computed tomography and magnetic resonance imaging. The team is multidisciplinary, spanning engineers, clinicians and industrial collaborators.<br>Contact for student projects: info@surgicalroboticslab.nl<br><br>**Why it's on this map:** A strong clinical-imaging and control software stack for guiding small medical devices -- externally actuated and closer to instrument-scale than a truly autonomous sub-millimeter robot, so the fit is more about control/imaging technique than a whole-robot match.<br><br>[[https://surgicalroboticslab.nl/about/introduction/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "srl-twente",
+        "pi": "Sarthak Misra",
+        "institution": "University of Twente",
+        "country": "NL",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              6.848323,
+              52.239995
+            ],
+            [
+              6.849815,
+              52.239523
+            ],
+            [
+              6.850206,
+              52.239901
+            ],
+            [
+              6.85066,
+              52.239806
+            ],
+            [
+              6.850834,
+              52.24011
+            ],
+            [
+              6.85,
+              52.240276
+            ],
+            [
+              6.849576,
+              52.239826
+            ],
+            [
+              6.848557,
+              52.2402
+            ],
+            [
+              6.848323,
+              52.239995
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BAMM Lab (Bio-Acoustic MEMS in Medicine)",
+        "description": "**Utkan Demirci** — Stanford University, Stanford, CA (US)<br><br>Welcome to our laboratory! The Demirci Bio-Acoustic MEMS in Medicine Labs (BAMM) laboratory specializes in applying micro- and nanoscale technologies to problems in medicine at the interface between micro/nanoscale engineering and medicine. We apply innovative technologies to clinical problems. Our major research theme focuses on creating new microfluidic technology platforms targeting broad applications in medicine. In this interdisciplinary space at the convergence of engineering, biology and materials science, our goal is to create novel technologies for disposable point-of-care (POC) diagnostics and monitoring of infectious diseases, cancer and controlling cellular microenvironment in nanoliter droplets for biopreservation and microscale tissue engineering applications. These applications are unified around our expertise to test the limits of cell manipulation by establishing microfluidic platforms to provide solutions to real world problems at the clinic.<br><br>Our lab creates technologies to manipulate cells in nanoliter volumes to enable solutions for real world problems in medicine including applications in infectious disease diagnostics and monitoring for global health, cancer early detection, cell encapsulation in nanoliter droplets, and bottom-up tissue engineering. Our research interests involve applications of microfluidics and acoustics in medicine, especially: microfluidics for inexpensive, disposable viral load devices for HIV in resource-constrained settings for global health; 3-D bioprinting and tissue models including cancer and neural cultures.<br><br>We welcome your feedback! Please feel free to send your comments to utkan@stanford.edu<br><br>. We are part of the Canary Center at Stanford for Cancer Early Detection, a world-class research facility dedicated to cancer early detection programs. <br><br>https://canarycenter.stanford.edu/aboutus.html<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://bammlab.stanford.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "stanford-bamm",
+        "pi": "Utkan Demirci",
+        "institution": "Stanford University",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.15024,
+          37.41016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BAMM Lab (Bio-Acoustic MEMS in Medicine)",
+        "description": "**Utkan Demirci** — Stanford University, Stanford, CA (US)<br><br>Welcome to our laboratory! The Demirci Bio-Acoustic MEMS in Medicine Labs (BAMM) laboratory specializes in applying micro- and nanoscale technologies to problems in medicine at the interface between micro/nanoscale engineering and medicine. We apply innovative technologies to clinical problems. Our major research theme focuses on creating new microfluidic technology platforms targeting broad applications in medicine. In this interdisciplinary space at the convergence of engineering, biology and materials science, our goal is to create novel technologies for disposable point-of-care (POC) diagnostics and monitoring of infectious diseases, cancer and controlling cellular microenvironment in nanoliter droplets for biopreservation and microscale tissue engineering applications. These applications are unified around our expertise to test the limits of cell manipulation by establishing microfluidic platforms to provide solutions to real world problems at the clinic.<br><br>Our lab creates technologies to manipulate cells in nanoliter volumes to enable solutions for real world problems in medicine including applications in infectious disease diagnostics and monitoring for global health, cancer early detection, cell encapsulation in nanoliter droplets, and bottom-up tissue engineering. Our research interests involve applications of microfluidics and acoustics in medicine, especially: microfluidics for inexpensive, disposable viral load devices for HIV in resource-constrained settings for global health; 3-D bioprinting and tissue models including cancer and neural cultures.<br><br>We welcome your feedback! Please feel free to send your comments to utkan@stanford.edu<br><br>. We are part of the Canary Center at Stanford for Cancer Early Detection, a world-class research facility dedicated to cancer early detection programs. <br><br>https://canarycenter.stanford.edu/aboutus.html<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://bammlab.stanford.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "stanford-bamm",
+        "pi": "Utkan Demirci",
+        "institution": "Stanford University",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -122.150744,
+              37.41007
+            ],
+            [
+              -122.15051,
+              37.409936
+            ],
+            [
+              -122.150336,
+              37.410142
+            ],
+            [
+              -122.150145,
+              37.410049
+            ],
+            [
+              -122.150304,
+              37.409848
+            ],
+            [
+              -122.150121,
+              37.409752
+            ],
+            [
+              -122.149751,
+              37.410179
+            ],
+            [
+              -122.15036,
+              37.410502
+            ],
+            [
+              -122.150744,
+              37.41007
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microrobotics Manipulation Lab",
+        "description": "**Chengzhi Hu** — Southern University of Science and Technology (SUSTech), Shenzhen (CN)<br><br>Associate Professor working on magnetically/light-driven microrobots, BioMEMS for single-cell analysis, and magnetically-driven medical robots -- integrating microfluidic devices, micro-robotics, and MEMS tools for targeted therapy and drug delivery.<br><br>**Why it's on this map:** A microrobotics group at a fast-growing Chinese research university -- direct categorical fit.<br><br>[[https://www.sustech.edu.cn/en/faculties/huchengzhi.html|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "sustech-hu",
+        "pi": "Chengzhi Hu",
+        "institution": "Southern University of Science and Technology (SUSTech)",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.99685,
+          22.6036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ben Wang Group",
+        "description": "**Ben Wang** — Shenzhen University Lihu Campus, Shenzhen (CN)<br><br>Joined Shenzhen University (College of Chemistry and Environmental Engineering) in December 2019, working on magnetic-driven microrobots and microswimmers for targeted delivery and therapy in the digestive system, including photocatalytic helical swimmers and rotating soft-tail millimeter-scale swimmers.<br><br>**Why it's on this map:** A microrobotics group at a major Chinese university -- direct categorical fit.<br><br>[[https://scholar.google.com/citations?hl=en&q=Ben+Wang+microrobot+Shenzhen+University|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "szu-wang",
+        "pi": "Ben Wang",
+        "institution": "Shenzhen University Lihu Campus",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98796,
+          22.60099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microrobot Drug Transport — Bakenecker Group",
+        "description": "**Anna C. Bakenecker** — TU Darmstadt, Darmstadt (DE)<br><br>Dr Anna C. Bakenecker has been awarded a LOEWE Start Professorship at TU Darmstadt. The expert in medical physics is working on the development, control and monitoring of nano- and microrobots that are designed to transport drugs to their target sites in the body. The LOEWE research funding programme of the state of Hesse is providing around two million euros over a period of six years. <br><br><br>When taking medication, less than one percent of the active ingredient reaches the actual site of the disease. Often, for example in chemotherapy, the whole body is affected, which can cause serious side effects. Anna C. Bakenecker is researching how drugs can be targeted to their sites of action, where they will only have a localised effect. To this end, she is developing tiny micro- and nanorobots loaded with medication, which in the future can also be guided through the body – for example to a tumour, an area of inflammation, or a vasoconstriction.<br><br>Bakenecker uses biomaterials that enable triggered drug release and guides the micro- and nanorobots with magnetic fields. In addition to guidance, precise tracking of the tiny robots is essential for safe use in patients. To this end, the medical physics expert and her team are researching a new type of tomographic imaging modality: magnetic particle imaging. This field of research has great potential for nanomedicine, as it allows regions of the body that are difficult to access to be reached, and drugs to be targeted to their sites of action.<br><br>‘The associated progress for patients cannot be overestimated,’ said Hessian Minister of Science Timon Gremmels. ‘I am very pleased that we have succeeded in bringing Dr Bakenecker to Hesse with the LOEWE funding, thereby further expanding our still young focus area in medical physics.’<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.etit.tu-darmstadt.de/fachbereich/professuren_etit/etit_prof_details_141248.en.jsp|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "tudarmstadt-bakenecker",
+        "pi": "Anna C. Bakenecker",
+        "institution": "TU Darmstadt",
+        "country": "DE",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.65994,
+          49.8737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microrobot Drug Transport — Bakenecker Group",
+        "description": "**Anna C. Bakenecker** — TU Darmstadt, Darmstadt (DE)<br><br>Dr Anna C. Bakenecker has been awarded a LOEWE Start Professorship at TU Darmstadt. The expert in medical physics is working on the development, control and monitoring of nano- and microrobots that are designed to transport drugs to their target sites in the body. The LOEWE research funding programme of the state of Hesse is providing around two million euros over a period of six years. <br><br><br>When taking medication, less than one percent of the active ingredient reaches the actual site of the disease. Often, for example in chemotherapy, the whole body is affected, which can cause serious side effects. Anna C. Bakenecker is researching how drugs can be targeted to their sites of action, where they will only have a localised effect. To this end, she is developing tiny micro- and nanorobots loaded with medication, which in the future can also be guided through the body – for example to a tumour, an area of inflammation, or a vasoconstriction.<br><br>Bakenecker uses biomaterials that enable triggered drug release and guides the micro- and nanorobots with magnetic fields. In addition to guidance, precise tracking of the tiny robots is essential for safe use in patients. To this end, the medical physics expert and her team are researching a new type of tomographic imaging modality: magnetic particle imaging. This field of research has great potential for nanomedicine, as it allows regions of the body that are difficult to access to be reached, and drugs to be targeted to their sites of action.<br><br>‘The associated progress for patients cannot be overestimated,’ said Hessian Minister of Science Timon Gremmels. ‘I am very pleased that we have succeeded in bringing Dr Bakenecker to Hesse with the LOEWE funding, thereby further expanding our still young focus area in medical physics.’<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.etit.tu-darmstadt.de/fachbereich/professuren_etit/etit_prof_details_141248.en.jsp|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "tudarmstadt-bakenecker",
+        "pi": "Anna C. Bakenecker",
+        "institution": "TU Darmstadt",
+        "country": "DE",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.65945,
+              49.87352
+            ],
+            [
+              8.660504,
+              49.873617
+            ],
+            [
+              8.660464,
+              49.873833
+            ],
+            [
+              8.660338,
+              49.873825
+            ],
+            [
+              8.660311,
+              49.873887
+            ],
+            [
+              8.659469,
+              49.873811
+            ],
+            [
+              8.659477,
+              49.873768
+            ],
+            [
+              8.659418,
+              49.873749
+            ],
+            [
+              8.65945,
+              49.87352
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microrobotic Bioengineering Lab (MRBL)",
+        "description": "**Microrobotic Bioengineering Lab (MRBL)** — Technical University of Munich, Munich (DE)<br><br>At MRBL, we develop novel diagnostic and therapeutic technologies by integrating nanorobotic tools and multifunctional micromachines with biomedicine. Our research group uses nanotechnology, biomaterials, and microfluidics to engineer the devices and we implement them in a variety of biological scales ranging from single cells to tissue level.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.ee.cit.tum.de/en/rmn/research/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "tum-mrbl",
+        "pi": "",
+        "institution": "Technical University of Munich",
+        "country": "DE",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6695,
+          48.26571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microrobotic Bioengineering Lab (MRBL)",
+        "description": "**Microrobotic Bioengineering Lab (MRBL)** — Technical University of Munich, Munich (DE)<br><br>At MRBL, we develop novel diagnostic and therapeutic technologies by integrating nanorobotic tools and multifunctional micromachines with biomedicine. Our research group uses nanotechnology, biomaterials, and microfluidics to engineer the devices and we implement them in a variety of biological scales ranging from single cells to tissue level.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.ee.cit.tum.de/en/rmn/research/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "tum-mrbl",
+        "pi": "",
+        "institution": "Technical University of Munich",
+        "country": "DE",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              11.667502,
+              48.264798
+            ],
+            [
+              11.670678,
+              48.264241
+            ],
+            [
+              11.671557,
+              48.266669
+            ],
+            [
+              11.667781,
+              48.267255
+            ],
+            [
+              11.667502,
+              48.264798
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Núcleo Milenio Física de la Materia Activa",
+        "description": "**Rodrigo Soto** — Universidad de Chile, Santiago (CL)<br><br>Theoretical/computational active-matter physics group that designed three distinct microrobot models and a self-assembling 'microrobot factory' -- particles entering through channels and self-organizing into functional micro-scale devices (published in New Journal of Physics). PI Rodrigo Soto directs the Millennium Nucleus Physics of Active Matter at Universidad de Chile's Physics Department.<br><br>**Why it's on this map:** Theoretical and computational work designing microrobot models and a self-assembling 'microrobot factory' -- relevant at the level of design and self-assembly principles rather than physical fabrication.<br><br>[[https://activematter.dfi.uchile.cl/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "uchile-soto",
+        "pi": "Rodrigo Soto",
+        "institution": "Universidad de Chile",
+        "country": "CL",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.66324,
+          -33.45841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Synergetic Adaptive Machinas Lab",
+        "description": "**Steven Ceron** — University of Michigan, Ann Arbor, MI (US)<br><br>Studies how robot collectives -- from micron-scale to macro-scale -- achieve sophisticated emergent behavior through simple local rules, minimal communication, and environmentally-mediated interaction: design, fabrication, and control of micron-scale robot swarms for biomedical applications, and self-reconfigurable modular robot swarms. PhD Cornell (mechanical engineering), postdoc MIT, joined Michigan Robotics as Assistant Professor January 2025.<br><br>**Why it's on this map:** Combines micron-scale robotics with swarm behavior in one research program, led by newly-appointed, actively-recruiting faculty -- a near-exact double match and a genuinely promising point of contact.<br><br>[[https://samlab.robotics.umich.edu/|Group website]]<br>[[https://robotics.umich.edu/people/faculty/steven-ceron/|People]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "umich-ceron",
+        "pi": "Steven Ceron",
+        "institution": "University of Michigan",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.71004,
+          42.29421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microfluidics and BioMEMS Laboratory (MBL)",
+        "description": "**Xinyu Liu** — University of Toronto, Toronto, ON (CA)<br><br>Small-scale innovations for big problems.<br>We are inventing small (micro and nano)-scale devices and systems (e.g., microfluidic biosensors, stretchable sensors and electronics, and micro/nano/soft robotic systems) to solve pressing problems in biology and medicine.  The applications of our technologies include point-of-care diagnostics, telemedicine, environmental monitoring, and automated large-scale gene editing.<br>Our diverse team includes mechanical/electrical/biomedical engineers, material scientists, and chemists.  We closely collaborate with >16 research/clinical laboratories at U of T, other Canadian/international institutions, and affiliated hospitals.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://liulab.mie.utoronto.ca/research/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "unitoronto-liu",
+        "pi": "Xinyu Liu",
+        "institution": "University of Toronto",
+        "country": "CA",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39423,
+          43.65991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microfluidics and BioMEMS Laboratory (MBL)",
+        "description": "**Xinyu Liu** — University of Toronto, Toronto, ON (CA)<br><br>Small-scale innovations for big problems.<br>We are inventing small (micro and nano)-scale devices and systems (e.g., microfluidic biosensors, stretchable sensors and electronics, and micro/nano/soft robotic systems) to solve pressing problems in biology and medicine.  The applications of our technologies include point-of-care diagnostics, telemedicine, environmental monitoring, and automated large-scale gene editing.<br>Our diverse team includes mechanical/electrical/biomedical engineers, material scientists, and chemists.  We closely collaborate with >16 research/clinical laboratories at U of T, other Canadian/international institutions, and affiliated hospitals.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://liulab.mie.utoronto.ca/research/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "unitoronto-liu",
+        "pi": "Xinyu Liu",
+        "institution": "University of Toronto",
+        "country": "CA",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.394318,
+              43.660225
+            ],
+            [
+              -79.394084,
+              43.659693
+            ],
+            [
+              -79.394183,
+              43.659649
+            ],
+            [
+              -79.394395,
+              43.660188
+            ],
+            [
+              -79.394318,
+              43.660225
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AMiR — Abteilung für Mikrorobotik und Regelungstechnik",
+        "description": "**Sergej Fatikow** — University of Oldenburg / OFFIS, Oldenburg (DE)<br><br>Old Projects:<br>- Micro/Nano Robotics for Single Cancer Cells<br>- Fast Broadband Scanning Microwave Microscopy<br>- On-Chip kalibrierender Biosensor für kleine Analyten im Bereich POCT und Umweltanalytik<br>- Kraftsensitive Biomaterialien als Grundlage kardio-vaskulärer Langzeitimplantate (ForMAT-Cardio) <br><br><br><br>AMiR OFFIS e.V.<br>Universität Oldenburg<br>Department für Informatik<br>Abteilung für Mikrorobotik und Regelungstechnik<br>Ammerländer Heerstraße 114-118<br>26129 Oldenburg<br><br>AMiR<br>OFFIS e.V.<br>Uhlhornsweg 84<br>26129 Oldenburg<br><br><br>Über uns<br><br>Die Abteilung Mikrorobotik und Regelungstechnik (AMiR) wurde im Jahr 2001 von Prof. Dr.-Ing. habil. Sergej Fatikow gegründet. Heute beschäftigt AMiR über 20 wissenschaftliche Mitarbeiter aus den Bereichen der Ingenieurwissenschaften, der Physik und der Informatik.<br><br>In vielen Anwendungsgebieten sind Roboter erforderlich, die kleinste Objekte mit einer Genauigkeit im Nanometerbereich handhaben können. Die besten Beispiele sind die Mikrosystemtechnik und die Nanotechnologie. Flexible, modulare Mikroroboter – nebst speziellen Handhabungs-, Aktor-, Sensor-, Regelungs- und Automatisierungstechniken – werden hier als eine der Schlüsseltechnologien angesehen. Besonders die automatisierte Nanohandhabung im Rasterelektronenmikroskop sowie der Einsatz des Rasterkraftmikroskops als Nanoroboter ermöglichen eine Reihe neuartiger Anwendungen.<br><br>AMiR kann auf umfangreiche Erfahrungen in mehreren multidisziplinären - internationalen wie nationalen - Forschungsprojekten auf den Gebieten der flexiblen Mikro- und Nanorobotik sowie der automatisierten Nanohandhabung und Nanocharakterisierung zurückgreifen, wobei die meisten Verbundprojekte von AMiR initiiert und koordiniert werden. Somit leistet die Abteilung einen relevanten und sichtbaren Beitrag zu den internationalen Forschungsaktivitäten auf genannten Gebieten.<br><br>Das Lehrangebot von AMiR gliedert sich in fünf Cluster: Mikrorobotik und Mikrosystemtechnik (Mikromechanik, Mikroaktoren, Mikrosensoren, Systeme, Anwendungen), Mikro- und Nanohandhabung und Automatisierung, künstliche neuronale Netze und Fuzzy-Logik in der Robotik und Automatisierung, FPGA-basiertes Hardwaredesign, Microwave Engineering, sowie Regelungstechnik. Angeboten werden diese Lehrveranstaltungen insbesondere für Informatikstudenten im Rahmen des Studienschwerpunktes “Eingebettete Systeme und Mikrorobotik”, der ein anwendungsorientiertes Studium der Informatik an der Schnittstelle zu den Ingenieurwissenschaften zum Ziel hat<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://uol.de/informatik/amir/ueber-uns|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "uol-amir",
+        "pi": "Sergej Fatikow",
+        "institution": "University of Oldenburg / OFFIS",
+        "country": "DE",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.18148,
+          53.14709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AMiR — Abteilung für Mikrorobotik und Regelungstechnik",
+        "description": "**Sergej Fatikow** — University of Oldenburg / OFFIS, Oldenburg (DE)<br><br>Old Projects:<br>- Micro/Nano Robotics for Single Cancer Cells<br>- Fast Broadband Scanning Microwave Microscopy<br>- On-Chip kalibrierender Biosensor für kleine Analyten im Bereich POCT und Umweltanalytik<br>- Kraftsensitive Biomaterialien als Grundlage kardio-vaskulärer Langzeitimplantate (ForMAT-Cardio) <br><br><br><br>AMiR OFFIS e.V.<br>Universität Oldenburg<br>Department für Informatik<br>Abteilung für Mikrorobotik und Regelungstechnik<br>Ammerländer Heerstraße 114-118<br>26129 Oldenburg<br><br>AMiR<br>OFFIS e.V.<br>Uhlhornsweg 84<br>26129 Oldenburg<br><br><br>Über uns<br><br>Die Abteilung Mikrorobotik und Regelungstechnik (AMiR) wurde im Jahr 2001 von Prof. Dr.-Ing. habil. Sergej Fatikow gegründet. Heute beschäftigt AMiR über 20 wissenschaftliche Mitarbeiter aus den Bereichen der Ingenieurwissenschaften, der Physik und der Informatik.<br><br>In vielen Anwendungsgebieten sind Roboter erforderlich, die kleinste Objekte mit einer Genauigkeit im Nanometerbereich handhaben können. Die besten Beispiele sind die Mikrosystemtechnik und die Nanotechnologie. Flexible, modulare Mikroroboter – nebst speziellen Handhabungs-, Aktor-, Sensor-, Regelungs- und Automatisierungstechniken – werden hier als eine der Schlüsseltechnologien angesehen. Besonders die automatisierte Nanohandhabung im Rasterelektronenmikroskop sowie der Einsatz des Rasterkraftmikroskops als Nanoroboter ermöglichen eine Reihe neuartiger Anwendungen.<br><br>AMiR kann auf umfangreiche Erfahrungen in mehreren multidisziplinären - internationalen wie nationalen - Forschungsprojekten auf den Gebieten der flexiblen Mikro- und Nanorobotik sowie der automatisierten Nanohandhabung und Nanocharakterisierung zurückgreifen, wobei die meisten Verbundprojekte von AMiR initiiert und koordiniert werden. Somit leistet die Abteilung einen relevanten und sichtbaren Beitrag zu den internationalen Forschungsaktivitäten auf genannten Gebieten.<br><br>Das Lehrangebot von AMiR gliedert sich in fünf Cluster: Mikrorobotik und Mikrosystemtechnik (Mikromechanik, Mikroaktoren, Mikrosensoren, Systeme, Anwendungen), Mikro- und Nanohandhabung und Automatisierung, künstliche neuronale Netze und Fuzzy-Logik in der Robotik und Automatisierung, FPGA-basiertes Hardwaredesign, Microwave Engineering, sowie Regelungstechnik. Angeboten werden diese Lehrveranstaltungen insbesondere für Informatikstudenten im Rahmen des Studienschwerpunktes “Eingebettete Systeme und Mikrorobotik”, der ein anwendungsorientiertes Studium der Informatik an der Schnittstelle zu den Ingenieurwissenschaften zum Ziel hat<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://uol.de/informatik/amir/ueber-uns|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "uol-amir",
+        "pi": "Sergej Fatikow",
+        "institution": "University of Oldenburg / OFFIS",
+        "country": "DE",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.181132,
+              53.146963
+            ],
+            [
+              8.181387,
+              53.146844
+            ],
+            [
+              8.181435,
+              53.146877
+            ],
+            [
+              8.181843,
+              53.147181
+            ],
+            [
+              8.181824,
+              53.14723
+            ],
+            [
+              8.181778,
+              53.147247
+            ],
+            [
+              8.18181,
+              53.147263
+            ],
+            [
+              8.181813,
+              53.147306
+            ],
+            [
+              8.181765,
+              53.147325
+            ],
+            [
+              8.181684,
+              53.147325
+            ],
+            [
+              8.181671,
+              53.147309
+            ],
+            [
+              8.181631,
+              53.147311
+            ],
+            [
+              8.181531,
+              53.147304
+            ],
+            [
+              8.181105,
+              53.146973
+            ],
+            [
+              8.181132,
+              53.146963
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xin Chen Group",
+        "description": "**Xin Chen** — University of Science and Technology of China (USTC), Hefei (CN)<br><br>Department of Precision Machinery and Precision Instrumentation researcher combining femtosecond-laser fabrication with magnetic actuation of microrobots -- magnetically-encoded 3D mesostructures with shape morphing, magnetic tubular micromotors for targeted single-cell therapeutics, and 4D laser writing of submerged structural colors.<br><br>**Why it's on this map:** Combines advanced fabrication with field-actuated microdevices, part of a real cluster at the same Chinese university -- direct categorical fit.<br><br>[[https://scholar.google.com/citations?hl=en&q=Xin+Chen+microrobot+USTC+femtosecond|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "ustc-xin",
+        "pi": "Xin Chen",
+        "institution": "University of Science and Technology of China (USTC)",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2731,
+          31.8414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Telerobotics Lab",
+        "description": "**Jake J. Abbott** — University of Utah, Salt Lake City, UT (US)<br><br>Develops robotic systems that manipulate remote environments, with a primary focus on medical telerobotics -- wireless, magnetically-controlled microrobots that navigate inside the human body -- plus telerobotic retinal surgery with the Moran Eye Center. PI Jake Abbott directs the lab, joined Utah in 2008, NSF CAREER awardee.<br><br>**Why it's on this map:** Works on externally magnetically-actuated microrobots -- a materials/actuation-technique match rather than a fully autonomous onboard-powered system, following the same common field-terminology pattern seen elsewhere.<br><br>[[https://www.telerobotics.utah.edu/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "utah-abbott",
+        "pi": "Jake J. Abbott",
+        "institution": "University of Utah",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.83687,
+          40.76281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Diller Microrobotics Lab",
+        "description": "**Eric Diller** — University of Toronto, Toronto, ON (CA)<br><br>Diller Microrobotic Lab<br>https://microrobotics.mie.utoronto.ca/contact/<br><br>Colab with \"Jessica Burgner-Kahrs\" (Continuum Robotics Lab\" Toronto<br>https://crl.utm.utoronto.ca/team/<br><br><br>About Miller:<br><br>Research Interests:<br>Micro-scale robotics; bio-inspired design; magnetic actuation; dynamics and control; mobile robotics; manipulation; wireless actuation; non-invasive medical devices.<br><br><br>Bio<br>Dr. Diller received his B.S. and M.S. in Mechanical Engineering at Case Western Reserve University, and Ph.D. at Carnegie Mellon University in 2013. His work is enabling a new approach to non-invasive medical procedures, micro-factories and scientific tools. He does this by shrinking the mechanical and electrical components of robots to centimeter, millimeter or even micrometer size. He uses magnetic fields and other smart-material actuation methods to make mobile functional devices. Dr. Diller envisions a future where drug delivery and surgery can be done in a fast, painless and focused way, and where new materials and devices can be manufactured using swarms of tiny gripping, cutting, and sensing wireless robots.<br><br>Dr. Diller has received the MIE Early Career Teaching Award, the UofT Connaught New Researcher Award, the Ontario Early Researcher Award, and the I.W. Smith Award from the Canadian Society for Mechanical Engineers.<br><br>**Why it's on this map:** An established magnetically-actuated microrobotics group and a foundational reference point in the field -- migrated from an earlier map version without yet being individually rescored.<br><br>[[https://microrobotics.mie.utoronto.ca/people/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "utoronto-diller",
+        "pi": "Eric Diller",
+        "institution": "University of Toronto",
+        "country": "CA",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39398,
+          43.66016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Diller Microrobotics Lab",
+        "description": "**Eric Diller** — University of Toronto, Toronto, ON (CA)<br><br>Diller Microrobotic Lab<br>https://microrobotics.mie.utoronto.ca/contact/<br><br>Colab with \"Jessica Burgner-Kahrs\" (Continuum Robotics Lab\" Toronto<br>https://crl.utm.utoronto.ca/team/<br><br><br>About Miller:<br><br>Research Interests:<br>Micro-scale robotics; bio-inspired design; magnetic actuation; dynamics and control; mobile robotics; manipulation; wireless actuation; non-invasive medical devices.<br><br><br>Bio<br>Dr. Diller received his B.S. and M.S. in Mechanical Engineering at Case Western Reserve University, and Ph.D. at Carnegie Mellon University in 2013. His work is enabling a new approach to non-invasive medical procedures, micro-factories and scientific tools. He does this by shrinking the mechanical and electrical components of robots to centimeter, millimeter or even micrometer size. He uses magnetic fields and other smart-material actuation methods to make mobile functional devices. Dr. Diller envisions a future where drug delivery and surgery can be done in a fast, painless and focused way, and where new materials and devices can be manufactured using swarms of tiny gripping, cutting, and sensing wireless robots.<br><br>Dr. Diller has received the MIE Early Career Teaching Award, the UofT Connaught New Researcher Award, the Ontario Early Researcher Award, and the I.W. Smith Award from the Canadian Society for Mechanical Engineers.<br><br>**Why it's on this map:** An established magnetically-actuated microrobotics group and a foundational reference point in the field -- migrated from an earlier map version without yet being individually rescored.<br><br>[[https://microrobotics.mie.utoronto.ca/people/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "utoronto-diller",
+        "pi": "Eric Diller",
+        "institution": "University of Toronto",
+        "country": "CA",
+        "category": "micro-nano-end-effectors",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.394047,
+              43.659694
+            ],
+            [
+              -79.393819,
+              43.659746
+            ],
+            [
+              -79.393945,
+              43.66006
+            ],
+            [
+              -79.393499,
+              43.660163
+            ],
+            [
+              -79.393548,
+              43.660266
+            ],
+            [
+              -79.393403,
+              43.660303
+            ],
+            [
+              -79.393443,
+              43.660415
+            ],
+            [
+              -79.394275,
+              43.660235
+            ],
+            [
+              -79.394047,
+              43.659694
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Advanced Nanorobots and Multiscale Robotics Laboratory",
+        "description": "**Martin Pumera** — VSB - Technical University of Ostrava, Ostrava (CZ)<br><br>Works toward independent, mobile, intelligent nanorobots, spanning micro/nanomachines, 2D-material nanorobots, and machine-intelligence-guided robot design. Martin Pumera is among the most cited scientists in his field worldwide (an ERC awardee); he also founded the Centre for Advanced Functional Nanorobots at UCT Prague and leads a nanorobotics group at CEITEC Brno -- this Ostrava lab is his current primary nanorobotics affiliation.<br><br>**Why it's on this map:** Led by one of the most highly-cited researchers in nanorobotics worldwide, working toward independent, intelligent nanorobots -- a top-tier reference point for the field.<br><br>[[https://nanorobots.vsb.cz/en/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "vsbtuo-pumera",
+        "pi": "Martin Pumera",
+        "institution": "VSB - Technical University of Ostrava",
+        "country": "CZ",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.16788,
+          49.83458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuchiwaki Laboratory — Micromanipulation Robotics",
+        "description": "**Ohmi Fuchiwaki** — Yokohama National University, Yokohama (JP)<br><br>Builds miniature piezoelectric-driven robots for micromanipulation, including inchworm-type robots (four piezoelectric stacks, ~20 mm/s, 1.6 nm resolution) originally developed for flexible micro-processing by multiple miniature robots inside an SEM vacuum chamber, and more recent quadruped/holonomic micromanipulation platforms.<br><br>**Why it's on this map:** Builds miniature piezoelectric-driven robots for micromanipulation, including work inside SEM vacuum chambers -- a direct fit for small-scale robotic actuation and manipulation techniques.<br><br>[[https://er-web.ynu.ac.jp/html/FUCHIWAKI_Ohmi/en.html|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "ynu-fuchiwaki",
+        "pi": "Ohmi Fuchiwaki",
+        "institution": "Yokohama National University",
+        "country": "JP",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.59005,
+          35.4738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chengfeng Pan Group",
+        "description": "**Chengfeng Pan** — Zhejiang University, Hangzhou (CN)<br><br>Assistant Professor of Mechanical Engineering working on soft electronics, hybrid manufacturing, soft robotics, and biomedical applications -- including a modularized magnetic microrobot with lock-and-detachable modules for targeted cell delivery in the bile duct.<br><br>**Why it's on this map:** A microrobotics group, part of a real emerging cluster of independent labs at the same Chinese university -- direct categorical fit.<br><br>[[https://www.researchgate.net/profile/Chengfeng-Pan|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "zju-pan",
+        "pi": "Chengfeng Pan",
+        "institution": "Zhejiang University",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12508,
+          30.26934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xia Neng Group",
+        "description": "**Neng Xia** — Zhejiang University, Hangzhou (CN)<br><br>Affiliated with the State Key Laboratory of Fluid Power and Mechatronic Systems, College of Mechanical Engineering, working on untethered miniature soft robots -- materials, fabrication, and applications.<br><br>**Why it's on this map:** A microrobotics group, part of a real emerging cluster of independent labs at the same Chinese university -- direct categorical fit.<br><br>[[https://www.researchgate.net/profile/Neng-Xia|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "zju-xia",
+        "pi": "Neng Xia",
+        "institution": "Zhejiang University",
+        "country": "CN",
+        "category": "micro-nano-end-effectors",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12508,
+          30.26934
+        ]
+      }
+    }
+  ]
+}

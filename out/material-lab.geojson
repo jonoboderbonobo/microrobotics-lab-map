@@ -94,6 +94,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "FEMTO-ST — MN2S",
+        "description": "**FEMTO-ST — MN2S** — FEMTO-ST Institute, Besançon (FR)<br><br>**Why it's on this map:** A micro/nanoscale systems and robotics research department -- specific current focus not yet documented; kept as a general watch entry pending a closer look.<br><br>[[https://www.femto-st.fr/en/Research-departments/MN2S/Research-axes|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "femto-st-mn2s",
+        "pi": "",
+        "institution": "FEMTO-ST Institute",
+        "country": "FR",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.99625,
+          47.2532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "FemtoTools",
         "description": "**FemtoTools** — FemtoTools AG (part of Oxford Instruments since 2024), Buchs (Zürich) (CH)<br><br>Swiss company (ETH Zurich MSRL spin-off) making ultra-high-precision instruments for mechanical testing and robotic handling at the micro- and nanoscale: microforce sensing probes and force-sensing microgrippers, fabricated via a custom MEMS process, serving semiconductor, microsystem, materials science, and micromedicine markets. Acquired by Oxford Instruments in 2024.<br><br>**Why it's on this map:** Makes precision microforce-sensing probes and microgrippers for handling objects at the micro/nanoscale -- a real, purchasable component supplier for assembly and manipulation tasks at small scale.<br><br>[[https://www.femtotools.com/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "femtotools",
@@ -118,6 +148,66 @@
         "coordinates": [
           8.43716,
           47.45264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fraunhofer IMTE — Life, Light and Matter",
+        "description": "**Fraunhofer IMTE — Life, Light and Matter** — Fraunhofer IMTE, Lübeck (DE)<br><br>**Why it's on this map:** A sister department (Life, Light and Matter) at the same medical-engineering institute as a nearby cell-based-medicine entry -- specific current research focus not yet documented.<br><br>[[https://www.imte.fraunhofer.de/en.html|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "fraunhofer-imte-llm",
+        "pi": "",
+        "institution": "Fraunhofer IMTE",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.70078,
+          53.83603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NanoMem Group / Smart Materials and Micro/Nanoscale Robotics",
+        "description": "**Yongfeng Mei** — Fudan University, Shanghai (CN)<br><br>Professor of Materials Science at Fudan University, working on thin film materials, semiconductor materials and flexible electronics, and smart materials and micro/nanoscale robotics. Group has been operating since 2010.<br><br>**Why it's on this map:** Has an explicitly named research program in smart materials and micro/nanoscale robotics -- a direct, longstanding fit rather than an inferred one.<br><br>[[http://nanomem.fudan.edu.cn|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "fudan-mei",
+        "pi": "Yongfeng Mei",
+        "institution": "Fudan University",
+        "country": "CN",
+        "category": "material-lab",
+        "application": "fundamental,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49747,
+          31.30117
         ]
       }
     },
@@ -864,6 +954,104 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "B CUBE — Center for Molecular Bioengineering",
+        "description": "**B CUBE — Center for Molecular Bioengineering** — Technische Universität Dresden, Dresden (DE)<br><br>B CUBE - Center for Molecular Bioengineering at TUD Dresden University of Technology is part of the Center for Molecular and Cellular Bioengineering (CMCB) and focuses on the investigation of natural phenomena across scales and translates the ensuing knowledge into innovative materials and technologies thereby building bridges between Life Sciences and Engineering Sciences. <br><br><br>Mission<br>Translate natural phenomena into innovative materials and systems<br><br>Nature offers an enormous arsenal of functional systems and properties that could answer a wide range of unmet technological needs. B CUBE researchers aim to capture potentially useful natural phenomena, to elucidate them on a multi-scale mechanistic level, and translate these findings into synthetic material using biologically inspired design concepts.<br>Procure the foundations of human existence for the future<br><br>The diminishing of non-renewable resources and the loss of natural habitats has resulted in the urgent need to develop energy-efficient and renewable technologies as quickly as possible. In this respect, materials are of central importance, as their properties (such as adhesion, friction, transport properties etc.) determine the efficiency of virtually all systems. The most efficient systems of all are found in nature. In addition, living matter demonstrates a range of properties that still have not been successfully incorporated into modern synthetic materials, such as the ability to adapt or regenerate functionality. The aim is thus to make use of the advances in molecular biology in order to investigate living structures more intensely, and translate the ensuing knowledge into innovative methods, materials and technologies.<br>Providing favorable conditions for innovation<br><br>B CUBE unites complementary research approaches and methodologies under one roof. The question of how to reproduce natural phenomena synthetically is tackled in an interdisciplinary way – incorporating biology, nanobiotechnology and engineering. This transdisciplinary research space is implemented within a core-shell-structure. While professoral research groups permanently represent and shape the main research areas, creativity of international junior scientists is promoted and used as „innovation motor“. Being embedded in strong partnership network of established Dresden research institutes, B CUBE offers its high-profile scientists the most favorable conditions for innovation as well as a high degree of freedom and self-responsibility. The activities of all B CUBE research groups are supported by dedicated technology platforms. This raises the efficiency of the groups in their core fields, ensures the highest quality and reduces the financial and administrative load of each group.<br><br><br><br><br>About Dr. Mariana Medina-Sánchez<br><br>Mariana Medina-Sánchez holds a Master’s degree in Nanotechnology. In 2013, she graduated with a PhD in Biotechnology from the Autonomous University of Barcelona, Spain. She moved to Dresden in 2014 and joined the Institute for Integrative Nanosciences (IIN) at the Leibniz Institute for Solid State and Materials Research Dresden (IFW) as a postdoctoral researcher. Her work focused on sperm-carrying micromotors and ultracompact rolled-up biosensors. Since 2016, she is a research group leader at the IIN and IFW. Her group “Micro- and Nanobiomedical Engineering” specializes in medical microrobotics and biosensing microfluidic platforms. In 2020 her research was funded by the competitive European Research Council Starting Grant.<br><br>About B CUBE – Center for Molecular Bioengineering<br>B CUBE – Center for Molecular Bioengineering was founded as a Center for Innovation Competence within the initiative “Unternehmen Region” of the German Federal Ministry of Education and Research. It is part of the Center for Molecular and Cellular Bioengineering (CMCB). B CUBE research focuses on the investigation of living structures on a molecular level, translating the ensuing knowledge into innovative methods, materials and technologies.<br>Web: www.tu-dresden.de/bcube<br><br> <br><br>About Leibniz Institute for Solid State and Materials Research Dresden (IFW)<br>The IFW Dresden is a legally independent, non-university research institution and member of the Leibniz Association. The Institute’s mission is to explore the physics, chemistry, and function of new materials and to generate innovations from new discoveries. The focus is on the level of molecules, atoms, and electrons, which are governed by the laws of quantum physics as well as nanotechnological laws.<br>Web: www.ifw-dresden.de<br><br> <br><br>About DRESDEN-concept<br>DRESDEN-concept is the research alliance of TU Dresden and local extramural research and cultural institutions. A total of 33 partner institutions have joined forces in the association to bundle synergies and jointly develop the Dresden science hub into a DRESDEN-concept Science and Innovation Campus.<br>The acronym DRESDEN stands for Dresden Research and Education Synergies for the Development of Excellence and Novelty and emphasizes the focus of the collaboration: by networking across the boundaries of institutions and subjects, DRESDEN-concept offers researchers an ideal place for science and innovation.<br>Web: www.dresden-concept.de<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://tu-dresden.de/cmcb|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "tud-bcube",
+        "pi": "",
+        "institution": "Technische Universität Dresden",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.73032,
+          51.02987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "B CUBE — Center for Molecular Bioengineering",
+        "description": "**B CUBE — Center for Molecular Bioengineering** — Technische Universität Dresden, Dresden (DE)<br><br>B CUBE - Center for Molecular Bioengineering at TUD Dresden University of Technology is part of the Center for Molecular and Cellular Bioengineering (CMCB) and focuses on the investigation of natural phenomena across scales and translates the ensuing knowledge into innovative materials and technologies thereby building bridges between Life Sciences and Engineering Sciences. <br><br><br>Mission<br>Translate natural phenomena into innovative materials and systems<br><br>Nature offers an enormous arsenal of functional systems and properties that could answer a wide range of unmet technological needs. B CUBE researchers aim to capture potentially useful natural phenomena, to elucidate them on a multi-scale mechanistic level, and translate these findings into synthetic material using biologically inspired design concepts.<br>Procure the foundations of human existence for the future<br><br>The diminishing of non-renewable resources and the loss of natural habitats has resulted in the urgent need to develop energy-efficient and renewable technologies as quickly as possible. In this respect, materials are of central importance, as their properties (such as adhesion, friction, transport properties etc.) determine the efficiency of virtually all systems. The most efficient systems of all are found in nature. In addition, living matter demonstrates a range of properties that still have not been successfully incorporated into modern synthetic materials, such as the ability to adapt or regenerate functionality. The aim is thus to make use of the advances in molecular biology in order to investigate living structures more intensely, and translate the ensuing knowledge into innovative methods, materials and technologies.<br>Providing favorable conditions for innovation<br><br>B CUBE unites complementary research approaches and methodologies under one roof. The question of how to reproduce natural phenomena synthetically is tackled in an interdisciplinary way – incorporating biology, nanobiotechnology and engineering. This transdisciplinary research space is implemented within a core-shell-structure. While professoral research groups permanently represent and shape the main research areas, creativity of international junior scientists is promoted and used as „innovation motor“. Being embedded in strong partnership network of established Dresden research institutes, B CUBE offers its high-profile scientists the most favorable conditions for innovation as well as a high degree of freedom and self-responsibility. The activities of all B CUBE research groups are supported by dedicated technology platforms. This raises the efficiency of the groups in their core fields, ensures the highest quality and reduces the financial and administrative load of each group.<br><br><br><br><br>About Dr. Mariana Medina-Sánchez<br><br>Mariana Medina-Sánchez holds a Master’s degree in Nanotechnology. In 2013, she graduated with a PhD in Biotechnology from the Autonomous University of Barcelona, Spain. She moved to Dresden in 2014 and joined the Institute for Integrative Nanosciences (IIN) at the Leibniz Institute for Solid State and Materials Research Dresden (IFW) as a postdoctoral researcher. Her work focused on sperm-carrying micromotors and ultracompact rolled-up biosensors. Since 2016, she is a research group leader at the IIN and IFW. Her group “Micro- and Nanobiomedical Engineering” specializes in medical microrobotics and biosensing microfluidic platforms. In 2020 her research was funded by the competitive European Research Council Starting Grant.<br><br>About B CUBE – Center for Molecular Bioengineering<br>B CUBE – Center for Molecular Bioengineering was founded as a Center for Innovation Competence within the initiative “Unternehmen Region” of the German Federal Ministry of Education and Research. It is part of the Center for Molecular and Cellular Bioengineering (CMCB). B CUBE research focuses on the investigation of living structures on a molecular level, translating the ensuing knowledge into innovative methods, materials and technologies.<br>Web: www.tu-dresden.de/bcube<br><br> <br><br>About Leibniz Institute for Solid State and Materials Research Dresden (IFW)<br>The IFW Dresden is a legally independent, non-university research institution and member of the Leibniz Association. The Institute’s mission is to explore the physics, chemistry, and function of new materials and to generate innovations from new discoveries. The focus is on the level of molecules, atoms, and electrons, which are governed by the laws of quantum physics as well as nanotechnological laws.<br>Web: www.ifw-dresden.de<br><br> <br><br>About DRESDEN-concept<br>DRESDEN-concept is the research alliance of TU Dresden and local extramural research and cultural institutions. A total of 33 partner institutions have joined forces in the association to bundle synergies and jointly develop the Dresden science hub into a DRESDEN-concept Science and Innovation Campus.<br>The acronym DRESDEN stands for Dresden Research and Education Synergies for the Development of Excellence and Novelty and emphasizes the focus of the collaboration: by networking across the boundaries of institutions and subjects, DRESDEN-concept offers researchers an ideal place for science and innovation.<br>Web: www.dresden-concept.de<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://tu-dresden.de/cmcb|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "tud-bcube",
+        "pi": "",
+        "institution": "Technische Universität Dresden",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              13.773339,
+              51.056283
+            ],
+            [
+              13.773366,
+              51.05602
+            ],
+            [
+              13.774425,
+              51.05606
+            ],
+            [
+              13.774385,
+              51.056433
+            ],
+            [
+              13.774042,
+              51.056428
+            ],
+            [
+              13.774053,
+              51.056221
+            ],
+            [
+              13.773916,
+              51.056214
+            ],
+            [
+              13.773892,
+              51.056302
+            ],
+            [
+              13.773339,
+              51.056283
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Liu Lab",
         "description": "**Bin Liu** — University of California, Merced, Merced, CA (US)<br><br>Associate Professor of Physics studying biofluid dynamics, transport of microorganisms in complex environments, mechanics of biological media, and mechanical metamaterials, with a hands-on microfluidics focus (students build their own microfluidic pumps and channels via 3D printing).<br><br>**Why it's on this map:** Studies how microorganisms move through complex environments -- a conceptual parallel to how a small robot would need to navigate tissue or fluid, at a fundamental-science level rather than a device match.<br><br>[[https://naturalsciences.ucmerced.edu/people/bin-liu-0|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "ucmerced-liu",
@@ -979,6 +1167,88 @@
           -47.0628,
           -22.82266
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LL&M — Life, Light and Matter",
+        "description": "**LL&M — Life, Light and Matter** — University of Rostock, Rostock (DE)<br><br>Vision des Departments LL&M<br><br>... ist es, durch die Verbindung von Light on Matter, Matter at the Nanoscale und Cells in Contact, das Small Scale Sensing zu fördern. Wir entwickeln innovative Methoden, um diese Bereiche zu erforschen und leisten so einen bedeutenden Beitrag zur Bewältigung globaler Herausforderungen.<br><br><br><br>Hintergründe<br><br>Im Jahr 2007 gründete die Universität Rostock das Department \"Science and Technology of Life, Light and Matter\" (LL&M), um eine Verbindung zwischen den Natur-, Ingenieur- und Lebenswissenschaften herzustellen. Diese Initiative sollte die Zusammenarbeit verschiedener Fachbereiche und Fakultäten fördern und innovative Forschung im Bereich Lebenswissenschaften vorantreiben.<br><br>LL&M ist Teil der Interdisziplinären Fakultät (INF), zu der neben LL&M drei weitere Departments gehören: Maritime Systeme, Altern des Individuums und der Gesellschaft (seit 2007) sowie Wissen-Kultur-Transformation (seit 2010). Diese Struktur ermöglicht es, komplexe wissenschaftliche Herausforderungen aus verschiedenen Blickwinkeln zu betrachten und zu lösen.<br><br>Das Department hat eine positive Resonanz von Persönlichkeiten der Universität Rostock erhalten, was seine Bedeutung in der akademischen Gemeinschaft unterstreicht. Derzeit engagieren sich 49 Mitglieder aus verschiedenen Fakultäten der Universität Rostock sowie aus Forschungseinrichtungen wie den Leibniz-Instituten für Atmosphärenphysik und Katalyse, dem Institut für Ostseeforschung und der Schweißtechnischen Lehr- und Versuchsanstalt MV in LL&M.<br><br>Zusätzlich unterhält LL&M eininterdisziplinäres Graduiertennetzwerk, das darauf abzielt, den wissenschaftlichen Nachwuchs zu fördern. In diesem Netzwerk sind derzeit zahlreiche Kollegiatinnen und Kollegiaten aktiv, die von der Vielfalt des Departments profitieren und eine interdisziplinäre Weiterbildung erhalten. Einmal im Jahr kommen diese Jungwissenschaftlerinnen und Jungwissenschaftler zusammen, um ihre Forschungsprojekte vorzustellen, Erfahrungen auszutauschen und sich über die traditionellen Fächergrenzen hinweg zu vernetzen.<br>Zielsetzung<br><br>Das Department Leben, Licht und Materie (LLM) vernetzt Forschungsschwerpunkte in den Natur-, Ingenieur- und Lebenswissenschaften und kooperiert eng mit den Fakultäten. Im Department LLM werden interdisziplinäre Fragestellungen aus den Nanowissenschaften, den Materialwissenschaften, der biomedizinischen Implantattechnologie, der Biophysik und der Photonik bearbeitet. Mit den Themenbereichen Light on Matter, Matter at the Nanoscale sowie Cells in Contact verfolgen wir die Leitlinie, fundamentale Prozesse auf atomarer und molekularer Ebene zu analysieren, zu verstehen und zu steuern. Diese Bereiche ermöglichen die Entwicklung innovativer Sensoren, wobei Nanomaterialien und Quanteneffekte das Potenzial für zukünftige Miniaturisierung bieten.<br><br>Grundlage für diese Forschung in LLM ist der eigene Forschungsbau, der Kompetenzzentren(Kalorimetrie, Oberflächen/Grenzflächen, Kernspinresonanzspektroskopie, Massenspektrometrie, Mikroskopie/Spektroskopie), weitere Großgeräte sowie das Elektronenmikroskopie Zentrum (ELMI-MV) beherbergt. Damit unterstützt das Department die internationalen Forschungsverbünde wie zum Beispiel die SFBs Elaine und LiMatI.<br><br>Langfristig wird eine internationale Spitzenposition in der Nano-Sensorik angestrebt. Dazu werden neue Techniken zur Mikro- und Nanostrukturierung von Oberflächen und Volumina entwickelt. Grundvoraussetzung hierfür ist die Kenntnis der verwendeten Materie auf der Nanoebene, wofür Licht-, Elektronen- und Quantentechniken eingesetzt werden.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.inf.uni-rostock.de/llm/ueber-uns/department/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "unirostock-llm",
+        "pi": "",
+        "institution": "University of Rostock",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1085,
+          54.07811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LL&M — Life, Light and Matter",
+        "description": "**LL&M — Life, Light and Matter** — University of Rostock, Rostock (DE)<br><br>Vision des Departments LL&M<br><br>... ist es, durch die Verbindung von Light on Matter, Matter at the Nanoscale und Cells in Contact, das Small Scale Sensing zu fördern. Wir entwickeln innovative Methoden, um diese Bereiche zu erforschen und leisten so einen bedeutenden Beitrag zur Bewältigung globaler Herausforderungen.<br><br><br><br>Hintergründe<br><br>Im Jahr 2007 gründete die Universität Rostock das Department \"Science and Technology of Life, Light and Matter\" (LL&M), um eine Verbindung zwischen den Natur-, Ingenieur- und Lebenswissenschaften herzustellen. Diese Initiative sollte die Zusammenarbeit verschiedener Fachbereiche und Fakultäten fördern und innovative Forschung im Bereich Lebenswissenschaften vorantreiben.<br><br>LL&M ist Teil der Interdisziplinären Fakultät (INF), zu der neben LL&M drei weitere Departments gehören: Maritime Systeme, Altern des Individuums und der Gesellschaft (seit 2007) sowie Wissen-Kultur-Transformation (seit 2010). Diese Struktur ermöglicht es, komplexe wissenschaftliche Herausforderungen aus verschiedenen Blickwinkeln zu betrachten und zu lösen.<br><br>Das Department hat eine positive Resonanz von Persönlichkeiten der Universität Rostock erhalten, was seine Bedeutung in der akademischen Gemeinschaft unterstreicht. Derzeit engagieren sich 49 Mitglieder aus verschiedenen Fakultäten der Universität Rostock sowie aus Forschungseinrichtungen wie den Leibniz-Instituten für Atmosphärenphysik und Katalyse, dem Institut für Ostseeforschung und der Schweißtechnischen Lehr- und Versuchsanstalt MV in LL&M.<br><br>Zusätzlich unterhält LL&M eininterdisziplinäres Graduiertennetzwerk, das darauf abzielt, den wissenschaftlichen Nachwuchs zu fördern. In diesem Netzwerk sind derzeit zahlreiche Kollegiatinnen und Kollegiaten aktiv, die von der Vielfalt des Departments profitieren und eine interdisziplinäre Weiterbildung erhalten. Einmal im Jahr kommen diese Jungwissenschaftlerinnen und Jungwissenschaftler zusammen, um ihre Forschungsprojekte vorzustellen, Erfahrungen auszutauschen und sich über die traditionellen Fächergrenzen hinweg zu vernetzen.<br>Zielsetzung<br><br>Das Department Leben, Licht und Materie (LLM) vernetzt Forschungsschwerpunkte in den Natur-, Ingenieur- und Lebenswissenschaften und kooperiert eng mit den Fakultäten. Im Department LLM werden interdisziplinäre Fragestellungen aus den Nanowissenschaften, den Materialwissenschaften, der biomedizinischen Implantattechnologie, der Biophysik und der Photonik bearbeitet. Mit den Themenbereichen Light on Matter, Matter at the Nanoscale sowie Cells in Contact verfolgen wir die Leitlinie, fundamentale Prozesse auf atomarer und molekularer Ebene zu analysieren, zu verstehen und zu steuern. Diese Bereiche ermöglichen die Entwicklung innovativer Sensoren, wobei Nanomaterialien und Quanteneffekte das Potenzial für zukünftige Miniaturisierung bieten.<br><br>Grundlage für diese Forschung in LLM ist der eigene Forschungsbau, der Kompetenzzentren(Kalorimetrie, Oberflächen/Grenzflächen, Kernspinresonanzspektroskopie, Massenspektrometrie, Mikroskopie/Spektroskopie), weitere Großgeräte sowie das Elektronenmikroskopie Zentrum (ELMI-MV) beherbergt. Damit unterstützt das Department die internationalen Forschungsverbünde wie zum Beispiel die SFBs Elaine und LiMatI.<br><br>Langfristig wird eine internationale Spitzenposition in der Nano-Sensorik angestrebt. Dazu werden neue Techniken zur Mikro- und Nanostrukturierung von Oberflächen und Volumina entwickelt. Grundvoraussetzung hierfür ist die Kenntnis der verwendeten Materie auf der Nanoebene, wofür Licht-, Elektronen- und Quantentechniken eingesetzt werden.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[https://www.inf.uni-rostock.de/llm/ueber-uns/department/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "unirostock-llm",
+        "pi": "",
+        "institution": "University of Rostock",
+        "country": "DE",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              12.108157,
+              54.078324
+            ],
+            [
+              12.108492,
+              54.07781
+            ],
+            [
+              12.108867,
+              54.077888
+            ],
+            [
+              12.108516,
+              54.078401
+            ],
+            [
+              12.108157,
+              54.078324
+            ]
+          ]
+        ],
+        "type": "Polygon"
       }
     },
     {
@@ -1104,6 +1374,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Advanced Micro and Nanosystems Laboratory (AMNL)",
+        "description": "**Yu Sun** — University of Toronto, Toronto, ON (CA)<br><br>Develops technologies and instruments for manipulating and characterizing cells, molecules, and nanomaterials. Cross-appointed across Mechanical & Industrial Engineering, the Institute of Biomaterials and Biomedical Engineering, Electrical & Computer Engineering, and Computer Science.<br><br>**Why it's on this map:** A distinct microrobotics group, part of a real cluster of independent labs at the same university -- direct categorical fit.<br><br>[[https://amnl.mie.utoronto.ca/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "utoronto-sun",
+        "pi": "Yu Sun",
+        "institution": "University of Toronto",
+        "country": "CA",
+        "category": "material-lab",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39682,
+          43.66347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Key Laboratory for Micro-Nano Technology (Micro-Nano Lab)",
         "description": "**Key Laboratory for Micro-Nano Technology (Micro-Nano Lab)** — VNU University of Engineering and Technology (VNU-UET), Hanoi (VN)<br><br>Government-designated 'key laboratory' (founded 2008) for advanced research in micro- and nanotechnology, drawing on VNU-UET's Faculty of Engineering Physics and Nanotechnology and Faculty of Electronics and Telecommunications. Research spans nano magnetic materials, nano semiconductors, nano biotechnology, and nanophotonics.<br><br>**Why it's on this map:** A government-designated national key laboratory for micro- and nanotechnology -- real, substantial regional fabrication and research infrastructure, though no specific microrobotics work was identified.<br><br>[[https://uet.vnu.edu.vn/en/key-laboratory-micro-nano-technology-micro-nano-lab/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "vnu-micronano",
@@ -1129,6 +1429,88 @@
           105.78189,
           21.03881
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fluid-Power and Mechatronic Systems",
+        "description": "**Sun Yu** — Zhejiang University, Hangzhou (CN)<br><br>Mission Statement<br>Strategic positioning:<br><br>    Orientating towards National Strategy intents and frontiers of disciplines<br><br>    Keeping a foothold on the fundamental research and its application of fluid power<br><br>    Exploiting trans-disciplinary fields with fluid power including electron, Informatics, Control Science and bioscience<br><br>    Solving problems of basic theory and key technology on Fluid Power and Mechatronic Systems<br><br>    Supporting state economy and social development<br><br><br>Development Target:<br><br>    Raising and developing innovative theory, principle and method<br><br>    Solving science problems and key technology<br><br>    Developing prototype machines and integrated systems<br><br>    Realizing technology transformation<br><br><br>We are trying to be—<br><br>    A platform for high-level fundamental and application research in this field<br><br>    A platform for cultivating and gathering top-talents as well as carrying out high-level academic exchanges<br><br>    A platform for promoting technology application and industrial development in this field<br><br><br><br><br><br>About Prof. Sun Yu:<br><br>Abstract:<br>Micro-nano operating robots are a relatively young area of research. After 30 years of experience in this field, the basic physics problems related to micro-nano operations have been well understood and solved. The development of micro-nano-scale sensor triggering and control technology, systems and tools has also developed rapidly. This report begins with a brief history of the development of micro-nano operating robots, describing micro-nano-scale sensing, triggering techniques, analysis of microscopic vision and micro-Nanoton force feedback control methods (eg how to use 2D microscopic vision to obtain accurate 3D) Information; how to perform robot path planning for large deformation objects operating on micro-nano scales, and robotic micro-operation techniques based on sound field, magnetic field, and light field. Finally, the typical application cases of micro-manipulation robot technology in the past ten years are introduced, for example Nanomanipulators for the operation and measurement of single triodes and nanomaterials, precision robotic surgery, tumor delivery and therapy, and robotic cell surgery applications<br><br><br>Bio:<br><br><br>   Yu Sun is a Professor in the Department of Mechanical and Industrial Engineering, with joint appointments in the Institute of Biomaterials and Biomedical Engineering, the Department of Electrical and Computer Engineering, and the Department of Computer Science at the University of Toronto (UofT). He is a Tier I Canada Research Chair, and the founding Director of the UofT Robotics Institute. His Advanced Micro and Nanosystems Laboratory specializes in developing innovative technologies and instruments for manipulating and characterizing cells, molecules, and nanomaterials. He was elected Fellow of ASME (American Society of Mechanical Engineers), IEEE (Institute of Electrical and Electronics Engineers), AAAS (American Association for the Advancement of Science), NAI (US National Academy of Inventors), CAE (Canadian Academy of Engineering), and RSC (Royal Society of Canada) for his work on micro-nano devices and robotic systems.<br><br>    Sun obtained his Ph.D. from the University of Minnesota in 2003 and did his postdoctoral research at ETH-Zürich. He joined the University of Toronto in 2004. In 2012-2013, he directed the University Nanofabrication Center as the faculty director. Sun has served and serves on the editorial boards of IEEE Trans. Robotics, IEEE Trans. Automation Science and Engineering, IEEE Trans. Mechatronics, J. Micromechanics Microengineering, Sensors and Actuators A: Physical, Scientific Reports, and Microsystems & Nanoengineering. Among the awards he received were the IEEE Robotics and Automation Society Early Career Award; over a dozen best paper awards and finalists at major international conferences; seven times University of Toronto Connaught Innovation Award; the McLean Award; the First Prize in Technical Achievement of ASRM (American Society for Reproductive Medicine); an NSERC E.W.R. Steacie Memorial Fellowship; and the IEEE C.C. Gotlieb Computer Award.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[http://sklofp.zju.edu.cn/sklen/29506/list.htm|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "zju-fpms",
+        "pi": "Sun Yu",
+        "institution": "Zhejiang University",
+        "country": "CN",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12508,
+          30.26934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fluid-Power and Mechatronic Systems",
+        "description": "**Sun Yu** — Zhejiang University, Hangzhou (CN)<br><br>Mission Statement<br>Strategic positioning:<br><br>    Orientating towards National Strategy intents and frontiers of disciplines<br><br>    Keeping a foothold on the fundamental research and its application of fluid power<br><br>    Exploiting trans-disciplinary fields with fluid power including electron, Informatics, Control Science and bioscience<br><br>    Solving problems of basic theory and key technology on Fluid Power and Mechatronic Systems<br><br>    Supporting state economy and social development<br><br><br>Development Target:<br><br>    Raising and developing innovative theory, principle and method<br><br>    Solving science problems and key technology<br><br>    Developing prototype machines and integrated systems<br><br>    Realizing technology transformation<br><br><br>We are trying to be—<br><br>    A platform for high-level fundamental and application research in this field<br><br>    A platform for cultivating and gathering top-talents as well as carrying out high-level academic exchanges<br><br>    A platform for promoting technology application and industrial development in this field<br><br><br><br><br><br>About Prof. Sun Yu:<br><br>Abstract:<br>Micro-nano operating robots are a relatively young area of research. After 30 years of experience in this field, the basic physics problems related to micro-nano operations have been well understood and solved. The development of micro-nano-scale sensor triggering and control technology, systems and tools has also developed rapidly. This report begins with a brief history of the development of micro-nano operating robots, describing micro-nano-scale sensing, triggering techniques, analysis of microscopic vision and micro-Nanoton force feedback control methods (eg how to use 2D microscopic vision to obtain accurate 3D) Information; how to perform robot path planning for large deformation objects operating on micro-nano scales, and robotic micro-operation techniques based on sound field, magnetic field, and light field. Finally, the typical application cases of micro-manipulation robot technology in the past ten years are introduced, for example Nanomanipulators for the operation and measurement of single triodes and nanomaterials, precision robotic surgery, tumor delivery and therapy, and robotic cell surgery applications<br><br><br>Bio:<br><br><br>   Yu Sun is a Professor in the Department of Mechanical and Industrial Engineering, with joint appointments in the Institute of Biomaterials and Biomedical Engineering, the Department of Electrical and Computer Engineering, and the Department of Computer Science at the University of Toronto (UofT). He is a Tier I Canada Research Chair, and the founding Director of the UofT Robotics Institute. His Advanced Micro and Nanosystems Laboratory specializes in developing innovative technologies and instruments for manipulating and characterizing cells, molecules, and nanomaterials. He was elected Fellow of ASME (American Society of Mechanical Engineers), IEEE (Institute of Electrical and Electronics Engineers), AAAS (American Association for the Advancement of Science), NAI (US National Academy of Inventors), CAE (Canadian Academy of Engineering), and RSC (Royal Society of Canada) for his work on micro-nano devices and robotic systems.<br><br>    Sun obtained his Ph.D. from the University of Minnesota in 2003 and did his postdoctoral research at ETH-Zürich. He joined the University of Toronto in 2004. In 2012-2013, he directed the University Nanofabrication Center as the faculty director. Sun has served and serves on the editorial boards of IEEE Trans. Robotics, IEEE Trans. Automation Science and Engineering, IEEE Trans. Mechatronics, J. Micromechanics Microengineering, Sensors and Actuators A: Physical, Scientific Reports, and Microsystems & Nanoengineering. Among the awards he received were the IEEE Robotics and Automation Society Early Career Award; over a dozen best paper awards and finalists at major international conferences; seven times University of Toronto Connaught Innovation Award; the McLean Award; the First Prize in Technical Achievement of ASRM (American Society for Reproductive Medicine); an NSERC E.W.R. Steacie Memorial Fellowship; and the IEEE C.C. Gotlieb Computer Award.<br><br>**Why it's on this map:** Micro-robotics entry migrated from an earlier map version -- specific current research focus not yet reassessed.<br><br>[[http://sklofp.zju.edu.cn/sklen/29506/list.htm|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "zju-fpms",
+        "pi": "Sun Yu",
+        "institution": "Zhejiang University",
+        "country": "CN",
+        "category": "material-lab",
+        "application": "",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "1",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "opacity": 0.5,
+          "weight": 3.5,
+          "fillOpacity": 0.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.124348,
+              30.268693
+            ],
+            [
+              120.125499,
+              30.268628
+            ],
+            [
+              120.125743,
+              30.269833
+            ],
+            [
+              120.124909,
+              30.270092
+            ],
+            [
+              120.124348,
+              30.268693
+            ]
+          ]
+        ],
+        "type": "Polygon"
       }
     }
   ]

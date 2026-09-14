@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tiantian Xu Group",
+        "description": "**Tiantian Xu** — Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen (CN)<br><br>Professor at the Guangdong Provincial Key Laboratory of Robotics and Intelligent System, leading extensive microrobot research: magnetic-acoustic sequentially actuated CAR-T cell microrobots for precision navigation and in-situ antitumor immunoactivation, untethered quadruped soft thin-film microrobots, and living microalgae-based magnetic microrobots for cancer therapy.<br><br>**Why it's on this map:** A prolific, diverse microrobotics research portfolio -- high-confidence direct fit, part of a real cluster of researchers at the same institute.<br><br>[[https://scholar.google.com/citations?user=jSv44msAAAAJ&hl=zh-CN|Group website]]<br><br>Category: Biohybrid Robot · Smallest demonstrated: unknown",
+        "id": "siat-xu",
+        "pi": "Tiantian Xu",
+        "institution": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences",
+        "country": "CN",
+        "category": "biohybrid-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "SaddleBrown",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96437,
+          22.80974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medical Microrobotics Lab",
+        "description": "**Veronika Magdanz** — University of Waterloo, Waterloo, ON (CA)<br><br>Develops biohybrid and bioinspired microrobots for localized medical interventions, including sperm-based microrobots (IRONSperm: deactivated bovine sperm coated with magnetic nanoparticles, serving as a flexible drug-carrying template steered by external magnetic fields), sperm-nanoparticle interaction studies, and flexible microrobots for removing obstructions. PhD from TU Dresden (2016) on sperm-driven microrobots, Assistant Professor at Waterloo since 2022.<br><br>**Why it's on this map:** Works on externally magnetically-actuated micro/nanomotors -- a materials/actuation-technique match, part of the same broader regional research community as other magnetic-microrobot entries on this map.<br><br>[[https://magdanzlab.com/|Group website]]<br><br>Category: Biohybrid Robot · Smallest demonstrated: unknown",
+        "id": "waterloo-magdanz",
+        "pi": "Veronika Magdanz",
+        "institution": "University of Waterloo",
+        "country": "CA",
+        "category": "biohybrid-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "SaddleBrown",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54524,
+          43.4702
+        ]
+      }
+    }
+  ]
+}
