@@ -178,6 +178,47 @@
     match for both the Energy and Communication workstreams, and squarely on the long-term
     organ-monitoring vision (this is literally 'constant observation' hardware, just
     for the brain specifically so far).
+- id: binghamton-yu
+  name: Automated Control Systems and Robotics (ACSR) Lab
+  pi: Kaiyan Yu
+  institution: Binghamton University (SUNY)
+  city: Binghamton, NY
+  country: US
+  lat: 42.0878
+  lon: -75.97066
+  osm: null
+  url: https://www.binghamton.edu/labs/acsrl/
+  people_url: null
+  category: micro-nano-end-effectors
+  application:
+  - medical
+  - industrial
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Develops automated micro-bio-nano "factories" -- planning and control
+    methods to precisely and reliably manipulate large numbers of nano/micro/bio objects
+    simultaneously into functional devices, interconnects, and other small-scale components.
+    NSF CAREER award recipient; explicitly names the manufacturing bottleneck the
+    field faces (hard to build nanorobots with many sensors, strong actuators, and
+    onboard batteries that can communicate with each other) as the problem her control/automation
+    methods target.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: Focused specifically on the automated, large-volume manufacturing bottleneck
+    for very small devices -- how to actually place and assemble many tiny functional
+    parts reliably, rather than on any one actuation or sensing technique -- a different
+    kind of contribution from most other entries, closer to a production/assembly-process
+    angle than a component or robot design.
+  notes: Found via the NSF Award Search funding-database sweep (SOURCING.md Method
+    2 variant, now validated across CORDIS/GEPRIS/NSF). PI explicitly frames her own
+    research around the same onboard-power/sensor/actuator/communication bottleneck
+    this map's taxonomy.py rationale is built around -- a control/manufacturing-process
+    contribution rather than a specific device, closest existing fit is micro-nano-end-effectors
+    given the manipulation/assembly focus.
 - id: bionaut-labs
   name: Bionaut Labs
   pi: null
@@ -366,6 +407,48 @@
     -- likely enterprise-scale rather than startup-cheap access, but worth knowing
     about alongside EUROPRACTICE/ihp-cleanroom/fraunhofer-ipms as part of the broader
     European fab landscape.
+- id: ceitec-urso
+  name: Urso Group — Photocatalytic Micromotors
+  pi: Mario Urso
+  institution: CEITEC, Brno University of Technology (BUT)
+  city: Brno
+  country: CZ
+  lat: 49.2337151
+  lon: 16.5734036
+  osm: null
+  url: https://www.researchgate.net/profile/Mario-Urso-3
+  people_url: null
+  category: micro-nano-end-effectors
+  application:
+  - environmental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 2
+  status: watch
+  human_reviewed: false
+  description: Develops light-powered (photocatalytic) TiO2 and MXene-derived micromotors
+    for environmental remediation -- self-propelled particles that degrade microplastics
+    and suspended matter in water via photocatalysis, including "maze"-navigating
+    autonomous motile photocatalytic microrobots against microplastics. Marie Skłodowska-Curie
+    Actions-funded project (MIPhmotors) on molecularly-imprinted photocatalytic light-driven
+    micro/nanomotors for pollutant detection and degradation.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: A different self-propulsion mechanism (light-driven photocatalysis)
+    and a distinct application domain (environmental remediation rather than medicine)
+    from most other entries here -- useful mainly as a reference point for what light-powered,
+    chemically self-propelled small particles can do outside the body, in an application
+    space with fewer regulatory constraints than medical use.
+  notes: Found via the CORDIS/Marie Curie funding-database sweep validated in SOURCING.md.
+    Currently a postdoctoral researcher (CEITEC BUT), not yet an independent PI --
+    per SOURCING.md Method 3's own rationale, early-career people are worth tracking
+    precisely because they are more reachable now than in five years, but relevance/status
+    should be revisited if/when he moves to a permanent position elsewhere. No dedicated
+    personal lab page found -- url is his ResearchGate profile, replace if a group
+    page appears. Chemically/light self-propelled, no onboard power/memory -- micro-nano-end-effectors,
+    not biohybrid (TiO2/MXene particles are not living/biological) despite being externally-light-triggered
+    rather than field-steered.
 - id: chipfoundry
   name: ChipFoundry.io
   pi: null
@@ -1245,6 +1328,44 @@
     the same institute as her original advisor (Bradley Nelson). Recategorized from
     micro-robotics: diagnostic/therapeutic nano- and microscale systems -- device/systems
     framing, no autonomous whole-robot claim.'
+- id: ethz-ahmed
+  name: Acoustic Robotic Systems Lab (ARSL)
+  pi: Daniel Ahmed
+  institution: ETH Zürich
+  city: Zürich
+  country: CH
+  lat: 47.377731
+  lon: 8.546639
+  osm: null
+  url: https://arsl.ethz.ch/
+  people_url: null
+  category: micro-nano-end-effectors
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  human_reviewed: false
+  description: Develops acoustic and acousto-magnetic micro/nanorobotic systems combined
+    with microfluidics for biotechnology, diagnostics, and translational medicine.
+    PI Daniel Ahmed holds an ERC Starting Grant (SONOBOTS, 2019) on acousto-magnetic
+    micro/nanorobots for biomedical applications, and was named one of ten Falling
+    Walls Science Breakthrough of the Year winners in 2021 (Engineering and Technology).
+  interesting_work: null
+  community_improvement: null
+  mission_fit: Acoustic actuation is a distinct external-power channel from the magnetic-field
+    approach used by most other entries on this map -- a useful alternative reference
+    point for wirelessly powering or controlling very small devices from outside the
+    body, even though these particular systems are externally driven rather than self-powered.
+  notes: 'Found via the CORDIS/ERC funding-database sweep validated in SOURCING.md
+    (search: "CORDIS 853309 Acousto-Magnetic Micro Nanorobots"). A third, genuinely
+    distinct PI/lab at ETH Zurich alongside ethz-msrl (Nelson) and eth-schurle (Schurle)
+    -- not a duplicate, confirmed via institution+PI name check against labs.yaml
+    before adding. Externally acoustically/magnetically actuated, no onboard-power
+    claim -- filed under micro-nano-end-effectors per the tightened micro-robotics
+    rule.'
 - id: ethz-msrl
   name: Multi-Scale Robotics Lab (MSRL)
   pi: Bradley J. Nelson
@@ -1334,6 +1455,48 @@
     map as ihp-cleanroom -- EUROPRACTICE is a second route to the same process. lat/lon
     set to imec''s Leuven HQ (lead consortium partner), not a single EUROPRACTICE
     address.'
+- id: exeter-daum
+  name: Daum Lab — Living Systems Institute
+  pi: Bertram Daum
+  institution: University of Exeter
+  city: Exeter
+  country: GB
+  lat: 50.73694
+  lon: -3.53473
+  osm: null
+  url: https://lsi.exeter.ac.uk/member/dr-bertram-daum/
+  people_url: null
+  category: biohybrid-robotics
+  application:
+  - medical
+  - fundamental
+  - environmental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  human_reviewed: false
+  description: ERC Starting Grant project engineering biohybrid microrobots by combining
+    synthetic magnetic swimmers with S-layers -- highly stable, genetically-modifiable
+    2D protein arrays that form the cell walls of archaea and bacteria -- and the
+    archaellum, a filamentous molecular rotary motor used by archaea for propulsion.
+    The resulting biohybrid devices coat a magnetic swimmer with a dense, regularly-spaced
+    affinity matrix for conjugating bioactive molecules at nanometre precision, targeting
+    surgery, drug delivery, and nanotechnology applications.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: Uses an actual living-organism-derived molecular structure (an archaeal
+    cell-wall protein array and its associated rotary motor) as an engineered functional
+    component of a synthetic device -- a concrete example of the biological-chassis
+    approach to small-scale robotics, distinct from purely synthetic magnetic/acoustic
+    actuation.
+  notes: 'Found via the CORDIS/ERC funding-database sweep validated in SOURCING.md
+    (search: "CORDIS 803894 Engineering Biohybrid MicroRobots"). First entry filed
+    directly into the new biohybrid-robotics category from a fresh search rather than
+    a reclassification -- uses genuinely living/archaea-derived biological structures
+    (S-layers, archaellum), not just bio-inspired design. First University of Exeter
+    entry.'
 - id: femto-st-mn2s
   name: FEMTO-ST — MN2S
   pi: null
@@ -4852,6 +5015,47 @@
     control (not just onboard actuation/energy/comms) at small scale, plus a genuine
     swarm-coordination demonstration -- touches both the Locomotion and System-Level-Behavior
     workstreams from an unusual angle.
+- id: tugraz-winkler
+  name: PRINTBOT — Multi-Material 3D-Printing for Nano-Engineered Microbots
+  pi: Robert Winkler
+  institution: Graz University of Technology (TU Graz)
+  city: Graz
+  country: AT
+  lat: 47.05828
+  lon: 15.46025
+  osm: null
+  url: https://cordis.europa.eu/project/id/101221652
+  people_url: null
+  category: micro-nano-end-effectors
+  application:
+  - medical
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 4
+  status: watch
+  human_reviewed: false
+  description: ERC Starting Grant project (PRINTBOT) developing a general multi-material
+    nanoscale 3D-printing platform, based on focused particle beams, to fabricate
+    sub-10-micron microbots combining propulsion (artificial cilia, magnetic helical
+    swimmers) with integrated functions -- selective particle capture/release and
+    localized on-demand heating. Includes prototyping an "ImmunoBot" concept, an artificial-immune-cell
+    device aimed at neutralizing pathogens. PI Robert Winkler is at the Institute
+    of Electron Microscopy and Nanoanalysis, TU Graz.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: A genuinely novel fabrication route (focused-particle-beam multi-material
+    3D nanoprinting) for building sub-10-micron devices with integrated propulsion
+    and function in one pass -- directly relevant to anyone evaluating how a very
+    small device with several integrated parts could actually be manufactured, independent
+    of which specific actuation method ends up being used.
+  notes: Found via the CORDIS/ERC funding-database sweep validated in SOURCING.md.
+    First Austria entry on the map. Externally magnetically actuated (helical swimmers)
+    with no onboard-power claim identified -- filed under micro-nano-end-effectors.
+    url points to the CORDIS project page rather than a personal lab site since no
+    dedicated group page was found for Winkler specifically at TU Graz -- verify/replace
+    if one exists.
 - id: tum-mrbl
   name: Microrobotic Bioengineering Lab (MRBL)
   pi: null

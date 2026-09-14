@@ -4,6 +4,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Daum Lab — Living Systems Institute",
+        "description": "**Bertram Daum** — University of Exeter, Exeter (GB)<br><br>ERC Starting Grant project engineering biohybrid microrobots by combining synthetic magnetic swimmers with S-layers -- highly stable, genetically-modifiable 2D protein arrays that form the cell walls of archaea and bacteria -- and the archaellum, a filamentous molecular rotary motor used by archaea for propulsion. The resulting biohybrid devices coat a magnetic swimmer with a dense, regularly-spaced affinity matrix for conjugating bioactive molecules at nanometre precision, targeting surgery, drug delivery, and nanotechnology applications.<br><br>**Why it's on this map:** Uses an actual living-organism-derived molecular structure (an archaeal cell-wall protein array and its associated rotary motor) as an engineered functional component of a synthetic device -- a concrete example of the biological-chassis approach to small-scale robotics, distinct from purely synthetic magnetic/acoustic actuation.<br><br>[[https://lsi.exeter.ac.uk/member/dr-bertram-daum/|Group website]]<br><br>Category: Biohybrid Robot · Smallest demonstrated: unknown",
+        "id": "exeter-daum",
+        "pi": "Bertram Daum",
+        "institution": "University of Exeter",
+        "country": "GB",
+        "category": "biohybrid-robotics",
+        "application": "medical,fundamental,environmental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "SaddleBrown",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.53473,
+          50.73694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Tiantian Xu Group",
         "description": "**Tiantian Xu** — Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen (CN)<br><br>Professor at the Guangdong Provincial Key Laboratory of Robotics and Intelligent System, leading extensive microrobot research: magnetic-acoustic sequentially actuated CAR-T cell microrobots for precision navigation and in-situ antitumor immunoactivation, untethered quadruped soft thin-film microrobots, and living microalgae-based magnetic microrobots for cancer therapy.<br><br>**Why it's on this map:** A prolific, diverse microrobotics research portfolio -- high-confidence direct fit, part of a real cluster of researchers at the same institute.<br><br>[[https://scholar.google.com/citations?user=jSv44msAAAAJ&hl=zh-CN|Group website]]<br><br>Category: Biohybrid Robot · Smallest demonstrated: unknown",
         "id": "siat-xu",

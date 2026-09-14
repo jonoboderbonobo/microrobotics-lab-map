@@ -34,6 +34,66 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Automated Control Systems and Robotics (ACSR) Lab",
+        "description": "**Kaiyan Yu** — Binghamton University (SUNY), Binghamton, NY (US)<br><br>Develops automated micro-bio-nano \"factories\" -- planning and control methods to precisely and reliably manipulate large numbers of nano/micro/bio objects simultaneously into functional devices, interconnects, and other small-scale components. NSF CAREER award recipient; explicitly names the manufacturing bottleneck the field faces (hard to build nanorobots with many sensors, strong actuators, and onboard batteries that can communicate with each other) as the problem her control/automation methods target.<br><br>**Why it's on this map:** Focused specifically on the automated, large-volume manufacturing bottleneck for very small devices -- how to actually place and assemble many tiny functional parts reliably, rather than on any one actuation or sensing technique -- a different kind of contribution from most other entries, closer to a production/assembly-process angle than a component or robot design.<br><br>[[https://www.binghamton.edu/labs/acsrl/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "binghamton-yu",
+        "pi": "Kaiyan Yu",
+        "institution": "Binghamton University (SUNY)",
+        "country": "US",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,industrial",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.97066,
+          42.0878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urso Group — Photocatalytic Micromotors",
+        "description": "**Mario Urso** — CEITEC, Brno University of Technology (BUT), Brno (CZ)<br><br>Develops light-powered (photocatalytic) TiO2 and MXene-derived micromotors for environmental remediation -- self-propelled particles that degrade microplastics and suspended matter in water via photocatalysis, including \"maze\"-navigating autonomous motile photocatalytic microrobots against microplastics. Marie Skłodowska-Curie Actions-funded project (MIPhmotors) on molecularly-imprinted photocatalytic light-driven micro/nanomotors for pollutant detection and degradation.<br><br>**Why it's on this map:** A different self-propulsion mechanism (light-driven photocatalysis) and a distinct application domain (environmental remediation rather than medicine) from most other entries here -- useful mainly as a reference point for what light-powered, chemically self-propelled small particles can do outside the body, in an application space with fewer regulatory constraints than medical use.<br><br>[[https://www.researchgate.net/profile/Mario-Urso-3|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "ceitec-urso",
+        "pi": "Mario Urso",
+        "institution": "CEITEC, Brno University of Technology (BUT)",
+        "country": "CZ",
+        "category": "micro-nano-end-effectors",
+        "application": "environmental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5734036,
+          49.2337151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "NanoRobotic Systems Lab",
         "description": "**Lixin Dong** — City University of Hong Kong, Hong Kong (HK)<br><br>Nanorobotics research, including ionic shape-morphing microrobotic end-effectors for environmentally adaptive targeting, releasing, and sampling. Now Professor of Biomedical Engineering at City University of Hong Kong, having previously built the NanoRobotic Systems Lab at Michigan State University.<br><br>**Why it's on this map:** Works on shape-morphing microrobotic end-effectors for environmentally adaptive targeting and sampling -- a direct fit for small-scale robotic manipulation and actuation.<br><br>[[https://www.cityu.edu.hk/bme/lixidong/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
         "id": "cityu-dong",
@@ -395,6 +455,36 @@
         "status": "watch",
         "human_reviewed": "no",
         "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.546639,
+          47.377731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acoustic Robotic Systems Lab (ARSL)",
+        "description": "**Daniel Ahmed** — ETH Zürich, Zürich (CH)<br><br>Develops acoustic and acousto-magnetic micro/nanorobotic systems combined with microfluidics for biotechnology, diagnostics, and translational medicine. PI Daniel Ahmed holds an ERC Starting Grant (SONOBOTS, 2019) on acousto-magnetic micro/nanorobots for biomedical applications, and was named one of ten Falling Walls Science Breakthrough of the Year winners in 2021 (Engineering and Technology).<br><br>**Why it's on this map:** Acoustic actuation is a distinct external-power channel from the magnetic-field approach used by most other entries on this map -- a useful alternative reference point for wirelessly powering or controlling very small devices from outside the body, even though these particular systems are externally driven rather than self-powered.<br><br>[[https://arsl.ethz.ch/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "ethz-ahmed",
+        "pi": "Daniel Ahmed",
+        "institution": "ETH Zürich",
+        "country": "CH",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
         "min_dim_um": "unknown",
         "_umap_options": {
           "color": "Indigo",
@@ -1883,6 +1973,36 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PRINTBOT — Multi-Material 3D-Printing for Nano-Engineered Microbots",
+        "description": "**Robert Winkler** — Graz University of Technology (TU Graz), Graz (AT)<br><br>ERC Starting Grant project (PRINTBOT) developing a general multi-material nanoscale 3D-printing platform, based on focused particle beams, to fabricate sub-10-micron microbots combining propulsion (artificial cilia, magnetic helical swimmers) with integrated functions -- selective particle capture/release and localized on-demand heating. Includes prototyping an \"ImmunoBot\" concept, an artificial-immune-cell device aimed at neutralizing pathogens. PI Robert Winkler is at the Institute of Electron Microscopy and Nanoanalysis, TU Graz.<br><br>**Why it's on this map:** A genuinely novel fabrication route (focused-particle-beam multi-material 3D nanoprinting) for building sub-10-micron devices with integrated propulsion and function in one pass -- directly relevant to anyone evaluating how a very small device with several integrated parts could actually be manufactured, independent of which specific actuation method ends up being used.<br><br>[[https://cordis.europa.eu/project/id/101221652|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "tugraz-winkler",
+        "pi": "Robert Winkler",
+        "institution": "Graz University of Technology (TU Graz)",
+        "country": "AT",
+        "category": "micro-nano-end-effectors",
+        "application": "medical,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.46025,
+          47.05828
+        ]
       }
     },
     {

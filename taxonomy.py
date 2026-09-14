@@ -153,6 +153,8 @@ https://github.com/jonoboderbonobo/microrobotics-lab-map
 
 
 https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/micro-robotics.geojson
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/micro-nano-end-effectors.geojson 
+https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/biohybrid-robotics.geojson
 https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/milli-robotics.geojson
 https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/electronic-engineering.geojson
 https://raw.githubusercontent.com/jonoboderbonobo/microrobotics-lab-map/main/out/material-lab.geojson
