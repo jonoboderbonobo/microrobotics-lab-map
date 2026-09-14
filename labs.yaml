@@ -295,6 +295,47 @@
     fabrication capability with in-house tooling -- component-level (transducers,
     sensors, energy harvesters) rather than whole microrobots, hence material-lab.
     Third India entry.
+- id: brin-ornamat
+  name: Organisasi Riset Nanoteknologi dan Material (ORNM)
+  pi: null
+  institution: Badan Riset dan Inovasi Nasional (BRIN)
+  city: Tangerang Selatan
+  country: ID
+  lat: -6.35318
+  lon: 106.66723
+  osm: null
+  url: https://brin.go.id/ornm/
+  people_url: null
+  category: material-lab
+  application:
+  - industrial
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 2
+  status: watch
+  human_reviewed: false
+  description: 'National research organization for nanotechnology and materials under
+    Indonesia''s National Research and Innovation Agency (BRIN), formed 2022 from
+    the restructuring of the Assessment and Application of Technology Research Organization
+    (formerly BPPT) and the Engineering Science Research Organization. Encompasses
+    research centers for advanced materials, metallurgy, mining technology, quantum
+    physics, advanced chemistry, photonics, and polymer technology. First head: Ratno
+    Nuryadi.'
+  interesting_work: null
+  community_improvement: null
+  mission_fit: A national-scale materials/nanotechnology research capability analogous
+    to other country-level institutes already on this map (e.g. South Africa's CSIR
+    centre, Brazil's LNNano) -- broad materials-supply and characterization capacity
+    rather than a microrobotics-specific program, useful mainly as an entry point
+    for locating more specific work within its constituent research centers.
+  notes: Found via a direct search for Indonesia-specific coverage. Second Indonesia
+    entry, at the national-institute level (distinct from itb-rcnn's university level).
+    No microrobotics- specific center identified among ORNM's named constituent research
+    centers in this pass. url is the organization's general BRIN sub-site -- verify
+    it stays current, BRIN restructures its sub-organizations fairly often per search
+    results (2022 formation from two predecessor bodies).
 - id: bristol-hauert
   name: Hauert Lab — Swarm Engineering
   pi: Sabine Hauert
@@ -2918,6 +2959,48 @@
     single-cell manipulation is the reference design''s own first application. Recategorized
     from micro-robotics: magnetic micro-swimmers, optical-tweezers micromanipulation,
     automated AFM -- externally actuated tools.'
+- id: itb-rcnn
+  name: Research Center for Nanoscience and Nanotechnology (RCNN)
+  pi: null
+  institution: Institut Teknologi Bandung (ITB)
+  city: Bandung
+  country: ID
+  lat: -6.89045
+  lon: 107.61031
+  osm: null
+  url: https://itb.ac.id/research-center-for-nanoscience-and-nanotechnology
+  people_url: null
+  category: material-lab
+  application:
+  - medical
+  - industrial
+  - fundamental
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 2
+  status: watch
+  human_reviewed: false
+  description: University-wide nanoscience and nanotechnology center organized into
+    four laboratories (nanomaterial, nanomedicine, nanobiotechnology, nanodevice),
+    each headed by a faculty member, with 25 faculty and 100+ students engaged in
+    research and education. Research focus areas span nanomaterials for energy and
+    industry, nanomedicine, nanodevices, and nano-biology/environment. Equipped with
+    HRTEM, FIB, SEM, and AFM facilities. Offers a Doctoral program in Nano Science
+    and Technology.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: A broad national nanoscience capability -- materials, devices, and
+    characterization equipment -- rather than a microrobotics-specific group; useful
+    mainly as a starting point for locating any more specific Indonesian work on small-scale
+    actuators, sensors, or biomedical nanomaterials that might sit inside one of its
+    four constituent labs.
+  notes: Found via a direct search for Indonesia-specific coverage (previously zero
+    entries in the country). No microrobotics-specific lab or PI identified within
+    RCNN's four constituent labs in this pass -- a general nanoscience center, filed
+    as material-lab on the same logic as csir-ncnsm/um6p-msn. First Indonesia entry.
+    Worth a closer look at RCNN's individual lab heads (nanomedicine and nanodevice
+    labs specifically) in a future pass.
 - id: jhu-gracias
   name: Gracias Laboratory
   pi: David Gracias

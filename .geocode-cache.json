@@ -39,6 +39,10 @@
     "lat": -27.50063,
     "lon": 153.01253
   },
+  "BRIN Serpong, Tangerang Selatan, ID": {
+    "lat": -6.35318,
+    "lon": 106.66723
+  },
   "Binghamton University, Binghamton, NY, US": {
     "lat": 42.0878,
     "lon": -75.97066
@@ -170,6 +174,10 @@
   "Indian Institute of Technology Indore, Simrol, Indore, IN": {
     "lat": 22.52693,
     "lon": 75.92621
+  },
+  "Institut Teknologi Bandung, Bandung, ID": {
+    "lat": -6.89045,
+    "lon": 107.61031
   },
   "Institut des Syst\u00e8mes Intelligents et de Robotique, Paris, FR": {
     "lat": 48.84569,

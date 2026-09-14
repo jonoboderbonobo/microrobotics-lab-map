@@ -34,6 +34,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Organisasi Riset Nanoteknologi dan Material (ORNM)",
+        "description": "**Organisasi Riset Nanoteknologi dan Material (ORNM)** — Badan Riset dan Inovasi Nasional (BRIN), Tangerang Selatan (ID)<br><br>National research organization for nanotechnology and materials under Indonesia's National Research and Innovation Agency (BRIN), formed 2022 from the restructuring of the Assessment and Application of Technology Research Organization (formerly BPPT) and the Engineering Science Research Organization. Encompasses research centers for advanced materials, metallurgy, mining technology, quantum physics, advanced chemistry, photonics, and polymer technology. First head: Ratno Nuryadi.<br><br>**Why it's on this map:** A national-scale materials/nanotechnology research capability analogous to other country-level institutes already on this map (e.g. South Africa's CSIR centre, Brazil's LNNano) -- broad materials-supply and characterization capacity rather than a microrobotics-specific program, useful mainly as an entry point for locating more specific work within its constituent research centers.<br><br>[[https://brin.go.id/ornm/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "brin-ornamat",
+        "pi": "",
+        "institution": "Badan Riset dan Inovasi Nasional (BRIN)",
+        "country": "ID",
+        "category": "material-lab",
+        "application": "industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66723,
+          -6.35318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Graduate Program in Nanoscience and Technology",
         "description": "**Graduate Program in Nanoscience and Technology** — Chulalongkorn University, Bangkok (TH)<br><br>Joint PhD program between the Faculty of Science and the Metallurgy and Materials Research Institute, spanning three main areas: nanomaterials, nanodevices, and nanobiotechnology. Partners with Thailand's National Nanotechnology Center (NANOTEC).<br><br>**Why it's on this map:** A general nanoscience graduate program rather than a named lab with a specific microrobotics connection -- included mainly for geographic coverage; no specific technical tie identified yet.<br><br>[[http://www.nanosci.grad.chula.ac.th/|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
         "id": "chula-nanosci",
@@ -358,6 +388,36 @@
         "coordinates": [
           75.92621,
           22.52693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Research Center for Nanoscience and Nanotechnology (RCNN)",
+        "description": "**Research Center for Nanoscience and Nanotechnology (RCNN)** — Institut Teknologi Bandung (ITB), Bandung (ID)<br><br>University-wide nanoscience and nanotechnology center organized into four laboratories (nanomaterial, nanomedicine, nanobiotechnology, nanodevice), each headed by a faculty member, with 25 faculty and 100+ students engaged in research and education. Research focus areas span nanomaterials for energy and industry, nanomedicine, nanodevices, and nano-biology/environment. Equipped with HRTEM, FIB, SEM, and AFM facilities. Offers a Doctoral program in Nano Science and Technology.<br><br>**Why it's on this map:** A broad national nanoscience capability -- materials, devices, and characterization equipment -- rather than a microrobotics-specific group; useful mainly as a starting point for locating any more specific Indonesian work on small-scale actuators, sensors, or biomedical nanomaterials that might sit inside one of its four constituent labs.<br><br>[[https://itb.ac.id/research-center-for-nanoscience-and-nanotechnology|Group website]]<br><br>Category: Material Lab · Smallest demonstrated: unknown",
+        "id": "itb-rcnn",
+        "pi": "",
+        "institution": "Institut Teknologi Bandung (ITB)",
+        "country": "ID",
+        "category": "material-lab",
+        "application": "medical,industrial,fundamental",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "2",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkViolet",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.61031,
+          -6.89045
         ]
       }
     },
