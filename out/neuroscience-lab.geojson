@@ -64,36 +64,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Metin Sitti — KUTTAM",
-        "description": "**Metin Sitti** — Koç University, Istanbul (TR)<br><br>**Why it's on this map:** Entry migrated from an earlier map version -- specific current research focus not yet documented; kept as a general watch entry.<br><br>[[https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
-        "id": "ku-sitti",
-        "pi": "Metin Sitti",
-        "institution": "Koç University",
-        "country": "TR",
-        "category": "neuroscience-lab",
-        "application": "",
-        "onboard_power": "no",
-        "institution_type": "university",
-        "status": "watch",
-        "human_reviewed": "no",
-        "relevance": "1",
-        "min_dim_um": "unknown",
-        "_umap_options": {
-          "color": "DarkOrange",
-          "iconClass": "Ball"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.07349,
-          41.20575
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Robinson Lab — Nano-neurotechnology",
         "description": "**Jacob T. Robinson** — Rice University, Houston, TX (US)<br><br>Uses semiconductor nanofabrication and genetic engineering to build electronic, photonic, and magnetic interfaces to the brain. Co-authored a magnetoelectric backscatter communication system for bioelectronic implants achieving <0.3 pJ/bit and <1e-6 bit error rate at 55 mm range with 10 mm misalignment tolerance, demonstrated transmitting cardiac signals from a beating heart in a porcine model. PI Jacob T. Robinson is also co-founder/CEO of Motif Neurotech (brain-computer interface for mental health disorders).<br><br>**Why it's on this map:** Works on ultra-low-power passive backscatter wireless communication -- exactly the order-of-magnitude power budget a tiny onboard radio on a power-constrained autonomous device would need to hit.<br><br>[[https://www.robinsonlab.com/|Group website]]<br><br>Category: Neuroscience Lab · Smallest demonstrated: unknown",
         "id": "rice-robinson",

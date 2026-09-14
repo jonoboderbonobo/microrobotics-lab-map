@@ -184,6 +184,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "McCaskill Group — Evolutionary Biochemistry and Artificial Life",
+        "description": "**John S. McCaskill** — Chemnitz University of Technology, Chemnitz (DE)<br><br>Works on the evolution of information processing across theoretical biochemistry, RNA/molecular evolution, microfluidics, microrobotics, and IT medical applications -- an \"artificial life\" framing of distributed intelligence and modular hardware. Led the earlier EU-funded project developing \"lablets\" (microscopic silicon chiplets) that became the building block for TU Chemnitz's recent \"smartlet\" modular microrobots (with Oliver Schmidt's group), which communicate via onboard optical signaling without external cameras, magnets, or antennas. Professor at Chemnitz University of Technology; previously Professor of Theoretical Biochemistry at Friedrich Schiller University Jena and guest professor at Ruhr University Bochum.<br><br>**Why it's on this map:** Approaches small-scale autonomous systems from the information-processing/artificial-life side rather than the actuation or fabrication side -- the underlying chiplet building block and communication-without-external-infrastructure design are a distinct, complementary angle on the same on-board-intelligence problem that a genuinely autonomous small robot has to solve, adjacent to but distinct from a pure hardware/materials contribution.<br><br>[[https://homepage.ruhr-uni-bochum.de/john.mccaskill/index.html|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
+        "id": "tuc-mccaskill",
+        "pi": "John S. McCaskill",
+        "institution": "Chemnitz University of Technology",
+        "country": "DE",
+        "category": "information-technology",
+        "application": "fundamental,medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "3",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkCyan",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.92936,
+          50.8142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Xiang Cheng Group",
         "description": "**Xiang Cheng** — University of Minnesota, Minneapolis, MN (US)<br><br>Studies fluid dynamics, biophysics, and soft matter physics: swimming microorganisms in complex environments, collective dynamics of dense bacterial suspensions, rheology of colloidal suspensions, and emergent collective phenomena of granular robotic systems -- including directed transport of swimming bacteria through funnel-shaped obstacles as a model for rectifying living active matter.<br><br>**Why it's on this map:** Studies granular robotic swarms and active-matter physics -- an unusual-angle but real parallel to how many small autonomous agents might collectively behave.<br><br>[[https://cse.umn.edu/cems/xiang-cheng|Group website]]<br><br>Category: Information Technology · Smallest demonstrated: unknown",
         "id": "umn-cheng",

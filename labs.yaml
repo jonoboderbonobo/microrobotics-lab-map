@@ -1262,7 +1262,7 @@
     -- externally actuated tool, not an autonomous whole robot.'
 - id: epfl-microbs
   name: EPFL — Microbiorobotic Systems Laboratory (MICROBS)
-  pi: null
+  pi: Mahmut Selman Sakar
   institution: École Polytechnique Fédérale de Lausanne
   city: Lausanne
   country: CH
@@ -1293,7 +1293,9 @@
     Microbiorobotic Systems Laboratory (MICROBS) -- primarily externally-actuated
     soft/magnetic microrobots. The lab name itself (''biorobotic'') suggests a possible
     biohybrid angle in some specific work; not independently verified in this pass,
-    worth a closer look before assuming it''s purely synthetic.'
+    worth a closer look before assuming it''s purely synthetic. PI confirmed via citation-snowball
+    cross-check this session (Mahmut Selman Sakar, Assistant Professor of Mechanical
+    Engineering, head of MICROBS since 2016) -- was previously left null.'
 - id: eth-schurle
   name: Responsive Biomedical Systems Lab
   pi: Simone Schürle
@@ -3102,22 +3104,45 @@
   osm: null
   url: https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/
   people_url: null
-  category: neuroscience-lab
-  application: []
+  category: micro-nano-end-effectors
+  application:
+  - medical
   min_dim_um: null
   onboard_power: false
   institution_type: university
-  relevance: 1
+  relevance: 5
   status: watch
   human_reviewed: false
-  description: null
+  description: 'One of the most prominent and prolific researchers in small-scale
+    robotics worldwide: pioneered ferromagnetic soft miniature robots, magnetically-actuated
+    medical microrobots, ingestible/implantable robotic devices, and (most recently)
+    biohybrid microrobots built from genetically-engineered living human cells. President
+    of Koc University since 2023 (also holds a joint School of Medicine/College of
+    Engineering appointment there); previously Director of the Physical Intelligence
+    Department at the Max Planck Institute for Intelligent Systems (2014-2023) and
+    Professor at ETH Zurich (2020-2024).'
   interesting_work: null
   community_improvement: null
-  mission_fit: Entry migrated from an earlier map version -- specific current research
-    focus not yet documented; kept as a general watch entry.
-  notes: 'Migrated from the old hand-drawn uMap export. Defaults applied pending review:
-    relevance=1, status=watch, application=[] (empty). institution_type set from general
-    knowledge (not the export) -- verify. onboard_power defaulted to false -- verify.'
+  mission_fit: Represents about as broad and well-established a track record in externally-actuated
+    small-scale medical robotics as exists anywhere -- magnetic actuation, soft materials,
+    and (in the most recent work) living-cell-based biohybrid approaches all in one
+    research program, making this a strong reference point across several different
+    actuation and chassis strategies at once rather than just one.
+  notes: 'Corrected via Method 1 (citation snowballing) this session: was migrated
+    from the old hand-drawn map as a near-empty placeholder (category=neuroscience-lab,
+    no description, relevance=1) despite Sitti being explicitly named in MANIFEST.md''s
+    own "already-tracked groups" list -- a real miss, not just an unreviewed default,
+    since the wrong category actively hid this from anyone filtering by micro-robotics-adjacent
+    categories. Found while checking citations of Sitti''s work for the citation-snowball
+    method and noticing his own entry was this thin. Most recent flagship paper (Science
+    Advances, genetically-engineered TRAIL-expressing human cells conjugated to magnetic
+    Janus particles for selective cancer- cell killing) is genuinely biohybrid, but
+    his overall multi-decade body of work is dominated by externally-actuated synthetic
+    magnetic robots, hence micro-nano-end-effectors as the primary category rather
+    than biohybrid-robotics. Distinct from the separate mpi-physical-intelligence
+    entry, which represents the institute/department generically (pi=null) rather
+    than Sitti personally -- he is dual-affiliated with both institutions as of this
+    writing.'
 - id: mainz-walther
   name: Walther Group
   pi: Andreas Walther
@@ -4789,6 +4814,53 @@
     doing circuit design, literally on-campus. About as close and actionable a contact
     as this whole search process could find; worth an actual conversation, not just
     a watch entry.
+- id: tuc-mccaskill
+  name: McCaskill Group — Evolutionary Biochemistry and Artificial Life
+  pi: John S. McCaskill
+  institution: Chemnitz University of Technology
+  city: Chemnitz
+  country: DE
+  lat: 50.8142
+  lon: 12.92936
+  osm: null
+  url: https://homepage.ruhr-uni-bochum.de/john.mccaskill/index.html
+  people_url: null
+  category: information-technology
+  application:
+  - fundamental
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: university
+  relevance: 3
+  status: watch
+  human_reviewed: false
+  description: Works on the evolution of information processing across theoretical
+    biochemistry, RNA/molecular evolution, microfluidics, microrobotics, and IT medical
+    applications -- an "artificial life" framing of distributed intelligence and modular
+    hardware. Led the earlier EU-funded project developing "lablets" (microscopic
+    silicon chiplets) that became the building block for TU Chemnitz's recent "smartlet"
+    modular microrobots (with Oliver Schmidt's group), which communicate via onboard
+    optical signaling without external cameras, magnets, or antennas. Professor at
+    Chemnitz University of Technology; previously Professor of Theoretical Biochemistry
+    at Friedrich Schiller University Jena and guest professor at Ruhr University Bochum.
+  interesting_work: null
+  community_improvement: null
+  mission_fit: Approaches small-scale autonomous systems from the information-processing/artificial-life
+    side rather than the actuation or fabrication side -- the underlying chiplet building
+    block and communication-without-external-infrastructure design are a distinct,
+    complementary angle on the same on-board-intelligence problem that a genuinely
+    autonomous small robot has to solve, adjacent to but distinct from a pure hardware/materials
+    contribution.
+  notes: Found via Method 1 (citation/co-author snowballing) on tuc-schmidt's most
+    recent paper ("Si chiplet-controlled 3D modular microrobots," Science Robotics
+    2025) -- McCaskill is a distinct, independent PI at the same institution (Chemnitz),
+    not a Schmidt-group postdoc like the Karnaushenko brothers (checked and confirmed
+    not a separate entry). No dedicated current lab page found at TU Chemnitz specifically
+    -- url is his older Ruhr-Bochum homepage, replace if a TU Chemnitz group page
+    turns up. Categorized information-technology rather than micro-nano-end-effectors
+    given the explicit computation/artificial-life framing of his own research identity,
+    distinct from the hardware-fabrication focus of tuc-schmidt itself.
 - id: tuc-schmidt
   name: Oliver G. Schmidt's Lab
   pi: Oliver G. Schmidt

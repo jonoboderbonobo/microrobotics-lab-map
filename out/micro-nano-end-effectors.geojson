@@ -361,9 +361,9 @@
       "type": "Feature",
       "properties": {
         "name": "EPFL — Microbiorobotic Systems Laboratory (MICROBS)",
-        "description": "**EPFL — Microbiorobotic Systems Laboratory (MICROBS)** — École Polytechnique Fédérale de Lausanne, Lausanne (CH)<br><br>**Why it's on this map:** A dedicated microbiorobotic systems laboratory -- the name and category suggest a strong potential fit, though the specific current research focus hasn't been documented yet and is worth a closer look.<br><br>[[https://www.epfl.ch/labs/microbs/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "description": "**Mahmut Selman Sakar** — École Polytechnique Fédérale de Lausanne, Lausanne (CH)<br><br>**Why it's on this map:** A dedicated microbiorobotic systems laboratory -- the name and category suggest a strong potential fit, though the specific current research focus hasn't been documented yet and is worth a closer look.<br><br>[[https://www.epfl.ch/labs/microbs/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
         "id": "epfl-microbs",
-        "pi": "",
+        "pi": "Mahmut Selman Sakar",
         "institution": "École Polytechnique Fédérale de Lausanne",
         "country": "CH",
         "category": "micro-nano-end-effectors",
@@ -391,9 +391,9 @@
       "type": "Feature",
       "properties": {
         "name": "EPFL — Microbiorobotic Systems Laboratory (MICROBS)",
-        "description": "**EPFL — Microbiorobotic Systems Laboratory (MICROBS)** — École Polytechnique Fédérale de Lausanne, Lausanne (CH)<br><br>**Why it's on this map:** A dedicated microbiorobotic systems laboratory -- the name and category suggest a strong potential fit, though the specific current research focus hasn't been documented yet and is worth a closer look.<br><br>[[https://www.epfl.ch/labs/microbs/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "description": "**Mahmut Selman Sakar** — École Polytechnique Fédérale de Lausanne, Lausanne (CH)<br><br>**Why it's on this map:** A dedicated microbiorobotic systems laboratory -- the name and category suggest a strong potential fit, though the specific current research focus hasn't been documented yet and is worth a closer look.<br><br>[[https://www.epfl.ch/labs/microbs/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
         "id": "epfl-microbs",
-        "pi": "",
+        "pi": "Mahmut Selman Sakar",
         "institution": "École Polytechnique Fédérale de Lausanne",
         "country": "CH",
         "category": "micro-nano-end-effectors",
@@ -1080,6 +1080,36 @@
         "coordinates": [
           -0.09,
           51.50309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Metin Sitti — KUTTAM",
+        "description": "**Metin Sitti** — Koç University, Istanbul (TR)<br><br>One of the most prominent and prolific researchers in small-scale robotics worldwide: pioneered ferromagnetic soft miniature robots, magnetically-actuated medical microrobots, ingestible/implantable robotic devices, and (most recently) biohybrid microrobots built from genetically-engineered living human cells. President of Koc University since 2023 (also holds a joint School of Medicine/College of Engineering appointment there); previously Director of the Physical Intelligence Department at the Max Planck Institute for Intelligent Systems (2014-2023) and Professor at ETH Zurich (2020-2024).<br><br>**Why it's on this map:** Represents about as broad and well-established a track record in externally-actuated small-scale medical robotics as exists anywhere -- magnetic actuation, soft materials, and (in the most recent work) living-cell-based biohybrid approaches all in one research program, making this a strong reference point across several different actuation and chassis strategies at once rather than just one.<br><br>[[https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/|Group website]]<br><br>Category: Micro/Nano End-Effector · Smallest demonstrated: unknown",
+        "id": "ku-sitti",
+        "pi": "Metin Sitti",
+        "institution": "Koç University",
+        "country": "TR",
+        "category": "micro-nano-end-effectors",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "university",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "5",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "Indigo",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07349,
+          41.20575
         ]
       }
     },
