@@ -75,6 +75,10 @@
     "lat": 42.45292,
     "lon": -76.48006
   },
+  "DKFZ Dresden, Dresden, DE": {
+    "lat": 51.05564,
+    "lon": 13.78432
+  },
   "Dalian University of Technology, Dalian, CN": {
     "lat": 38.88126,
     "lon": 121.52016
@@ -86,6 +90,10 @@
   "Facultad de Farmacia y Bioquimica, Universidad de Buenos Aires, Buenos Aires, AR": {
     "lat": -34.59771,
     "lon": -58.39769
+  },
+  "Fetscherstrasse 74, Dresden, Dresden, DE": {
+    "lat": 51.05651,
+    "lon": 13.78258
   },
   "Fraunhofer ENAS, Chemnitz, DE": {
     "lat": 50.81581,

@@ -1027,6 +1027,57 @@
     Defaults applied pending review: relevance=1, status=watch, application=[] (empty).
     institution_type set from general knowledge (not the export) -- verify. onboard_power
     defaulted to false -- verify.'
+- id: dkfz-qiu
+  name: Smart Technologies for Tumor Therapy
+  pi: Tian Qiu
+  institution: German Cancer Research Center (DKFZ), Dresden site
+  city: Dresden
+  country: DE
+  lat: 51.05564
+  lon: 13.78432
+  osm: null
+  url: https://www.dkfz.de/en/smart-technologies-for-tumor-therapy
+  people_url: null
+  category: micro-robotics
+  application:
+  - medical
+  min_dim_um: null
+  onboard_power: false
+  institution_type: institute
+  relevance: 4
+  status: watch
+  human_reviewed: false
+  description: 'Develops magnetically-actuated micro- and millirobots for minimally
+    invasive medicine: helical microrobots that drill through viscoelastic tissue
+    (liver, brain) toward targeted drug delivery, tissue-penetrating nanorobots that
+    propel through the eye toward the retina, and "TrainBot" -- a convoy of magnetically-linked
+    millimeter-scale robots that jointly transport an endoscopic instrument (cannula,
+    camera, or surgical tool) for minimally invasive surgery. Runs an ERC project
+    (VIBEBOT) specifically targeting deep-brain navigation for hard-to-reach tumors.
+    PI Tian Qiu holds a joint professorship in TU Dresden''s Faculty of Medicine and
+    Faculty of Electrical and Computer Engineering, and the group explicitly works
+    with clinical partners to translate the technology toward real procedures.'
+  interesting_work: null
+  community_improvement: null
+  mission_fit: Combines magnetic actuation, wireless power/control, and integrated
+    sensing in tiny devices navigating soft tissue -- a close technical parallel to
+    the locomotion, energy, and communication problems any small autonomous medical
+    robot faces, even though these particular devices are externally driven rather
+    than self-powered. The explicit clinical-translation angle (built with hospital/surgical
+    partners, aimed at real brain-tumor procedures) also makes it a concrete example
+    of what a credible path from lab demo to actual medical use looks like for very
+    small robotic tools.
+  notes: 'Found via a direct, user-specified search after the user flagged this exact
+    person/group by description ("surgeon in Dresden ... externally driven micro-end-effectors
+    for brain surgery") -- confirms this is a real, known group we had simply never
+    surfaced. Externally magnetically actuated (onboard_power=false), so does not
+    meet the strict autonomous micro-robotics definition, but filed under micro-robotics
+    on the same logic as ethz-msrl: whole-system ambition (locomotion + sensing +
+    cargo delivery integrated), Germany-based (a country already well covered elsewhere
+    on this map, so this was a within-country miss, not a geographic-gap miss), and
+    one of the clearer examples found of academia-to-clinic translation for tiny actuated
+    tools specifically inside the brain. See SOURCING.md for the search-pattern gap
+    this exposed and the countermeasure adopted.'
 - id: dupont-lab
   name: Dupont Lab
   pi: Pierre E. Dupont

@@ -372,6 +372,36 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Smart Technologies for Tumor Therapy",
+        "description": "**Tian Qiu** — German Cancer Research Center (DKFZ), Dresden site, Dresden (DE)<br><br>Develops magnetically-actuated micro- and millirobots for minimally invasive medicine: helical microrobots that drill through viscoelastic tissue (liver, brain) toward targeted drug delivery, tissue-penetrating nanorobots that propel through the eye toward the retina, and \"TrainBot\" -- a convoy of magnetically-linked millimeter-scale robots that jointly transport an endoscopic instrument (cannula, camera, or surgical tool) for minimally invasive surgery. Runs an ERC project (VIBEBOT) specifically targeting deep-brain navigation for hard-to-reach tumors. PI Tian Qiu holds a joint professorship in TU Dresden's Faculty of Medicine and Faculty of Electrical and Computer Engineering, and the group explicitly works with clinical partners to translate the technology toward real procedures.<br><br>**Why it's on this map:** Combines magnetic actuation, wireless power/control, and integrated sensing in tiny devices navigating soft tissue -- a close technical parallel to the locomotion, energy, and communication problems any small autonomous medical robot faces, even though these particular devices are externally driven rather than self-powered. The explicit clinical-translation angle (built with hospital/surgical partners, aimed at real brain-tumor procedures) also makes it a concrete example of what a credible path from lab demo to actual medical use looks like for very small robotic tools.<br><br>[[https://www.dkfz.de/en/smart-technologies-for-tumor-therapy|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
+        "id": "dkfz-qiu",
+        "pi": "Tian Qiu",
+        "institution": "German Cancer Research Center (DKFZ), Dresden site",
+        "country": "DE",
+        "category": "micro-robotics",
+        "application": "medical",
+        "onboard_power": "no",
+        "institution_type": "institute",
+        "status": "watch",
+        "human_reviewed": "no",
+        "relevance": "4",
+        "min_dim_um": "unknown",
+        "_umap_options": {
+          "color": "DarkBlue",
+          "iconClass": "Ball"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.78432,
+          51.05564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Xingzhou Du Group",
         "description": "**Xingzhou Du** — Dalian University of Technology, Dalian (CN)<br><br>Associate Professor at the Institute of Robotics and Intelligent Systems, working on microrobotics and magnetic actuation systems, including magnetic micro/nanorobots for precise physical stimulation of cells and intracellular structures.<br><br>**Why it's on this map:** Works on magnetic micro/nanorobots for precise physical stimulation of cells -- a direct fit for small-scale robotic manipulation in a biomedical context.<br><br>[[https://scholar.google.com.hk/citations?hl=en&user=X9Mzqb0AAAAJ|Group website]]<br><br>Category: Micro-Robotics Lab · Smallest demonstrated: unknown",
         "id": "dut-du",
