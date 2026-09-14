@@ -194,9 +194,9 @@
   osm: null
   url: https://people.eecs.berkeley.edu/~maharbiz/index.html
   people_url: null
-  openalex_id: null
+  openalex_id: [A5039854529]
   ror: null
-  orcid: null
+  orcid: [0000-0002-8577-4894]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -239,9 +239,9 @@
   osm: null
   url: https://bamlab.berkeley.edu/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5085143303]
   ror: null
-  orcid: null
+  orcid: [0000-0002-8108-2102]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -498,9 +498,9 @@
   osm: null
   url: https://hauertlab.com/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5046286041]
   ror: null
-  orcid: null
+  orcid: [0000-0003-0341-7306]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -1056,9 +1056,9 @@
   osm: null
   url: https://cohengroup.lassp.cornell.edu/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5066126591]
   ror: null
-  orcid: null
+  orcid: [0000-0001-9218-043X]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -1401,9 +1401,9 @@
   osm: null
   url: https://microbot.mae.cuhk.edu.hk/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5100425709]
   ror: null
-  orcid: null
+  orcid: [0000-0003-1152-8962]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -1739,7 +1739,7 @@
   osm: null
   url: https://www.iris.ethz.ch/the-institute/responsive_biomedical_systems_lab.html
   people_url: null
-  openalex_id: null
+  openalex_id: [A5110801576]
   ror: null
   orcid: null
   arxiv_author: null
@@ -1831,9 +1831,9 @@
   osm: null
   url: https://msrl.ethz.ch/the-lab.html
   people_url: null
-  openalex_id: null
+  openalex_id: [A5006427311]
   ror: null
-  orcid: null
+  orcid: [0000-0001-9070-6987]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -2080,7 +2080,7 @@
   url: https://www.enas.fraunhofer.de/en.html
   people_url: null
   openalex_id: null
-  ror: null
+  ror: https://ror.org/02h12bg79
   orcid: null
   arxiv_author: null
   rss: null
@@ -3221,9 +3221,9 @@
   osm: null
   url: https://ibecbarcelona.eu/member/936/Samuel+S%C3%A1nchez+Ord%C3%B3%C3%B1ez/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5053731459]
   ror: null
-  orcid: null
+  orcid: [0000-0001-9713-9997]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -3349,9 +3349,9 @@
   osm: null
   url: https://www.cense.iisc.ac.in/ambarish/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5044844484]
   ror: null
-  orcid: null
+  orcid: [0000-0002-2524-0014]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -3813,9 +3813,9 @@
   osm: null
   url: https://graciaslab.johnshopkins.edu/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5039204242]
   ror: null
-  orcid: null
+  orcid: [0000-0003-2735-4725]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -4038,9 +4038,9 @@
   osm: null
   url: https://kuttam.ku.edu.tr/kadromuz/akademik-kadro/fakulte-uyeleri/metin-sitti/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5079968392]
   ror: null
-  orcid: null
+  orcid: [0000-0001-8249-3854]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -4430,9 +4430,9 @@
   osm: null
   url: http://www.biorobotics.mech.nagoya-u.ac.jp/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5091532948]
   ror: null
-  orcid: null
+  orcid: [0000-0002-2508-1615]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -4566,9 +4566,9 @@
   osm: null
   url: https://nanoflexrobotics.com/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5006427311]
   ror: null
-  orcid: null
+  orcid: [0000-0001-9070-6987]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -4792,9 +4792,9 @@
   osm: null
   url: https://mems.seas.upenn.edu/
   people_url: https://mems.seas.upenn.edu/members/
-  openalex_id: null
+  openalex_id: [A5024864686]
   ror: null
-  orcid: null
+  orcid: [0000-0003-3963-6359]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -4928,9 +4928,9 @@
   osm: null
   url: https://lidongyang22.github.io/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5001610911]
   ror: null
-  orcid: null
+  orcid: [0000-0002-5757-7885]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -5203,9 +5203,9 @@
   osm: null
   url: https://www.santannapisa.it/en/veronica-iacovacci
   people_url: null
-  openalex_id: null
+  openalex_id: [A5012955761]
   ror: null
-  orcid: null
+  orcid: [0000-0002-4052-3581]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -5539,9 +5539,9 @@
   osm: null
   url: https://scholar.google.com/citations?user=jSv44msAAAAJ&hl=zh-CN
   people_url: null
-  openalex_id: null
+  openalex_id: [A5078006294]
   ror: null
-  orcid: null
+  orcid: [0000-0001-8974-4572]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -5731,9 +5731,9 @@
   osm: null
   url: https://arbabianlab.stanford.edu/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5064429773]
   ror: null
-  orcid: null
+  orcid: [0000-0001-7357-4759]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -6218,7 +6218,7 @@
   osm: null
   url: https://www.tu-chemnitz.de/etit/leb/index.php.en
   people_url: null
-  openalex_id: null
+  openalex_id: [A5110537841]
   ror: null
   orcid: null
   arxiv_author: null
@@ -6317,9 +6317,9 @@
   osm: null
   url: https://www.tu-chemnitz.de/etit/nano/OliverGSchmidt.php
   people_url: null
-  openalex_id: null
+  openalex_id: [A5061652666]
   ror: null
-  orcid: null
+  orcid: [0000-0001-9503-8367]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -7131,9 +7131,9 @@
   osm: null
   url: https://blaauw.engin.umich.edu/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5026311377]
   ror: null
-  orcid: null
+  orcid: [0000-0001-6744-7075]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -7186,9 +7186,9 @@
   osm: null
   url: https://samlab.robotics.umich.edu/
   people_url: https://robotics.umich.edu/people/faculty/steven-ceron/
-  openalex_id: null
+  openalex_id: [A5014730162]
   ror: null
-  orcid: null
+  orcid: [0000-0002-5903-9802]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
@@ -8238,9 +8238,9 @@
   osm: null
   url: https://nanorobots.vsb.cz/en/
   people_url: null
-  openalex_id: null
+  openalex_id: [A5027346868]
   ror: null
-  orcid: null
+  orcid: [0000-0001-5846-2951]
   arxiv_author: null
   rss: null
   youtube_channel_id: null
